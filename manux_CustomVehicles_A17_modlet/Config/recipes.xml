@@ -1,0 +1,29 @@
+<configs>
+	<append xpath="/recipes">
+
+		<recipe name="manux_vehicleQuadPlaceable" count="1" craft_area="workbench" craft_time="300">
+			<ingredient name="vehicleWheels" count="4"/>
+			<ingredient name="vehicleMotorcycleChassis" count="1"/>
+			<ingredient name="vehicleMotorcycleHandlebars" count="1"/>
+			<ingredient name="smallEngine" count="2"/>
+			<ingredient name="carBattery" count="1"/>
+		</recipe>
+
+		<recipe name="manux_vehicleRoadHogPlaceable" count="1" craft_area="workbench" craft_time="300">
+			<ingredient name="vehicleWheels" count="2"/>
+			<ingredient name="vehicleMotorcycleChassis" count="1"/>
+			<ingredient name="vehicleMotorcycleHandlebars" count="1"/>
+			<ingredient name="smallEngine" count="2"/>
+			<ingredient name="carBattery" count="1"/>
+		</recipe>
+
+		<recipe name="manux_vehicleJetPackPlaceable" count="1" craft_area="workbench" craft_time="420">
+			<ingredient name="resourceForgedSteel" count="100"/>
+			<ingredient name="vehicleGyroCopterAccessories" count="1"/>
+			<ingredient name="resourceScrapPolymers" count="20"/>
+			<ingredient name="resourceElectricParts" count="20"/>
+			<ingredient name="resourceDuctTape" count="20"/>
+		</recipe>
+
+	</append>
+ </configs>
