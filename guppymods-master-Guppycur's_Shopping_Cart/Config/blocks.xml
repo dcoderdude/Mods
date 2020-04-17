@@ -1,0 +1,5 @@
+<configs>
+<insertAfter xpath="/blocks/block[@name='cntShoppingCartEmpty']/property[@name='EconomicValue']">
+	<property name="CanPickup" value="true" param1="cntShoppingCartEmpty"/>
+</insertAfter>
+</configs>

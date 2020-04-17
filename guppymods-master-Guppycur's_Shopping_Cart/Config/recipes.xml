@@ -1,0 +1,10 @@
+<configs>
+<append xpath="/recipes">
+	<recipe name="vehicleGuppyShoppingCartPlaceable" count="1" craft_time="50" craft_area="workbench" >
+		<ingredient name="cntShoppingCartEmpty" count="1"/>
+		<ingredient name="smallEngine" count="1"/>
+		<ingredient name="resourceMechanicalParts" count="4"/>
+		<ingredient name="resourceDuctTape" count="4"/>
+	</recipe>  
+</append>
+</configs>
