@@ -4,7 +4,7 @@
 		<item name="manux_vehicleQuadPlaceable">
 			<property name="Extends" value="vehicleMinibikePlaceable"/>
 			<property name="CustomIcon" value="missingIcon"/>
-			<property name="DescriptionKey" value="manux_vehicleQuadDesc"/>
+			<property name="DescriptionKey" value="vehiclePlaceableGroupDesc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/manux_Quad.unity3d?QuadPrefab_A17.prefab"/>
 			<property name="EconomicValue" value="15000"/>
 			<property class="Action1">
@@ -19,7 +19,7 @@
 		<item name="manux_vehicleRoadHogPlaceable">
 			<property name="Extends" value="vehicleMinibikePlaceable"/>
 			<property name="CustomIcon" value="missingIcon"/>
-			<property name="DescriptionKey" value="manux_vehicleRoadHogDesc"/>
+			<property name="DescriptionKey" value="vehiclePlaceableGroupDesc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/manux_RoadHog.unity3d?RoadHog_manux_A17.prefab"/>
 			<property name="EconomicValue" value="20000"/>
 			<property class="Action1">
@@ -34,7 +34,7 @@
 		<item name="manux_vehicleJetPackPlaceable">
 			<property name="Extends" value="vehicleMinibikePlaceable"/>
 			<property name="CustomIcon" value="missingIcon"/>
-			<property name="DescriptionKey" value="manux_vehicleJetPackDesc"/>
+			<property name="DescriptionKey" value="vehiclePlaceableGroupDesc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/manux_JetPack.unity3d?JetPackPrefab_A17.prefab"/>
 			<property name="EconomicValue" value="25000"/>
 			<property class="Action1">
