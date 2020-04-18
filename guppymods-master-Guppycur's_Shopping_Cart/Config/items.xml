@@ -4,7 +4,7 @@
 	<property name="Tags" value="vehicle"/>
 	<property name="DescriptionKey" value="vehiclePlaceableGroupDesc"/>
 	<property name="HoldType" value="7"/>
-  <property name="CustomIcon" value="missingIcon"/>
+   <property name="CustomIcon" value="carShoppingCart"/>
 	<property name="HoldingItemHidden" value="true"/>
 	<property name="Meshfile" value="#@modfolder:Resources/GuppyMobilesCustom.unity3d?guppyVehicleShoppingCart"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
