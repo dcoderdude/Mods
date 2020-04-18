@@ -23,11 +23,11 @@
 			</effect_group>
 		</entity_class>
 
-		<entity_class name="manux_vehicleRoadHog">
+		<entity_class name="manux_vehicleMonoHog">
 			<property name="Tags" value="vehicle"/>
 			<property name="Class" value="EntityMotorcycle"/>
 			<property name="Parent" value="Cars"/>
-			<property name="Prefab" value="#@modfolder:Resources/manux_RoadHog.unity3d?RoadHog_manux_A17.prefab"/>
+			<property name="Prefab" value="#@modfolder:Resources/manux_MonoHog.unity3d?MonoHog_A17.prefab"/>
 			<property name="ModelType" value="Standard"/>
 			<property name="SurfaceCategory" value="metal"/>
 			<property name="IgnoreTrigger" value="true"/>

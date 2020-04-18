@@ -200,26 +200,26 @@
 
 		</vehicle>
 
-		<vehicle name="manux_vehicleRoadHog">
+		<vehicle name="manux_vehicleMonoHog">
 
 			<property name="cameraDistance" value="3.5, 5"/>
 			<property name="cameraTurnRate" value=".2, .35"/>
-			<property name="motorTorqueMinQ" value="3500"/>
-			<property name="motorTorqueMaxQ" value="5000"/>
-			<property name="brakeTorque" value="4000"/>
-			<property name="upAngleMax" value="80"/>
-			<property name="upForce" value="1"/>
+			<property name="motorTorqueMinQ" value="5500"/>
+			<property name="motorTorqueMaxQ" value="8000"/>
+			<property name="brakeTorque" value="5000"/>
+			<property name="upAngleMax" value="90"/>
+			<property name="upForce" value="5"/>
 			<property name="steerRate" value="150"/>
 			<property name="steerCenteringRate" value="100"/>
-			<property name="tiltAngleMax" value="30"/>
+			<property name="tiltAngleMax" value="40"/>
 			<property name="tiltThreshold" value="0.01"/>
 			<property name="tiltDampening" value=".9"/>
 			<property name="tiltDampenThreshold" value="20"/>
 			<property name="tiltUpForce" value="5"/>
-			<property name="hopForce" value="5"/>
-			<property name="unstickForce" value="5"/>
-			<property name="velocityMax" value="13, 20"/>
-			<property name="waterDrag_y_velScale_velMaxScale" value="1.7, .9, .1"/>
+			<property name="hopForce" value="8"/>
+			<property name="unstickForce" value="12"/>
+			<property name="velocityMax" value="16,25"/>
+			<property name="waterDrag_y_velScale_velMaxScale" value="0.5, 0.9, 0.1"/>
 			<property name="wheelPtlScale" value="1"/>
 
 			<property name="hornSound" value="vehicle/minibike/minibike_horn"/>
@@ -289,8 +289,8 @@
 				<property name="class" value="Steering"/>
 				<property name="slot_type" value="handlebars"/>
 				<property name="mesh" value="handlebar"/>
-				<property name="transform" value="Origin/handlebar_joint"/>
-				<property name="steerMaxAngle" value="40"/>
+				<property name="transform" value="Origin/FakeHandlebar"/>
+				<property name="steerMaxAngle" value="0"/>
 				<property name="IKHandLPosition" value="-.3329, .2552, -.158"/>
 				<property name="IKHandLRotation" value="27.30321, -15.59375, 8.961643"/>
 				<property name="IKHandRPosition" value=".3329, .2552, -.158"/>
@@ -299,32 +299,32 @@
 			</property>
 
 			<property class="seat0">
-				<property name="position" value="0, 0, -.201"/>
+				<property name="position" value="0, 0.3, -.1201"/>
 				<property name="rotation" value="0, 0, 0"/>
 				<property name="exit" value="-.9,0,0 ~ .9,0,0 ~ 0,0,-1.5 ~ 0,0,1.6 ~ 0,1.5,0"/>
 			</property>
 			
 			<property class="seat1">
-				<property name="position" value="0, 0.15, -.5"/>
+				<property name="position" value="0, 0.45, -.5"/>
 				<property name="rotation" value="0, 0, 0"/>
 				<property name="exit" value=".9,0,-.5 ~ -.9,0,-.5 ~ 0,0,-2 ~ 0,0,2 ~ 0,1.5,-.5"/>
 			</property>
 
 			<property class="wheel0">
 				<property name="steerTransform" value="Origin/handlebar_joint"/>
-				<property name="tireTransform" value="Origin/handlebar_joint/frontWheel_joint"/>
+				<property name="tireTransform" value="Origin/handlebar_joint/FakeFrontWheelJoint"/>
 				<property name="torqueScale_motor_brake" value=".15, .5"/>
 			</property>
-
+			
 			<property class="wheel1">
-				<property name="tireTransform" value="Origin/backWheelJoint"/>
+				<property name="tireTransform" value="Origin/MonoWheelJoint"/>
 				<property name="torqueScale_motor_brake" value="1, 1"/>
 			</property>
 
 			<property class="headlight">
 				<property name="class" value="Headlight"/>
 				<property name="parent_part" value="handlebars"/>
-				<property name="transform" value="Origin/handlebar_joint/headlight"/>
+				<property name="transform" value="Origin/headlight"/>
 				<property name="bright" value=".9"/>
 			</property>
 
