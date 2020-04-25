@@ -13,5 +13,33 @@
 			<ingredient name="resourceElectricParts" count="5" />
 			<ingredient name="resourceMetalPipe" count="6" />
 		</recipe>
+		<recipe name="workingCabinetSink" count="1" craft_area="workbench">
+			<ingredient name="resourceSinkFilter" count="1" />
+			<ingredient name="resourceWood" count="15" />
+			<ingredient name="resourceForgedIron" count="10" />
+			<ingredient name="resourceMetalPipe" count="5" />
+		</recipe>
+		<recipe name="workingGraniteSink" count="1" craft_area="workbench">
+			<ingredient name="resourceSinkFilter" count="1" />
+			<ingredient name="resourceWood" count="15" />
+			<ingredient name="resourceCobblestones" count="5" />
+			<ingredient name="resourceForgedIron" count="10" />
+			<ingredient name="resourceMetalPipe" count="5" />
+		</recipe>
+		<recipe name="workingUtilitySink" count="1" craft_area="workbench">
+			<ingredient name="resourceSinkFilter" count="1" />
+			<ingredient name="resourceWood" count="15" />
+			<ingredient name="resourceScrapPolymers" count="50" />
+			<ingredient name="resourceForgedIron" count="10" />
+			<ingredient name="resourceMetalPipe" count="5" />
+		</recipe>
+		<recipe name="resourceSinkFilter" count="1" craft_area="workbench">
+			<ingredient name="resourceAirFilter" count="3" />
+			<ingredient name="resourceCoal" count="15" />
+			<ingredient name="resourceGlue" count="5" />
+			<ingredient name="resourceScrapPolymers" count="25" />
+			<ingredient name="resourceMetalPipe" count="5" />
+		</recipe>
+
 	</append>
 </SinModWorkingKitchen>

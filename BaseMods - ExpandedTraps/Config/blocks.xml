@@ -30,7 +30,7 @@
 		<property name="CustomIcon" value="woodLogSpike1"/>
 		<property name="CustomIconTint" value="4040ff"/>
         <property name="DescriptionKey" value="trapAdhesiveDesc"/>
-        <property name="CustomIcon" value="drywallWhitePlate" />
+        <property name="CustomIcon" value="trapAdhesiveSpike" />
         <property name="Material" value="MbarbedFence" />
         <property name="Shape" value="ModelEntity" />
         <property name="Texture" value="217" />

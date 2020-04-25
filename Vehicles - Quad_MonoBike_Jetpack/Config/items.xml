@@ -2,7 +2,7 @@
 	<append xpath="/items">
 		<item name="manux_vehicleQuadPlaceable">
 			<property name="Extends" value="vehicleMinibikePlaceable"/>
-			<property name="CustomIcon" value="decoCarTireStack"/>
+			<property name="CustomIcon" value="manux_Quad"/>
 			<property name="DescriptionKey" value="vehiclePlaceableGroupDesc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/manux_Quad.unity3d?QuadPrefab_A17.prefab"/>
 			<property name="EconomicValue" value="15000"/>
@@ -15,9 +15,8 @@
 			</effect_group>
 		</item>
 		
-		<item name="manux_vehicleMonoHogPlaceable">
-			<property name="Extends" value="vehicleMinibikePlaceable"/>
-			<property name="CustomIcon" value="decoCarTireFlat"/>
+		<item name="manux_vehicleMonoHogPlaceable">		<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="CustomIcon" value="manux_MonoHog"/>
 			<property name="DescriptionKey" value="vehiclePlaceableGroupDesc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/manux_MonoHog.unity3d?MonoHog_A17.prefab"/>
 			<property name="EconomicValue" value="20000"/>
@@ -32,7 +31,7 @@
 
 		<item name="manux_vehicleJetPackPlaceable">
 			<property name="Extends" value="vehicleMinibikePlaceable"/>
-			<property name="CustomIcon" value="decoCarMotorFlat"/>
+			<property name="CustomIcon" value="manux_JetPack"/>
 			<property name="DescriptionKey" value="vehiclePlaceableGroupDesc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/manux_JetPack.unity3d?JetPackPrefab_A17.prefab"/>
 			<property name="EconomicValue" value="25000"/>

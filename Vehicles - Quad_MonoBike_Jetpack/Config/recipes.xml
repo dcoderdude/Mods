@@ -22,7 +22,7 @@
 			<ingredient name="gunRocketLauncherParts" count="2"/>
 			<ingredient name="resourceElectricParts" count="10"/>
 			<ingredient name="resourceMechanicalParts" count="15"/>
-			<ingredient name="smallEngine" count="10"/>
+			<ingredient name="solarCell" count="10"/>
 		</recipe>
 
 	</append>

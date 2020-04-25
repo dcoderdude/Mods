@@ -1,0 +1,12 @@
+Key,Source,Context,Changes,English
+workingOven,blocks,Block,New,Working Oven
+workingOvenDesc,blocks,Block,New,This working oven can be used to cook many different recipes without using a fuel source.
+workingStove,blocks,Block,New,Working Stove
+workingStoveDesc,blocks,Block,New,This working stove can be used to cook many different recipes without using a fuel source.
+workingGraniteSink,blocks,Block,New,Working Granite Sink
+workingCabinetSink,blocks,Block,New,Working Cabinet Sink
+workingUtilitySink,blocks,Block,New,Working Utiliy Sink
+workingSinkDesc,blocks,Block,New,This working sink can be used as a source of clean water. Fill your jars with water by left-clicking with them.
+resourceSinkFilter,items,Item,New,Osmosis Filter System
+resourceSinkFilterDesc,items,Item,New,Osmosis Filter System used to craft working sinks.
+perkMasterChefRank3LongDesc,progression,Perk,New,"Learn how to make nutritious pot luck meals from canned goods. Craft Sham Chowder, Hobo Stew and Fish Tacos. Cook 30% faster and learn to build working sinks and stoves."
