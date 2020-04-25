@@ -1,0 +1,25 @@
+<configs>
+  <!-- 
+    Taken from: https://7daystodie.com/forums/showthread.php?67181-Recipe-for-Solar-Cells
+  -->
+	<!-- The line below was added for compatibility in case another modlet creates this recipe -->
+	<!-- <remove xpath="/recipes/recipe[@name='solarCell']" /> -->
+	<!-- Add in a new recipe for solarCell -->
+	<append xpath="/recipes">
+    <recipe name="solarCell" count="1" craft_area="workbench" tags="workbenchCrafting">
+	    <ingredient name="glassBlockVariantHelper" count="25"/>
+	    <ingredient name="resourceRawDiamond" count="2"/>
+	    <ingredient name="resourceElectricParts" count="4"/>
+		 <ingredient name="resourceMechanicalParts" count="4"/>
+    </recipe> 
+		<!-- The line below was added for compatibility in case another modlet creates this recipe -->
+		<!-- <remove xpath="/recipes/recipe[@name='solarbank']" /> -->
+		<!-- Add in a new recipe for solarbank -->
+    <recipe name="solarbank" count="1" craft_area="workbench" tags="workbenchCrafting">
+		 <ingredient name="glassBlockVariantHelper" count="50"/>
+	    <ingredient name="resourceForgedSteel" count="50"/>
+	    <ingredient name="resourceElectricParts" count="10"/>
+	    <ingredient name="resourceMechanicalParts" count="10"/>
+    </recipe>
+  </append>
+</configs>

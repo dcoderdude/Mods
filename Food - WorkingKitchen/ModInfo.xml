@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="SinModWorkingKitchen" />
+		<Description value="Adds ability to craft Working Oven, Working Sinks and soon many new food items." />
+		<Author value="Sinistermind81" />
+		<Version value="2.2.2" />
+		<Website value="https://www.merqsquad.com" />
+	</ModInfo>
+</xml>

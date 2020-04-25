@@ -1,0 +1,7 @@
+<Config>
+    <append xpath="/traders/trader_item_groups/trader_item_group[@name='seeds']">
+        <item name="Wheat Seed" />
+        <item name="Tomato Seed" />
+        <item name="Powdered Milk" />
+    </append>
+</Config>

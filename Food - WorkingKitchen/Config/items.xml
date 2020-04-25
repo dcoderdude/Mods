@@ -1,0 +1,38 @@
+<SinModWorkingKitchen>
+    <insertBefore xpath="/items/item[@name='drinkJarEmpty']/property[@class='Action1']">
+        <property class="Action0">
+            <!-- UseAction -->
+            <property name="Class" value="ExchangeItem" />
+            <property name="Delay" value="1.0" />
+            <property name="Change_item_to" value="drinkJarBoiledWater" />
+            <property name="Focused_blockname_1" value="workingCabinetSink" />
+            <property name="Focused_blockname_2" value="workingGraniteSink" />
+            <property name="Focused_blockname_3" value="workingUtilitySink" />
+            <property name="Sound_start" value="UseActions/bucketfill_water" />
+        </property>
+    </insertBefore>
+
+    <append xpath="/items/item[@name='drinkJarEmpty']/property[@class='Action1']">
+        <property name="Focused_blockname_6" value="workingCabinetSink" />
+        <property name="Focused_blockname_7" value="workingGraniteSink" />
+        <property name="Focused_blockname_8" value="workingUtilitySink" />
+    </append>
+
+    <append xpath="/items">
+        <item name="resourceSinkFilter">
+            <property name="DescriptionKey" value="resourceSinkFilterDesc"/>
+            <property name="CustomIcon" value="resourceSinkFilter" />
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+            <property name="Tags" value="junk"/>
+            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="Mplastics"/>
+            <property name="Stacknumber" value="1"/>
+            <!-- STK loot -->
+            <property name="Weight" value="15"/>
+            <property name="EconomicValue" value="25"/>
+            <property name="Group" value="Resources"/>
+        </item>
+    
+    </append>
+</SinModWorkingKitchen>

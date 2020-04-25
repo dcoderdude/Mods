@@ -1,0 +1,17 @@
+<SinModWorkingKitchen>
+	<append xpath="/recipes">
+		<!-- SinMod Working Ovens and Sinks Mod -->
+		<recipe name="workingOven" count="1" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="20" />
+			<ingredient name="toolCookingGrill" count="2" />
+			<ingredient name="resourceElectricParts" count="5" />
+			<ingredient name="resourceMetalPipe" count="6" />
+		</recipe>
+		<recipe name="workingStove" count="1" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="20" />
+			<ingredient name="toolCookingGrill" count="2" />
+			<ingredient name="resourceElectricParts" count="5" />
+			<ingredient name="resourceMetalPipe" count="6" />
+		</recipe>
+	</append>
+</SinModWorkingKitchen>
