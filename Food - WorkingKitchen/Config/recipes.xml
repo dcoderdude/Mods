@@ -1,45 +1,20 @@
-<SinModWorkingKitchen>
-	<append xpath="/recipes">
-		<!-- SinMod Working Ovens and Sinks Mod -->
-		<recipe name="workingOven" count="1" craft_area="workbench">
-			<ingredient name="resourceForgedIron" count="20" />
-			<ingredient name="toolCookingGrill" count="2" />
-			<ingredient name="resourceElectricParts" count="5" />
-			<ingredient name="resourceMetalPipe" count="6" />
-		</recipe>
-		<recipe name="workingStove" count="1" craft_area="workbench">
-			<ingredient name="resourceForgedIron" count="20" />
-			<ingredient name="toolCookingGrill" count="2" />
-			<ingredient name="resourceElectricParts" count="5" />
-			<ingredient name="resourceMetalPipe" count="6" />
-		</recipe>
-		<recipe name="workingCabinetSink" count="1" craft_area="workbench">
-			<ingredient name="resourceSinkFilter" count="1" />
-			<ingredient name="resourceWood" count="15" />
-			<ingredient name="resourceForgedIron" count="10" />
-			<ingredient name="resourceMetalPipe" count="5" />
-		</recipe>
-		<recipe name="workingGraniteSink" count="1" craft_area="workbench">
-			<ingredient name="resourceSinkFilter" count="1" />
-			<ingredient name="resourceWood" count="15" />
-			<ingredient name="resourceCobblestones" count="5" />
-			<ingredient name="resourceForgedIron" count="10" />
-			<ingredient name="resourceMetalPipe" count="5" />
-		</recipe>
-		<recipe name="workingUtilitySink" count="1" craft_area="workbench">
-			<ingredient name="resourceSinkFilter" count="1" />
-			<ingredient name="resourceWood" count="15" />
-			<ingredient name="resourceScrapPolymers" count="50" />
-			<ingredient name="resourceForgedIron" count="10" />
-			<ingredient name="resourceMetalPipe" count="5" />
-		</recipe>
-		<recipe name="resourceSinkFilter" count="1" craft_area="workbench">
-			<ingredient name="resourceAirFilter" count="3" />
-			<ingredient name="resourceCoal" count="15" />
-			<ingredient name="resourceGlue" count="5" />
-			<ingredient name="resourceScrapPolymers" count="25" />
-			<ingredient name="resourceMetalPipe" count="5" />
-		</recipe>
-
-	</append>
-</SinModWorkingKitchen>
+<Valmar>
+<append xpath="/recipes">
+        <!--Working Ovens and Sinks Mod -->
+    <recipe name="workstationOven" count="1" scrapable="False" >
+        <ingredient name="resourceForgedIron" count="20" />
+        <ingredient name="toolCookingGrill" count="2" />
+    </recipe>
+    <recipe name="workingCabinetSink" count="1" scrapable="False" >
+        <ingredient name="resourceWood" count="15" />
+        <ingredient name="resourceForgedIron" count="10"/>
+        <ingredient name="resourceMetalPipe" count="5"/>
+    </recipe>
+    <recipe name="workingGranitSink" count="1" scrapable="False" >
+        <ingredient name="resourceWood" count="15" />
+        <ingredient name="resourceCobblestones" count="5" />
+        <ingredient name="resourceForgedIron" count="10"/>
+        <ingredient name="resourceMetalPipe" count="5"/>
+    </recipe>
+</append>
+</Valmar>

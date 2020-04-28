@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<ModInfo>
-		<Name value="SinModWorkingKitchen" />
-		<Description value="Adds ability to craft Working Oven, Working Sinks and soon many new food items." />
-		<Author value="Sinistermind81" />
-		<Version value="2.2.2" />
-		<Website value="https://www.merqsquad.com" />
-	</ModInfo>
+    <ModInfo>
+        <Name value="Valmars Working Ovens and Sinks" />
+        <Description value="Adds functional player only crafted oven and sink that work." />
+        <Author value="Valmar" />
+        <Version value="A18" />
+    </ModInfo>
 </xml>
