@@ -134,7 +134,7 @@
       <property name="Weight" value="216" />
       <property name="Collide" value="sight,movement,melee,bullet,arrow,rocket" />
       <property name="UpgradeRated.ToBlock" value="ExcavatorV2" />
-      <property name="UpgradeRated.Rate" value="3" /> <!-- 63 is max for the Rate, 2=fast-63=slow -->
+      <property name="UpgradeRated.Rate" value="2" /> <!-- 63 is max for the Rate, 2=fast-63=slow -->
     </block>
 
     <block name="ExcavatorV2">
@@ -154,7 +154,7 @@
       <property name="Weight" value="216" />
       <property name="Collide" value="sight,movement,melee,bullet,arrow,rocket" />
       <property name="UpgradeRated.ToBlock" value="MiningTruck" />
-      <property name="UpgradeRated.Rate" value="3" /> <!-- 63 is max for the Rate, 2=fast-63=slow -->
+      <property name="UpgradeRated.Rate" value="2" /> <!-- 63 is max for the Rate, 2=fast-63=slow -->
       <drop event="Destroy" count="0"/>
       <drop event="Harvest" count="0"/>
       <property name="DowngradeBlock" value="Excavator"/> 
