@@ -19,8 +19,8 @@
 
 		<recipe name="Excavator" count="1" craft_area="workbench" always_unlocked="true" tags="workbenchCrafting">
 			<ingredient name="resourceForgedSteel" count="20"/>
-			<ingredient name="copperSpool" count="25"/>
-			<ingredient name="carBattery" count="1"/>
+			<ingredient name="copperSpool" count="15"/>
+			<ingredient name="meleeToolAuger" count="1"/>
 		</recipe>
 
 		<recipe name="copperSpool" count="1" craft_area="workbench" always_unlocked="true" tags="workbenchCrafting">
