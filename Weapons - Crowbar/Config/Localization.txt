@@ -1,0 +1,4 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+meleeToolCrowbar,items,Tool,,,Crowbar,,,,,,,,,,,,,,
+meleeToolCrowbarDesc,items,Tool,,,"You've waited a half life for this! Let's crack some safes, doors and heads.\n\nRepair with a Repair Kit and repair often as it can break!\nScrap to ... are you crazy? This thing is rare!",,,,,,,,,,,,,,
+meleeToolCrowbarSchematic,items,Tool,,,Crowbar Schematic,,,,,,,,,,,,,,

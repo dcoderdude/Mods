@@ -1,0 +1,15 @@
+<configs>
+
+	<append xpath="/recipes">
+		<recipe name="meleeToolCrowbarSchematic" count="1">
+			<ingredient name="resourcePaper" count="10"/>
+		</recipe>
+		<recipe name="meleeToolCrowbar" count="1" tags="learnable,perkMiner69r">
+			<ingredient name="resourceScrapIron" count="10"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="resourceForgedIron"/>
+			</effect_group>
+		</recipe>
+	</append>
+
+</configs>

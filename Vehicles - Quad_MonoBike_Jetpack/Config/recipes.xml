@@ -21,8 +21,8 @@
 			<ingredient name="vehicleGyroCopterAccessories" count="1"/>
 			<ingredient name="gunRocketLauncherParts" count="2"/>
 			<ingredient name="resourceElectricParts" count="10"/>
-			<ingredient name="resourceMechanicalParts" count="15"/>
-			<ingredient name="HD Electrolyte" count="10"/>
+			<ingredient name="resourceMechanicalParts" count="10"/>
+			<ingredient name="HD Flame Fuel" count="100"/>
 		</recipe>
 
 	</append>

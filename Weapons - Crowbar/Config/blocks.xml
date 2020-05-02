@@ -1,0 +1,8 @@
+<configs>
+
+	<!-- Jail doors were hard to destroy. Not with a crowbar! -->
+	<append xpath="/blocks/block[contains(@name, 'jailDoor')]">
+		<property name="Tags" value="door"/>
+	</append>
+
+</configs>
