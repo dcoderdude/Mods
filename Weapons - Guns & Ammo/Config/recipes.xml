@@ -1,5 +1,4 @@
 <configs>
-	
 <append xpath="/recipes">
 
 <!-- explosives -->
@@ -604,30 +603,6 @@
 </recipe>
 
 <!-- helper recipes -->
-<recipe name="resourceSpring" count="5" craft_time = "0.5">
-	  <ingredient name="resourceScrapIron" count="7"/>
-</recipe>
-
-<recipe name="gunPistolParts" count="2" craft_time = "0.5">
-	  <ingredient name="resourceForgedIron" count="10"/>
-	  <ingredient name="resourceSpring" count="2"/>
-</recipe>
-
-<recipe name="gunAk47Parts" count="5" craft_time = "0.5">
-	  <ingredient name="resourceForgedIron" count="20"/>
-	  <ingredient name="resourceSpring" count="2"/>
-</recipe>
-
-<recipe name="gunHuntingRifleParts" count="3" craft_time = "0.5">
-	  <ingredient name="resourceForgedIron" count="35"/>
-	  <ingredient name="resourceSpring" count="2"/>
-</recipe>
-
-<recipe name="gunDoubleBarrelShotgunParts" count="5" craft_time = "0.5">
-	  <ingredient name="resourceForgedIron" count="35"/>
-	  <ingredient name="resourceSpring" count="2"/>
-</recipe>
-
 <recipe name="HDGun Oil" count="1" craft_area="chemistryStation" craft_time = "2">
 	<ingredient name="resourceDuctTape" count="1"/>
 	<ingredient name="resourceOil" count="1"/>
