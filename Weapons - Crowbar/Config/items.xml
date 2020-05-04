@@ -81,15 +81,12 @@
 			<property name="Extends" value="schematicMaster"/>
 			<property name="EconomicValue" value="1250"/>
 			<property name="CreativeMode" value="Player"/>
-			<property name="CustomIcon" value="meleeToolCrowbar"/>
+			<property name="CustomIcon" value="meleeToolCrowbar Schematic"/>
 			<property name="Unlocks" value="meleeToolCrowbar"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolCrowbar" operation="set" value="1"/>
-				<!-- <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/> -->
 			</effect_group>
 		</item>
-
-		
 	</append>
 
 </configs>

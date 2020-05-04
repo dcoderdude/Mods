@@ -1,5 +1,4 @@
 <configs>
-
 	<append xpath="/recipes">
 		<recipe name="meleeToolCrowbarSchematic" count="1">
 			<ingredient name="resourcePaper" count="10"/>
@@ -11,5 +10,4 @@
 			</effect_group>
 		</recipe>
 	</append>
-
 </configs>
