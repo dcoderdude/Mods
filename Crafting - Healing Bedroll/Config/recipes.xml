@@ -1,9 +1,16 @@
 <configs>
 	
 <append xpath="/recipes">
+
 	<recipe name="Advanced First Aid Kit" count="1" craft_time = "5" tags="learnable,perkYeahScience" >
-		<ingredient name="drugHerbalAntibiotics" count="1"/>
+		<ingredient name="drugPainkillers" count="1"/>
 		<ingredient name="medicalFirstAidKit" count="1"/>
 	</recipe>
+	<recipe name="drugPainkillers" count="1" craft_time = "5" tags="learnable,perkYeahScience" >
+		<ingredient name="resourceCropChrysanthemumPlant" count="1"/>
+		<ingredient name="resourceCropGoldenrodPlant" count="1"/>
+		<ingredient name="HD Electrolyte" count="1"/>
+	</recipe>
+
 </append>
 </configs>
