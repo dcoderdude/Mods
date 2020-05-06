@@ -1,0 +1,44 @@
+<configs>
+<append xpath="/recipes">
+	<recipe name="meleeToolAllSteelParts" count="4" craft_time = "1.5" craft_area="workbench">
+		  <ingredient name="resourceForgedIron" count="35"/>
+		  <ingredient name="resourceSpring" count="2"/>
+	</recipe>
+	
+	<recipe name="meleeToolChainsawParts" count="4" craft_time = "1.5" craft_area="workbench">
+		  <ingredient name="resourceForgedIron" count="35"/>
+		  <ingredient name="resourceSpring" count="2"/>
+	</recipe>
+	
+	<recipe name="resourceSpring" count="5" craft_time = "1.5" craft_area="workbench">
+		  <ingredient name="resourceScrapIron" count="7"/>
+	</recipe>
+
+	<recipe name="gunPistolParts" count="2" craft_time = "1.5" craft_area="workbench">
+		  <ingredient name="resourceForgedIron" count="10"/>
+		  <ingredient name="resourceSpring" count="2"/>
+	</recipe>
+
+	<recipe name="gunAk47Parts" count="5" craft_time = "1.5" craft_area="workbench">
+		  <ingredient name="resourceForgedIron" count="20"/>
+		  <ingredient name="resourceSpring" count="2"/>
+	</recipe>
+
+	<recipe name="gunHuntingRifleParts" count="3" craft_time = "1.5" craft_area="workbench">
+		  <ingredient name="resourceForgedIron" count="35"/>
+		  <ingredient name="resourceSpring" count="2"/>
+	</recipe>
+
+	<recipe name="gunDoubleBarrelShotgunParts" count="5" craft_time = "1.5" craft_area="workbench">
+		  <ingredient name="resourceForgedIron" count="35"/>
+		  <ingredient name="resourceSpring" count="2"/>
+	</recipe>
+	
+	<recipe name="drugPainkillers" count="1" craft_time = "1.5" craft_area="chemistryStation">
+		<ingredient name="resourceCropChrysanthemumPlant" count="1"/>
+		<ingredient name="resourceCropGoldenrodPlant" count="1"/>
+		<ingredient name="HD Electrolyte" count="1"/>
+	</recipe>
+
+</append>
+</configs>
