@@ -2,13 +2,17 @@
 <append xpath="/recipes">
 	<!-- explosives -->
 	<recipe name="HD Ground Mine" count="1" craft_area="workbench" craft_time = "30" >
-		<ingredient name="thrownGrenadeContact" count="1"/>
-		<ingredient name="HD Flame Fuel" count="10"/>
+		<ingredient name="resourceMechanicalParts" count="2"/>
+		<ingredient name="HD Flame Fuel" count="14"/>
+		<ingredient name="resourceForgedIron" count="4"/>
+		<ingredient name="resourceSpring" count="1"/>
 	</recipe>
 
 	<recipe name="HD Breaching C4" count="1" craft_area="workbench" craft_time = "30" >
-		<ingredient name="thrownTimedCharge" count="1"/>
 		<ingredient name="HD Flame Fuel" count="50"/>
+		<ingredient name="resourceElectricParts" count="25"/>
+		<ingredient name="resourceDuctTape" count="10"/>
+		<ingredient name="resourceAcid" count="1"/>
 	</recipe>
 
 	<!-- standard firearms -->
