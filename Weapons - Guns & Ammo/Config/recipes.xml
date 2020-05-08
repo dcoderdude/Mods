@@ -15,6 +15,47 @@
 		<ingredient name="resourceAcid" count="1"/>
 	</recipe>
 
+	<!-- weapon attachments -->	
+	<recipe name="HDColtM1911Silencer" count="1" craft_time = "60" craft_area="workbench" >
+		<ingredient name="resourceMetalPipe" count="10"/>
+		<ingredient name="gunPistolParts" count="5"/>
+	</recipe>
+
+	<recipe name="HDDesertEagleSilencer" count="1" craft_time = "60" craft_area="workbench" >
+		<ingredient name="resourceMetalPipe" count="15"/>
+		<ingredient name="gunPistolParts" count="5"/>
+	</recipe>
+
+	<recipe name="HDMac10AutoSilencer" count="1" craft_time = "60" craft_area="workbench" >
+		<ingredient name="resourceMetalPipe" count="25"/>
+		<ingredient name="gunAk47Parts" count="5"/>
+	</recipe>
+
+	<recipe name="HDMossberg500Silencer" count="1" craft_time = "60" craft_area="workbench" >
+		<ingredient name="resourceMetalPipe" count="45"/>
+		<ingredient name="gunDoubleBarrelShotgunParts" count="5"/>
+	</recipe>
+
+	<recipe name="HDArcticWarfareSilencer" count="1" craft_time = "60" craft_area="workbench" >
+		<ingredient name="resourceMetalPipe" count="45"/>
+		<ingredient name="gunHuntingRifleParts" count="5"/>
+	</recipe>
+
+	<recipe name="HDDragunovSVDScope" count="1" craft_time = "60" craft_area="workbench" >
+		<ingredient name="glassBlockVariantHelper" count="45"/>
+		<ingredient name="gunHuntingRifleParts" count="5"/>
+	</recipe>
+
+	<recipe name="HDDragunovSVDSilencer" count="1" craft_time = "60" craft_area="workbench" >
+		<ingredient name="resourceMetalPipe" count="55"/>
+		<ingredient name="gunHuntingRifleParts" count="5"/>
+	</recipe>
+
+	<recipe name="HDM4A1CarbineScope" count="1" craft_time = "60" craft_area="workbench" >
+		<ingredient name="glassBlockVariantHelper" count="25"/>
+		<ingredient name="gunAk47Parts" count="3"/>
+	</recipe>
+
 	<!-- standard firearms -->
 	<recipe name="HD Colt M1911" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
 		<ingredient name="gunPistolParts" count="2"/>
@@ -136,49 +177,8 @@
 		</effect_group>
 	</recipe>
 
-	<!-- weapon attachments -->	
-	<recipe name="HDColtM1911Silencer" count="1" craft_time = "60" craft_area="workbench" >
-		<ingredient name="resourceMetalPipe" count="10"/>
-		<ingredient name="HDGun Oil" count="5"/>
-	</recipe>
-
-	<recipe name="HDDesertEagleSilencer" count="1" craft_time = "60" craft_area="workbench" >
-		<ingredient name="resourceMetalPipe" count="15"/>
-		<ingredient name="HDGun Oil" count="5"/>
-	</recipe>
-
-	<recipe name="HDMac10AutoSilencer" count="1" craft_time = "60" craft_area="workbench" >
-		<ingredient name="resourceMetalPipe" count="25"/>
-		<ingredient name="HDGun Oil" count="5"/>
-	</recipe>
-
-	<recipe name="HDMossberg500Silencer" count="1" craft_time = "60" craft_area="workbench" >
-		<ingredient name="resourceMetalPipe" count="45"/>
-		<ingredient name="HDGun Oil" count="5"/>
-	</recipe>
-
-	<recipe name="HDArcticWarfareSilencer" count="1" craft_time = "60" craft_area="workbench" >
-		<ingredient name="resourceMetalPipe" count="45"/>
-		<ingredient name="HDGun Oil" count="5"/>
-	</recipe>
-
-	<recipe name="HDDragunovSVDScope" count="1" craft_time = "60" craft_area="workbench" >
-		<ingredient name="glassBlockVariantHelper" count="45"/>
-		<ingredient name="HDGun Oil" count="5"/>
-	</recipe>
-
-	<recipe name="HDDragunovSVDSilencer" count="1" craft_time = "60" craft_area="workbench" >
-		<ingredient name="resourceMetalPipe" count="55"/>
-		<ingredient name="HDGun Oil" count="5"/>
-	</recipe>
-
-	<recipe name="HDM4A1CarbineScope" count="1" craft_time = "60" craft_area="workbench" >
-		<ingredient name="glassBlockVariantHelper" count="25"/>
-		<ingredient name="HDGun Oil" count="3"/>
-	</recipe>
-
-	<!-- mechanical firearms -->
-	<recipe name="HD Flame Thrower" craft_area="workbench" count="1"  craft_time = "100" >
+	<!-- mechanical weapons -->
+<!-- 	<recipe name="HD Flame Thrower" craft_area="workbench" count="1"  craft_time = "100" >
 		<ingredient name="resourceForgedSteel" count="200"/>
 		<ingredient name="resourceForgedIron" count="100"/>
 		<ingredient name="resourceDuctTape" count="20"/>
@@ -186,10 +186,7 @@
 		<ingredient name="resourceSpring" count="5"/>
 	</recipe>
 
-	<recipe name="HD Flame Fuel" count="100" craft_time = "10">
-		<ingredient name="ammoGasCan" count="200"/>
-		<ingredient name="resourceOilShale" count="10"/>
-	</recipe>
+
 
 	<recipe name="HD Vulcan 9mm" craft_area="workbench" count="1" craft_time = "180" >
 		<ingredient name="HD Vulcan 9mm Barrel" count="6"/>
@@ -279,7 +276,7 @@
 		<ingredient name="resourceDuctTape" count="40"/>
 		<ingredient name="smallEngine" count="1"/>
 		<ingredient name="resourceSpring" count="40"/>
-	</recipe>
+	</recipe> -->
 
 	<!-- standard ammo -->
 	<recipe name="45 ACP Round" count="1" craft_time = "1" craft_area="workbench">
@@ -616,6 +613,11 @@
 		<ingredient name="resourcePotassiumNitratePowder" count="1"/>
 	</recipe>
 
+	<recipe name="HD Flame Fuel" count="100" craft_time = "10">
+		<ingredient name="ammoGasCan" count="200"/>
+		<ingredient name="resourceOilShale" count="10"/>
+	</recipe>
+	
 	<recipe name="RepairKitHandGuns" count="1" craft_time = "2">
 		<ingredient name="resourceForgedIron" count="1"/>
 		<ingredient name="gunPistolParts" count="2"/>
@@ -695,6 +697,7 @@
 
 	<recipe name="HD Double Barrel Schematic" count="1">
 		  <ingredient name="resourcePaper" count="10"/>
-	</recipe>
+	</recipe>	
+	
 </append>
 </configs>
