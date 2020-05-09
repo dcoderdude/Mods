@@ -1,11 +1,11 @@
 <configs>
 
-	<append xpath="/lootcontainers/lootgroup[@name='rareTools']">
+<!-- 	<append xpath="/lootcontainers/lootgroup[@name='rareTools']">
 		<item name="meleeToolCrowbar" loot_prob_template="probTemplate1.0"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootgroup[@name='schematicsToolsRare']">
 		<item name="meleeToolCrowbarSchematic"/>
-	</append>
+	</append> -->
 	
 </configs>
