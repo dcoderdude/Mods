@@ -348,7 +348,7 @@
 		<property name="HoldType" value="1"/>
 		<property name="Meshfile" value="#@modfolder:Resources/HD Mac10 Auto.unity3d?HD Mac10 Auto.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 		<property name="Material" value="MMachineGunParts"/> <property name="Weight" value="5"/>
-		<property name="RepairTools" value="RepairKitAutomaticRifles"/>
+		<property name="RepairTools" value="RepairKitHandGuns"/>
 		<property name="DegradationBreaksAfter" value="false"/>
 		<property name="SoundJammed" value="weapon_jam"/>
 		<property name="Attachments" value="meleeToolFlashlight02"/>
@@ -363,7 +363,7 @@
 		<property name="RepairExpMultiplier" value="10.8"/>
 		<property name="LightValue" value=".45"/>
 		<property name="EconomicValue" value="850"/>
-		<property name="UnlockedBy" value="perkMachineGunner,HD Mac10 Auto Schematic"/>
+		<property name="UnlockedBy" value="perkGunslinger,HD Mac10 Auto Schematic"/>
 		<property name="ShowQuality" value="true"/>
 
 		<property class="Action0">
@@ -402,7 +402,7 @@
 			<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 			<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
 			<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
-			<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkMachineGunner"/>
+			<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkGunslinger"/>
 			<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05"/>
 			<passive_effect name="MagazineSize" operation="perc_add" value="-.122,.122"/>
 			<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08"/>
@@ -418,8 +418,8 @@
 			<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".15"/>
 			<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1.5"/>
 			<passive_effect name="WeaponHandling" operation="base_set" value=".95"/>
-			<passive_effect name="DegradationMax" operation="base_set" value="1250,2450" tier="1,6" tags="perkMachineGunner,9mmGun"/>
-			<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMachineGunner,9mmGun"/>
+			<passive_effect name="DegradationMax" operation="base_set" value="1250,2450" tier="1,6" tags="perkGunslinger,9mmGun"/>
+			<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkGunslinger,9mmGun"/>
 			
 			  <triggered_effect trigger="onReloadStart" action="AnimatorSetBool" target="self" property="WeaponReload" value="true"/>
 			  <triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="WeaponReload" value="false"/>
@@ -436,7 +436,7 @@
 		<property name="HoldType" value="6"/>
 		<property name="Meshfile" value="#@modfolder:Resources/HD M3 Auto.unity3d?HD M3 Auto.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 		<property name="Material" value="MHandGunParts"/> <property name="Weight" value="6"/>
-		<property name="RepairTools" value="resourceRepairKit"/>
+		<property name="RepairTools" value="RepairKitHandGuns"/>
 		<property name="DegradationBreaksAfter" value="false"/>
 		<property name="SoundJammed" value="weapon_jam"/>
 		<property name="Attachments" value="meleeToolFlashlight02"/>
@@ -449,7 +449,7 @@
 		<property name="RepairExpMultiplier" value="10.8"/>
 		<property name="LightValue" value=".45"/>
 		<property name="EconomicValue" value="1000"/>
-		<property name="UnlockedBy" value="perkDeadEye,HD M3 Auto Schematic"/>
+		<property name="UnlockedBy" value="perkGunslinger,HD M3 Auto Schematic"/>
 		<property name="ShowQuality" value="true"/>
 
 		<property class="Action0">
@@ -491,7 +491,7 @@
 			<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 			<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
 			<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
-			<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkDeadEye"/>
+			<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkGunslinger"/>
 			<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05"/>
 			<passive_effect name="MagazineSize" operation="perc_add" value="-.122,.122"/>
 			<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08"/>
@@ -507,8 +507,8 @@
 			<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".3"/>
 			<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1.6"/>
 			<passive_effect name="WeaponHandling" operation="base_set" value=".8"/>
-			<passive_effect name="DegradationMax" operation="base_set" value="350,700" tier="1,6" tags="perkDeadEye,9mmGun"/>
-			<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkDeadEye,9mmGun"/>
+			<passive_effect name="DegradationMax" operation="base_set" value="350,700" tier="1,6" tags="perkGunslinger,9mmGun"/>
+			<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkGunslinger,9mmGun"/>
 			
 			  <triggered_effect trigger="onReloadStart" action="AnimatorSetBool" target="self" property="WeaponReload" value="true"/>
 			  <triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="WeaponReload" value="false"/>
