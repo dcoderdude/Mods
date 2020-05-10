@@ -223,107 +223,6 @@
 		</effect_group>
 	</recipe>
 
-	<!-- mechanical weapons -->
-<!-- 	<recipe name="HD Flame Thrower" craft_area="workbench" count="1"  craft_time = "100" >
-		<ingredient name="resourceForgedSteel" count="200"/>
-		<ingredient name="resourceForgedIron" count="100"/>
-		<ingredient name="resourceDuctTape" count="20"/>
-		<ingredient name="resourceScrapPolymers" count="100"/>
-		<ingredient name="resourceSpring" count="5"/>
-	</recipe>
-
-
-
-	<recipe name="HD Vulcan 9mm" craft_area="workbench" count="1" craft_time = "180" >
-		<ingredient name="HD Vulcan 9mm Barrel" count="6"/>
-		<ingredient name="HD Vulcan 9mm Parts" count="1"/>
-		<ingredient name="HD Vulcan 9mm Motor" count="1"/>
-	</recipe>
-
-	<recipe name="HD Vulcan 9mm Barrel" craft_area="workbench" count="1" craft_time = "30" >
-		<ingredient name="resourceForgedIron" count="50"/>
-		<ingredient name="resourceMechanicalParts" count="10"/>
-		<ingredient name="gunAk47Parts" count="5"/>
-		<ingredient name="resourceScrapPolymers" count="10"/>
-		<ingredient name="resourceSpring" count="5"/>
-	</recipe>
-
-	<recipe name="HD Vulcan 9mm Parts" craft_area="workbench" count="1" craft_time = "60" >
-		<ingredient name="resourceForgedIron" count="100"/>
-		<ingredient name="resourceMechanicalParts" count="100"/>
-		<ingredient name="resourceDuctTape" count="20"/>
-		<ingredient name="resourceScrapPolymers" count="30"/>
-		<ingredient name="resourceSpring" count="20"/>
-	</recipe>
-
-	<recipe name="HD Vulcan 9mm Motor" craft_area="workbench" count="1" craft_time = "100" >
-		<ingredient name="resourceForgedIron" count="100"/>
-		<ingredient name="resourceMechanicalParts" count="100"/>
-		<ingredient name="resourceDuctTape" count="10"/>
-		<ingredient name="smallEngine" count="1"/>
-		<ingredient name="resourceSpring" count="10"/>
-	</recipe>
-
-	<recipe name="HD Vulcan 7.62mm" craft_area="workbench" count="1" craft_time = "180" >
-		<ingredient name="HD Vulcan 7.62mm Barrel" count="6"/>
-		<ingredient name="HD Vulcan 7.62mm Parts" count="1"/>
-		<ingredient name="HD Vulcan 7.62mm Motor" count="1"/>
-	</recipe>
-
-	<recipe name="HD Vulcan 7.62mm Barrel" craft_area="workbench" count="1" craft_time = "30" >
-		<ingredient name="resourceForgedIron" count="100"/>
-		<ingredient name="resourceMechanicalParts" count="20"/>
-		<ingredient name="gunAk47Parts" count="10"/>
-		<ingredient name="resourceScrapPolymers" count="20"/>
-		<ingredient name="resourceSpring" count="10"/>
-	</recipe>
-
-	<recipe name="HD Vulcan 7.62mm Parts" craft_area="workbench" count="1" craft_time = "60" >
-		<ingredient name="resourceForgedIron" count="200"/>
-		<ingredient name="resourceMechanicalParts" count="200"/>
-		<ingredient name="resourceDuctTape" count="40"/>
-		<ingredient name="resourceScrapPolymers" count="50"/>
-		<ingredient name="resourceSpring" count="40"/>
-	</recipe>
-
-	<recipe name="HD Vulcan 7.62mm Motor" craft_area="workbench" count="1" craft_time = "100" >
-		<ingredient name="resourceForgedIron" count="200"/>
-		<ingredient name="resourceMechanicalParts" count="200"/>
-		<ingredient name="resourceDuctTape" count="20"/>
-		<ingredient name="smallEngine" count="1"/>
-		<ingredient name="resourceSpring" count="20"/>
-	</recipe>
-
-	<recipe name="HD Vulcan 50Bmg" craft_area="workbench" count="1" craft_time = "180" >
-		<ingredient name="HD Vulcan 50Bmg Barrel" count="6"/>
-		<ingredient name="HD Vulcan 50Bmg Parts" count="1"/>
-		<ingredient name="HD Vulcan 50Bmg Motor" count="1"/>
-	</recipe>
-
-	<recipe name="HD Vulcan 50Bmg Barrel" craft_area="workbench" count="1" craft_time = "30" >
-		<ingredient name="resourceForgedIron" count="300"/>
-		<ingredient name="resourceMechanicalParts" count="60"/>
-		<ingredient name="gunAk47Parts" count="15"/>
-		<ingredient name="resourceScrapPolymers" count="60"/>
-		<ingredient name="resourceSpring" count="30"/>
-	</recipe>
-
-	<recipe name="HD Vulcan 50Bmg Parts" craft_area="workbench" count="1" craft_time = "60" >
-		<ingredient name="resourceForgedIron" count="200"/>
-		<ingredient name="resourceMechanicalParts" count="200"/>
-		<ingredient name="resourceDuctTape" count="40"/>
-		<ingredient name="resourceScrapPolymers" count="50"/>
-		<ingredient name="resourceSpring" count="40"/>
-	</recipe>
-
-	<recipe name="HD Vulcan 50Bmg Motor" craft_area="workbench" count="1" craft_time = "100" >
-		<ingredient name="resourceForgedIron" count="200"/>
-		<ingredient name="resourceMechanicalParts" count="200"/>
-		<ingredient name="resourceDuctTape" count="40"/>
-		<ingredient name="smallEngine" count="1"/>
-		<ingredient name="resourceSpring" count="40"/>
-	</recipe> -->
-
 	<!-- standard ammo -->
 	<recipe name="45 ACP Round" count="1" craft_time = "1" craft_area="workbench">
 		<ingredient name="resourceBulletTip" count="1"/>
@@ -649,101 +548,40 @@
 	</recipe>
 
 	<!-- helper recipes -->
-	<recipe name="HDGun Oil" count="1" craft_area="chemistryStation" craft_time = "2">
+	<recipe name="HDGun Oil" count="1" craft_time = "2" craft_area="chemistryStation">
 		<ingredient name="resourceDuctTape" count="1"/>
 		<ingredient name="resourceOil" count="1"/>
 	</recipe>
 
-	<recipe name="HD Electrolyte" count="1" craft_area="chemistryStation" craft_time = "2">
+	<recipe name="HD Electrolyte" count="1" craft_time = "2" craft_area="chemistryStation">
 		<ingredient name="drinkJarBoiledWater" count="1"/>
 		<ingredient name="resourcePotassiumNitratePowder" count="1"/>
 	</recipe>
 
-	<recipe name="HD Flame Fuel" count="100" craft_time = "10">
+	<recipe name="HD Flame Fuel" count="100" craft_time = "10" craft_area="workbench">
 		<ingredient name="ammoGasCan" count="200"/>
 		<ingredient name="resourceOilShale" count="10"/>
 	</recipe>
 	
-	<recipe name="RepairKitHandGuns" count="1" craft_time = "2">
+	<recipe name="RepairKitHandGuns" count="1" craft_time = "2" craft_area="workbench">
 		<ingredient name="resourceForgedIron" count="1"/>
 		<ingredient name="gunPistolParts" count="2"/>
 	</recipe>
 
-	<recipe name="RepairKitAutomaticRifles" count="1" craft_time = "2">
+	<recipe name="RepairKitAutomaticRifles" count="1" craft_time = "2" craft_area="workbench">
 		<ingredient name="resourceForgedIron" count="1"/>
 		<ingredient name="gunAk47Parts" count="2"/>
 	</recipe>
 
-	<recipe name="RepairKitShotGuns" count="1" craft_time = "2">
+	<recipe name="RepairKitShotGuns" count="1" craft_time = "2" craft_area="workbench">
 		<ingredient name="resourceForgedIron" count="1"/>
 		<ingredient name="gunDoubleBarrelShotgunParts" count="2"/>
 	</recipe>
 
-	<recipe name="RepairKitHuntingRifles" count="1" craft_time = "2">
+	<recipe name="RepairKitHuntingRifles" count="1" craft_time = "2" craft_area="workbench">
 		<ingredient name="resourceForgedIron" count="1"/>
 		<ingredient name="gunHuntingRifleParts" count="2"/>
 	</recipe>
-
-	<!-- unlock progression -->
-	<recipe name="HD Colt M1911 Schematic" count="1">
-		  <ingredient name="resourcePaper" count="10"/>
-	</recipe>
-
-	<recipe name="HD Desert Eagle Schematic" count="1">
-		  <ingredient name="resourcePaper" count="10"/>
-	</recipe>
-
-	<recipe name="HD Mac10 Auto Schematic" count="1">
-		  <ingredient name="resourcePaper" count="10"/>
-	</recipe>
-
-	<recipe name="HD M3 Auto Schematic" count="1">
-		  <ingredient name="resourcePaper" count="10"/>
-	</recipe>
-
-	<recipe name="HD CheyTac M300 Schematic" count="1">
-		  <ingredient name="resourcePaper" count="10"/>
-	</recipe>
-
-	<recipe name="HD AK Hybrid ACP Schematic" count="1">
-		  <ingredient name="resourcePaper" count="10"/>
-	</recipe>
-
-	<recipe name="HD HK33 Hybrid Schematic" count="1">
-		  <ingredient name="resourcePaper" count="10"/>
-	</recipe>
-
-	<recipe name="HD M4A1 Carbine Schematic" count="1">
-		  <ingredient name="resourcePaper" count="10"/>
-	</recipe>
-
-	<recipe name="HD Tactical AR Schematic" count="1">
-		  <ingredient name="resourcePaper" count="10"/>
-	</recipe>
-
-	<recipe name="HD Dragunov SVD Schematic" count="1">
-		  <ingredient name="resourcePaper" count="10"/>
-	</recipe>
-
-	<recipe name="HD Arctic Warfare Schematic" count="1">
-		  <ingredient name="resourcePaper" count="10"/>
-	</recipe>
-
-	<recipe name="HD Winchester 1866 Schematic" count="1">
-		  <ingredient name="resourcePaper" count="10"/>
-	</recipe>
-
-	<recipe name="HD Spas 12 Schematic" count="1">
-		  <ingredient name="resourcePaper" count="10"/>
-	</recipe>
-
-	<recipe name="HD Mossberg 500 Schematic" count="1">
-		  <ingredient name="resourcePaper" count="10"/>
-	</recipe>
-
-	<recipe name="HD Double Barrel Schematic" count="1">
-		  <ingredient name="resourcePaper" count="10"/>
-	</recipe>	
 	
 </append>
 </configs>

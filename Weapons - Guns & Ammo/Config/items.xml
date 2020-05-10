@@ -2770,6 +2770,7 @@
 		<property name="Unlocks" value="HD Colt M1911"/>
 		<effect_group tiered="false">
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Colt M1911" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 		</effect_group>
 	</item>
 
@@ -2780,6 +2781,7 @@
 		<property name="Unlocks" value="HD Mossberg 500"/>
 		<effect_group tiered="false">
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Mossberg 500" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 		</effect_group>
 	</item>
 
@@ -2790,7 +2792,7 @@
 		<property name="Unlocks" value="HD Desert Eagle"/>
 		<effect_group tiered="false">
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Desert Eagle" operation="set" value="1"/>
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Desert Eagle Punisher" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 		</effect_group>
 	</item>
 
@@ -2801,6 +2803,7 @@
 		<property name="Unlocks" value="HD M4A1 Carbine"/>
 		<effect_group tiered="false">
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD M4A1 Carbine" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 		</effect_group>
 	</item>
 
@@ -2811,99 +2814,10 @@
 		<property name="Unlocks" value="HD Tactical AR"/>
 		<effect_group tiered="false">
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Tactical AR" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 		</effect_group>
 	</item>
-
-	<item name="HD Vulcan 9mm Barrel Schematic">
-		<property name="Extends" value="schematicMaster"/>
-		<property name="CreativeMode" value="Player"/>
-		<property name="CustomIcon" value="HD Vulcan 9mm Barrel Schematic"/>
-		<property name="Unlocks" value="HD Vulcan 9mm Barrel"/>
-		<effect_group tiered="false">
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Vulcan 9mm Barrel" operation="set" value="1"/>
-		</effect_group>
-	</item>
-
-	<item name="HD Vulcan 9mm Parts Schematic">
-		<property name="Extends" value="schematicMaster"/>
-		<property name="CreativeMode" value="Player"/>
-		<property name="CustomIcon" value="HD Vulcan 9mm Parts Schematic"/>
-		<property name="Unlocks" value="HD Vulcan 9mm Parts"/>
-		<effect_group tiered="false">
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Vulcan 9mm Parts" operation="set" value="1"/>
-		</effect_group>
-	</item>
-
-	<item name="HD Vulcan 9mm Motor Schematic">
-		<property name="Extends" value="schematicMaster"/>
-		<property name="CreativeMode" value="Player"/>
-		<property name="CustomIcon" value="HD Vulcan 9mm Motor Schematic"/>
-		<property name="Unlocks" value="HD Vulcan 9mm Motor"/>
-		<effect_group tiered="false">
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Vulcan 9mm Motor" operation="set" value="1"/>
-		</effect_group>
-	</item>
-
-	<item name="HD Vulcan 7.62mm Barrel Schematic">
-		<property name="Extends" value="schematicMaster"/>
-		<property name="CreativeMode" value="Player"/>
-		<property name="CustomIcon" value="HD Vulcan 7.62mm Barrel Schematic"/>
-		<property name="Unlocks" value="HD Vulcan 7.62mm Barrel"/>
-		<effect_group tiered="false">
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Vulcan 7.62mm Barrel" operation="set" value="1"/>
-		</effect_group>
-	</item>
-
-	<item name="HD Vulcan 7.62mm Parts Schematic">
-		<property name="Extends" value="schematicMaster"/>
-		<property name="CreativeMode" value="Player"/>
-		<property name="CustomIcon" value="HD Vulcan 7.62mm Parts Schematic"/>
-		<property name="Unlocks" value="HD Vulcan 7.62mm Parts"/>
-		<effect_group tiered="false">
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Vulcan 7.62mm Parts" operation="set" value="1"/>
-		</effect_group>
-	</item>
-
-	<item name="HD Vulcan 7.62mm Motor Schematic">
-		<property name="Extends" value="schematicMaster"/>
-		<property name="CreativeMode" value="Player"/>
-		<property name="CustomIcon" value="HD Vulcan 7.62mm Motor Schematic"/>
-		<property name="Unlocks" value="HD Vulcan 7.62mm Motor"/>
-		<effect_group tiered="false">
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Vulcan 7.62mm Motor" operation="set" value="1"/>
-		</effect_group>
-	</item>
-
-	<item name="HD Vulcan 50Bmg Barrel Schematic">
-		<property name="Extends" value="schematicMaster"/>
-		<property name="CreativeMode" value="Player"/>
-		<property name="CustomIcon" value="HD Vulcan 50Bmg Barrel Schematic"/>
-		<property name="Unlocks" value="HD Vulcan 50Bmg Barrel"/>
-		<effect_group tiered="false">
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Vulcan 50Bmg Barrel" operation="set" value="1"/>
-		</effect_group>
-	</item>
-
-	<item name="HD Vulcan 50Bmg Parts Schematic">
-		<property name="Extends" value="schematicMaster"/>
-		<property name="CreativeMode" value="Player"/>
-		<property name="CustomIcon" value="HD Vulcan 50Bmg Parts Schematic"/>
-		<property name="Unlocks" value="HD Vulcan 50Bmg Parts"/>
-		<effect_group tiered="false">
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Vulcan 50Bmg Parts" operation="set" value="1"/>
-		</effect_group>
-	</item>
-
-	<item name="HD Vulcan 50Bmg Motor Schematic">
-		<property name="Extends" value="schematicMaster"/>
-		<property name="CreativeMode" value="Player"/>
-		<property name="CustomIcon" value="HD Vulcan 50Bmg Motor Schematic"/>
-		<property name="Unlocks" value="HD Vulcan 50Bmg Motor"/>
-		<effect_group tiered="false">
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Vulcan 50Bmg Motor" operation="set" value="1"/>
-		</effect_group>
-	</item>
-
+	
 	<item name="HD Spas 12 Schematic">
 		<property name="Extends" value="schematicMaster"/>
 		<property name="CreativeMode" value="Player"/>
@@ -2911,10 +2825,7 @@
 		<property name="Unlocks" value="HD Spas 12"/>
 		<effect_group tiered="false">
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Spas 12" operation="set" value="1"/>
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Spas 12 Street" operation="set" value="1"/>
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Spas 12 USA" operation="set" value="1"/>
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Spas 12 Alien" operation="set" value="1"/>
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Spas 12 Irish" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 		</effect_group>
 	</item>
 
@@ -2925,6 +2836,7 @@
 		<property name="Unlocks" value="HD AK Hybrid ACP"/>
 		<effect_group tiered="false">
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD AK Hybrid ACP" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 		</effect_group>
 	</item>
 
@@ -2935,6 +2847,7 @@
 		<property name="Unlocks" value="HD HK33 Hybrid"/>
 		<effect_group tiered="false">
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD HK33 Hybrid" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 		</effect_group>
 	</item>
 
@@ -2945,6 +2858,7 @@
 		<property name="Unlocks" value="HD Mac10 Auto"/>
 		<effect_group tiered="false">
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Mac10 Auto" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 		</effect_group>
 	</item>
 
@@ -2955,6 +2869,7 @@
 		<property name="Unlocks" value="HD Arctic Warfare"/>
 		<effect_group tiered="false">
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Arctic Warfare" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 		</effect_group>
 	</item>
 
@@ -2982,6 +2897,7 @@
 		<property name="Unlocks" value="HD CheyTac M300"/>
 		<effect_group tiered="false">
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD CheyTac M300" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 		</effect_group>
 	</item>
 
@@ -2992,6 +2908,7 @@
 		<property name="Unlocks" value="HD M3 Auto"/>
 		<effect_group tiered="false">
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD M3 Auto" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 		</effect_group>
 	</item>
 
@@ -3002,26 +2919,7 @@
 		<property name="Unlocks" value="HD Double Barrel"/>
 		<effect_group tiered="false">
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Double Barrel" operation="set" value="1"/>
-		</effect_group>
-	</item>
-
-	<item name="HD GunBench Schematic">
-		<property name="Extends" value="schematicMaster"/>
-		<property name="CreativeMode" value="Player"/>
-		<property name="CustomIcon" value="HD GunBench Schematic"/>
-		<property name="Unlocks" value="HD GunBench"/>
-		<effect_group tiered="false">
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD GunBench" operation="set" value="1"/>
-		</effect_group>
-	</item>
-
-	<item name="HD AmmoBench Schematic">
-		<property name="Extends" value="schematicMaster"/>
-		<property name="CreativeMode" value="Player"/>
-		<property name="CustomIcon" value="HD AmmoBench Schematic"/>
-		<property name="Unlocks" value="HD AmmoBench"/>
-		<effect_group tiered="false">
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD AmmoBench" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 		</effect_group>
 	</item>
 
@@ -3032,6 +2930,7 @@
 		<property name="Unlocks" value="HD Winchester 1866"/>
 		<effect_group tiered="false">
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Winchester 1866" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 		</effect_group>
 	</item>
 
@@ -3042,16 +2941,7 @@
 		<property name="Unlocks" value="HD Dragunov SVD"/>
 		<effect_group tiered="false">
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Dragunov SVD" operation="set" value="1"/>
-		</effect_group>
-	</item>
-
-	<item name="HD Flame Thrower Schematic">
-		<property name="Extends" value="schematicMaster"/>
-		<property name="CreativeMode" value="Player"/>
-		<property name="CustomIcon" value="HD Flame Thrower Schematic"/>
-		<property name="Unlocks" value="HD Flame Thrower"/>
-		<effect_group tiered="false">
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Flame Thrower" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 		</effect_group>
 	</item>
 		

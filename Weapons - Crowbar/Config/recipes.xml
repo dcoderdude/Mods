@@ -1,8 +1,5 @@
 <configs>
 	<append xpath="/recipes">
-		<recipe name="meleeToolCrowbarSchematic" count="1">
-			<ingredient name="resourcePaper" count="10"/>
-		</recipe>
 		<recipe name="meleeToolCrowbar" count="1" tags="learnable,perkMiner69r">
 			<ingredient name="resourceScrapIron" count="10"/>
 			<effect_group>
