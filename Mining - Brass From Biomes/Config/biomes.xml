@@ -1,0 +1,11 @@
+<configs>
+
+	<!-- Adds brass ore underground to the wasteland biome only -->
+	<append xpath="//biome[@name='wasteland']//layer[@blockname='terrStone']">
+		<resource blockname="terrOreBrass" prob="0.3600" rwgGenerationType="all"/>
+	</append>
+	
+	<!-- Reduce gravel prob so brass will actually show up more. -->
+	<setattribute xpath="//biome[@name='wasteland']//resource[@blockname='terrGravel']" name="prob">0.300</setattribute>
+	
+</configs>
