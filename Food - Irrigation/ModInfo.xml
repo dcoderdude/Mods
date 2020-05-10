@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Irigation" />
+		<Description value="Contains a watering-mechanic for all vanilla plants." />
+		<Author value="Eihwaz" />
+		<Version value="1.0" compat="A18"/>
+		<Website value="www.eihwaz.de" />
+	</ModInfo>
+</xml>

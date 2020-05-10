@@ -1,0 +1,35 @@
+<!-- - - - - - - - 
+####################
+### 7 Days to Die ##
+#### Irrigation ####
+####################
+###### Eihwaz ######
+#### CC BY-NC-SA ###
+####################
+- - - - - - - - -->
+<configs>
+<remove xpath="/lootcontainers/lootgroup[@name='seeds']/item[@name='plantedPotato1']" />
+<remove xpath="/lootcontainers/lootgroup[@name='seeds']/item[@name='plantedCoffee1']" />
+<remove xpath="/lootcontainers/lootgroup[@name='seeds']/item[@name='plantedCorn1']" />
+<remove xpath="/lootcontainers/lootgroup[@name='seeds']/item[@name='plantedBlueberry1']" />
+<remove xpath="/lootcontainers/lootgroup[@name='seeds']/item[@name='plantedCotton1']" />
+<remove xpath="/lootcontainers/lootgroup[@name='seeds']/item[@name='plantedGoldenrod1']" />
+<remove xpath="/lootcontainers/lootgroup[@name='seeds']/item[@name='plantedAloe1']" />
+<remove xpath="/lootcontainers/lootgroup[@name='seeds']/item[@name='plantedMushroom1']" />
+<remove xpath="/lootcontainers/lootgroup[@name='seeds']/item[@name='plantedYucca1']" />
+<remove xpath="/lootcontainers/lootgroup[@name='seeds']/item[@name='plantedChrysanthemum1']" />
+<remove xpath="/lootcontainers/lootgroup[@name='seeds']/item[@name='plantedPumpkin1']" />
+<append xpath="lootcontainers/lootgroup[@name='seeds']">
+	<item name="irigateCorn1" prob="0.75"/>
+	<item name="irigateBlueberry1" prob="0.5"/>
+	<item name="irigateChrysanthemum1" prob="0.75"/>
+	<item name="irigateGoldenrod1" prob="0.5"/>
+	<item name="irigatePotato1" prob="0.25"/>
+	<item name="irigateCotton1" prob="0.5"/>
+	<item name="irigateMushroom" prob="0.5"/>
+	<item name="irigateAloe1" prob="0.10"/>
+	<item name="irigateYucca1" prob="0.25"/>
+	<item name="irigateCoffee1" prob="0.10"/>
+	<item name="irigatePumpkin1" prob="0.5"/>
+</append>
+</configs>

@@ -1,0 +1,427 @@
+<!-- - - - - - - - 
+####################
+### 7 Days to Die ##
+#### Irrigation ####
+####################
+###### Eihwaz ######
+#### CC BY-NC-SA ###
+####################
+- - - - - - - - -->
+<configs>
+<set xpath="/blocks/block[@name='plantedYucca1']/property[@name='CreativeMode']/@value">None</set>
+<set xpath="/blocks/block[@name='plantedYucca1']/property[@name='PlantGrowing.Next']/@value">irigateYucca2</set>
+<set xpath="/blocks/block[@name='plantedYucca1']/drop[@event='Destroy']/@name">irigateYucca1</set>
+<set xpath="/blocks/block[@name='plantedYucca2']/drop[@event='Destroy']/@name">irigateYucca1</set>
+<set xpath="/blocks/block[@name='plantedYucca3HarvestPlayer']/property[@name='DowngradeBlock']/@value">irigateYucca1</set>
+
+<set xpath="/blocks/block[@name='plantedMushroom1']/property[@name='CreativeMode']/@value">None</set>
+<set xpath="/blocks/block[@name='plantedMushroom1']/drop[@event='Destroy']/@name">irigateMushroom</set>
+<set xpath="/blocks/block[@name='plantedMushroom3HarvestPlayer']/property[@name='DowngradeBlock']/@value">irigateMushroom</set>
+
+<set xpath="/blocks/block[@name='plantedAloe1']/property[@name='CreativeMode']/@value">None</set>
+<set xpath="/blocks/block[@name='plantedAloe1']/property[@name='PlantGrowing.Next']/@value">irigateAloe2</set>
+<set xpath="/blocks/block[@name='plantedAloe1']/drop[@event='Destroy']/@name">irigateAloe1</set>
+<set xpath="/blocks/block[@name='plantedAloe2']/drop[@event='Destroy']/@name">irigateAloe1</set>
+<set xpath="/blocks/block[@name='plantedAloe3HarvestPlayer']/property[@name='DowngradeBlock']/@value">irigateAloe1</set>
+
+<set xpath="/blocks/block[@name='plantedCotton1']/property[@name='CreativeMode']/@value">None</set>
+<set xpath="/blocks/block[@name='plantedCotton1']/property[@name='PlantGrowing.Next']/@value">irigateCotton2</set>
+<set xpath="/blocks/block[@name='plantedCotton1']/drop[@event='Destroy']/@name">irigateCotton1</set>
+<set xpath="/blocks/block[@name='plantedCotton2']/drop[@event='Destroy']/@name">irigateCotton1</set>
+<set xpath="/blocks/block[@name='plantedCotton3HarvestPlayer']/property[@name='DowngradeBlock']/@value">irigateCotton1</set>
+
+<set xpath="/blocks/block[@name='plantedCoffee1']/property[@name='CreativeMode']/@value">None</set>
+<set xpath="/blocks/block[@name='plantedCoffee1']/property[@name='PlantGrowing.Next']/@value">irigateCoffee2</set>
+<set xpath="/blocks/block[@name='plantedCoffee1']/drop[@event='Destroy']/@name">irigateCoffee1</set>
+<set xpath="/blocks/block[@name='plantedCoffee2']/drop[@event='Destroy']/@name">irigateCoffee1</set>
+<set xpath="/blocks/block[@name='plantedCoffee3HarvestPlayer']/property[@name='DowngradeBlock']/@value">irigateCoffee1</set>
+
+<set xpath="/blocks/block[@name='plantedGoldenrod1']/property[@name='CreativeMode']/@value">None</set>
+<set xpath="/blocks/block[@name='plantedGoldenrod1']/property[@name='PlantGrowing.Next']/@value">irigateGoldenrod2</set>
+<set xpath="/blocks/block[@name='plantedGoldenrod1']/drop[@event='Destroy']/@name">irigateGoldenrod1</set>
+<set xpath="/blocks/block[@name='plantedGoldenrod2']/drop[@event='Destroy']/@name">irigateGoldenrod1</set>
+<set xpath="/blocks/block[@name='plantedGoldenrod3HarvestPlayer']/property[@name='DowngradeBlock']/@value">irigateGoldenrod1</set>
+
+<set xpath="/blocks/block[@name='plantedBlueberry1']/property[@name='CreativeMode']/@value">None</set>
+<set xpath="/blocks/block[@name='plantedBlueberry1']/property[@name='PlantGrowing.Next']/@value">irigateBlueberry2</set>
+<set xpath="/blocks/block[@name='plantedBlueberry1']/drop[@event='Destroy']/@name">irigateBlueberry1</set>
+<set xpath="/blocks/block[@name='plantedBlueberry2']/drop[@event='Destroy']/@name">irigateBlueberry1</set>
+<set xpath="/blocks/block[@name='plantedBlueberry3HarvestPlayer']/property[@name='DowngradeBlock']/@value">irigateBlueberry1</set>
+
+<set xpath="/blocks/block[@name='plantedPotato1']/property[@name='CreativeMode']/@value">None</set>
+<set xpath="/blocks/block[@name='plantedPotato1']/property[@name='PlantGrowing.Next']/@value">irigatePotato2</set>
+<set xpath="/blocks/block[@name='plantedPotato1']/drop[@event='Destroy']/@name">irigatePotato1</set>
+<set xpath="/blocks/block[@name='plantedPotato2']/drop[@event='Destroy']/@name">irigatePotato1</set>
+<set xpath="/blocks/block[@name='plantedPotato3HarvestPlayer']/property[@name='DowngradeBlock']/@value">irigatePotato1</set>
+
+<set xpath="/blocks/block[@name='plantedChrysanthemum1']/property[@name='CreativeMode']/@value">None</set>
+<set xpath="/blocks/block[@name='plantedChrysanthemum1']/property[@name='PlantGrowing.Next']/@value">irigateChrysanthemum2</set>
+<set xpath="/blocks/block[@name='plantedChrysanthemum1']/drop[@event='Destroy']/@name">irigateChrysanthemum1</set>
+<set xpath="/blocks/block[@name='plantedChrysanthemum2']/drop[@event='Destroy']/@name">irigateChrysanthemum1</set>
+<set xpath="/blocks/block[@name='plantedChrysanthemum3HarvestPlayer']/property[@name='DowngradeBlock']/@value">irigateChrysanthemum1</set>
+
+<set xpath="/blocks/block[@name='plantedCorn1']/property[@name='CreativeMode']/@value">None</set>
+<set xpath="/blocks/block[@name='plantedCorn1']/property[@name='PlantGrowing.Next']/@value">irigateCorn2</set>
+<set xpath="/blocks/block[@name='plantedCorn1']/drop[@event='Destroy']/@name">irigateCorn1</set>
+<set xpath="/blocks/block[@name='plantedCorn2']/drop[@event='Destroy']/@name">irigateCorn1</set>
+<set xpath="/blocks/block[@name='plantedCorn3HarvestPlayer']/property[@name='DowngradeBlock']/@value">irigateCorn1</set>
+
+<set xpath="/blocks/block[@name='plantedHop1']/property[@name='CreativeMode']/@value">None</set>
+<set xpath="/blocks/block[@name='plantedHop1']/property[@name='PlantGrowing.Next']/@value">irigateHop2</set>
+<set xpath="/blocks/block[@name='plantedHop1']/drop[@event='Destroy']/@name">irigateHop1</set>
+<set xpath="/blocks/block[@name='plantedHop2']/drop[@event='Destroy']/@name">irigateHop1</set>
+<set xpath="/blocks/block[@name='plantedHop3HarvestPlayer']/property[@name='DowngradeBlock']/@value">irigateHop1</set>
+
+<set xpath="/blocks/block[@name='plantedGraceCorn1']/property[@name='CreativeMode']/@value">None</set>
+<set xpath="/blocks/block[@name='plantedGraceCorn1']/property[@name='PlantGrowing.Next']/@value">irigateGraceCorn2</set>
+<set xpath="/blocks/block[@name='plantedGraceCorn1']/drop[@event='Destroy']/@name">irigateGraceCorn1</set>
+<set xpath="/blocks/block[@name='plantedGraceCorn2']/drop[@event='Destroy']/@name">irigateGraceCorn1</set>
+<set xpath="/blocks/block[@name='plantedGraceCorn3HarvestPlayer']/property[@name='DowngradeBlock']/@value">irigateGraceCorn1</set>
+
+<set xpath="/blocks/block[@name='plantedPumpkin1']/property[@name='CreativeMode']/@value">None</set>
+<set xpath="/blocks/block[@name='plantedPumpkin1']/property[@name='PlantGrowing.Next']/@value">irigatePumpkin2</set>
+<set xpath="/blocks/block[@name='plantedPumpkin1']/drop[@event='Destroy']/@name">irigatePumpkin1</set>
+<set xpath="/blocks/block[@name='plantedPumpkin2']/drop[@event='Destroy']/@name">irigatePumpkin1</set>
+<set xpath="/blocks/block[@name='plantedPumpkin3HarvestPlayer']/property[@name='DowngradeBlock']/@value">irigatePumpkin1</set>
+
+<append xpath="/blocks" >
+<block name="irigateMaster">
+	<property name="CreativeMode" value="None"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="DisplayType" value="blockMulti" />
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="Material" value="Mplants"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Shape" value="BillboardPlant"/>
+	<property name="Mesh" value="grass"/>
+	<property name="Texture" value="378"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="melee"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="CanDecorateOnSlopes" value="true"/>
+	<property name="OnlySimpleRotations" value="true"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<drop event="Destroy" count="0"/>
+	<property name="Group" value="Food/Cooking"/>
+	<property name="DescriptionKey" value="plantsBlockGroupDesc"/>
+	<property name="EconomicValue" value="12"/>
+	<property name="EconomicBundleSize" value="5"/>
+	<property name="PickupJournalEntry" value="farmingTip"/>
+	<property name="FilterTags" value="foutdoor,fcrops"/>
+	<property name="SortOrder1" value="a090"/>
+	<property name="SortOrder2" value="0002"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="treeTallGrassDiagonal"/>
+		<property name="Item" value="bucketWatering"/>
+		<property name="ItemCount" value="0"/>
+		<property name="UpgradeHitCount" value="1"/>
+	</property>
+</block>		
+		
+<block name="irigateYucca1">
+	<property name="Extends" value="irigateMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand,plantedYucca1Schematic"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="irigateYucca1" count="1"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="plantedYucca1"/>
+	</property>
+</block>
+<block name="irigateYucca2">
+	<property name="Extends" value="irigateYucca1"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_growthPrefab"/>
+	<property class="UpgradeBlock">
+				<property name="ToBlock" value="plantedYucca2"/>
+	</property>
+</block>
+		
+<block name="irigateMushroom">
+	<property name="Extends" value="irigateMaster" param1="MultiBlockDim,OnlySimpleRotations"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedMushroom1"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand,plantedMushroom1Schematic"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="Material" value="Mmushrooms"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Shape" value="Ext3dModel"/> <property name="Texture" value="293"/>
+	<property name="Mesh" value="models"/>
+	<property name="Model" value="OutdoorDecor/mushroom_sprout" param1="main_mesh"/>
+	<property name="Collide" value="melee"/>
+	<property name="HandleFace" value="Bottom"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<drop event="Destroy" name="irigateMushroom" count="1"/>
+	<property name="EconomicValue" value="12"/>
+	<property name="EconomicBundleSize" value="5"/>
+	<property name="Group" value="Food/Cooking"/>
+	<property name="PickupJournalEntry" value="farmingTip"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="plantedMushroom1"/>
+	</property>
+</block>
+
+<block name="irigateAloe1">
+	<property name="Extends" value="irigateMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand,plantedAloe1Schematic"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Plants/plant_aloe1_Prefab"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="irigateAloe1" count="1"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="plantedAloe1"/>
+	</property>
+</block>
+<block name="irigateAloe2">
+	<property name="Extends" value="irigateAloe1"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Model" value="Entities/Plants/plant_aloe2_Prefab"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="plantedAloe2"/>
+	</property>
+</block>
+
+<block name="irigateCotton1">
+	<property name="Extends" value="irigateMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedCotton1"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand,plantedCotton1Schematic"/>
+	<property name="Texture" value="392"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="irigateCotton1" count="1"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="plantedCotton1"/>
+	</property>
+</block>
+<block name="irigateCotton2">
+	<property name="Extends" value="irigateMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Texture" value="20"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="plantedCotton2"/>
+	</property>
+</block>
+
+<block name="irigateCoffee1">
+	<property name="Extends" value="irigateMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedCoffee1"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand,plantedCoffee1Schematic"/>
+	<property name="Texture" value="393"/>
+	<property name="CraftingIngredientTime" value="5"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="irigateCoffee1" count="1"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="plantedCoffee1"/>
+	</property>
+</block>
+<block name="irigateCoffee2">
+	<property name="Extends" value="irigateMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Texture" value="394"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="plantedCoffee2"/>
+	</property>
+</block>
+
+<block name="irigateGoldenrod1">
+	<property name="Extends" value="irigateMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedGoldenrod1"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand,plantedGoldenrod1Schematic"/>
+	<property name="Texture" value="401"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="irigateGoldenrod1" count="1"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="plantedGoldenrod1"/>
+	</property>
+</block>
+<block name="irigateGoldenrod2">
+	<property name="Extends" value="irigateMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Texture" value="402"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="plantedGoldenrod2"/>
+	</property>
+</block>
+
+<block name="irigateBlueberry1">
+	<property name="Extends" value="irigateMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand,plantedBlueberry1Schematic"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="irigateBlueberry1" count="1"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="plantedBlueberry1"/>
+	</property>
+</block>
+<block name="irigateBlueberry2">
+	<property name="Extends" value="irigateMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_growthPrefab"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="plantedBlueberry2"/>
+	</property>
+</block>
+
+<block name="irigatePotato1">
+	<property name="Extends" value="irigateMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand,plantedPotato1Schematic"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="irigatePotato1" count="1"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="plantedPotato1"/>
+	</property>
+</block>
+<block name="irigatePotato2">
+	<property name="Extends" value="irigateMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Model" value="Entities/Plants/potato_plant_growthPrefab"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="plantedPotato2"/>
+	</property>
+</block>
+
+<block name="irigateChrysanthemum1">
+	<property name="Extends" value="irigateMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedChrysanthemum1"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand,plantedChrysanthemum1Schematic"/>
+	<property name="Texture" value="550"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="irigateChrysanthemum1" count="1"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="plantedChrysanthemum1"/>
+	</property>
+</block>
+<block name="irigateChrysanthemum2">
+	<property name="Extends" value="irigateMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Texture" value="551"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="plantedChrysanthemum2"/>
+	</property>
+</block>
+
+<block name="irigateCorn1">
+	<property name="Extends" value="irigateMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand,plantedCorn1Schematic"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_sprout_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="Place" value="Door"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="irigateCorn1" count="1"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="plantedCorn1"/>
+	</property>
+</block>
+<block name="irigateCorn2">
+	<property name="Extends" value="irigateCorn1"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Model" value="corn_growth_shape"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="plantedCorn2"/>
+	</property>
+</block>
+
+<block name="irigateHop1">
+	<property name="Extends" value="irigateMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand,plantedHop1Schematic"/>
+	<property name="Texture" value="447"/>
+	<property name="EconomicValue" value="250"/>
+	<property name="EconomicBundleSize" value="1"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="irigateHop1" count="1"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="plantedHop1"/>
+	</property>
+</block>
+<block name="irigateHop2">
+	<property name="Extends" value="irigateMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Texture" value="448"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="plantedHop2"/>
+	</property>
+</block>
+
+<block name="irigateGraceCorn1">
+	<property name="Extends" value="irigateMaster"/>
+	<property name="CustomIcon" value="plantedCorn1"/> <property name="CustomIconTint" value="ff9f9f"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand,plantedGraceCorn1Schematic"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corn_sprout_shape"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<property name="Texture" value="529"/>
+	<property name="Place" value="Door"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="irigateGraceCorn1" count="1"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="plantedGraceCorn1"/>
+	</property>
+</block>
+<block name="irigateGraceCorn2">
+	<property name="Extends" value="irigateGraceCorn1"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Model" value="corn_growth_shape"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="plantedGraceCorn2"/>
+	</property>
+</block>
+<block name="irigatePumpkin1">
+	<property name="Extends" value="irigateMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="plantedPumpkin1"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand,plantedPumpkin1Schematic"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Plants/pumpkinSproutPrefab"/>
+	<property name="Group" value="Food/Cooking"/>
+	<drop event="Destroy" name="irigatePumpkin1" count="1"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="plantedPumpkin1"/>
+	</property>
+</block>
+<block name="irigatePumpkin2">
+	<property name="Extends" value="irigatePumpkin1"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Model" value="Entities/Plants/pumpkinGrowthPrefab"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="plantedPumpkin2"/>
+	</property>
+</block>
+</append>
+
+<!-- turbo growth to test
+<set xpath="/blocks/block[@name='cropsGrowingMaster']/property[@name='PlantGrowing.GrowthRate']/@value">2</set>
+-->
+
+</configs>

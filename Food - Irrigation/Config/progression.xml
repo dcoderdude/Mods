@@ -1,0 +1,14 @@
+<!-- - - - - - - - 
+####################
+### 7 Days to Die ##
+#### Irrigation ####
+####################
+###### Eihwaz ######
+#### CC BY-NC-SA ###
+####################
+- - - - - - - - -->
+<configs>
+	<set xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/effect_group/passive_effect[@name='RecipeTagUnlocked'][@level='2,5']/@tags">irigateChrysanthemum1,irigateGoldenrod1,irigateAloe1,irigateYucca1</set>
+	<set xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/effect_group/passive_effect[@name='RecipeTagUnlocked'][@level='3,5']/@tags">irigateBlueberry1,irigateCoffee1,irigateCorn1,irigateCotton1,irigateMushroom,irigatePotato1,irigateHop1,irigatePumpkin1</set>
+	<set xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/effect_group/passive_effect[@name='RecipeTagUnlocked'][@level='5']/@tags">irigateGraceCorn1</set>
+</configs>
