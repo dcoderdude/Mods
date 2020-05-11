@@ -1,5 +1,4 @@
 <configs>
-
 	<append xpath="/items">
 		<item name="meleeToolCrowbar">
 			<property name="Tags" value="melee,light,tool,attStrength,perkMiner69r,perkMotherLode,canHaveCosmetic"/>
@@ -76,18 +75,5 @@
 			<property name="PickupJournalEntry" value="miningTip"/>
 			<property name="RepairExpMultiplier" value="5.5"/>
 		</item>
-		
-		<item name="meleeToolCrowbarSchematic">
-			<property name="Extends" value="schematicMaster"/>
-			<property name="EconomicValue" value="1250"/>
-			<property name="CreativeMode" value="Player"/>
-			<property name="CustomIcon" value="meleeToolCrowbar Schematic"/>
-			<property name="Unlocks" value="meleeToolCrowbar"/>
-			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolCrowbar" operation="set" value="1"/>
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
-			</effect_group>
-		</item>
 	</append>
-
 </configs>

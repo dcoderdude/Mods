@@ -22,9 +22,5 @@
 			 <ingredient name="resourceElectricParts" count="10"/>
 			 <ingredient name="resourceMechanicalParts" count="10"/>
 		</recipe>
-		<!-- unlock progression -->
-		<recipe name="solarCell Schematic" count="1">
-			<ingredient name="resourcePaper" count="10"/>
-		</recipe>
 	</append>
 </configs>

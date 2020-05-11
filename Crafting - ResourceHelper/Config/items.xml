@@ -5,7 +5,7 @@
 		<property name="Tags" value="junk"/>
 		<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-		<property name="Material" value="MresourceOil"/>
+		<property name="Material" value="MfoodRawMeat"/>
 		<property name="Stacknumber" value="25000"/>
 		<property name="EconomicValue" value="75"/>
 		<property name="Group" value="Resources,Chemicals,CFChemicals"/>
@@ -15,7 +15,7 @@
 		<property name="Tags" value="junk"/>
 		<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-		<property name="Material" value="MresourceOil"/>
+		<property name="Material" value="Morganic"/>
 		<property name="Stacknumber" value="25000"/>
 		<property name="EconomicValue" value="75"/>
 		<property name="Group" value="Resources,Chemicals,CFChemicals"/>
