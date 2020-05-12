@@ -56,170 +56,172 @@
 		<ingredient name="gunAk47Parts" count="3"/>
 	</recipe>
 
-	<!-- Gunslinger firearms -->
+	<!-- Handgun firearms -->
 	<recipe name="HD Colt M1911" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
-		<ingredient name="gunPistolParts" count="2"/>
+		<ingredient name="gunPistolParts" count="4"/>
+		<ingredient name="resourceForgedIron" count="10"/>
 		<ingredient name="resourceDuctTape" count="2"/>
-		<ingredient name="resourceScrapPolymers" count="10"/>
+		<ingredient name="resourceScrapPolymers" count="5"/>
 		<ingredient name="resourceSpring" count="2"/>
-		<ingredient name="HDGun Oil" count="3"/>
 		<effect_group>
-			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunPistolParts,HDGun Oil"/>
+			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunPistolParts"/>
 		</effect_group>
 	</recipe>
 
 	<recipe name="HD Desert Eagle" craft_area="workbench" count="1"  craft_time = "60" tags="learnable,perkGunslinger">
-		<ingredient name="gunPistolParts" count="10"/>
+		<ingredient name="gunPistolParts" count="4"/>
+		<ingredient name="resourceForgedIron" count="10"/>
 		<ingredient name="resourceDuctTape" count="2"/>
-		<ingredient name="resourceScrapPolymers" count="10"/>
+		<ingredient name="resourceScrapPolymers" count="5"/>
 		<ingredient name="resourceSpring" count="2"/>
-		<ingredient name="HDGun Oil" count="5"/>
 		<effect_group>
-			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunPistolParts,HDGun Oil"/>
+			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunPistolParts"/>
 		</effect_group>
 	</recipe>
 
 	<recipe name="HD M3 Auto" craft_area="workbench" count="1" craft_time = "100" tags="learnable,perkGunslinger">
-		<ingredient name="gunPistolParts" count="2"/>
+		<ingredient name="gunPistolParts" count="4"/>
+		<ingredient name="resourceForgedIron" count="10"/>
 		<ingredient name="resourceDuctTape" count="2"/>
-		<ingredient name="resourceScrapPolymers" count="10"/>
+		<ingredient name="resourceScrapPolymers" count="5"/>
 		<ingredient name="resourceSpring" count="2"/>
-		<ingredient name="HDGun Oil" count="3"/>
 		<effect_group>
-			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunPistolParts,HDGun Oil"/>
+			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunPistolParts"/>
 		</effect_group>
 	</recipe>
 
 	<recipe name="HD Mac10 Auto" craft_area="workbench" count="1" craft_time = "60" tags="learnable,perkGunslinger">
-		<ingredient name="gunPistolParts" count="13"/>
+		<ingredient name="gunPistolParts" count="4"/>
+		<ingredient name="resourceForgedIron" count="10"/>
 		<ingredient name="resourceDuctTape" count="2"/>
-		<ingredient name="resourceScrapPolymers" count="10"/>
+		<ingredient name="resourceScrapPolymers" count="5"/>
 		<ingredient name="resourceSpring" count="2"/>
-		<ingredient name="HDGun Oil" count="5"/>
 		<effect_group>
-			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunPistolParts,HDGun Oil"/>
+			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunPistolParts"/>
 		</effect_group>
 	</recipe>
 
-	<!-- MachineGunner firearms -->
+	<!-- Assault Rifles -->
 	<recipe name="HD AK Hybrid ACP" craft_area="workbench" count="1"  craft_time = "100" tags="learnable,perkMachineGunner">
-		<ingredient name="gunAk47Parts" count="20"/>
+		<ingredient name="gunAk47Parts" count="4"/>
+		<ingredient name="resourceForgedIron" count="10"/>
 		<ingredient name="resourceDuctTape" count="2"/>
 		<ingredient name="resourceScrapPolymers" count="10"/>
 		<ingredient name="resourceSpring" count="2"/>
-		<ingredient name="HDGun Oil" count="5"/>
 		<effect_group>
-			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunAk47Parts,HDGun Oil"/>
+			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunAk47Parts"/>
 		</effect_group>
 	</recipe>
 
 	<recipe name="HD HK33 Hybrid" craft_area="workbench" count="1" craft_time = "150" tags="learnable,perkMachineGunner">
-		<ingredient name="gunAk47Parts" count="15"/>
+		<ingredient name="gunAk47Parts" count="4"/>
+		<ingredient name="resourceForgedIron" count="10"/>
 		<ingredient name="resourceDuctTape" count="2"/>
 		<ingredient name="resourceScrapPolymers" count="10"/>
 		<ingredient name="resourceSpring" count="2"/>
-		<ingredient name="HDGun Oil" count="5"/>
 		<effect_group>
-			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunAk47Parts,HDGun Oil"/>
+			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunAk47Parts"/>
 		</effect_group>
 	</recipe>
 
 	<recipe name="HD M4A1 Carbine" craft_area="workbench" count="1" craft_time = "150" tags="learnable,perkMachineGunner">
-		<ingredient name="gunAk47Parts" count="35"/>
+		<ingredient name="gunAk47Parts" count="4"/>
+		<ingredient name="resourceForgedIron" count="10"/>
 		<ingredient name="resourceDuctTape" count="2"/>
 		<ingredient name="resourceScrapPolymers" count="10"/>
 		<ingredient name="resourceSpring" count="2"/>
-		<ingredient name="HDGun Oil" count="5"/>
 		<effect_group>
-			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunAk47Parts,HDGun Oil"/>
+			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunAk47Parts"/>
 		</effect_group>
 	</recipe>
 
 	<recipe name="HD Tactical AR" craft_area="workbench" count="1"  craft_time = "90" tags="learnable,perkMachineGunner">
-		<ingredient name="gunAk47Parts" count="35"/>
+		<ingredient name="gunAk47Parts" count="4"/>
+		<ingredient name="resourceForgedIron" count="10"/>
 		<ingredient name="resourceDuctTape" count="2"/>
 		<ingredient name="resourceScrapPolymers" count="10"/>
 		<ingredient name="resourceSpring" count="2"/>
-		<ingredient name="HDGun Oil" count="5"/>
 		<effect_group>
-			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunAk47Parts,HDGun Oil"/>
+			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunAk47Parts"/>
 		</effect_group>
 	</recipe>
 	
+	<!-- Long Ranged Rifles -->
 	<recipe name="HD CheyTac M300" craft_area="workbench" count="1" craft_time = "150" tags="learnable,perkDeadEye">
-		<ingredient name="gunAk47Parts" count="15"/>
+		<ingredient name="gunHuntingRifleParts" count="4"/>
+		<ingredient name="resourceForgedIron" count="10"/>
 		<ingredient name="resourceDuctTape" count="2"/>
 		<ingredient name="resourceScrapPolymers" count="10"/>
 		<ingredient name="resourceSpring" count="2"/>
-		<ingredient name="HDGun Oil" count="20"/>
 		<effect_group>
-			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunHuntingRifleParts,HDGun Oil"/>
+			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunHuntingRifleParts"/>
 		</effect_group>
 	</recipe>
 	
 	<recipe name="HD Dragunov SVD" craft_area="workbench" count="1"  craft_time = "100" tags="learnable,perkDeadEye">
-		<ingredient name="gunHuntingRifleParts" count="15"/>
+		<ingredient name="gunHuntingRifleParts" count="4"/>
+		<ingredient name="resourceForgedIron" count="10"/>
 		<ingredient name="resourceDuctTape" count="2"/>
 		<ingredient name="resourceScrapPolymers" count="10"/>
 		<ingredient name="resourceSpring" count="2"/>
-		<ingredient name="HDGun Oil" count="20"/>
 		<effect_group>
-			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunHuntingRifleParts,HDGun Oil"/>
+			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunHuntingRifleParts"/>
 		</effect_group>
 	</recipe>
 
 	<recipe name="HD Arctic Warfare" craft_area="workbench" count="1" craft_time = "200" tags="learnable,perkDeadEye">
-		<ingredient name="gunHuntingRifleParts" count="15"/>
+		<ingredient name="gunHuntingRifleParts" count="4"/>
+		<ingredient name="resourceForgedIron" count="10"/>
 		<ingredient name="resourceDuctTape" count="2"/>
 		<ingredient name="resourceScrapPolymers" count="10"/>
 		<ingredient name="resourceSpring" count="2"/>
-		<ingredient name="HDGun Oil" count="20"/>
 		<effect_group>
-			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunHuntingRifleParts,HDGun Oil"/>
+			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunHuntingRifleParts"/>
 		</effect_group>
 	</recipe>
 
 	<recipe name="HD Winchester 1866" craft_area="workbench" count="1" craft_time = "120" tags="learnable,perkDeadEye">
-		<ingredient name="gunHuntingRifleParts" count="15"/>
+		<ingredient name="gunHuntingRifleParts" count="4"/>
+		<ingredient name="resourceForgedIron" count="10"/>
 		<ingredient name="resourceDuctTape" count="2"/>
 		<ingredient name="resourceScrapPolymers" count="10"/>
 		<ingredient name="resourceSpring" count="2"/>
-		<ingredient name="HDGun Oil" count="20"/>
 		<effect_group>
-			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunHuntingRifleParts,HDGun Oil"/>
+			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunHuntingRifleParts"/>
 		</effect_group>
 	</recipe>
 
+	<!-- Combat Shotguns -->
 	<recipe name="HD Spas 12" craft_area="workbench" count="1"  craft_time = "100" tags="learnable,perkBoomstick">
-		<ingredient name="gunDoubleBarrelShotgunParts" count="12"/>
+		<ingredient name="gunDoubleBarrelShotgunParts" count="4"/>
+		<ingredient name="resourceForgedIron" count="10"/>
 		<ingredient name="resourceDuctTape" count="2"/>
 		<ingredient name="resourceScrapPolymers" count="10"/>
 		<ingredient name="resourceSpring" count="2"/>
-		<ingredient name="HDGun Oil" count="5"/>
 		<effect_group>
-			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunDoubleBarrelShotgunParts,HDGun Oil"/>
+			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunDoubleBarrelShotgunParts"/>
 		</effect_group>
 	</recipe>
 
 	<recipe name="HD Mossberg 500" craft_area="workbench" count="1"  craft_time = "100" tags="learnable,perkBoomstick">
-		<ingredient name="gunDoubleBarrelShotgunParts" count="20"/>
+		<ingredient name="gunDoubleBarrelShotgunParts" count="4"/>
+		<ingredient name="resourceForgedIron" count="10"/>
 		<ingredient name="resourceDuctTape" count="2"/>
 		<ingredient name="resourceScrapPolymers" count="10"/>
 		<ingredient name="resourceSpring" count="2"/>
-		<ingredient name="HDGun Oil" count="5"/>
 		<effect_group>
-			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunDoubleBarrelShotgunParts,HDGun Oil"/>
+			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunDoubleBarrelShotgunParts"/>
 		</effect_group>
 	</recipe>
 
 	<recipe name="HD Double Barrel" craft_area="workbench" count="1"  craft_time = "100" tags="learnable,perkBoomstick">
-		<ingredient name="gunDoubleBarrelShotgunParts" count="2"/>
+		<ingredient name="gunDoubleBarrelShotgunParts" count="4"/>
+		<ingredient name="resourceForgedIron" count="10"/>
 		<ingredient name="resourceDuctTape" count="2"/>
 		<ingredient name="resourceScrapPolymers" count="10"/>
 		<ingredient name="resourceSpring" count="2"/>
-		<ingredient name="HDGun Oil" count="5"/>
 		<effect_group>
-			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunDoubleBarrelShotgunParts,HDGun Oil"/>
+			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunDoubleBarrelShotgunParts"/>
 		</effect_group>
 	</recipe>
 
@@ -547,7 +549,7 @@
 		  <ingredient name="resourceBulletCasing" count="4"/>
 	</recipe>
 
-	<!-- helper recipes -->
+	<!-- component recipes -->
 	<recipe name="HDGun Oil" count="1" craft_time = "2" craft_area="chemistryStation">
 		<ingredient name="resourceDuctTape" count="1"/>
 		<ingredient name="resourceOil" count="1"/>
@@ -563,24 +565,25 @@
 		<ingredient name="resourceOilShale" count="10"/>
 	</recipe>
 	
+	<!-- repair kits -->
 	<recipe name="RepairKitHandGuns" count="1" craft_time = "2" craft_area="workbench">
-		<ingredient name="resourceForgedIron" count="1"/>
-		<ingredient name="gunPistolParts" count="2"/>
+		<ingredient name="resourceSpring" count="1"/>
+		<ingredient name="HDGun Oil" count="1"/>
 	</recipe>
 
 	<recipe name="RepairKitAutomaticRifles" count="1" craft_time = "2" craft_area="workbench">
-		<ingredient name="resourceForgedIron" count="1"/>
-		<ingredient name="gunAk47Parts" count="2"/>
+		<ingredient name="resourceSpring" count="1"/>
+		<ingredient name="HDGun Oil" count="1"/>
 	</recipe>
 
 	<recipe name="RepairKitShotGuns" count="1" craft_time = "2" craft_area="workbench">
-		<ingredient name="resourceForgedIron" count="1"/>
-		<ingredient name="gunDoubleBarrelShotgunParts" count="2"/>
+		<ingredient name="resourceSpring" count="1"/>
+		<ingredient name="HDGun Oil" count="1"/>
 	</recipe>
 
 	<recipe name="RepairKitHuntingRifles" count="1" craft_time = "2" craft_area="workbench">
-		<ingredient name="resourceForgedIron" count="1"/>
-		<ingredient name="gunHuntingRifleParts" count="2"/>
+		<ingredient name="resourceSpring" count="1"/>
+		<ingredient name="HDGun Oil" count="1"/>
 	</recipe>
 	
 </append>

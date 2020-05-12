@@ -6,6 +6,7 @@
 			<property name="DescriptionKey" value="vehiclePlaceableGroupDesc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/manux_Quad.unity3d?QuadPrefab_A17.prefab"/>
 			<property name="EconomicValue" value="15000"/>
+			<property name="UnlockedBy" value="perkGreaseMonkey,manux_Quad Schematic"/>
 			<property class="Action1">
 			<property name="Vehicle" value="manux_vehicleQuad"/>
 			<property name="VehicleSize" value="1.1, 1.3, 2"/>
@@ -14,12 +15,13 @@
 				<passive_effect name="DegradationMax" operation="base_set" value="3000,6000" tier="1,6"/>
 			</effect_group>
 		</item>
-		
-		<item name="manux_vehicleMonoHogPlaceable">		<property name="Extends" value="vehicleMinibikePlaceable"/>
+		<item name="manux_vehicleMonoHogPlaceable">		
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
 			<property name="CustomIcon" value="manux_MonoHog"/>
 			<property name="DescriptionKey" value="vehiclePlaceableGroupDesc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/manux_MonoHog.unity3d?MonoHog_A17.prefab"/>
 			<property name="EconomicValue" value="20000"/>
+			<property name="UnlockedBy" value="perkGreaseMonkey,manux_MonoHog Schematic"/>
 			<property class="Action1">
 			<property name="Vehicle" value="manux_vehicleMonoHog"/>
 			<property name="VehicleSize" value="1, 3, 3"/>
@@ -28,13 +30,13 @@
 				<passive_effect name="DegradationMax" operation="base_set" value="3000,6000" tier="1,6"/>
 			</effect_group>
 		</item>
-
 		<item name="manux_vehicleJetPackPlaceable">
 			<property name="Extends" value="vehicleMinibikePlaceable"/>
 			<property name="CustomIcon" value="manux_JetPack"/>
 			<property name="DescriptionKey" value="vehiclePlaceableGroupDesc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/manux_JetPack.unity3d?JetPackPrefab_A17.prefab"/>
 			<property name="EconomicValue" value="25000"/>
+			<property name="UnlockedBy" value="perkGreaseMonkey,manux_JetPack Schematic"/>
 			<property class="Action1">
 			<property name="Vehicle" value="manux_vehicleJetPack"/>
 			<property name="VehicleSize" value="1, 1, 1"/>

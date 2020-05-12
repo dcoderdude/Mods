@@ -1,29 +1,24 @@
 <configs>
 	<append xpath="/recipes">
-
-		<recipe name="manux_vehicleQuadPlaceable" count="1" craft_area="workbench" craft_time="150">
+		<recipe name="manux_vehicleQuadPlaceable" count="1" craft_area="workbench" craft_time="150" tags="learnable,perkGreaseMonkey">
 			<ingredient name="vehicleWheels" count="4"/>
 			<ingredient name="vehicleMotorcycleChassis" count="1"/>
 			<ingredient name="vehicleMotorcycleHandlebars" count="1"/>
 			<ingredient name="smallEngine" count="1"/>
 			<ingredient name="carBattery" count="1"/>
 		</recipe>
-
-		<recipe name="manux_vehicleMonoHogPlaceable" count="1" craft_area="workbench" craft_time="150">
+		<recipe name="manux_vehicleMonoHogPlaceable" count="1" craft_area="workbench" craft_time="150" tags="learnable,perkGreaseMonkey">
 			<ingredient name="vehicleWheels" count="1"/>
 			<ingredient name="vehicleMotorcycleChassis" count="1"/>
 			<ingredient name="vehicleMotorcycleHandlebars" count="1"/>
 			<ingredient name="smallEngine" count="1"/>
 			<ingredient name="carBattery" count="1"/>
 		</recipe>
-
-		<recipe name="manux_vehicleJetPackPlaceable" count="1" craft_area="workbench" craft_time="210">
+		<recipe name="manux_vehicleJetPackPlaceable" count="1" craft_area="workbench" craft_time="210" tags="learnable,perkGreaseMonkey">
 			<ingredient name="vehicleGyroCopterAccessories" count="1"/>
-			<ingredient name="gunRocketLauncherParts" count="2"/>
 			<ingredient name="resourceElectricParts" count="10"/>
 			<ingredient name="resourceMechanicalParts" count="10"/>
-			<ingredient name="HD Flame Fuel" count="100"/>
+			<ingredient name="HD Flame Fuel" count="50"/>
 		</recipe>
-
 	</append>
  </configs>
