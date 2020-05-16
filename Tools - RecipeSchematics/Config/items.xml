@@ -4,7 +4,7 @@
 		<property name="Extends" value="schematicMaster"/>
 		<property name="EconomicValue" value="1250"/>
 		<property name="CreativeMode" value="Player"/>
-		<property name="CustomIcon" value="meleeToolCrowbar Schematic"/>
+		<property name="CustomIcon" value="meleeToolCrowbar"/>
 		<property name="Unlocks" value="meleeToolCrowbar"/>
 		<property name="Group" value="Decor/Miscellaneous" />
 		<effect_group tiered="false">
@@ -197,7 +197,7 @@
 	<item name="solarCell Schematic">
 		<property name="Extends" value="schematicMaster"/>
 		<property name="CreativeMode" value="Player"/>
-		<property name="CustomIcon" value="solarCell Schematic"/>
+		<property name="CustomIcon" value="solarCell"/>
 		<property name="Unlocks" value="solarCell"/>
 		<property name="Group" value="Decor/Miscellaneous" />
 		<effect_group tiered="false">

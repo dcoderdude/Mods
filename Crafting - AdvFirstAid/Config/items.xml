@@ -8,7 +8,7 @@
 		<property name="EconomicValue" value="500" />
 		<property name="Stacknumber" value="500"/>
 		<property name="DescriptionKey" value="AFAKDesc"/>
-		<property name="UnlockedBy" value="perkPhysician,Advanced First Aid Kit Schematic"/>
+		<property name="UnlockedBy" value="perkYeahScience,Advanced First Aid Kit Schematic"/>
 		<property name="Group" value="Resources,Chemicals,CFChemicals"/>
 		<property class="Action0">
 			<!-- <requirement name="StatCompare" stat="health" operation="lte" value="50"/> -->
@@ -27,7 +27,7 @@
 			<display_value name="foodHealthAmount" value="180"/>
 
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="buffInjuryBleeding"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="buffInjuryBleeding"/><display_value name="dStopsBleeding" value="1"/>
 
 			<triggered_effect trigger="onSelfSecondaryActionEnd" action="ModifyCVar" target="other" cvar="maxHealthAmount" operation="add" value="200"/> <!-- X -->
 			<triggered_effect trigger="onSelfSecondaryActionEnd" action="ModifyCVar" target="other" cvar="maxHealthIncrease" operation="set" value="1.25">
