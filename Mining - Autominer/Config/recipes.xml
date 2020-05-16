@@ -24,8 +24,9 @@
 		<recipe name="resourcePotassiumNitratePowder" count="1000" craft_time="3660" craft_area="AutoMiner" tags="autominer" craft_tool="meleeToolAuger">
 			<ingredient name="ammoGasCan" count="1000"/>
 		</recipe>
-		<recipe name="AutoMiner" count="1" craft_time="300" craft_area="workbench" tags="perkAdvancedEngineering,learnable" >
-			<ingredient name="resourceMechanicalParts" count="100"/>
+		<recipe name="AutoMiner" count="1" craft_time="300" craft_area="workbench" tags="perkMiner69r,learnable" >
+			<ingredient name="resourceMechanicalParts" count="50"/>
+			<ingredient name="resourceElectricParts" count="50"/>
 			<ingredient name="resourceForgedSteel" count="50"/>
 			<ingredient name="resourceSpring" count="20"/>
 			<ingredient name="resourceOil" count="40"/>

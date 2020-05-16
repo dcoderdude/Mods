@@ -2,7 +2,7 @@
 	<append xpath="/blocks">
 		<block name="AutoMiner">
 			<property name="CustomIcon" value="controlPanelBase01"/>
-			<property name="UnlockedBy" value="perkAdvancedEngineering"/>
+			<property name="UnlockedBy" value="perkMiner69r"/>
 			<property name="Class" value="Workstation"/>
 			<property name="Material" value="Mmetal"/>
 			<property name="MaxDamage" value="800"/>
