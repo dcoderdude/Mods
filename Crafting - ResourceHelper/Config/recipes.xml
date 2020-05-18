@@ -30,14 +30,14 @@
 	<recipe name="toolBeaker" count="1" craft_time = "1.5" craft_area="forge">
 		<ingredient name="glassBlockVariantHelper" count="1"/>
 	</recipe>
+	<recipe name="foodRottingFlesh" count="3" craft_time = "1.5" craft_area="chemistryStation">
+		<ingredient name="foodRawMeat" count="1"/>
+		<ingredient name="drinkJarRiverWater" count="1"/>
+	</recipe>
 	<recipe name="drugPainkillers" count="3" craft_time = "1.5" craft_area="chemistryStation">
 		<ingredient name="resourceCropChrysanthemumPlant" count="1"/>
 		<ingredient name="resourceCropGoldenrodPlant" count="1"/>
 		<ingredient name="resourcePotassiumNitratePowder" count="1"/>
-	</recipe>
-	<recipe name="foodRottingFlesh" count="3" craft_time = "1.5" craft_area="chemistryStation">
-		<ingredient name="foodRawMeat" count="1"/>
-		<ingredient name="drinkJarRiverWater" count="1"/>
 	</recipe>
 </append>
 </configs>
