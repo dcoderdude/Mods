@@ -1,5 +1,12 @@
 <configs>
   <append xpath="/recipes">
+	 <!-- weapon mods -->
+	 <recipe name="HD Mods Schematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="meleeToolAllSteelParts" count="1"/>
+		<ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>
     <recipe name="modGunBarrelExtenderSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
       <ingredient name="modGunBarrelExtender" count="1"/>
       <ingredient name="resourcePaper" count="10"/>
@@ -234,6 +241,7 @@
       <ingredient name="resourceGlue" count="10"/>
       <ingredient name="resourceLeather" count="5"/>
     </recipe>
+	 <!-- armor mods -->
     <recipe name="modArmorInsulatedLinerSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
       <ingredient name="modArmorInsulatedLiner" count="1"/>
       <ingredient name="resourcePaper" count="10"/>
@@ -324,6 +332,19 @@
       <ingredient name="resourceGlue" count="10"/>
       <ingredient name="resourceLeather" count="5"/>
     </recipe>
+	 <!-- tool mods-->
+	 <recipe name="solarCell Schematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">	 
+      <ingredient name="meleeToolChainsawParts" count="1"/>
+		<ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>
+	 <recipe name="meleeToolCrowbarSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="meleeToolAllSteelParts" count="1"/>
+		<ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>
     <recipe name="modFuelTankSmallSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
       <ingredient name="modFuelTankSmall" count="1"/>
       <ingredient name="resourcePaper" count="10"/>
@@ -336,114 +357,135 @@
       <ingredient name="resourceGlue" count="10"/>
       <ingredient name="resourceLeather" count="5"/>
     </recipe>
-	 <recipe name="HD Colt M1911 Schematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+	 <!-- base firearms -->
+	 <recipe name="gunPistolSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
 		<ingredient name="gunPistolParts" count="1"/>
+      <ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>
+	 <recipe name="gun44MagnumSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+		<ingredient name="gunPistolParts" count="1"/>
+      <ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>
+	 <recipe name="gunSMG5Schematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+		<ingredient name="gunPistolParts" count="1"/>
+      <ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>
+	 <recipe name="gunAK47Schematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+		<ingredient name="gunAk47Parts" count="1"/>
+      <ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>
+	 <recipe name="gunHuntingRifleSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+		<ingredient name="gunHuntingRifleParts" count="1"/>
+      <ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>
+	 <recipe name="gunPumpShotgunSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+		<ingredient name="gunDoubleBarrelShotgunParts" count="1"/>
+      <ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>
+	 <!-- HD firearms --> 
+	 <recipe name="HD Colt M1911 Schematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+		<ingredient name="gunPistol" count="1"/>
       <ingredient name="resourcePaper" count="10"/>
       <ingredient name="resourceGlue" count="10"/>
       <ingredient name="resourceLeather" count="5"/>
 	 </recipe>
 	 <recipe name="HD Desert Eagle Schematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-		<ingredient name="gunPistolParts" count="1"/>
+		<ingredient name="gun44Magnum" count="1"/>
       <ingredient name="resourcePaper" count="10"/>
       <ingredient name="resourceGlue" count="10"/>
       <ingredient name="resourceLeather" count="5"/>
 	 </recipe>
 	 <recipe name="HD Mac10 Auto Schematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-		<ingredient name="gunPistolParts" count="1"/>
+		<ingredient name="gunSMG5" count="1"/>
       <ingredient name="resourcePaper" count="10"/>
       <ingredient name="resourceGlue" count="10"/>
       <ingredient name="resourceLeather" count="5"/>
 	 </recipe>
 	 <recipe name="HD M3 Auto Schematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-		<ingredient name="gunPistolParts" count="1"/>
+		<ingredient name="gunSMG5" count="1"/>
       <ingredient name="resourcePaper" count="10"/>
       <ingredient name="resourceGlue" count="10"/>
       <ingredient name="resourceLeather" count="5"/>
 	 </recipe>
 	 <recipe name="HD AK Hybrid ACP Schematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-		<ingredient name="gunAk47Parts" count="1"/>
+		<ingredient name="gunAK47" count="1"/>
       <ingredient name="resourcePaper" count="10"/>
       <ingredient name="resourceGlue" count="10"/>
       <ingredient name="resourceLeather" count="5"/>
 	 </recipe>
 	 <recipe name="HD HK33 Hybrid Schematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-		<ingredient name="gunAk47Parts" count="1"/>
+		<ingredient name="gunAK47" count="1"/>
       <ingredient name="resourcePaper" count="10"/>
       <ingredient name="resourceGlue" count="10"/>
       <ingredient name="resourceLeather" count="5"/>
 	 </recipe>
 	 <recipe name="HD M4A1 Carbine Schematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-		<ingredient name="gunAk47Parts" count="1"/>
+		<ingredient name="gunAK47" count="1"/>
       <ingredient name="resourcePaper" count="10"/>
       <ingredient name="resourceGlue" count="10"/>
       <ingredient name="resourceLeather" count="5"/>
 	 </recipe>
 	 <recipe name="HD Tactical AR Schematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-	   <ingredient name="gunAk47Parts" count="1"/>
+	   <ingredient name="gunAK47" count="1"/>
       <ingredient name="resourcePaper" count="10"/>
       <ingredient name="resourceGlue" count="10"/>
       <ingredient name="resourceLeather" count="5"/>
 	 </recipe>
 	 <recipe name="HD CheyTac M300 Schematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-		<ingredient name="gunHuntingRifleParts" count="1"/>
+		<ingredient name="gunHuntingRifle" count="1"/>
       <ingredient name="resourcePaper" count="10"/>
       <ingredient name="resourceGlue" count="10"/>
       <ingredient name="resourceLeather" count="5"/>
 	 </recipe>
 	 <recipe name="HD Dragunov SVD Schematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-		<ingredient name="gunHuntingRifleParts" count="1"/>
+		<ingredient name="gunHuntingRifle" count="1"/>
       <ingredient name="resourcePaper" count="10"/>
       <ingredient name="resourceGlue" count="10"/>
       <ingredient name="resourceLeather" count="5"/>
 	 </recipe>
 	 <recipe name="HD Arctic Warfare Schematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-		<ingredient name="gunHuntingRifleParts" count="1"/>
+		<ingredient name="gunHuntingRifle" count="1"/>
       <ingredient name="resourcePaper" count="10"/>
       <ingredient name="resourceGlue" count="10"/>
       <ingredient name="resourceLeather" count="5"/>
 	 </recipe>
 	 <recipe name="HD Winchester 1866 Schematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-		<ingredient name="gunHuntingRifleParts" count="1"/>
+		<ingredient name="gunHuntingRifle" count="1"/>
       <ingredient name="resourcePaper" count="10"/>
       <ingredient name="resourceGlue" count="10"/>
       <ingredient name="resourceLeather" count="5"/>
 	 </recipe>
 	 <recipe name="HD Spas 12 Schematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-		<ingredient name="gunDoubleBarrelShotgunParts" count="1"/>
+		<ingredient name="gunPumpShotgun" count="1"/>
       <ingredient name="resourcePaper" count="10"/>
       <ingredient name="resourceGlue" count="10"/>
       <ingredient name="resourceLeather" count="5"/>
 	 </recipe>
 	 <recipe name="HD Mossberg 500 Schematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-		<ingredient name="gunDoubleBarrelShotgunParts" count="1"/>
+		<ingredient name="gunPumpShotgun" count="1"/>
       <ingredient name="resourcePaper" count="10"/>
       <ingredient name="resourceGlue" count="10"/>
       <ingredient name="resourceLeather" count="5"/>
 	 </recipe>
 	 <recipe name="HD Double Barrel Schematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-		<ingredient name="gunDoubleBarrelShotgunParts" count="1"/>
+		<ingredient name="gunPumpShotgun" count="1"/>
       <ingredient name="resourcePaper" count="10"/>
       <ingredient name="resourceGlue" count="10"/>
       <ingredient name="resourceLeather" count="5"/>
 	 </recipe>
-	 <recipe name="HD Mods Schematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-      <ingredient name="meleeToolAllSteelParts" count="1"/>
-		<ingredient name="resourcePaper" count="10"/>
-      <ingredient name="resourceGlue" count="10"/>
-      <ingredient name="resourceLeather" count="5"/>
-	 </recipe>
-	 <recipe name="meleeToolCrowbarSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-      <ingredient name="meleeToolAllSteelParts" count="1"/>
-		<ingredient name="resourcePaper" count="10"/>
-      <ingredient name="resourceGlue" count="10"/>
-      <ingredient name="resourceLeather" count="5"/>
-	 </recipe>
-	 <recipe name="solarCell Schematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">	 
-      <ingredient name="meleeToolChainsawParts" count="1"/>
-		<ingredient name="resourcePaper" count="10"/>
-      <ingredient name="resourceGlue" count="10"/>
-      <ingredient name="resourceLeather" count="5"/>
-	 </recipe>
+	 <!-- vehicles -->
 	 <recipe name="manux_Quad Schematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">	 
       <ingredient name="meleeToolChainsawParts" count="1"/>
 		<ingredient name="resourcePaper" count="10"/>
@@ -463,8 +505,8 @@
       <ingredient name="resourceGlue" count="10"/>
       <ingredient name="resourceLeather" count="5"/>
 	 </recipe>
-	 <recipe name="Advanced First Aid Kit Schematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">	 
-      <ingredient name="medicalFirstAidKit" count="1"/>
+	 <!-- medical -->
+	 <recipe name="Advanced First Aid Kit Schematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
 		<ingredient name="drugAntibiotics" count="1"/>
 		<ingredient name="drugPainkillers" count="1"/>
 		<ingredient name="resourcePaper" count="10"/>
