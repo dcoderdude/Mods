@@ -5,5 +5,10 @@
 		<ingredient name="drugAntibiotics" count="1"/>
 		<ingredient name="drugPainkillers" count="1"/>
 	</recipe>
+	<recipe name="drugPainkillers" count="3" craft_time = "1.5" craft_area="chemistryStation">
+		<ingredient name="resourceCropChrysanthemumPlant" count="1"/>
+		<ingredient name="resourceCropGoldenrodPlant" count="1"/>
+		<ingredient name="resourcePotassiumNitratePowder" count="1"/>
+	</recipe>
 </append>
 </configs>

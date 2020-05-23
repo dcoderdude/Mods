@@ -67,5 +67,9 @@
 		<ingredient name="bucketRiverWater" count="1"/>
 		<ingredient name="resourceMetalPipe" count="1"/>
 	</recipe>
+	<recipe name="foodRottingFlesh" count="3" craft_time = "1.5" craft_area="chemistryStation">
+		<ingredient name="foodRawMeat" count="1"/>
+		<ingredient name="drinkJarRiverWater" count="1"/>
+	</recipe>
 </append>
 </configs>

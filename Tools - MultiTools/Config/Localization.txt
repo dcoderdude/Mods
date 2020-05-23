@@ -1,3 +1,0 @@
-AxePickShovelDesc,items,Tool,,"Handy dandy space saver.".,,,,
-WrenchHammerDesc,items,Tool,,"Wrench with left click and upgrade with right click.".,,,,
-MacheteShearsDesc,items,Tool,,"Stabby stab with left click and mow with right click.".,,,,
