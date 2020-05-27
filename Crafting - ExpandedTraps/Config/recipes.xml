@@ -21,7 +21,7 @@
     <ingredient name="resourceGunPowder" count="1"/>
     <ingredient name="resourceCandyTin" count="1"/>
 </recipe>
-<recipe name="trapGasCan" count="1" scrapable="False" >
+<!-- <recipe name="trapGasCan" count="1" scrapable="False" >
     <ingredient name="ammoGasCan" count="4"/>
 	<ingredient name="resourceGunPowder" count="4"/>
     <ingredient name="resourceScrapPolymers" count="8"/>
@@ -32,6 +32,6 @@
 	  <ingredient name="resourceMetalPipe" count="2"/>
     <ingredient name="resourceDuctTape" count="8"/>
 	<ingredient name="resourceAirFilter" count="2"/>
-</recipe>
+</recipe> -->
 </append>
 </Valmar>
