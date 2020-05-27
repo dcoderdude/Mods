@@ -14,6 +14,7 @@
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="ItemNeedsRepair"/>
 	<property name="SoundDestroy" value="wooddestroy1"/>
+	<property name="UnlockedBy" value="perkMiner69r"/>
 	<property class="Action0">
 		<property name="Class" value="DynamicMelee"/>
 		<property name="Sphere" value="0.15"/>
@@ -82,6 +83,7 @@
 	<property name="SoundJammed" value="ItemNeedsRepair"/>
 	<property name="SoundDestroy" value="metaldestroy1"/>
 	<property name="EconomicValue" value="400"/>
+	<property name="UnlockedBy" value="perkMiner69r"/>
 	<property class="Action0">
 		<property name="Class" value="DynamicMelee"/>
 		<property name="Sound_start" value="swoosh"/>
@@ -136,11 +138,11 @@
 	<property name="SoundJammed" value="ItemNeedsRepair"/>
 	<property name="SoundDestroy" value="wooddestroy1"/>
 	<property name="Weight" value="200"/>
-	<property name="Group" value="Ammo/Weapons"/>
+	<property name="Group" value="Tools/Traps"/>
 	<property name="ActionSkillGroup" value="Blade Weapons"/>
 	<property name="CraftingSkillGroup" value="craftSkillWeapons"/>
 	<property name="RepairExpMultiplier" value="5.5"/>
-
+	<property name="UnlockedBy" value="perkMiner69r"/>
 	<property class="Action0">
 		<property name="Class" value="DynamicMelee"/>
 		<property name="Damage_type" value="Slashing"/>
