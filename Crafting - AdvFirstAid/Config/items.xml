@@ -118,5 +118,16 @@
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffDrugPainkillers"/>
 		</effect_group>
 	</item>
+	<item name="toolBeaker">
+		<property name="HoldType" value="45"/>
+		<property name="Tags" value="junk"/>
+		<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="Material" value="MtoolBeaker"/>
+		<property name="Stacknumber" value="10"/> <!-- STK loot -->
+		<property name="Weight" value="15"/>
+		<property name="EconomicValue" value="250"/>
+		<property name="Group" value="Tools/Traps,Chemicals,Resources"/>
+	</item>
 </append>
 </configs>
