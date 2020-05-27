@@ -1,5 +1,12 @@
 <configs>
   <append xpath="/recipes">
+	 <recipe name="Schematic Table" count="1" craft_area="workbench">
+		<ingredient name="resourceForgedIron" count="20"/>
+		<ingredient name="resourceMechanicalParts" count="20"/>
+		<ingredient name="resourceElectricParts" count="12"/>
+		<ingredient name="resourceSpring" count="4"/>
+		<ingredient name="smallEngine" count="1"/>
+	 </recipe>
 	 <!-- weapon mods -->
     <recipe name="modGunBarrelExtenderSchematic" count="1" craft_area="Schematic Table" >
       <ingredient name="modGunBarrelExtender" count="1"/>
