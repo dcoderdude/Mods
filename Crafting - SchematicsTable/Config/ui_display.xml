@@ -1,0 +1,10 @@
+<configs>
+	
+	<append xpath="/ui_display_info/crafting_category_display">
+	
+		<crafting_category_list display_type="Schematic Table">
+			<crafting_category name="Resources" icon="ui_game_symbol_tool_smithing" display_name="Schematic Table" />
+		</crafting_category_list>
+  </append>
+
+</configs>

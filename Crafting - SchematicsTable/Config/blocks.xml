@@ -1,0 +1,22 @@
+<blocks>
+	<append xpath="/blocks">
+		<block name="Schematic Table">
+			<property name="CustomIcon" value="HD GunBench" />
+			<property name="Extends" value="cementMixer" param1="DescriptionKey,CraftSound,CraftCompleteSound"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="Model" value="#@modfolder:Resources/HD GunBench.unity3d?HD GunBench.Prefab"/><!-- Licensed To War3zuk -->
+			<property class="Workstation">
+				<property name="Modules" value="output"/>
+				<property name="CraftingAreaRecipes" value="Schematic Table"/>
+			</property>
+			<property name="UnlockedBy" value="perkAdvancedEngineering"/>
+			<property name="WorkstationIcon" value="ui_game_symbol_workbench"/>
+			<property name="CraftActionName" value="lblContextActionCraft"/>
+			<property name="CraftIcon" value="ui_game_symbol_workbench"/>
+			<property name="OpenSound" value="open_workbench"/>
+			<property name="CloseSound" value="close_workbench"/>
+			<property name="WorkstationJournalTip" value="workbenchTip"/>
+			<property name="WorkstationWindow" value="workstation_workbench"/>
+		</block>
+</append>	
+</blocks>
