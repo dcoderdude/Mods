@@ -352,6 +352,34 @@
       <ingredient name="resourceGlue" count="10"/>
       <ingredient name="resourceLeather" count="5"/>
     </recipe>
+	 <!-- vehicles -->
+	 <recipe name="manux_Quad Schematic" count="1" craft_area="Schematic Table" >	 
+      <ingredient name="meleeToolChainsawParts" count="1"/>
+		<ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>
+	 <recipe name="manux_MonoHog Schematic" count="1" craft_area="Schematic Table" >	 
+      <ingredient name="meleeToolChainsawParts" count="1"/>
+		<ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>
+	 <recipe name="manux_JetPack Schematic" count="1" craft_area="Schematic Table" >	 
+      <ingredient name="meleeToolChainsawParts" count="1"/>
+		<ingredient name="gunRocketLauncherParts" count="2"/>
+		<ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>
+	 <!-- medical -->
+	 <recipe name="Advanced First Aid Kit Schematic" count="1" craft_area="Schematic Table" >
+		<ingredient name="drugAntibiotics" count="1"/>
+		<ingredient name="drugPainkillers" count="1"/>
+		<ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>
 	 <!-- base firearms -->
 	 <recipe name="gunPistolSchematic" count="1" craft_area="Schematic Table" >
 		<ingredient name="gunPistolParts" count="1"/>
@@ -389,31 +417,220 @@
       <ingredient name="resourceGlue" count="10"/>
       <ingredient name="resourceLeather" count="5"/>
 	 </recipe>
-	 <!-- vehicles -->
-	 <recipe name="manux_Quad Schematic" count="1" craft_area="Schematic Table" >	 
-      <ingredient name="meleeToolChainsawParts" count="1"/>
-		<ingredient name="resourcePaper" count="10"/>
+	 <recipe name="gunMR10Schematic" count="1" craft_area="Schematic Table" >
+		<ingredient name="gunAk47Parts" count="1"/>
+      <ingredient name="resourcePaper" count="10"/>
       <ingredient name="resourceGlue" count="10"/>
       <ingredient name="resourceLeather" count="5"/>
 	 </recipe>
-	 <recipe name="manux_MonoHog Schematic" count="1" craft_area="Schematic Table" >	 
-      <ingredient name="meleeToolChainsawParts" count="1"/>
-		<ingredient name="resourcePaper" count="10"/>
+	 <recipe name="gunRocketLauncherSchematic" count="1" craft_area="Schematic Table" >
+		<ingredient name="meleeToolChainsawParts" count="1"/>
+      <ingredient name="resourcePaper" count="10"/>
       <ingredient name="resourceGlue" count="10"/>
       <ingredient name="resourceLeather" count="5"/>
 	 </recipe>
-	 <recipe name="manux_JetPack Schematic" count="1" craft_area="Schematic Table" >	 
-      <ingredient name="meleeToolChainsawParts" count="1"/>
-		<ingredient name="gunRocketLauncherParts" count="2"/>
-		<ingredient name="resourcePaper" count="10"/>
+	 <recipe name="gunJunkTurretSchematic" count="1" craft_area="Schematic Table" >
+		<ingredient name="meleeToolChainsawParts" count="1"/>
+      <ingredient name="resourcePaper" count="10"/>
       <ingredient name="resourceGlue" count="10"/>
       <ingredient name="resourceLeather" count="5"/>
 	 </recipe>
-	 <!-- medical -->
-	 <recipe name="Advanced First Aid Kit Schematic" count="1" craft_area="Schematic Table" >
-		<ingredient name="drugAntibiotics" count="1"/>
-		<ingredient name="drugPainkillers" count="1"/>
-		<ingredient name="resourcePaper" count="10"/>
+	 <!-- vanilla extended weapons -->
+	 <recipe name="gun1911Schematic" count="1" craft_area="Schematic Table" >
+		<ingredient name="gunPistolParts" count="1"/>
+      <ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>
+	 <recipe name="gunGlock17Schematic" count="1" craft_area="Schematic Table" >
+		<ingredient name="gunPistolParts" count="1"/>
+      <ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>
+	 <recipe name="gunmakarovSchematic" count="1" craft_area="Schematic Table" >
+		<ingredient name="gunPistolParts" count="1"/>
+      <ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>
+	 <recipe name="gun45revolverSchematic" count="1" craft_area="Schematic Table" >
+		<ingredient name="gunPistolParts" count="1"/>
+      <ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>
+	 <recipe name="gunp250Schematic" count="1" craft_area="Schematic Table" >
+		<ingredient name="gunPistolParts" count="1"/>
+      <ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>
+	 <recipe name="gunp99Schematic" count="1" craft_area="Schematic Table" >
+		<ingredient name="gunPistolParts" count="1"/>
+      <ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>
+	 <recipe name="gun9mmrevolverSchematic" count="1" craft_area="Schematic Table" >
+		<ingredient name="gunPistolParts" count="1"/>
+      <ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>
+	 <recipe name="gundoublebarrelproperSchematic" count="1" craft_area="Schematic Table" >
+		<ingredient name="gunDoubleBarrelShotgunParts" count="1"/>
+      <ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>
+	 <recipe name="guntoz34Schematic" count="1" craft_area="Schematic Table" >
+		<ingredient name="gunDoubleBarrelShotgunParts" count="1"/>
+      <ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>
+	 <recipe name="gunsinglebarrelshotgunSchematic" count="1" craft_area="Schematic Table" >
+		<ingredient name="gunDoubleBarrelShotgunParts" count="1"/>
+      <ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>
+	 <recipe name="gun556rifleSchematic" count="1" craft_area="Schematic Table" >
+		<ingredient name="gunHuntingRifleParts" count="1"/>
+      <ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>
+	 <recipe name="gun9mmrifleSchematic" count="1" craft_area="Schematic Table" >
+		<ingredient name="gunHuntingRifleParts" count="1"/>
+      <ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>
+	 <recipe name="gunm1pcarbineSchematic" count="1" craft_area="Schematic Table" >
+		<ingredient name="gunAk47Parts" count="1"/>
+      <ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>
+	 <recipe name="gunak101Schematic" count="1" craft_area="Schematic Table" >
+		<ingredient name="gunAk47Parts" count="1"/>
+      <ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>
+	 <recipe name="gunskorpionSchematic" count="1" craft_area="Schematic Table" >
+		<ingredient name="gunAk47Parts" count="1"/>
+      <ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>
+	 <recipe name="gunpp19Schematic" count="1" craft_area="Schematic Table" >
+		<ingredient name="gunAk47Parts" count="1"/>
+      <ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>
+	 <recipe name="gunump45Schematic" count="1" craft_area="Schematic Table" >
+		<ingredient name="gunAk47Parts" count="1"/>
+      <ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>
+	 <recipe name="gunsksSchematic" count="1" craft_area="Schematic Table" >
+		<ingredient name="gunHuntingRifleParts" count="1"/>
+      <ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>
+	 <recipe name="guntec9Schematic" count="1" craft_area="Schematic Table" >
+		<ingredient name="gunAk47Parts" count="1"/>
+      <ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>
+	 <recipe name="gunmk23Schematic" count="1" craft_area="Schematic Table" >
+		<ingredient name="gunPistolParts" count="1"/>
+      <ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>
+	 <recipe name="gunmac11Schematic" count="1" craft_area="Schematic Table" >
+		<ingredient name="gunAk47Parts" count="1"/>
+      <ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>
+	 <recipe name="gunmicrouziSchematic" count="1" craft_area="Schematic Table" >
+		<ingredient name="gunAk47Parts" count="1"/>
+      <ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>
+	 <recipe name="gunaks74uSchematic" count="1" craft_area="Schematic Table" >
+		<ingredient name="gunAk47Parts" count="1"/>
+      <ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>
+	 <recipe name="gunscarhSchematic" count="1" craft_area="Schematic Table" >
+		<ingredient name="gunAk47Parts" count="1"/>
+      <ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>
+	 <recipe name="gunsvdSchematic" count="1" craft_area="Schematic Table" >
+		<ingredient name="gunHuntingRifleParts" count="1"/>
+      <ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>
+	 <recipe name="gung36cSchematic" count="1" craft_area="Schematic Table" >
+		<ingredient name="gunAk47Parts" count="1"/>
+      <ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>
+	 <recipe name="gunhk416Schematic" count="1" craft_area="Schematic Table" >
+		<ingredient name="gunAk47Parts" count="1"/>
+      <ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>
+	 <recipe name="gunar15Schematic" count="1" craft_area="Schematic Table" >
+		<ingredient name="gunAk47Parts" count="1"/>
+      <ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>
+	 <recipe name="gunsg553Schematic" count="1" craft_area="Schematic Table" >
+		<ingredient name="gunAk47Parts" count="1"/>
+      <ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>
+	 <recipe name="gunscarlSchematic" count="1" craft_area="Schematic Table" >
+		<ingredient name="gunAk47Parts" count="1"/>
+      <ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>
+	 <recipe name="gunrsx1Schematic" count="1" craft_area="Schematic Table" >
+		<ingredient name="gunDoubleBarrelShotgunParts" count="1"/>
+      <ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>	
+	 <recipe name="gunuspSchematic" count="1" craft_area="Schematic Table" >
+		<ingredient name="gunPistolParts" count="1"/>
+      <ingredient name="resourcePaper" count="10"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+	 </recipe>	
+	 <recipe name="gundeserteagleSchematic" count="1" craft_area="Schematic Table" >
+		<ingredient name="gunPistolParts" count="1"/>
+      <ingredient name="resourcePaper" count="10"/>
       <ingredient name="resourceGlue" count="10"/>
       <ingredient name="resourceLeather" count="5"/>
 	 </recipe>
