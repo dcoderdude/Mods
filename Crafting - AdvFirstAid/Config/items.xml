@@ -89,45 +89,5 @@
 			</triggered_effect>
 		</effect_group>
 	</item>
-	<item name="drugPainkillers">
-		<property name="Tags" value="medical"/>
-		<property name="DisplayType" value="medicalPainkillers"/>
-		<property name="HoldType" value="16"/>
-		<property name="Meshfile" value="#Other/Items?Health/painkillersPrefab.prefab"/>
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-		<property name="Material" value="Morganic"/>
-		<property name="EconomicValue" value="80"/>
-		<property name="Stacknumber" value="10"/> <!-- STK loot -->
-		<property name="Group" value="Science,Resources,Chemicals,CFChemicals,Medical"/>
-		<property class="Action0">
-			<property name="Class" value="Eat"/>
-			<property name="Delay" value="1.0"/>
-			<property name="Use_time" value="..."/>
-			<property name="Sound_start" value="player_painkillers"/>
-			<requirement name="NotHasBuff" buff="buffDrugPainkillers"/>
-		</property>
-		<effect_group tiered="false">
-			<display_value name="dInstantHealth" value="40"/>
-			<display_value name="dHealthLoss" value=".1"/>
-			<display_value name="$waterAmountAdd" value="-40"/>
-			<display_value name="dStunResist" value="1"/>
-			<display_value name="dDuration" value="183"/>
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugPainkillersDuration" operation="add" value="183"/>
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugPainkillersDuration" operation="set" value="543">
-				<requirement name="CVarCompare" cvar="$buffDrugPainkillersDuration" operation="GT" value="543"/></triggered_effect>
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffDrugPainkillers"/>
-		</effect_group>
-	</item>
-	<item name="toolBeaker">
-		<property name="HoldType" value="45"/>
-		<property name="Tags" value="junk"/>
-		<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-		<property name="Material" value="MtoolBeaker"/>
-		<property name="Stacknumber" value="10"/> <!-- STK loot -->
-		<property name="Weight" value="15"/>
-		<property name="EconomicValue" value="250"/>
-		<property name="Group" value="Tools/Traps,Chemicals,Resources"/>
-	</item>
 </append>
 </configs>

@@ -18,9 +18,6 @@
 			<ingredient name="resourceMechanicalParts" count="2"/>
 			<ingredient name="resourceSpring" count="4"/>
 		</recipe>
-		<recipe name="resourceSpring" count="3" craft_area="forge">
-			<ingredient name="resourceForgedIron" count="7"/>
-		</recipe>
 		<recipe name="gunBowWoodenParts" count="1" craft_area="millMachine" tags="millMachineCrafting">
 			<ingredient name="resourceWood" count="10"/>
 			<ingredient name="resourceMechanicalParts" count="1"/>
