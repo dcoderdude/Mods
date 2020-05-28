@@ -9,10 +9,6 @@
 		<ingredient name="resourceCropGoldenrodPlant" count="1"/>
 		<ingredient name="resourcePotassiumNitratePowder" count="1"/>
 	</recipe>
-	<recipe name="toolBeaker" count="1" craft_area="forge">
-		<ingredient name="resourceBrokenGlass" count="15"/>
-		<ingredient name="resourceScrapPolymers" count="4"/>
-	</recipe>
 	<recipe name="foodRottingFlesh" count="3" craft_time = "1" craft_area="chemistryStation">
 		<ingredient name="foodRawMeat" count="1"/>
 		<ingredient name="drinkJarRiverWater" count="1"/>
