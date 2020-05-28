@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
 	<ModInfo>
-		<Name value="S420_SimpleUI-CraftingQueue" />
-		<Description value="Adds an extra slot to the crafting queue" />
-		<Author value="stedman420" />
+		<Name value="SimpleUI-CraftingQueue" />
+		<Description value="Adds an extra slot to the crafting queue and adds non-craftable items to forge and chemistry station" />
+		<Author value="DanzoBlade" />
 		<Version value="1.0" />
 		<Website value="" />
 	</ModInfo>
