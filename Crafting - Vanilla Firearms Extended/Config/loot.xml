@@ -260,42 +260,4 @@
 	<item group="groupWeaponsT3_Machinegunner_SCARH" loot_prob_template="T3"/>
 </append>
 
-<append xpath="lootcontainers/lootgroup[@name='schematicsWeaponsCommon']">
-	<item name="gun1911Schematic"/>
-	<item name="gunGlock17Schematic"/>
-	<item name="gunmakarovSchematic"/>
-	<item name="gun45revolverSchematic"/>
-	<item name="gunp250Schematic"/>
-	<item name="gunp99Schematic"/>
-	<item name="gun9mmrevolverSchematic"/>
-	<item name="gundoublebarrelproperSchematic"/>
-	<item name="guntoz34Schematic"/>
-	<item name="gunsinglebarrelshotgunSchematic"/>
-	<item name="gun556rifleSchematic"/>
-	<item name="gun9mmrifleSchematic"/>
-	<item name="gunm1pcarbineSchematic"/>
-	<item name="gunak101Schematic"/>
-	<item name="gunskorpionSchematic"/>
-	<item name="gunpp19Schematic"/>
-	<item name="gunump45Schematic"/>
-	<item name="gunsksSchematic"/>
-	<item name="guntec9Schematic"/>
-	<item name="gunmk23Schematic"/>
-</append>
-
-<append xpath="lootcontainers/lootgroup[@name='schematicsWeaponsRare']">
-	<item name="gunmac11Schematic"/>
-	<item name="gunmicrouziSchematic"/>
-	<item name="gunaks74uSchematic"/>
-	<item name="gunscarhSchematic"/>
-	<item name="gunsvdSchematic"/>
-	<item name="gung36cSchematic"/>
-	<item name="gunhk416Schematic"/>
-	<item name="gunar15Schematic"/>
-	<item name="gunsg553Schematic"/>
-	<item name="gunscarlSchematic"/>
-	<item name="gunrsx1Schematic"/>
-	<item name="gunuspSchematic"/>
-	<item name="gundeserteagleSchematic"/>
-</append>
 </VFX>
