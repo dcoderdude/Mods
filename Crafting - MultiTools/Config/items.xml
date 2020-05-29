@@ -3,7 +3,7 @@
 <append xpath="/items">
 
 <item name="AxePickShovel">
-	<property name="CustomIcon" value="meleeToolFireaxeIron"/>
+	<property name="CustomIcon" value="meleeToolPickaxeSteel"/>
 	<property name="CustomIconTint" value="9f59de"/>
 	<property name="Tags" value="knife,melee,medium,tool,shovel,perkDeepCuts,perkMotherLode"/>
 	<property name="DisplayType" value="melee"/>
