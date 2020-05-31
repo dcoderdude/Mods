@@ -8,7 +8,7 @@
 		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 		<property name="Material" value="Morganic"/>
 		<property name="EconomicValue" value="80"/>
-		<property name="Stacknumber" value="10"/>
+		<property name="Stacknumber" value="250"/>
 		<property name="Group" value="Science,Resources,Chemicals,CFChemicals,Medical"/>
 		<property class="Action0">
 			<property name="Class" value="Eat"/>
@@ -47,7 +47,7 @@
 		<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
 		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 		<property name="Material" value="MfoodRawMeat"/>
-		<property name="Stacknumber" value="125"/>
+		<property name="Stacknumber" value="250"/>
 		<property name="EconomicValue" value="5"/>
 		<property name="EconomicBundleSize" value="1"/>
 		<property name="SellableToTrader" value="false"/>
