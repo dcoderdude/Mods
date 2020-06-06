@@ -3,7 +3,6 @@
 <append xpath="/recipes">
 
 <recipe name="AxePickShovel" count="1" craft_time = "10" tags="learnable,perkMiner69r">
-	<ingredient name="meleeToolFireaxeIron" count="1"/>
 	<ingredient name="meleeToolPickaxeIron" count="1"/>
 	<ingredient name="meleeToolShovelIron" count="1"/>
 </recipe>

@@ -12,7 +12,7 @@
 	<property name="HoldType" value="4"/>
 	<property name="Meshfile" value="#Other/Items?Tools/pickaxe_steelPrefab.prefab"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="RepairTools" value="resourceScrapIron"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="EconomicValue" value="400"/>
 	<property name="SoundJammed" value="ItemNeedsRepair"/>
@@ -83,7 +83,7 @@
 	<property name="HoldType" value="29"/>
 	<property name="Meshfile" value="#Other/Items?Tools/wrenchPrefab.prefab"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="RepairTools" value="resourceScrapIron"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="EconomicValue" value="400"/>
 	<property name="SoundJammed" value="ItemNeedsRepair"/>
@@ -139,7 +139,7 @@
 	<property name="HoldType" value="47"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Knives/machetePrefab.prefab"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="RepairTools" value="resourceScrapIron"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="EconomicValue" value="600"/>
 	<property name="SoundJammed" value="ItemNeedsRepair"/>
