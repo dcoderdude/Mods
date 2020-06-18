@@ -32,72 +32,72 @@ gunscarhDesc,items,Gun,New,SCAR-H machine gun that uses 5.56mm for ammo.\n\nRepa
 guntec9Desc,items,Gun,New,TEC-9 pistol that uses .9mm for ammo.\n\nRepair with a Repair kit.
 gunscarlDesc,items,Gun,New,SCAR-L machine gun that uses 5.56mm for ammo.\n\nRepair with a Repair kit.
 gunsg553Desc,items,Gun,New,SG-553 submachine gun that uses 5.56mm for ammo.\n\nRepair with a Repair kit.
-gun1911Schematic,items,Book,New,Reading this will teach you how to craft a 1911.
-gun1911Schematic,items,Book,New,Reading this will teach you how to craft a 1911. 
-gunmk23Schematic,items,Book,New,Mk 23 Reading this will teach you how to craft a Mk 23.
-gunmk23Schematic,items,Book,New,Reading this will teach you how to craft a Mk 23. 
+gun1911Schematic,items,Book,New,1911 Schematic
+gun1911SchematicDesc,items,Book,New,Reading this will teach you how to craft a 1911. 
+gunmk23Schematic,items,Book,New,Mk 23 Schematic
+gunmk23SchematicDesc,items,Book,New,Reading this will teach you how to craft a Mk 23. 
 gunGlock17Schematic,items,Book,New,Glock 17 Schematic
-gunGlock17Schematic,items,Book,New,Reading this will teach you how to craft a Glock 17. 
+gunGlock17SchematicDesc,items,Book,New,Reading this will teach you how to craft a Glock 17. 
 gunmakarovSchematic,items,Book,New,Makarov Schematic
-gunmakarovSchematic,items,Book,New,Reading this will teach you how to craft a Makarov.
+gunmakarovSchematicDesc,items,Book,New,Reading this will teach you how to craft a Makarov.
 gun45revolverSchematic,items,Book,New,.45 Revolver Schematic
-gun45revolverSchematic,items,Book,New,Reading this will teach you how to craft a .45 Revolver.
+gun45revolverSchematicDesc,items,Book,New,Reading this will teach you how to craft a .45 Revolver.
 gundeserteagleSchematic,items,Book,New,Desert Eagle Schematic
-gundeserteagleSchematic,items,Book,New,Reading this will teach you how to craft a Desert Eagle.
+gundeserteagleSchematicDesc,items,Book,New,Reading this will teach you how to craft a Desert Eagle.
 gunp250Schematic,items,Book,New,P250 Schematic
-gunp250Schematic,items,Book,New,Reading this will teach you how to craft a P9.
+gunp250SchematicDesc,items,Book,New,Reading this will teach you how to craft a P9.
 gunp99Schematic,items,Book,New,P99 Schematic
-gunp99Schematic,items,Book,New,Reading this will teach you how to craft a P99.
+gunp99SchematicDesc,items,Book,New,Reading this will teach you how to craft a P99.
 gunuspSchematic,items,Book,New,USP Schematic
-gunuspSchematic,items,Book,New,Reading this will teach you how to craft a USP.
+gunuspSchematicDesc,items,Book,New,Reading this will teach you how to craft a USP.
 gun9mmrevolverSchematic,items,Book,New,9mm Revolver Schematic
-gun9mmrevolverSchematic,items,Book,New,Reading this will teach you how to craft a 9mm Revolver.
+gun9mmrevolverSchematicDesc,items,Book,New,Reading this will teach you how to craft a 9mm Revolver.
 guntec9Schematic,items,Book,New,TEC-9 Schematic
-guntec9Schematic,items,Book,New,Reading this will teach you how to craft a TEC-9.
+guntec9SchematicDesc,items,Book,New,Reading this will teach you how to craft a TEC-9.
 gundoublebarrelproperSchematic,items,Book,New,Side-by-Side Schematic
-gundoublebarrelproperSchematic,items,Book,New,Reading this will teach you how to craft a side-by-side shotgun.
+gundoublebarrelproperSchematicDesc,items,Book,New,Reading this will teach you how to craft a side-by-side shotgun.
 guntoz34Schematic,items,Book,New,Over/Under Schematic
-guntoz34Schematic,items,Book,New,Reading this will teach you how to craft an over-under shotgun.
+guntoz34SchematicDesc,items,Book,New,Reading this will teach you how to craft an over-under shotgun.
 gunsinglebarrelshotgunSchematic,items,Book,New,Single Barrel Shotgun Schematic
-gunsinglebarrelshotgunSchematic,items,Book,New,Reading this will teach you how to craft a single barrel shotgun.
+gunsinglebarrelshotgunSchematicDesc,items,Book,New,Reading this will teach you how to craft a single barrel shotgun.
 gunrsx1Schematic,items,Book,New,RSX-1 Schematic
-gunrsx1Schematic,items,Book,New,Reading this will teach you how to craft an RSX-1.
+gunrsx1SchematicDesc,items,Book,New,Reading this will teach you how to craft an RSX-1.
 gunm1pcarbineSchematic,items,Book,New,M1-P Carbine Schematic
-gunm1pcarbineSchematic,items,Book,New,Reading this will teach you how to craft an M1-P Carbine.
+gunm1pcarbineSchematicDesc,items,Book,New,Reading this will teach you how to craft an M1-P Carbine.
 gunsksSchematic,items,Book,New,SKS Schematic
-gunsksSchematic,items,Book,New,Reading this will teach you how to craft an SKS.
+gunsksSchematicDesc,items,Book,New,Reading this will teach you how to craft an SKS.
 gunak101Schematic,items,Book,New,AK-101 Schematic
-gunak101Schematic,items,Book,New,Reading this will teach you how to craft an AK-101.
+gunak101SchematicDesc,items,Book,New,Reading this will teach you how to craft an AK-101.
 gunar15Schematic,items,Book,New,AR-15 Schematic
-gunar15Schematic,items,Book,New,Reading this will teach you how to craft an AR-15.
+gunar15SchematicDesc,items,Book,New,Reading this will teach you how to craft an AR-15.
 gunhk416Schematic,items,Book,New,HK416 Schematic
-gunhk416Schematic,items,Book,New,Reading this will teach you how to craft an HK416.
+gunhk416SchematicDesc,items,Book,New,Reading this will teach you how to craft an HK416.
 gung36cSchematic,items,Book,New,G36C Schematic
-gung36cSchematic,items,Book,New,Reading this will teach you how to craft an G36C.
+gung36cSchematicDesc,items,Book,New,Reading this will teach you how to craft an G36C.
 gun556rifleSchematic,items,Book,New,Sporting Rifle Schematic
-gun556rifleSchematic,items,Book,New,Reading this will teach you how to craft a Sporting Rifle.
+gun556rifleSchematicDesc,items,Book,New,Reading this will teach you how to craft a Sporting Rifle.
 gun9mmrifleSchematic,items,Book,New,Varmint Rifle Schematic
-gun9mmrifleSchematic,items,Book,New,Reading this will teach you how to craft a Varmint Rifle.
+gun9mmrifleSchematicDesc,items,Book,New,Reading this will teach you how to craft a Varmint Rifle.
 gunsvdSchematic,items,Book,New,SVD Schematic
-gunsvdSchematic,items,Book,New,Reading this will teach you how to craft an SVD.
+gunsvdSchematicDesc,items,Book,New,Reading this will teach you how to craft an SVD.
 gunscarhSchematic,items,Book,New,SCAR-H Schematic
-gunscarhSchematic,items,Book,New,Reading this will teach you how to craft a SCAR-H.
+gunscarhSchematicDesc,items,Book,New,Reading this will teach you how to craft a SCAR-H.
 gunaks74uSchematic,items,Book,New,AKS-74u Schematic
-gunaks74uSchematic,items,Book,New,Reading this will teach you how to craft an AKS-74u.
+gunaks74uSchematicDesc,items,Book,New,Reading this will teach you how to craft an AKS-74u.
 gunskorpionSchematic,items,Book,New,Skorpion Schematic
-gunskorpionSchematic,items,Book,New,Reading this will teach you how to craft a Skorpion.
+gunskorpionSchematicDesc,items,Book,New,Reading this will teach you how to craft a Skorpion.
 gunmicrouziSchematic,items,Book,New,Micro Uzi Schematic
-gunmicrouziSchematic,items,Book,New,Reading this will teach you how to craft a Micro Uzi.
+gunmicrouziSchematicDesc,items,Book,New,Reading this will teach you how to craft a Micro Uzi.
 gunmac11Schematic,items,Book,New,Mac-11 Schematic
-gunmac11Schematic,items,Book,New,Reading this will teach you how to craft a Mac-11.
+gunmac11SchematicDesc,items,Book,New,Reading this will teach you how to craft a Mac-11.
 gunump45Schematic,items,Book,New,UMP-45 Schematic
-gunump45Schematic,items,Book,New,Reading this will teach you how to craft a UMP-45.
+gunump45SchematicDesc,items,Book,New,Reading this will teach you how to craft a UMP-45.
 gunpp19Schematic,items,Book,New,PP-19 Schematic
-gunpp19Schematic,items,Book,New,Reading this will teach you how to craft a PP-19.
+gunpp19SchematicDesc,items,Book,New,Reading this will teach you how to craft a PP-19.
 gunscarlSchematic,items,Book,New,PP-19 Schematic
-gunscarlSchematic,items,Book,New,Reading this will teach you how to craft a SCAR-L.
+gunscarlSchematicDesc,items,Book,New,Reading this will teach you how to craft a SCAR-L.
 gunsg553Schematic,items,Book,New,PP-19 Schematic
-gunsg553Schematic,items,Book,New,Reading this will teach you how to craft a SG-553.
+gunsg553SchematicDesc,items,Book,New,Reading this will teach you how to craft a SG-553.
 ammo45BulletBallDesc,items,Ammo,New,.45 Ammo
 ammo45BulletAPDesc,items,Ammo,New,AP .45 Ammo
 ammo45BulletHPDesc,items,Ammo,New,HP .45 Ammo
