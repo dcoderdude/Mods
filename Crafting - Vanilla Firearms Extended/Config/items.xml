@@ -1,175 +1,175 @@
 <VFX>
 <append xpath="/items">
-	<item name="ammo45BulletBall">
-		<property name="Tags" value="ammo"/>
-		<property name="DisplayType" value="ammoBullet"/>
-		<property name="HoldType" value="45"/>
-		<property name="CustomIcon" value="45bullet"/>
-		<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-		<property name="Material" value="Mbrass"/>
-		<property name="MeltTimePerUnit" value=".4"/>
-		<property name="Stacknumber" value="1300"/>
-		<property name="EconomicValue" value="9"/>
-		<property name="Group" value="Ammo/Weapons"/>
-		<effect_group name="ammo45BulletBall" tiered="false">
-			<passive_effect name="EntityDamage" operation="base_set" value="37"/>
-			<passive_effect name="BlockDamage" operation="base_set" value="8"/>
-			<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
-			<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
-		</effect_group>
-	</item>
-	<item name="ammo45BulletHP">
-		<property name="Extends" value="ammo45BulletBall"/>
-		<property name="CustomIcon" value="45bullethp"/>
-		<property name="DisplayType" value="ammoBulletHP"/>
-		<property name="EconomicValue" value="14"/>
-		<property name="UnlockedBy" value="perkPistolPeteHPAmmo"/>
-		<effect_group name="ammo45BulletHP" tiered="false">
-			<passive_effect name="EntityDamage" operation="base_set" value="46.3"/>
-			<passive_effect name="BlockDamage" operation="base_set" value="3"/>
-			<passive_effect name="TargetArmor" operation="perc_add" value="1"/>
-			<display_value name="dTargetArmor" value="1"/>
-			<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
-			<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
-		</effect_group>
-	</item>
-	<item name="ammo45BulletAP">
-		<property name="Extends" value="ammo45BulletBall"/>
-		<property name="DisplayType" value="ammoBulletAP"/>
-		<property name="CustomIcon" value="45bulletap"/>
-		<property name="EconomicValue" value="14"/>
-		<property name="UnlockedBy" value="perkPistolPeteAPAmmo"/>
-		<effect_group name="ammo45BulletAP" tiered="false">
-			<passive_effect name="EntityDamage" operation="base_set" value="37"/>
-			<passive_effect name="BlockDamage" operation="base_set" value="9"/>
-			<passive_effect name="TargetArmor" operation="perc_add" value="-.15"/>
-			<display_value name="dTargetArmor" value="-.15"/>
-			<passive_effect name="EntityPenetrationCount" operation="base_set" value="1"/>
-			<display_value name="dTargetPenetration" value="1"/>
-			<passive_effect name="DegradationPerUse" operation="perc_add" value=".3" tags="perkGunslinger,9mmGun"/>
-			<display_value name="dDegradationPerUse" value=".3"/>
-			<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
-			<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
-		</effect_group>
-	</item>
-	<item name="ammoBundle45BulletBall">
-		<property name="CustomIcon" value="45bullet"/>
-		<property name="ItemTypeIcon" value="bundle"/>
-		<property name="HoldType" value="45"/>
-		<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-		<property name="Material" value="Mmetal"/>
-		<property name="Stacknumber" value="500"/> <!-- STK ammobundle -->
-		<property name="Weight" value="0"/>
-		<property name="EconomicValue" value="900"/>
-		<property name="Group" value="Ammo/Weapons"/>
-		<property name="UnlockedBy" value="perkPistolPeteComplete"/>
-		<property class="Action0">
-			<property name="Class" value="OpenBundle"/>
-			<property name="Delay" value="0"/>
-			<property name="Use_time" value="0"/>
-			<property name="Sound_start" value="close_garbage"/>
-			<property name="Create_item" value="ammo45BulletBall"/>
-			<property name="Create_item_count" value="75"/>
-		</property>
-	</item>
-	<item name="ammoBundle45BulletHP">
-		<property name="Extends" value="ammoBundle45BulletBall"/>
-		<property name="CustomIcon" value="45bullethp"/>
-		<property name="EconomicValue" value="1400"/>
-		<property class="Action0">
-			<property name="Create_item" value="ammo45BulletHP"/>
-			<property name="Create_item_count" value="75"/>
-		</property>
-	</item>
-	<item name="ammoBundle45BulletAP">
-		<property name="Extends" value="ammoBundle45BulletBall"/>
-		<property name="CustomIcon" value="45bulletap"/>
-		<property name="EconomicValue" value="1400"/>
-		<property class="Action0">
-			<property name="Create_item" value="ammo45BulletAP"/>
-			<property name="Create_item_count" value="75"/>
-		</property>
-	</item>
-	<item name="ammo556mmBulletBall">
-		<property name="Extends" value="ammo9mmBulletBall"/>
-		<property name="CustomIcon" value="ammo556mmBulletBall"/>
-		<property name="Stacknumber" value="1200"/> <!-- STK ammo low -->
-		<property name="EconomicValue" value="11"/>
-		<effect_group name="ammo556mmBulletBall" tiered="false">
-			<passive_effect name="EntityDamage" operation="base_set" value="40"/>
-			<passive_effect name="BlockDamage" operation="base_set" value="8"/>
-			<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
-			<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
-		</effect_group>
-	</item>
-	<item name="ammo556mmBulletHP">
-		<property name="Extends" value="ammo556mmBulletBall"/>
-		<property name="DisplayType" value="ammoBulletHP"/>
-		<property name="CustomIcon" value="ammo556mmBulletHP"/>
-		<property name="EconomicValue" value="16"/>
-		<property name="UnlockedBy" value="perkSniperHPAmmo"/>
-		<effect_group name="ammo556mmBulletHP" tiered="false">
-			<passive_effect name="EntityDamage" operation="base_set" value="54"/>
-			<passive_effect name="BlockDamage" operation="base_set" value="4"/>
-			<passive_effect name="TargetArmor" operation="perc_add" value="1"/>
-			<display_value name="dTargetArmor" value="1"/>
-			<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
-			<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
-		</effect_group>
-	</item>
-	<item name="ammo556mmBulletAP">
-		<property name="Extends" value="ammo556mmBulletBall"/>
-		<property name="CustomIcon" value="ammo556mmBulletAP"/>
-		<property name="DisplayType" value="ammoBulletAP"/>
-		<property name="EconomicValue" value="16"/>
-		<property name="UnlockedBy" value="perkSniperAPAmmo"/>
-		<effect_group name="ammo556mmBulletAP" tiered="false">
-			<passive_effect name="EntityDamage" operation="base_set" value="40"/>
-			<passive_effect name="BlockDamage" operation="base_set" value="9"/>
-			<passive_effect name="TargetArmor" operation="perc_add" value="-.2"/>
-			<display_value name="dTargetArmor" value="-.2"/>
-			<passive_effect name="EntityPenetrationCount" operation="base_set" value="1"/>
-			<display_value name="dTargetPenetration" value="1"/>
-			<passive_effect name="DegradationPerUse" operation="perc_add" value=".3" tags="perkDeadEye,perkMachineGunner"/>
-			<display_value name="dDegradationPerUse" value=".3"/>
-			<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
-			<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
-		</effect_group>
-	</item>
-	<item name="ammoBundle556mmBulletBall">
-		<property name="Extends" value="ammoBundle9mmBulletBall"/>
-		<property name="CustomIcon" value="ammo556mmBulletBall"/>
-		<property name="EconomicValue" value="1100"/>
-		<property name="UnlockedBy" value="perkSniperComplete"/>
-		<property class="Action0">
-			<property name="Create_item" value="ammo556mmBulletBall"/>
-			<property name="Create_item_count" value="120"/>
-		</property>
-	</item>
-	<item name="ammoBundle556mmBulletHP">
-		<property name="Extends" value="ammoBundle556mmBulletBall"/>
-		<property name="CustomIcon" value="ammo556mmBulletHP"/>
-		<property name="EconomicValue" value="1600"/>
-		<property name="UnlockedBy" value="perkSniperComplete"/>
-		<property class="Action0">
-			<property name="Create_item" value="ammo556mmBulletHP"/>
-			<property name="Create_item_count" value="120"/>
-		</property>
-	</item>
-	<item name="ammoBundle556mmBulletAP">
-		<property name="Extends" value="ammoBundle556mmBulletBall"/>
-		<property name="CustomIcon" value="ammo556mmBulletAP"/>
-		<property name="EconomicValue" value="1600"/>
-		<property name="UnlockedBy" value="perkSniperComplete"/>
-		<property class="Action0">
-			<property name="Create_item" value="ammo556mmBulletAP"/>
-			<property name="Create_item_count" value="120"/>
-		</property>
-	</item>
-	<!-- vanilla extended weapons -->
-	<item name="gun1911"> <!-- T2 pistols -->
+<item name="ammo45BulletBall">
+	<property name="Tags" value="ammo"/>
+	<property name="DisplayType" value="ammoBullet"/>
+	<property name="HoldType" value="45"/>
+	<property name="CustomIcon" value="45bullet"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mbrass"/>
+	<property name="MeltTimePerUnit" value=".4"/>
+	<property name="Stacknumber" value="1300"/>
+	<property name="EconomicValue" value="9"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<effect_group name="ammo45BulletBall" tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="37"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="8"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
+	</effect_group>
+</item>
+<item name="ammo45BulletHP">
+	<property name="Extends" value="ammo45BulletBall"/>
+	<property name="CustomIcon" value="45bullethp"/>
+	<property name="DisplayType" value="ammoBulletHP"/>
+	<property name="EconomicValue" value="14"/>
+	<property name="UnlockedBy" value="perkPistolPeteHPAmmo"/>
+	<effect_group name="ammo45BulletHP" tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="46.3"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="3"/>
+		<passive_effect name="TargetArmor" operation="perc_add" value="1"/>
+		<display_value name="dTargetArmor" value="1"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
+	</effect_group>
+</item>
+<item name="ammo45BulletAP">
+	<property name="Extends" value="ammo45BulletBall"/>
+	<property name="DisplayType" value="ammoBulletAP"/>
+	<property name="CustomIcon" value="45bulletap"/>
+	<property name="EconomicValue" value="14"/>
+	<property name="UnlockedBy" value="perkPistolPeteAPAmmo"/>
+	<effect_group name="ammo45BulletAP" tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="37"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="9"/>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.15"/>
+		<display_value name="dTargetArmor" value="-.15"/>
+		<passive_effect name="EntityPenetrationCount" operation="base_set" value="1"/>
+		<display_value name="dTargetPenetration" value="1"/>
+		<passive_effect name="DegradationPerUse" operation="perc_add" value=".3" tags="perkGunslinger,9mmGun"/>
+		<display_value name="dDegradationPerUse" value=".3"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
+	</effect_group>
+</item>
+<item name="ammoBundle45BulletBall">
+	<property name="CustomIcon" value="45bullet"/>
+	<property name="ItemTypeIcon" value="bundle"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="500"/> <!-- STK ammobundle -->
+	<property name="Weight" value="0"/>
+	<property name="EconomicValue" value="900"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property name="UnlockedBy" value="perkPistolPeteComplete"/>
+	<property class="Action0">
+		<property name="Class" value="OpenBundle"/>
+		<property name="Delay" value="0"/>
+		<property name="Use_time" value="0"/>
+		<property name="Sound_start" value="close_garbage"/>
+		<property name="Create_item" value="ammo45BulletBall"/>
+		<property name="Create_item_count" value="75"/>
+	</property>
+</item>
+<item name="ammoBundle45BulletHP">
+	<property name="Extends" value="ammoBundle45BulletBall"/>
+	<property name="CustomIcon" value="45bullethp"/>
+	<property name="EconomicValue" value="1400"/>
+	<property class="Action0">
+		<property name="Create_item" value="ammo45BulletHP"/>
+		<property name="Create_item_count" value="75"/>
+	</property>
+</item>
+<item name="ammoBundle45BulletAP">
+	<property name="Extends" value="ammoBundle45BulletBall"/>
+	<property name="CustomIcon" value="45bulletap"/>
+	<property name="EconomicValue" value="1400"/>
+	<property class="Action0">
+		<property name="Create_item" value="ammo45BulletAP"/>
+		<property name="Create_item_count" value="75"/>
+	</property>
+</item>
+<item name="ammo556mmBulletBall">
+	<property name="Extends" value="ammo9mmBulletBall"/>
+	<property name="CustomIcon" value="ammo556mmBulletBall"/>
+	<property name="Stacknumber" value="1200"/> <!-- STK ammo low -->
+	<property name="EconomicValue" value="11"/>
+	<effect_group name="ammo556mmBulletBall" tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="40"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="8"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
+	</effect_group>
+</item>
+<item name="ammo556mmBulletHP">
+	<property name="Extends" value="ammo556mmBulletBall"/>
+	<property name="DisplayType" value="ammoBulletHP"/>
+	<property name="CustomIcon" value="ammo556mmBulletHP"/>
+	<property name="EconomicValue" value="16"/>
+	<property name="UnlockedBy" value="perkSniperHPAmmo"/>
+	<effect_group name="ammo556mmBulletHP" tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="54"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="4"/>
+		<passive_effect name="TargetArmor" operation="perc_add" value="1"/>
+		<display_value name="dTargetArmor" value="1"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
+	</effect_group>
+</item>
+<item name="ammo556mmBulletAP">
+	<property name="Extends" value="ammo556mmBulletBall"/>
+	<property name="CustomIcon" value="ammo556mmBulletAP"/>
+	<property name="DisplayType" value="ammoBulletAP"/>
+	<property name="EconomicValue" value="16"/>
+	<property name="UnlockedBy" value="perkSniperAPAmmo"/>
+	<effect_group name="ammo556mmBulletAP" tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="40"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="9"/>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.2"/>
+		<display_value name="dTargetArmor" value="-.2"/>
+		<passive_effect name="EntityPenetrationCount" operation="base_set" value="1"/>
+		<display_value name="dTargetPenetration" value="1"/>
+		<passive_effect name="DegradationPerUse" operation="perc_add" value=".3" tags="perkDeadEye,perkMachineGunner"/>
+		<display_value name="dDegradationPerUse" value=".3"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
+	</effect_group>
+</item>
+<item name="ammoBundle556mmBulletBall">
+	<property name="Extends" value="ammoBundle9mmBulletBall"/>
+	<property name="CustomIcon" value="ammo556mmBulletBall"/>
+	<property name="EconomicValue" value="1100"/>
+	<property name="UnlockedBy" value="perkSniperComplete"/>
+	<property class="Action0">
+		<property name="Create_item" value="ammo556mmBulletBall"/>
+		<property name="Create_item_count" value="120"/>
+	</property>
+</item>
+<item name="ammoBundle556mmBulletHP">
+	<property name="Extends" value="ammoBundle556mmBulletBall"/>
+	<property name="CustomIcon" value="ammo556mmBulletHP"/>
+	<property name="EconomicValue" value="1600"/>
+	<property name="UnlockedBy" value="perkSniperComplete"/>
+	<property class="Action0">
+		<property name="Create_item" value="ammo556mmBulletHP"/>
+		<property name="Create_item_count" value="120"/>
+	</property>
+</item>
+<item name="ammoBundle556mmBulletAP">
+	<property name="Extends" value="ammoBundle556mmBulletBall"/>
+	<property name="CustomIcon" value="ammo556mmBulletAP"/>
+	<property name="EconomicValue" value="1600"/>
+	<property name="UnlockedBy" value="perkSniperComplete"/>
+	<property class="Action0">
+		<property name="Create_item" value="ammo556mmBulletAP"/>
+		<property name="Create_item_count" value="120"/>
+	</property>
+</item>
+<!-- vanilla extended weapons -->
+<item name="1911"> <!-- T2 pistols -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="CustomIcon" value="1911"/>
@@ -268,7 +268,7 @@
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
 	</item>
-	<item name="gunmk23"> <!-- T2 pistols -->
+<item name="Mark-23"> <!-- T2 pistols -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="CustomIcon" value="mk23"/>
@@ -367,7 +367,7 @@
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
 </item>
-	<item name="gunmakarov"> <!-- T2 pistols -->
+<item name="Makarov"> <!-- T2 pistols -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="CustomIcon" value="makarov"/>
@@ -467,7 +467,7 @@
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
 </item>
-<item name="gunGlock17"> <!-- T2 pistols -->
+<item name="Glock17"> <!-- T2 pistols -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="CustomIcon" value="glock17"/>
@@ -566,7 +566,7 @@
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
 </item>
-<item name="guntec9"> <!-- T2 pistols -->
+<item name="TEC-9"> <!-- T2 pistols -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="CustomIcon" value="tec9"/>
@@ -665,7 +665,7 @@
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
 </item>
-<item name="gunp250"> <!-- T2 pistols -->
+<item name="P250"> <!-- T2 pistols -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="CustomIcon" value="p250"/>
@@ -764,7 +764,7 @@
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
 </item>
-<item name="gunp99"> <!-- T2 pistols -->
+<item name="P99"> <!-- T2 pistols -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="CustomIcon" value="p99"/>
@@ -863,7 +863,7 @@
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
 </item>
-	<item name="gunusp"> <!-- T2 pistols -->
+<item name="USP"> <!-- T2 pistols -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="CustomIcon" value="usp"/>
@@ -962,7 +962,7 @@
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
 </item>
-<item name="gun9mmrevolver"> <!-- T3 pistols -->
+<item name="Revolver Pistol"> <!-- T3 pistols -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,revolver,barrelAttachments,sideAttachments,smallTopAttachments,attAgility,perkGunslinger,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="44"/>
@@ -1062,7 +1062,7 @@
 		<!-- <triggered_effect trigger="onSelfEquipStart" action="CVarLogValue" cvar="onSelfEquipStartMagnum"/> -->
 	</effect_group>
 </item>
-<item name="gun45revolver"> <!-- T3 pistols -->
+<item name="Colt Revolver Pistol"> <!-- T3 pistols -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,revolver,noSilencer,barrelAttachments,sideAttachments,smallTopAttachments,attAgility,perkGunslinger,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="44"/>
@@ -1166,7 +1166,7 @@
 		<!-- <triggered_effect trigger="onSelfEquipStart" action="CVarLogValue" cvar="onSelfEquipStartMagnum"/> -->
 	</effect_group>
 </item>
-<item name="gundeserteagle"> <!-- T2 pistols -->
+<item name="Desert Eagle"> <!-- T2 pistols -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="CustomIcon" value="deserteagle"/>
@@ -1266,7 +1266,7 @@
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
 </item>
-<item name="gunm1pcarbine"> <!-- T2 automatic rifles -->
+<item name="M1 Carbine"> <!-- T2 automatic rifles -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,,attPerception,perkDeadEye,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="48"/>
@@ -1359,7 +1359,7 @@
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
 </item>
-<item name="gunsks"> <!-- T2 automatic rifles -->
+<item name="SKS"> <!-- T2 automatic rifles -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="48"/>
@@ -1452,7 +1452,7 @@
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
 </item>
-<item name="gunscarh"> <!-- T2 automatic rifles -->
+<item name="SCAR-H"> <!-- T2 automatic rifles -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="71"/>
@@ -1545,7 +1545,7 @@
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
 </item>
-<item name="guntoz34"> <!-- T2 shotguns -->
+<item name="TOZ-34"> <!-- T2 shotguns -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,doubleBarrel,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="56"/>
@@ -1644,7 +1644,7 @@
 		<display_value name="dStatStunEffect" value="4"/>
 	</effect_group>
 </item>
-<item name="gundoublebarrelproper"> <!-- T2 shotguns -->
+<item name="Double-barrel Shotgun"> <!-- T2 shotguns -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,doubleBarrel,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="56"/>
@@ -1743,7 +1743,7 @@
 		<display_value name="dStatStunEffect" value="4"/>
 	</effect_group>
 </item>
-<item name="gunsinglebarrelshotgun"> <!-- T2 shotguns -->
+<item name="Single-barrel Shotgun"> <!-- T2 shotguns -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,doubleBarrel,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="56"/>
@@ -1842,7 +1842,7 @@
 		<display_value name="dStatStunEffect" value="4"/>
 	</effect_group>
 </item>
-<item name="gunrsx1"> <!-- T3 shotguns -->
+<item name="RSX1"> <!-- T3 shotguns -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,barrelAttachments,sideAttachments,smallTopAttachments,stock,firingMode,selfLoading,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="48"/>
@@ -1945,7 +1945,7 @@
 		<display_value name="dStatStunEffect" value="4"/>
 	</effect_group>
 </item>
-<item name="gunak101"> <!-- T2 automatic rifles -->
+<item name="AK-101"> <!-- T2 automatic rifles -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="48"/>
@@ -2039,7 +2039,7 @@
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
 </item>
-<item name="gunaks74u"> <!-- T2 automatic rifles -->
+<item name="AK-74u"> <!-- T2 automatic rifles -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attAgility,perkGunslinger,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="48"/>
@@ -2133,7 +2133,7 @@
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
 </item>
-<item name="gunar15"> <!-- T2 automatic rifles -->
+<item name="AR-15"> <!-- T2 automatic rifles -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="11"/>
@@ -2223,7 +2223,7 @@
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 	</effect_group>
 </item>
-<item name="gunsg553"> <!-- T2 automatic rifles -->
+<item name="SG-553"> <!-- T2 automatic rifles -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="48"/>
@@ -2316,7 +2316,7 @@
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 	</effect_group>
 </item>
-<item name="gunscarl"> <!-- T2 automatic rifles -->
+<item name="SCAR-L"> <!-- T2 automatic rifles -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="11"/>
@@ -2407,7 +2407,7 @@
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 	</effect_group>
 </item>
-<item name="gunhk416"> <!-- T2 automatic rifles -->
+<item name="HK416"> <!-- T2 automatic rifles -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="11"/>
@@ -2499,7 +2499,7 @@
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 	</effect_group>
 </item>
-<item name="gung36c"> <!-- T2 automatic rifles -->
+<item name="G36C"> <!-- T2 automatic rifles -->
 	<property name="Tags" value="Cscope,weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="48"/>
@@ -2593,7 +2593,7 @@
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
 </item>
-<item name="gunsvd"> <!-- T2 automatic rifles -->
+<item name="Dragunov Sniper Rifle"> <!-- T2 automatic rifles -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attPerception,perkDeadEye,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="48"/>
@@ -2687,7 +2687,7 @@
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
 </item>
-<item name="gunmac11"> <!-- T2 pistols -->
+<item name="MAC-11"> <!-- T2 pistols -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="CustomIcon" value="glock17"/>
@@ -2787,7 +2787,7 @@
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
 </item>
-<item name="gunskorpion"> <!-- T2 pistols -->
+<item name="Skorpion"> <!-- T2 pistols -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="CustomIcon" value="glock17"/>
@@ -2887,7 +2887,7 @@
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
 </item>
-<item name="gunmicrouzi"> <!-- T2 pistols -->
+<item name="Micro Uzi"> <!-- T2 pistols -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="CustomIcon" value="glock17"/>
@@ -2987,7 +2987,7 @@
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
 </item>
-<item name="gunump45"> <!-- T3 pistols -->
+<item name="UMP"> <!-- T3 pistols -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="6"/>
@@ -3085,7 +3085,7 @@
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
 </item>
-<item name="gunpp19"> <!-- T3 pistols -->
+<item name="PP-19"> <!-- T3 pistols -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attFortitude,perkMachineGunner,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="48"/>
@@ -3178,7 +3178,7 @@
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
 </item>
-<item name="gun556rifle"> <!-- T2 rifles -->
+<item name="Bolt-Action Sports Rifle"> <!-- T2 rifles -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,bottomAttachments,attPerception,perkDeadEye,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="30"/>
@@ -3273,7 +3273,7 @@
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
 </item>
-<item name="gun9mmrifle"> <!-- T2 rifles -->
+<item name="Bolt-Action Rifle"> <!-- T2 rifles -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,bottomAttachments,attPerception,perkDeadEye,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="30"/>

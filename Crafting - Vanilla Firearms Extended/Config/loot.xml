@@ -30,138 +30,138 @@
 
 <insertBefore xpath="/lootcontainers/lootgroup[@name='groupQuestChallenge']">
 	<lootgroup name="groupWeaponsT1_Gunslinger_makarov" count="all">
-		<item name="gunmakarov"/>
+		<item name="Makarov"/>
 		<item name="ammo9mmBulletBall" count="15,35"/>
 	</lootgroup>
 	<lootgroup name="groupWeaponsT1_Gunslinger_9mmrevolver" count="all">
-		<item name="gun9mmrevolver"/>
+		<item name="Revolver Pistol"/>
 		<item name="ammo9mmBulletBall" count="15,35"/>
 	</lootgroup>
 	<lootgroup name="groupWeaponsT1_Gunslinger_45revolver" count="all">
-		<item name="gun45revolver"/>
+		<item name="Colt Revolver Pistol"/>
 		<item name="ammo45BulletBall" count="12,28"/>
 	</lootgroup>
 	<lootgroup name="groupWeaponsT2_Gunslinger_tec9" count="all">
-		<item name="guntec9"/>
+		<item name="TEC-9"/>
 		<item name="ammo9mmBulletBall" count="15,35"/>
 	</lootgroup>
 	<lootgroup name="groupWeaponsT2_Gunslinger_1911" count="all">
-		<item name="gun1911"/>
+		<item name="1911"/>
 		<item name="ammo45BulletBall" count="12,28"/>
 	</lootgroup>
 	<lootgroup name="groupWeaponsT2_Gunslinger_glock17" count="all">
-		<item name="gunGlock17"/>
+		<item name="Glock17"/>
 		<item name="ammo9mmBulletBall" count="15,35"/>
 	</lootgroup>
 	<lootgroup name="groupWeaponsT2_Gunslinger_p250" count="all">
-		<item name="gunp250"/>
+		<item name="P250"/>
 		<item name="ammo9mmBulletBall" count="15,35"/>
 	</lootgroup>
 	<lootgroup name="groupWeaponsT2_Gunslinger_p99" count="all">
-		<item name="gunp99"/>
+		<item name="P99"/>
 		<item name="ammo9mmBulletBall" count="15,35"/>
 	</lootgroup>
 	<lootgroup name="groupWeaponsT2_Gunslinger_skorpion" count="all">
-		<item name="gunskorpion"/>
+		<item name="Skorpion"/>
 		<item name="ammo9mmBulletBall" count="15,35"/>
 	</lootgroup>
 	<lootgroup name="groupWeaponsT3_Gunslinger_mk23" count="all">
-		<item name="gunmk23"/>
+		<item name="Mark-23"/>
 		<item name="ammo45BulletBall" count="15,35"/>
 	</lootgroup>
 	<lootgroup name="groupWeaponsT3_Gunslinger_deserteagle" count="all">
-		<item name="gundeserteagle"/>
+		<item name="Desert Eagle"/>
 		<item name="ammo44MagnumBulletBall" count="4,19"/>
 	</lootgroup>
 	<lootgroup name="groupWeaponsT3_Gunslinger_usp" count="all">
-		<item name="gunusp"/>
+		<item name="USP"/>
 		<item name="ammo45BulletBall" count="15,35"/>
 	</lootgroup>
 	<lootgroup name="groupWeaponsT3_Gunslinger_mac11" count="all">
-		<item name="gunmac11"/>
+		<item name="MAC-11"/>
 		<item name="ammo9mmBulletBall" count="15,35"/>
 	</lootgroup>
 	<lootgroup name="groupWeaponsT3_Gunslinger_microuzi" count="all">
-		<item name="gunmicrouzi"/>
+		<item name="Micro Uzi"/>
 		<item name="ammo45BulletBall" count="15,35"/>
 	</lootgroup>
 	<lootgroup name="groupWeaponsT3_Gunslinger_ump45" count="all">
-		<item name="gunump45"/>
+		<item name="UMP"/>
 		<item name="ammo45BulletBall" count="15,35"/>
 	</lootgroup>
 	<lootgroup name="groupWeaponsT3_Gunslinger_aks74u" count="all">
-		<item name="gunaks74u"/>
+		<item name="AK-74u"/>
 		<item name="ammo45BulletBall" count="15,35"/>
 	</lootgroup>
 	
 	<lootgroup name="groupWeaponsT1_DeadEye_9mm" count="all">
-		<item name="gun9mmrifle"/>
+		<item name="Bolt-Action Rifle"/>
 		<item name="ammo9mmBulletBall" count="15,35"/>
 	</lootgroup>
 	<lootgroup name="groupWeaponsT1_DeadEye_M1P" count="all">
-		<item name="gunm1pcarbine"/>
+		<item name="M1 Carbine"/>
 		<item name="ammo9mmBulletBall" count="15,35"/>
 	</lootgroup>
 	<lootgroup name="groupWeaponsT2_DeadEye_556" count="all">
-		<item name="gun556rifle"/>
+		<item name="Bolt-Action Sports Rifle"/>
 		<item name="ammo556mmBulletBall" count="6,25"/>
 	</lootgroup>
 	<lootgroup name="groupWeaponsT2_DeadEye_SKS" count="all">
-		<item name="gunsks"/>
+		<item name="SKS"/>
 		<item name="ammo762mmBulletBall" count="6,25"/>
 	</lootgroup>
 	<lootgroup name="groupWeaponsT3_DeadEye_SVD" count="all">
-		<item name="gunsvd"/>
+		<item name="Dragunov Sniper Rifle"/>
 		<item name="ammo762mmBulletBall" count="6,25"/>
 	</lootgroup>
 	
 	<lootgroup name="groupWeaponsT1_Boomstick_singleshot" count="all">
-		<item name="gunsinglebarrelshotgun"/>
+		<item name="Single-barrel Shotgun"/>
 		<item name="ammoShotgunShell" count="3,9"/>
 	</lootgroup>
 	<lootgroup name="groupWeaponsT2_Boomstick_doublebarrel" count="all">
-		<item name="gundoublebarrelproper"/>
+		<item name="Double-barrel Shotgun"/>
 		<item name="ammoShotgunShell" count="3,9"/>
 	</lootgroup>
 	<lootgroup name="groupWeaponsT2_Boomstick_overunder" count="all">
-		<item name="guntoz34"/>
+		<item name="TOZ-34"/>
 		<item name="ammoShotgunShell" count="3,9"/>
 	</lootgroup>
 	<lootgroup name="groupWeaponsT4_Boomstick_rsx1" count="all">
-		<item name="gunrsx1"/>
+		<item name="RSX1"/>
 		<item name="ammoShotgunShell" count="6,18"/>
 	</lootgroup>
 	
 	<lootgroup name="groupWeaponsT1_Machinegunner_PP19" count="all">
-		<item name="gunpp19"/>
+		<item name="PP-19"/>
 		<item name="ammo9mmBulletBall" count="6,25"/>
 	</lootgroup>
 	<lootgroup name="groupWeaponsT2_Machinegunner_AK74" count="all">
-		<item name="gunak101"/>
+		<item name="AK-101"/>
 		<item name="ammo556mmBulletBall" count="6,25"/>
 	</lootgroup>
 	<lootgroup name="groupWeaponsT3_Machinegunner_AR15" count="all">
-		<item name="gunar15"/>
+		<item name="AR-15"/>
 		<item name="ammo556mmBulletBall" count="6,25"/>
 	</lootgroup>
 	<lootgroup name="groupWeaponsT3_Machinegunner_G36C" count="all">
-		<item name="gung36c"/>
+		<item name="G36C"/>
 		<item name="ammo556mmBulletBall" count="6,25"/>
 	</lootgroup>
 	<lootgroup name="groupWeaponsT3_Machinegunner_HK416" count="all">
-		<item name="gunhk416"/>
+		<item name="HK416"/>
 		<item name="ammo556mmBulletBall" count="6,25"/>
 	</lootgroup>
 	<lootgroup name="groupWeaponsT3_Machinegunner_SCARH" count="all">
-		<item name="gunscarh"/>
+		<item name="SCAR-H"/>
 		<item name="ammo762mmBulletBall" count="6,25"/>
 	</lootgroup>
 	<lootgroup name="groupWeaponsT3_Machinegunner_SG553" count="all">
-		<item name="gunsg553"/>
+		<item name="SG-553"/>
 		<item name="ammo556mmBulletBall" count="6,25"/>
 	</lootgroup>
 	<lootgroup name="groupWeaponsT3_Machinegunner_SCARL" count="all">
-		<item name="gunscarl"/>
+		<item name="SCAR-L"/>
 		<item name="ammo556mmBulletBall" count="6,25"/>
 	</lootgroup>
 </insertBefore>
