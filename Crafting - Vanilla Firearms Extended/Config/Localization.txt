@@ -1,37 +1,38 @@
 Key,Source,Context,Changes,English
-gun1911Desc,items,Gun,New,1911 pistol that uses .45mm for ammo.\n\nRepair with a Repair kit.
-gunmk23Desc,items,Gun,New,MK-23 pistol that uses .45mm for ammo.\n\nRepair with a Repair kit.
-gunGlock17Desc,items,Gun,New,Glock-17 pistol that uses .45mm for ammo.\n\nRepair with a Repair kit.
-gun9mmrevolverDesc,items,Gun,New,Revolver pistol that uses .9mm for ammo.\n\nRepair with a Repair kit.
-gun45revolverDesc,items,Gun,New,Revolver pistol that uses .45mm for ammo.\n\nRepair with a Repair kit.
-gunmakarovDesc,items,Gun,New,Makarov pistol that uses .9mm for ammo.\n\nRepair with a Repair kit.
-gunm1pcarbineDesc,items,Gun,New,M1-carbine rifle that uses .9mm for ammo.\n\nRepair with a Repair kit.
-gunsksDesc,items,Gun,New,SKS rifle that uses 7.62mm ammo.\n\nRepair with a Repair kit.
-guntoz34Desc,items,Gun,New,Over-Under shotgun that uses shells for ammo.\n\nRepair with a Repair kit.
-gundoublebarrelproperDesc,items,Gun,New,Side-by-Side shotgun that uses shells for ammo.\n\nRepair with a Repair kit.
-gunsinglebarrelshotgunDesc,items,Gun,New,Single Barrel shotgun that uses shells for ammo.\n\nRepair with a Repair kit.
-gunrsx1Desc,items,Gun,New,Auto shotgun that uses shells for ammo.\n\nRepair with a Repair kit.
-gunaks74uDesc,items,Gun,New,AKS-74u submachine gun that uses 5.56mm for ammo.\n\nRepair with a Repair kit.
-gunak101Desc,items,Gun,New,AK-101 machine gun that uses 5.56mm for ammo.\n\nRepair with a Repair kit.
-gunmac11Desc,items,Gun,New,Mac-11 automatic pistol that uses .9mm for ammo.\n\nRepair with a Repair kit.
-gunmicrouziDesc,items,Gun,New,Micro Uzi automatic pistol that uses .9mm for ammo.
-gunar15Desc,items,Gun,New,AR15 machine gun that uses 5.56mm for ammo.\n\nRepair with a Repair kit.
-gunump45Desc,items,Gun,New,UMP-45 submachine gun that uses .45mm  for ammo.\n\nRepair with a Repair kit.
-gunhk416Desc,items,Gun,New,HK416 machine gun that uses 5.56mm ammo.\n\nRepair with a Repair kit.
-gundeserteagleDesc,items,Gun,New,Desert Eagle pistol that uses .44 magnum for ammo.\n\nRepair with a Repair kit.
-gunp250Desc,items,Gun,New,P-250 pistol that uses .9mm for ammo.\n\nRepair with a Repair kit.
-gunp99Desc,items,Gun,New,P-99 pistol that uses .9mm for ammo.\n\nRepair with a Repair kit.
-gunuspDesc,items,Gun,New,USP pistol that uses .45mm for ammo.\n\nRepair with a Repair kit.
-gunskorpionDesc,items,Gun,New,Skorpion automatic pistol that uses .9mm for ammo.\n\nRepair with a Repair kit.
-gunpp19Desc,items,Gun,New,PP-19 submachine gun that uses .9mm for ammo.\n\nRepair with a Repair kit.
-gung36cDesc,items,Gun,New,G36C machine gun that uses 5.56mm ammo.\n\nRepair with a Repair kit.
-gun556rifleDesc,items,Gun,New,Sporting rifle that uses 5.56mm ammo.\n\nRepair with a Repair kit.
-gun9mmrifleDesc,items,Gun,New,Varmint rifle that uses .9mm ammo.\n\nRepair with a Repair kit.
-gunsvdDesc,items,Gun,New,SVD rifle that uses 7.62mm ammo.\n\nRepair with a Repair kit.
-gunscarhDesc,items,Gun,New,SCAR-H machine gun that uses 5.56mm for ammo.\n\nRepair with a Repair kit.
-guntec9Desc,items,Gun,New,TEC-9 pistol that uses .9mm for ammo.\n\nRepair with a Repair kit.
-gunscarlDesc,items,Gun,New,SCAR-L machine gun that uses 5.56mm for ammo.\n\nRepair with a Repair kit.
-gunsg553Desc,items,Gun,New,SG-553 submachine gun that uses 5.56mm for ammo.\n\nRepair with a Repair kit.
+gun1911Desc,items,Gun,,"1911 pistol that uses .45mm for ammo.\n\nRepair with a Repair kit.".,,,,
+gunmk23Desc,items,Gun,,"MK-23 pistol that uses .45mm for ammo.\n\nRepair with a Repair kit.".,,,,
+gunGlock17Desc,items,Gun,,"Glock-17 pistol that uses .45mm for ammo.\n\nRepair with a Repair kit.".,,,,
+gun9mmrevolverDesc,items,Gun,,"9mm Revolver pistol that uses .9mm for ammo.\n\nRepair with a Repair kit.".,,,,
+gun45revolverDesc,items,Gun,,".45 Revolver pistol that uses .45mm for ammo.\n\nRepair with a Repair kit.".,,,,
+gunmakarovDesc,items,Gun,,"Makarov pistol that uses .9mm for ammo.\n\nRepair with a Repair kit.".,,,,
+gunm1pcarbineDesc,items,Gun,,"M1-9 Carbine rifle that uses .9mm for ammo.\n\nRepair with a Repair kit.".,,,,
+gunsksDesc,items,Gun,,"SKS rifle that uses 7.62mm ammo.\n\nRepair with a Repair kit.".,,,,
+guntoz34Desc,items,Gun,,"Over-Under shotgun that uses shells for ammo.\n\nRepair with a Repair kit.".,,,,
+gundoublebarrelproperDesc,items,Gun,,"Side-by-Side shotgun that uses shells for ammo.\n\nRepair with a Repair kit.".,,,,
+gundoublebarrelshotgunDesc,items,Gun,,"Boomstick shotgun that uses shells for ammo.\n\nRepair with a Repair kit.".,,,,
+gunsinglebarrelshotgunDesc,items,Gun,,"Single Barrel shotgun that uses shells for ammo.\n\nRepair with a Repair kit.".,,,,
+gunrsx1Desc,items,Gun,,"Auto shotgun that uses shells for ammo.\n\nRepair with a Repair kit.".,,,,
+gunaks74uDesc,items,Gun,,"AKS-74u submachine gun that uses 5.56mm for ammo.\n\nRepair with a Repair kit.".,,,,
+gunak101Desc,items,Gun,,"AK-101 machine gun that uses 5.56mm for ammo.\n\nRepair with a Repair kit.".,,,,
+gunmac11Desc,items,Gun,,"Mac-11 automatic pistol that uses .9mm for ammo.\n\nRepair with a Repair kit.".,,,,
+gunmicrouziDesc,items,Gun,,"Micro Uzi automatic pistol that uses .9mm for ammo.".,,,,
+gunar15Desc,items,Gun,,"AR15 machine gun that uses 5.56mm for ammo.\n\nRepair with a Repair kit.".,,,,
+gunump45Desc,items,Gun,,"UMP-45 submachine gun that uses .45mm  for ammo.\n\nRepair with a Repair kit.".,,,,
+gunhk416Desc,items,Gun,,"HK416 machine gun that uses 5.56mm ammo.\n\nRepair with a Repair kit.".,,,,
+gundeserteagleDesc,items,Gun,,"Desert Eagle pistol that uses .44 magnum for ammo.\n\nRepair with a Repair kit.".,,,,
+gunp250Desc,items,Gun,,"P250 pistol that uses .9mm for ammo.\n\nRepair with a Repair kit.".,,,,
+gunp99Desc,items,Gun,,"P99 pistol that uses .9mm for ammo.\n\nRepair with a Repair kit.".,,,,
+gunuspDesc,items,Gun,,"USP pistol that uses .45mm for ammo.\n\nRepair with a Repair kit.".,,,,
+gunskorpionDesc,items,Gun,,"Skorpion automatic pistol that uses .9mm for ammo.\n\nRepair with a Repair kit.".,,,,
+gunpp19Desc,items,Gun,,"PP-19 submachine gun that uses .9mm for ammo.\n\nRepair with a Repair kit.".,,,,
+gung36cDesc,items,Gun,,"G36C machine gun that uses 5.56mm ammo.\n\nRepair with a Repair kit.".,,,,
+gun556rifleDesc,items,Gun,,"Sporting rifle that uses 5.56mm ammo.\n\nRepair with a Repair kit.".,,,,
+gun9mmrifleDesc,items,Gun,,"Varmint rifle that uses .9mm ammo.\n\nRepair with a Repair kit.".,,,,
+gunsvdDesc,items,Gun,,"SVD rifle that uses 7.62mm ammo.\n\nRepair with a Repair kit.".,,,,
+gunscarhDesc,items,Gun,,"SCAR-H machine gun that uses 5.56mm for ammo.\n\nRepair with a Repair kit.".,,,,
+guntec9Desc,items,Gun,,"TEC-9 pistol that uses .9mm for ammo.\n\nRepair with a Repair kit.".,,,,
+gunscarlDesc,items,Gun,,"SCAR-L machine gun that uses 5.56mm for ammo.\n\nRepair with a Repair kit.".,,,,
+gunsg553Desc,items,Gun,,"SG-553 submachine gun that uses 5.56mm for ammo.\n\nRepair with a Repair kit.".,,,,
 gun1911Schematic,items,Book,New,1911 Schematic
 gun1911SchematicDesc,items,Book,New,Reading this will teach you how to craft a 1911. 
 gunmk23Schematic,items,Book,New,Mk 23 Schematic
@@ -98,15 +99,15 @@ gunscarlSchematic,items,Book,New,PP-19 Schematic
 gunscarlSchematicDesc,items,Book,New,Reading this will teach you how to craft a SCAR-L.
 gunsg553Schematic,items,Book,New,PP-19 Schematic
 gunsg553SchematicDesc,items,Book,New,Reading this will teach you how to craft a SG-553.
-ammo45BulletBallDesc,items,Ammo,New,.45 Ammo
-ammo45BulletAPDesc,items,Ammo,New,AP .45 Ammo
-ammo45BulletHPDesc,items,Ammo,New,HP .45 Ammo
-ammoBundle45BulletBallDesc,items,Ammo,New,Box of .45 Ammo (75)
-ammoBundle45BulletAPDesc,items,Ammo,New,Box of .45 AP Ammo (75)
-ammoBundle45BulletHPDesc,items,Ammo,New,Box of .45 HP Ammo (75)
-ammo556mmBulletBallDesc,items,Ammo,New,5.56mm Ammo
-ammo556mmBulletAPDesc,items,Ammo,New,5.56mm AP Ammo
-ammo556mmBulletHPDesc,items,Ammo,New,5.56mm HP Ammo
-ammoBundle556mmBulletBallDesc,items,Ammo,New,Box of 5.56mm Ammo (120)
-ammoBundle556mmBulletAPDesc,items,Ammo,New,Box of 5.56mm AP Ammo (120)
-ammoBundle556mmBulletHPDesc,items,Ammo,New,Box of 5.56mm HP Ammo (120)
+ammo45BulletBall,items,Ammo,New,.45 Ammo
+ammo45BulletAP,items,Ammo,New,AP .45 Ammo
+ammo45BulletHP,items,Ammo,New,HP .45 Ammo
+ammoBundle45BulletBall,items,Ammo,New,Box of .45 Ammo (75)
+ammoBundle45BulletAP,items,Ammo,New,Box of .45 AP Ammo (75)
+ammoBundle45BulletHP,items,Ammo,New,Box of .45 HP Ammo (75)
+ammo556mmBulletBall,items,Ammo,New,5.56mm Ammo
+ammo556mmBulletAP,items,Ammo,New,5.56mm AP Ammo
+ammo556mmBulletHP,items,Ammo,New,5.56mm HP Ammo
+ammoBundle556mmBulletBall,items,Ammo,New,Box of 5.56mm Ammo (120)
+ammoBundle556mmBulletAP,items,Ammo,New,Box of 5.56mm AP Ammo (120)
+ammoBundle556mmBulletHP,items,Ammo,New,Box of 5.56mm HP Ammo (120)

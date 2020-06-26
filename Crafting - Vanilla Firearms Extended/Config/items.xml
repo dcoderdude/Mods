@@ -1,175 +1,192 @@
 <VFX>
 <append xpath="/items">
-<item name="ammo45BulletBall">
-	<property name="Tags" value="ammo"/>
-	<property name="DisplayType" value="ammoBullet"/>
-	<property name="HoldType" value="45"/>
-	<property name="CustomIcon" value="45bullet"/>
-	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-	<property name="Material" value="Mbrass"/>
-	<property name="MeltTimePerUnit" value=".4"/>
-	<property name="Stacknumber" value="1300"/>
-	<property name="EconomicValue" value="9"/>
-	<property name="Group" value="Ammo/Weapons"/>
-	<effect_group name="ammo45BulletBall" tiered="false">
-		<passive_effect name="EntityDamage" operation="base_set" value="37"/>
-		<passive_effect name="BlockDamage" operation="base_set" value="8"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
-	</effect_group>
-</item>
-<item name="ammo45BulletHP">
-	<property name="Extends" value="ammo45BulletBall"/>
-	<property name="CustomIcon" value="45bullethp"/>
-	<property name="DisplayType" value="ammoBulletHP"/>
-	<property name="EconomicValue" value="14"/>
-	<property name="UnlockedBy" value="perkPistolPeteHPAmmo"/>
-	<effect_group name="ammo45BulletHP" tiered="false">
-		<passive_effect name="EntityDamage" operation="base_set" value="46.3"/>
-		<passive_effect name="BlockDamage" operation="base_set" value="3"/>
-		<passive_effect name="TargetArmor" operation="perc_add" value="1"/>
-		<display_value name="dTargetArmor" value="1"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
-	</effect_group>
-</item>
-<item name="ammo45BulletAP">
-	<property name="Extends" value="ammo45BulletBall"/>
-	<property name="DisplayType" value="ammoBulletAP"/>
-	<property name="CustomIcon" value="45bulletap"/>
-	<property name="EconomicValue" value="14"/>
-	<property name="UnlockedBy" value="perkPistolPeteAPAmmo"/>
-	<effect_group name="ammo45BulletAP" tiered="false">
-		<passive_effect name="EntityDamage" operation="base_set" value="37"/>
-		<passive_effect name="BlockDamage" operation="base_set" value="9"/>
-		<passive_effect name="TargetArmor" operation="perc_add" value="-.15"/>
-		<display_value name="dTargetArmor" value="-.15"/>
-		<passive_effect name="EntityPenetrationCount" operation="base_set" value="1"/>
-		<display_value name="dTargetPenetration" value="1"/>
-		<passive_effect name="DegradationPerUse" operation="perc_add" value=".3" tags="perkGunslinger,9mmGun"/>
-		<display_value name="dDegradationPerUse" value=".3"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
-	</effect_group>
-</item>
-<item name="ammoBundle45BulletBall">
-	<property name="CustomIcon" value="45bullet"/>
-	<property name="ItemTypeIcon" value="bundle"/>
-	<property name="HoldType" value="45"/>
-	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-	<property name="Material" value="Mmetal"/>
-	<property name="Stacknumber" value="500"/> <!-- STK ammobundle -->
-	<property name="Weight" value="0"/>
-	<property name="EconomicValue" value="900"/>
-	<property name="Group" value="Ammo/Weapons"/>
-	<property name="UnlockedBy" value="perkPistolPeteComplete"/>
-	<property class="Action0">
-		<property name="Class" value="OpenBundle"/>
-		<property name="Delay" value="0"/>
-		<property name="Use_time" value="0"/>
-		<property name="Sound_start" value="close_garbage"/>
-		<property name="Create_item" value="ammo45BulletBall"/>
-		<property name="Create_item_count" value="75"/>
-	</property>
-</item>
-<item name="ammoBundle45BulletHP">
-	<property name="Extends" value="ammoBundle45BulletBall"/>
-	<property name="CustomIcon" value="45bullethp"/>
-	<property name="EconomicValue" value="1400"/>
-	<property class="Action0">
-		<property name="Create_item" value="ammo45BulletHP"/>
-		<property name="Create_item_count" value="75"/>
-	</property>
-</item>
-<item name="ammoBundle45BulletAP">
-	<property name="Extends" value="ammoBundle45BulletBall"/>
-	<property name="CustomIcon" value="45bulletap"/>
-	<property name="EconomicValue" value="1400"/>
-	<property class="Action0">
-		<property name="Create_item" value="ammo45BulletAP"/>
-		<property name="Create_item_count" value="75"/>
-	</property>
-</item>
-<item name="ammo556mmBulletBall">
-	<property name="Extends" value="ammo9mmBulletBall"/>
-	<property name="CustomIcon" value="ammo556mmBulletBall"/>
-	<property name="Stacknumber" value="1200"/> <!-- STK ammo low -->
-	<property name="EconomicValue" value="11"/>
-	<effect_group name="ammo556mmBulletBall" tiered="false">
-		<passive_effect name="EntityDamage" operation="base_set" value="40"/>
-		<passive_effect name="BlockDamage" operation="base_set" value="8"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
-	</effect_group>
-</item>
-<item name="ammo556mmBulletHP">
-	<property name="Extends" value="ammo556mmBulletBall"/>
-	<property name="DisplayType" value="ammoBulletHP"/>
-	<property name="CustomIcon" value="ammo556mmBulletHP"/>
-	<property name="EconomicValue" value="16"/>
-	<property name="UnlockedBy" value="perkSniperHPAmmo"/>
-	<effect_group name="ammo556mmBulletHP" tiered="false">
-		<passive_effect name="EntityDamage" operation="base_set" value="54"/>
-		<passive_effect name="BlockDamage" operation="base_set" value="4"/>
-		<passive_effect name="TargetArmor" operation="perc_add" value="1"/>
-		<display_value name="dTargetArmor" value="1"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
-	</effect_group>
-</item>
-<item name="ammo556mmBulletAP">
-	<property name="Extends" value="ammo556mmBulletBall"/>
-	<property name="CustomIcon" value="ammo556mmBulletAP"/>
-	<property name="DisplayType" value="ammoBulletAP"/>
-	<property name="EconomicValue" value="16"/>
-	<property name="UnlockedBy" value="perkSniperAPAmmo"/>
-	<effect_group name="ammo556mmBulletAP" tiered="false">
-		<passive_effect name="EntityDamage" operation="base_set" value="40"/>
-		<passive_effect name="BlockDamage" operation="base_set" value="9"/>
-		<passive_effect name="TargetArmor" operation="perc_add" value="-.2"/>
-		<display_value name="dTargetArmor" value="-.2"/>
-		<passive_effect name="EntityPenetrationCount" operation="base_set" value="1"/>
-		<display_value name="dTargetPenetration" value="1"/>
-		<passive_effect name="DegradationPerUse" operation="perc_add" value=".3" tags="perkDeadEye,perkMachineGunner"/>
-		<display_value name="dDegradationPerUse" value=".3"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
-	</effect_group>
-</item>
-<item name="ammoBundle556mmBulletBall">
-	<property name="Extends" value="ammoBundle9mmBulletBall"/>
-	<property name="CustomIcon" value="ammo556mmBulletBall"/>
-	<property name="EconomicValue" value="1100"/>
-	<property name="UnlockedBy" value="perkSniperComplete"/>
-	<property class="Action0">
-		<property name="Create_item" value="ammo556mmBulletBall"/>
-		<property name="Create_item_count" value="120"/>
-	</property>
-</item>
-<item name="ammoBundle556mmBulletHP">
-	<property name="Extends" value="ammoBundle556mmBulletBall"/>
-	<property name="CustomIcon" value="ammo556mmBulletHP"/>
-	<property name="EconomicValue" value="1600"/>
-	<property name="UnlockedBy" value="perkSniperComplete"/>
-	<property class="Action0">
-		<property name="Create_item" value="ammo556mmBulletHP"/>
-		<property name="Create_item_count" value="120"/>
-	</property>
-</item>
-<item name="ammoBundle556mmBulletAP">
-	<property name="Extends" value="ammoBundle556mmBulletBall"/>
-	<property name="CustomIcon" value="ammo556mmBulletAP"/>
-	<property name="EconomicValue" value="1600"/>
-	<property name="UnlockedBy" value="perkSniperComplete"/>
-	<property class="Action0">
-		<property name="Create_item" value="ammo556mmBulletAP"/>
-		<property name="Create_item_count" value="120"/>
-	</property>
-</item>
-<!-- vanilla extended weapons -->
-<item name="1911"> <!-- T2 pistols -->
+	<item name="ammo45BulletBall">
+		<property name="Tags" value="ammo"/>
+		<property name="DisplayType" value="ammoBullet"/>
+		<property name="HoldType" value="45"/>
+		<property name="CustomIcon" value="45bullet"/>
+		<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="Material" value="Mbrass"/>
+		<property name="MeltTimePerUnit" value=".4"/>
+		<property name="Stacknumber" value="300"/>
+		<property name="EconomicValue" value="9"/>
+		<property name="Group" value="Ammo/Weapons"/>
+		<effect_group name="ammo45BulletBall" tiered="false">
+			<passive_effect name="EntityDamage" operation="base_set" value="37"/>
+			<passive_effect name="BlockDamage" operation="base_set" value="8"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
+		</effect_group>
+	</item>
+
+	<item name="ammo45BulletHP">
+		<property name="Extends" value="ammo45BulletBall"/>
+		<property name="CustomIcon" value="45bullethp"/>
+		<property name="DisplayType" value="ammoBulletHP"/>
+		<property name="EconomicValue" value="14"/>
+		<property name="DescriptionKey" value="ammoHPGroupDesc"/>
+		<property name="UnlockedBy" value="perkPistolPeteHPAmmo"/>
+		<effect_group name="ammo45BulletHP" tiered="false">
+			<passive_effect name="EntityDamage" operation="base_set" value="46.3"/>
+			<passive_effect name="BlockDamage" operation="base_set" value="3"/>
+			<passive_effect name="TargetArmor" operation="perc_add" value="1"/>
+			<display_value name="dTargetArmor" value="1"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
+		</effect_group>
+	</item>
+
+	<item name="ammo45BulletAP">
+		<property name="Extends" value="ammo45BulletBall"/>
+		<property name="DisplayType" value="ammoBulletAP"/>
+		<property name="CustomIcon" value="45bulletap"/>
+		<property name="EconomicValue" value="14"/>
+		<property name="DescriptionKey" value="ammoAPGroupDesc"/>
+		<property name="UnlockedBy" value="perkPistolPeteAPAmmo"/>
+		<effect_group name="ammo45BulletAP" tiered="false">
+			<passive_effect name="EntityDamage" operation="base_set" value="37"/>
+			<passive_effect name="BlockDamage" operation="base_set" value="9"/>
+			<passive_effect name="TargetArmor" operation="perc_add" value="-.15"/>
+			<display_value name="dTargetArmor" value="-.15"/>
+			<passive_effect name="EntityPenetrationCount" operation="base_set" value="1"/>
+			<display_value name="dTargetPenetration" value="1"/>
+			<passive_effect name="DegradationPerUse" operation="perc_add" value=".3" tags="perkGunslinger,9mmGun"/>
+			<display_value name="dDegradationPerUse" value=".3"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
+		</effect_group>
+	</item>
+	<item name="ammoBundle45BulletBall">
+		<property name="CustomIcon" value="45bullet"/>
+		<property name="ItemTypeIcon" value="bundle"/>
+		<property name="DescriptionKey" value="ammoBundleGroupDesc"/>
+		<property name="HoldType" value="45"/>
+		<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="Material" value="Mmetal"/>
+		<property name="Stacknumber" value="5"/> <!-- STK ammobundle -->
+		<property name="Weight" value="0"/>
+		<property name="EconomicValue" value="900"/>
+		<property name="Group" value="Ammo/Weapons"/>
+		<property name="UnlockedBy" value="perkPistolPeteComplete"/>
+		<property class="Action0">
+			<property name="Class" value="OpenBundle"/>
+			<property name="Delay" value="0"/>
+			<property name="Use_time" value="0"/>
+			<property name="Sound_start" value="close_garbage"/>
+			<property name="Create_item" value="ammo45BulletBall"/>
+			<property name="Create_item_count" value="75"/>
+			<!--
+			This can spawn multiple item types and quantities. No randomness.
+			<property name="Create_item" value="ammo9mmBulletBall,drinkCanRiverWater"/>
+			<property name="Create_item_count" value="50,5"/>
+			-->
+		</property>
+	</item>
+	<item name="ammoBundle45BulletHP">
+		<property name="Extends" value="ammoBundle45BulletBall"/>
+		<property name="CustomIcon" value="45bullethp"/>
+		<property name="EconomicValue" value="1400"/>
+		<property class="Action0">
+			<property name="Create_item" value="ammo45BulletHP"/>
+			<property name="Create_item_count" value="75"/>
+		</property>
+	</item>
+	<item name="ammoBundle45BulletAP">
+		<property name="Extends" value="ammoBundle45BulletBall"/>
+		<property name="CustomIcon" value="45bulletap"/>
+		<property name="EconomicValue" value="1400"/>
+		<property class="Action0">
+			<property name="Create_item" value="ammo45BulletAP"/>
+			<property name="Create_item_count" value="75"/>
+		</property>
+	</item>
+	
+	<item name="ammo556mmBulletBall">
+		<property name="Extends" value="ammo9mmBulletBall"/>
+		<property name="CustomIcon" value="ammo556mmBulletBall"/>
+		<property name="Stacknumber" value="200"/> <!-- STK ammo low -->
+		<property name="EconomicValue" value="11"/>
+		<effect_group name="ammo556mmBulletBall" tiered="false">
+			<passive_effect name="EntityDamage" operation="base_set" value="40"/>
+			<passive_effect name="BlockDamage" operation="base_set" value="8"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
+		</effect_group>
+	</item>
+
+	<item name="ammo556mmBulletHP">
+		<property name="Extends" value="ammo556mmBulletBall"/>
+		<property name="DisplayType" value="ammoBulletHP"/>
+		<property name="CustomIcon" value="ammo556mmBulletHP"/>
+		<property name="EconomicValue" value="16"/>
+		<property name="DescriptionKey" value="ammoHPGroupDesc"/>
+		<property name="UnlockedBy" value="perkSniperHPAmmo"/>
+		<effect_group name="ammo556mmBulletHP" tiered="false">
+			<passive_effect name="EntityDamage" operation="base_set" value="54"/>
+			<passive_effect name="BlockDamage" operation="base_set" value="4"/>
+			<passive_effect name="TargetArmor" operation="perc_add" value="1"/>
+			<display_value name="dTargetArmor" value="1"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
+		</effect_group>
+	</item>
+
+	<item name="ammo556mmBulletAP">
+		<property name="Extends" value="ammo556mmBulletBall"/>
+		<property name="CustomIcon" value="ammo556mmBulletAP"/>
+		<property name="DisplayType" value="ammoBulletAP"/>
+		<property name="EconomicValue" value="16"/>
+		<property name="DescriptionKey" value="ammoAPGroupDesc"/>
+		<property name="UnlockedBy" value="perkSniperAPAmmo"/>
+		<effect_group name="ammo556mmBulletAP" tiered="false">
+			<passive_effect name="EntityDamage" operation="base_set" value="40"/>
+			<passive_effect name="BlockDamage" operation="base_set" value="9"/>
+			<passive_effect name="TargetArmor" operation="perc_add" value="-.2"/>
+			<display_value name="dTargetArmor" value="-.2"/>
+			<passive_effect name="EntityPenetrationCount" operation="base_set" value="1"/>
+			<display_value name="dTargetPenetration" value="1"/>
+			<passive_effect name="DegradationPerUse" operation="perc_add" value=".3" tags="perkDeadEye,perkMachineGunner"/>
+			<display_value name="dDegradationPerUse" value=".3"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
+			<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
+		</effect_group>
+	</item>
+	<item name="ammoBundle556mmBulletBall">
+		<property name="Extends" value="ammoBundle9mmBulletBall"/>
+		<property name="CustomIcon" value="ammo556mmBulletBall"/>
+		<property name="EconomicValue" value="1100"/>
+		<property name="UnlockedBy" value="perkSniperComplete"/>
+		<property class="Action0">
+			<property name="Create_item" value="ammo556mmBulletBall"/>
+			<property name="Create_item_count" value="120"/>
+		</property>
+	</item>
+	<item name="ammoBundle556mmBulletHP">
+		<property name="Extends" value="ammoBundle556mmBulletBall"/>
+		<property name="CustomIcon" value="ammo556mmBulletHP"/>
+		<property name="EconomicValue" value="1600"/>
+		<property name="UnlockedBy" value="perkSniperComplete"/>
+		<property class="Action0">
+			<property name="Create_item" value="ammo556mmBulletHP"/>
+			<property name="Create_item_count" value="120"/>
+		</property>
+	</item>
+	<item name="ammoBundle556mmBulletAP">
+		<property name="Extends" value="ammoBundle556mmBulletBall"/>
+		<property name="CustomIcon" value="ammo556mmBulletAP"/>
+		<property name="EconomicValue" value="1600"/>
+		<property name="UnlockedBy" value="perkSniperComplete"/>
+		<property class="Action0">
+			<property name="Create_item" value="ammo556mmBulletAP"/>
+			<property name="Create_item_count" value="120"/>
+		</property>
+	</item>
+	
+	
+	
+	<item name="gun1911"> <!-- T2 pistols -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="CustomIcon" value="1911"/>
@@ -267,8 +284,8 @@
 		<triggered_effect trigger="onReloadStart" action="AnimatorSetBool" target="self" property="reload" value="true"/>
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
-	</item>
-<item name="Mark-23"> <!-- T2 pistols -->
+</item>
+	<item name="gunmk23"> <!-- T2 pistols -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="CustomIcon" value="mk23"/>
@@ -367,7 +384,7 @@
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
 </item>
-<item name="Makarov"> <!-- T2 pistols -->
+	<item name="gunmakarov"> <!-- T2 pistols -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="CustomIcon" value="makarov"/>
@@ -389,8 +406,8 @@
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="LightValue" value=".45"/>
 	<property name="EconomicValue" value="680"/>
-	<property name="DescriptionKey" value="gunmakarovDesc"/>
 	<property name="UnlockedBy" value="perkGunslinger,gunmakarovSchematic"/>
+	<property name="DescriptionKey" value="gunmakarovDesc"/>
 	<property name="ShowQuality" value="true"/>
 
 	<property class="Action0">
@@ -467,7 +484,7 @@
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
 </item>
-<item name="Glock17"> <!-- T2 pistols -->
+<item name="gunGlock17"> <!-- T2 pistols -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="CustomIcon" value="glock17"/>
@@ -489,8 +506,8 @@
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="LightValue" value=".45"/>
 	<property name="EconomicValue" value="520"/>
-	<property name="DescriptionKey" value="gunGlock17Desc"/>
 	<property name="UnlockedBy" value="perkGunslinger,gunGlock17Schematic"/>
+	<property name="DescriptionKey" value="gunGlock17Desc"/>
 	<property name="ShowQuality" value="true"/>
 
 	<property class="Action0">
@@ -566,7 +583,7 @@
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
 </item>
-<item name="TEC-9"> <!-- T2 pistols -->
+<item name="guntec9"> <!-- T2 pistols -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="CustomIcon" value="tec9"/>
@@ -588,8 +605,8 @@
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="LightValue" value=".45"/>
 	<property name="EconomicValue" value="520"/>
-	<property name="DescriptionKey" value="guntec9Desc"/>
 	<property name="UnlockedBy" value="perkGunslinger,guntec9Schematic"/>
+	<property name="DescriptionKey" value="guntec9Desc"/>
 	<property name="ShowQuality" value="true"/>
 
 	<property class="Action0">
@@ -665,7 +682,7 @@
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
 </item>
-<item name="P250"> <!-- T2 pistols -->
+<item name="gunp250"> <!-- T2 pistols -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="CustomIcon" value="p250"/>
@@ -687,8 +704,8 @@
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="LightValue" value=".45"/>
 	<property name="EconomicValue" value="520"/>
-	<property name="DescriptionKey" value="gunp250Desc"/>
 	<property name="UnlockedBy" value="perkGunslinger,gunp250Schematic"/>
+	<property name="DescriptionKey" value="gunp250Desc"/>
 	<property name="ShowQuality" value="true"/>
 
 	<property class="Action0">
@@ -764,7 +781,7 @@
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
 </item>
-<item name="P99"> <!-- T2 pistols -->
+<item name="gunp99"> <!-- T2 pistols -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="CustomIcon" value="p99"/>
@@ -786,8 +803,8 @@
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="LightValue" value=".45"/>
 	<property name="EconomicValue" value="520"/>
-	<property name="DescriptionKey" value="gunp99Desc"/>
 	<property name="UnlockedBy" value="perkGunslinger,gunp99Schematic"/>
+	<property name="DescriptionKey" value="gunp99Desc"/>
 	<property name="ShowQuality" value="true"/>
 
 	<property class="Action0">
@@ -863,7 +880,7 @@
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
 </item>
-<item name="USP"> <!-- T2 pistols -->
+	<item name="gunusp"> <!-- T2 pistols -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="CustomIcon" value="usp"/>
@@ -885,8 +902,8 @@
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="LightValue" value=".45"/>
 	<property name="EconomicValue" value="680"/>
-	<property name="DescriptionKey" value="gunuspDesc"/>
 	<property name="UnlockedBy" value="perkGunslinger,gunuspSchematic"/>
+	<property name="DescriptionKey" value="gunuspDesc"/>
 	<property name="ShowQuality" value="true"/>
 
 	<property class="Action0">
@@ -962,7 +979,7 @@
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
 </item>
-<item name="Revolver Pistol"> <!-- T3 pistols -->
+<item name="gun9mmrevolver"> <!-- T3 pistols -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,revolver,barrelAttachments,sideAttachments,smallTopAttachments,attAgility,perkGunslinger,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="44"/>
@@ -984,8 +1001,8 @@
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="LightValue" value=".45"/>
 	<property name="EconomicValue" value="450"/>
-	<property name="DescriptionKey" value="gun9mmrevolverDesc"/>
 	<property name="UnlockedBy" value="perkGunslinger,gun9mmrevolverSchematic"/>
+	<property name="DescriptionKey" value="gun9mmrevolverDesc"/>
 	<property name="ShowQuality" value="true"/>
 
 	<property class="Action0">
@@ -1062,7 +1079,7 @@
 		<!-- <triggered_effect trigger="onSelfEquipStart" action="CVarLogValue" cvar="onSelfEquipStartMagnum"/> -->
 	</effect_group>
 </item>
-<item name="Colt Revolver Pistol"> <!-- T3 pistols -->
+<item name="gun45revolver"> <!-- T3 pistols -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,revolver,noSilencer,barrelAttachments,sideAttachments,smallTopAttachments,attAgility,perkGunslinger,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="44"/>
@@ -1084,8 +1101,8 @@
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="LightValue" value=".45"/>
 	<property name="EconomicValue" value="450"/>
-	<property name="DescriptionKey" value="gun45revolverDesc"/>
 	<property name="UnlockedBy" value="perkGunslinger,gun45revolverSchematic"/>
+	<property name="DescriptionKey" value="gun45revolverDesc"/>
 	<property name="ShowQuality" value="true"/>
 
 	<property class="Action0">
@@ -1166,7 +1183,7 @@
 		<!-- <triggered_effect trigger="onSelfEquipStart" action="CVarLogValue" cvar="onSelfEquipStartMagnum"/> -->
 	</effect_group>
 </item>
-<item name="Desert Eagle"> <!-- T2 pistols -->
+<item name="gundeserteagle"> <!-- T2 pistols -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="CustomIcon" value="deserteagle"/>
@@ -1188,8 +1205,8 @@
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="LightValue" value=".45"/>
 	<property name="EconomicValue" value="680"/>
-	<property name="DescriptionKey" value="gundeserteagleDesc"/>
 	<property name="UnlockedBy" value="gundeserteagleSchematic"/>
+	<property name="DescriptionKey" value="gundeserteagleDesc"/>
 	<property name="ShowQuality" value="true"/>
 
 	<property class="Action0">
@@ -1266,7 +1283,7 @@
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
 </item>
-<item name="M1 Carbine"> <!-- T2 automatic rifles -->
+<item name="gunm1pcarbine"> <!-- T2 automatic rifles -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,,attPerception,perkDeadEye,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="48"/>
@@ -1285,8 +1302,8 @@
 
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="EconomicValue" value="500"/>
-	<property name="DescriptionKey" value="gunm1pcarbineDesc"/>
 	<property name="UnlockedBy" value="perkDeadEye,gunm1pcarbineSchematic"/>
+	<property name="DescriptionKey" value="gunm1pcarbineDesc"/>
 	<property name="ShowQuality" value="true"/>
 	<property name="Group" value="Ammo/Weapons"/>
 
@@ -1359,7 +1376,7 @@
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
 </item>
-<item name="SKS"> <!-- T2 automatic rifles -->
+<item name="gunsks"> <!-- T2 automatic rifles -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="48"/>
@@ -1378,8 +1395,8 @@
 
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="EconomicValue" value="500"/>
-	<property name="DescriptionKey" value="gunsksDesc"/>
 	<property name="UnlockedBy" value="perkMachineGunner,gunsksSchematic"/>
+	<property name="DescriptionKey" value="gunsksDesc"/>
 	<property name="ShowQuality" value="true"/>
 	<property name="Group" value="Ammo/Weapons"/>
 
@@ -1452,7 +1469,7 @@
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
 </item>
-<item name="SCAR-H"> <!-- T2 automatic rifles -->
+<item name="gunscarh"> <!-- T2 automatic rifles -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="71"/>
@@ -1471,8 +1488,8 @@
 
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="EconomicValue" value="500"/>
-	<property name="DescriptionKey" value="gunscarhDesc"/>
 	<property name="UnlockedBy" value="perkMachineGunner,gunscarhSchematic"/>
+	<property name="DescriptionKey" value="gunscarhDesc"/>
 	<property name="ShowQuality" value="true"/>
 	<property name="Group" value="Ammo/Weapons"/>
 
@@ -1545,7 +1562,7 @@
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
 </item>
-<item name="TOZ-34"> <!-- T2 shotguns -->
+<item name="guntoz34"> <!-- T2 shotguns -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,doubleBarrel,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="56"/>
@@ -1568,8 +1585,8 @@
 	<property name="PickupJournalEntry" value="alternateAmmoTip"/>
 	<property name="LightValue" value=".45"/>
 	<property name="EconomicValue" value="500"/>
-	<property name="DescriptionKey" value="guntoz34Desc"/>
 	<property name="UnlockedBy" value="perkBoomstick,guntoz34Schematic"/>
+	<property name="DescriptionKey" value="guntoz34Desc"/>
 	<property name="ShowQuality" value="true"/>
 
 	<property class="Action0">
@@ -1644,7 +1661,7 @@
 		<display_value name="dStatStunEffect" value="4"/>
 	</effect_group>
 </item>
-<item name="Double-barrel Shotgun"> <!-- T2 shotguns -->
+<item name="gundoublebarrelproper"> <!-- T2 shotguns -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,doubleBarrel,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="56"/>
@@ -1667,8 +1684,8 @@
 	<property name="PickupJournalEntry" value="alternateAmmoTip"/>
 	<property name="LightValue" value=".45"/>
 	<property name="EconomicValue" value="500"/>
-	<property name="DescriptionKey" value="gundoublebarrelproperDesc"/>
 	<property name="UnlockedBy" value="perkBoomstick,gundoublebarrelproperSchematic"/>
+	<property name="DescriptionKey" value="gundoublebarrelproperDesc"/>
 	<property name="ShowQuality" value="true"/>
 
 	<property class="Action0">
@@ -1743,7 +1760,7 @@
 		<display_value name="dStatStunEffect" value="4"/>
 	</effect_group>
 </item>
-<item name="Single-barrel Shotgun"> <!-- T2 shotguns -->
+<item name="gunsinglebarrelshotgun"> <!-- T2 shotguns -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,doubleBarrel,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="56"/>
@@ -1766,8 +1783,8 @@
 	<property name="PickupJournalEntry" value="alternateAmmoTip"/>
 	<property name="LightValue" value=".45"/>
 	<property name="EconomicValue" value="500"/>
-	<property name="DescriptionKey" value="gunsinglebarrelshotgunDesc"/>
 	<property name="UnlockedBy" value="perkBoomstick,gunsinglebarrelshotgunSchematic"/>
+	<property name="DescriptionKey" value="gunsinglebarrelshotgunDesc"/>
 	<property name="ShowQuality" value="true"/>
 
 	<property class="Action0">
@@ -1842,7 +1859,7 @@
 		<display_value name="dStatStunEffect" value="4"/>
 	</effect_group>
 </item>
-<item name="RSX1"> <!-- T3 shotguns -->
+<item name="gunrsx1"> <!-- T3 shotguns -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,barrelAttachments,sideAttachments,smallTopAttachments,stock,firingMode,selfLoading,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="48"/>
@@ -1865,8 +1882,8 @@
 	<property name="PickupJournalEntry" value="alternateAmmoTip"/>
 	<property name="LightValue" value=".45"/>
 	<property name="EconomicValue" value="1000"/>
-	<property name="DescriptionKey" value="gunrsx1Desc"/>
 	<property name="UnlockedBy" value="gunrsx1Schematic"/>
+	<property name="DescriptionKey" value="gunrsx1Desc"/>
 	<property name="ShowQuality" value="true"/>
 
 	<property class="Action0">
@@ -1945,7 +1962,7 @@
 		<display_value name="dStatStunEffect" value="4"/>
 	</effect_group>
 </item>
-<item name="AK-101"> <!-- T2 automatic rifles -->
+<item name="gunak101"> <!-- T2 automatic rifles -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="48"/>
@@ -1964,8 +1981,8 @@
 
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="EconomicValue" value="500"/>
-	<property name="DescriptionKey" value="gunak101Desc"/>
 	<property name="UnlockedBy" value="perkMachineGunner,gunak101Schematic"/>
+	<property name="DescriptionKey" value="gunak101Desc"/>
 	<property name="ShowQuality" value="true"/>
 	<property name="Group" value="Ammo/Weapons"/>
 
@@ -2039,7 +2056,7 @@
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
 </item>
-<item name="AK-74u"> <!-- T2 automatic rifles -->
+<item name="gunaks74u"> <!-- T2 automatic rifles -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attAgility,perkGunslinger,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="48"/>
@@ -2058,8 +2075,8 @@
 
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="EconomicValue" value="500"/>
-	<property name="DescriptionKey" value="gunaks74uDesc"/>
 	<property name="UnlockedBy" value="perkMachineGunner,gunaks74uSchematic"/>
+	<property name="DescriptionKey" value="gunaks74uDesc"/>
 	<property name="ShowQuality" value="true"/>
 	<property name="Group" value="Ammo/Weapons"/>
 
@@ -2133,7 +2150,7 @@
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
 </item>
-<item name="AR-15"> <!-- T2 automatic rifles -->
+<item name="gunar15"> <!-- T2 automatic rifles -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="11"/>
@@ -2152,8 +2169,8 @@
 
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="EconomicValue" value="500"/>
-	<property name="DescriptionKey" value="gunar15Desc"/>
 	<property name="UnlockedBy" value="perkMachineGunner,gunar15Schematic"/>
+	<property name="DescriptionKey" value="gunar15Desc"/>
 	<property name="ShowQuality" value="true"/>
 	<property name="Group" value="Ammo/Weapons"/>
 
@@ -2223,7 +2240,7 @@
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 	</effect_group>
 </item>
-<item name="SG-553"> <!-- T2 automatic rifles -->
+<item name="gunsg553"> <!-- T2 automatic rifles -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="48"/>
@@ -2242,8 +2259,8 @@
 
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="EconomicValue" value="500"/>
-	<property name="DescriptionKey" value="gunsg553Desc"/>
 	<property name="UnlockedBy" value="perkMachineGunner,gunar15Schematic"/>
+	<property name="DescriptionKey" value="gunsg553Desc"/>
 	<property name="ShowQuality" value="true"/>
 	<property name="Group" value="Ammo/Weapons"/>
 
@@ -2316,7 +2333,7 @@
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 	</effect_group>
 </item>
-<item name="SCAR-L"> <!-- T2 automatic rifles -->
+<item name="gunscarl"> <!-- T2 automatic rifles -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="11"/>
@@ -2335,8 +2352,8 @@
 
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="EconomicValue" value="500"/>
-	<property name="DescriptionKey" value="gunscarlDesc"/>
 	<property name="UnlockedBy" value="perkMachineGunner,gunar15Schematic"/>
+	<property name="DescriptionKey" value="gunscarlDesc"/>
 	<property name="ShowQuality" value="true"/>
 	<property name="Group" value="Ammo/Weapons"/>
 
@@ -2407,7 +2424,7 @@
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 	</effect_group>
 </item>
-<item name="HK416"> <!-- T2 automatic rifles -->
+<item name="gunhk416"> <!-- T2 automatic rifles -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="11"/>
@@ -2426,8 +2443,8 @@
 
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="EconomicValue" value="500"/>
-	<property name="DescriptionKey" value="gunhk416Desc"/>
 	<property name="UnlockedBy" value="perkMachineGunner,gunhk416Schematic"/>
+	<property name="DescriptionKey" value="gunhk416Desc"/>
 	<property name="ShowQuality" value="true"/>
 	<property name="Group" value="Ammo/Weapons"/>
 
@@ -2499,7 +2516,7 @@
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 	</effect_group>
 </item>
-<item name="G36C"> <!-- T2 automatic rifles -->
+<item name="gung36c"> <!-- T2 automatic rifles -->
 	<property name="Tags" value="Cscope,weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="48"/>
@@ -2518,8 +2535,8 @@
 
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="EconomicValue" value="500"/>
-	<property name="DescriptionKey" value="gung36cDesc"/>
 	<property name="UnlockedBy" value="perkMachineGunner,gung36cSchematic"/>
+	<property name="DescriptionKey" value="gung36cDesc"/>
 	<property name="ShowQuality" value="true"/>
 	<property name="Group" value="Ammo/Weapons"/>
 
@@ -2593,7 +2610,7 @@
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
 </item>
-<item name="Dragunov Sniper Rifle"> <!-- T2 automatic rifles -->
+<item name="gunsvd"> <!-- T2 automatic rifles -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attPerception,perkDeadEye,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="48"/>
@@ -2612,8 +2629,8 @@
 
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="EconomicValue" value="500"/>
-	<property name="DescriptionKey" value="gunsvdDesc"/>
 	<property name="UnlockedBy" value="gunsvdSchematic"/>
+	<property name="DescriptionKey" value="gunsvdDesc"/>
 	<property name="ShowQuality" value="true"/>
 	<property name="Group" value="Ammo/Weapons"/>
 
@@ -2687,7 +2704,7 @@
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
 </item>
-<item name="MAC-11"> <!-- T2 pistols -->
+<item name="gunmac11"> <!-- T2 pistols -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="CustomIcon" value="glock17"/>
@@ -2710,8 +2727,8 @@
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="LightValue" value=".45"/>
 	<property name="EconomicValue" value="520"/>
-	<property name="DescriptionKey" value="gunmac11Desc"/>
 	<property name="UnlockedBy" value="gunmac11Schematic"/>
+	<property name="DescriptionKey" value="gunmac11Desc"/>
 	<property name="ShowQuality" value="true"/>
 
 	<property class="Action0">
@@ -2787,7 +2804,7 @@
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
 </item>
-<item name="Skorpion"> <!-- T2 pistols -->
+<item name="gunskorpion"> <!-- T2 pistols -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="CustomIcon" value="glock17"/>
@@ -2810,8 +2827,8 @@
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="LightValue" value=".45"/>
 	<property name="EconomicValue" value="520"/>
-	<property name="DescriptionKey" value="gunskorpionDesc"/>
 	<property name="UnlockedBy" value="perkGunslinger,gunskorpionSchematic"/>
+	<property name="DescriptionKey" value="gunskorpionDesc"/>
 	<property name="ShowQuality" value="true"/>
 
 	<property class="Action0">
@@ -2887,7 +2904,7 @@
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
 </item>
-<item name="Micro Uzi"> <!-- T2 pistols -->
+<item name="gunmicrouzi"> <!-- T2 pistols -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="CustomIcon" value="glock17"/>
@@ -2910,8 +2927,8 @@
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="LightValue" value=".45"/>
 	<property name="EconomicValue" value="520"/>
-	<property name="DescriptionKey" value="gunmicrouziDesc"/>
 	<property name="UnlockedBy" value="gunmicrouziSchematic"/>
+	<property name="DescriptionKey" value="gunmicrouziDesc"/>
 	<property name="ShowQuality" value="true"/>
 
 	<property class="Action0">
@@ -2987,7 +3004,7 @@
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
 </item>
-<item name="UMP"> <!-- T3 pistols -->
+<item name="gunump45"> <!-- T3 pistols -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="6"/>
@@ -3007,8 +3024,8 @@
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="LightValue" value=".45"/>
 	<property name="EconomicValue" value="1000"/>
-	<property name="DescriptionKey" value="gunump45Desc"/>
 	<property name="UnlockedBy" value="gunump45Schematic"/>
+	<property name="DescriptionKey" value="gunump45Desc"/>
 	<property name="ShowQuality" value="true"/>
 
 	<property class="Action0">
@@ -3085,7 +3102,7 @@
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
 </item>
-<item name="PP-19"> <!-- T3 pistols -->
+<item name="gunpp19"> <!-- T3 pistols -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attFortitude,perkMachineGunner,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="48"/>
@@ -3105,8 +3122,8 @@
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="LightValue" value=".45"/>
 	<property name="EconomicValue" value="1000"/>
-	<property name="DescriptionKey" value="gunpp19Desc"/>
 	<property name="UnlockedBy" value="perkMachineGunner,gunpp19Schematic"/>
+	<property name="DescriptionKey" value="gunpp19Desc"/>
 	<property name="ShowQuality" value="true"/>
 
 	<property class="Action0">
@@ -3178,7 +3195,7 @@
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
 </item>
-<item name="Bolt-Action Sports Rifle"> <!-- T2 rifles -->
+<item name="gun556rifle"> <!-- T2 rifles -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,bottomAttachments,attPerception,perkDeadEye,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="30"/>
@@ -3200,8 +3217,8 @@
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="LightValue" value=".45"/>
 	<property name="EconomicValue" value="500"/>
-	<property name="DescriptionKey" value="gun556rifleDesc"/>
 	<property name="UnlockedBy" value="perkDeadEye,gun556rifleSchematic"/>
+	<property name="DescriptionKey" value="gun556rifleDesc"/>
 	<property name="ShowQuality" value="true"/>
 
 	<property class="Action0">
@@ -3273,7 +3290,7 @@
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
 </item>
-<item name="Bolt-Action Rifle"> <!-- T2 rifles -->
+<item name="gun9mmrifle"> <!-- T2 rifles -->
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,bottomAttachments,attPerception,perkDeadEye,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="30"/>
@@ -3295,8 +3312,8 @@
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="LightValue" value=".45"/>
 	<property name="EconomicValue" value="500"/>
-	<property name="DescriptionKey" value="gun9mmrifleDesc"/>
 	<property name="UnlockedBy" value="perkDeadEye,gun9mmrifleSchematic"/>
+	<property name="DescriptionKey" value="gun9mmrifleDesc"/>
 	<property name="ShowQuality" value="true"/>
 
 	<property class="Action0">
@@ -3369,14 +3386,17 @@
 		<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="reload" value="false"/>
 	</effect_group>
 </item>
-<!-- vanilla extended schematics -->
+
+
+
+
+
 <item name="gun1911Schematic">
 	<property name="Extends" value="schematicMaster"/>
 	<property name="DescriptionKey" value="gun1911SchematicDesc"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="1911"/>
 	<property name="Unlocks" value="gun1911"/>
-	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gun1911" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -3388,7 +3408,6 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="mk23"/>
 	<property name="Unlocks" value="gunmk23"/>
-	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunmk23" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -3400,7 +3419,6 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="glock17"/>
 	<property name="Unlocks" value="gunGlock17"/>
-	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunGlock17" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -3412,7 +3430,6 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="makarov"/>
 	<property name="Unlocks" value="gunmakarov"/>
-	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunmakarov" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -3424,7 +3441,6 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="45revolver"/>
 	<property name="Unlocks" value="gun45revolver"/>
-	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gun45revolver" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -3436,7 +3452,6 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="deserteagle"/>
 	<property name="Unlocks" value="gundeserteagle"/>
-	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gundeserteagle" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -3448,7 +3463,6 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="p250"/>
 	<property name="Unlocks" value="gunp250"/>
-	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunp250" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -3460,7 +3474,6 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="p99"/>
 	<property name="Unlocks" value="gunp99"/>
-	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunp99" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -3472,7 +3485,6 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="usp"/>
 	<property name="Unlocks" value="gunusp"/>
-	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunusp" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -3484,7 +3496,6 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="9mmrevolver"/>
 	<property name="Unlocks" value="gun9mmrevolver"/>
-	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gun9mmrevolver" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -3496,7 +3507,6 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="tec9"/>
 	<property name="Unlocks" value="guntec9"/>
-	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="guntec9" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -3508,7 +3518,6 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="doublebarrelproper"/>
 	<property name="Unlocks" value="gundoublebarrelproper"/>
-	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gundoublebarrelproper" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -3520,7 +3529,6 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="toz34"/>
 	<property name="Unlocks" value="guntoz34"/>
-	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="guntoz34" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -3532,7 +3540,6 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="singlebarrelshotgun"/>
 	<property name="Unlocks" value="gunsinglebarrelshotgun"/>
-	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunsinglebarrelshotgun" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -3544,7 +3551,6 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="rsx1"/>
 	<property name="Unlocks" value="gunrsx1"/>
-	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunrsx1" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -3556,7 +3562,6 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="m1pcarbine"/>
 	<property name="Unlocks" value="gunm1pcarbine"/>
-	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunm1pcarbine" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -3568,7 +3573,6 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="sks"/>
 	<property name="Unlocks" value="gunsks"/>
-	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunsks" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -3580,7 +3584,6 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="ak74"/>
 	<property name="Unlocks" value="gunak101"/>
-	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunak101" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -3592,7 +3595,6 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="ar15"/>
 	<property name="Unlocks" value="gunar15"/>
-	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunar15" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -3604,7 +3606,6 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="hk416"/>
 	<property name="Unlocks" value="gunhk416"/>
-	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunhk416" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -3616,7 +3617,6 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="g36c"/>
 	<property name="Unlocks" value="gung36c"/>
-	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gung36c" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -3628,7 +3628,6 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="556rifle"/>
 	<property name="Unlocks" value="gun556rifle"/>
-	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gun556rifle" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -3640,7 +3639,6 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="9mmrifle"/>
 	<property name="Unlocks" value="gun9mmrifle"/>
-	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gun9mmrifle" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -3652,7 +3650,6 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="svd"/>
 	<property name="Unlocks" value="gunsvd"/>
-	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunsvd" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -3664,7 +3661,6 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="scarh"/>
 	<property name="Unlocks" value="gunscarh"/>
-	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunscarh" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -3676,7 +3672,6 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="aks74u"/>
 	<property name="Unlocks" value="gunaks74u"/>
-	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunaks74u" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -3688,7 +3683,6 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="skorpion"/>
 	<property name="Unlocks" value="gunskorpion"/>
-	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunskorpion" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -3700,7 +3694,6 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="microuzi"/>
 	<property name="Unlocks" value="gunmicrouzi"/>
-	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunmicrouzi" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -3712,7 +3705,6 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="mac11"/>
 	<property name="Unlocks" value="gunmac11"/>
-	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunmac11" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -3724,7 +3716,6 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="ump45"/>
 	<property name="Unlocks" value="gunmp45"/>
-	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunmp45" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -3736,7 +3727,6 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="pp19"/>
 	<property name="Unlocks" value="gunpp19"/>
-	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunpp19" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -3748,7 +3738,6 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="scarl"/>
 	<property name="Unlocks" value="gunscarl"/>
-	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunscarl" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -3760,7 +3749,6 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="sg553"/>
 	<property name="Unlocks" value="gunsg553"/>
-	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunsg553" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>

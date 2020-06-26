@@ -23,40 +23,40 @@
 		<item name="gunmk23Schematic"/>
 	</append>
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='weaponsGunsT2']">
-			<item name="Glock17" quality="1,5"/>
-			<item name="Makarov" quality="1,5"/>
-			<item name="Colt Revolver Pistol" quality="1,5"/>
-			<item name="P250" quality="1,5"/>
-			<item name="Revolver Pistol" quality="1,5"/>
-			<item name="Double-barrel Shotgun" quality="1,5"/>
-			<item name="TOZ-34" quality="1,5"/>
-			<item name="Single-barrel Shotgun" quality="1,5"/>
-			<item name="Bolt-Action Sports Rifle" quality="1,5"/>
-			<item name="Bolt-Action Rifle" quality="1,5"/>
-			<item name="M1 Carbine" quality="1,5"/>
-			<item name="AK-74u" quality="1,5"/>
-			<item name="AK-101" quality="1,5"/>
-			<item name="Skorpion" quality="1,5"/>
-			<item name="PP-19" quality="1,5"/>
-			<item name="UMP" quality="1,5"/>
-			<item name="SKS" quality="1,5"/>
-			<item name="TEC-9" quality="1,5"/>
-			<item name="Mark-23"  quality="1,5"/>
+			<item name="gunGlock17" quality="1,5"/>
+			<item name="gunmakarov" quality="1,5"/>
+			<item name="gun45revolver" quality="1,5"/>
+			<item name="gunp250" quality="1,5"/>
+			<item name="gun9mmrevolver" quality="1,5"/>
+			<item name="gundoublebarrelproper" quality="1,5"/>
+			<item name="guntoz34" quality="1,5"/>
+			<item name="gunsinglebarrelshotgun" quality="1,5"/>
+			<item name="gun556rifle" quality="1,5"/>
+			<item name="gun9mmrifle" quality="1,5"/>
+			<item name="gunm1pcarbine" quality="1,5"/>
+			<item name="gunaks74u" quality="1,5"/>
+			<item name="gunak101" quality="1,5"/>
+			<item name="gunskorpion" quality="1,5"/>
+			<item name="gunpp19" quality="1,5"/>
+			<item name="gunump45" quality="1,5"/>
+			<item name="gunsks" quality="1,5"/>
+			<item name="guntec9" quality="1,5"/>
+			<item name="gunmk23"  quality="1,5"/>
 	</append>
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='weaponsGunsT3']">
-			<item name="MAC-11" prob="0.7" quality="1,4"/>
-			<item name="Micro Uzi" prob="0.7" quality="1,4"/>
-			<item name="RSX1" prob="0.5" quality="1,4"/>
-			<item name="SCAR-H"  quality="1,4"/>
-			<item name="HK416" prob="0.5" quality="1,4"/>
-			<item name="AR-15" prob="0.5" quality="1,4"/>
-			<item name="G36C" prob="0.5" quality="1,4"/>
-			<item name="SCAR-L" prob="0.5" quality="1,4"/>
-			<item name="SG-553" prob="0.5" quality="1,4"/>
-			<item name="HK416" prob="0.5" quality="1,4"/>
-			<item name="USP" prob="0.5" quality="1,4"/>
-			<item name="Desert Eagle" prob="0.5" quality="1,4"/>
-			<item name="Dragunov Sniper Rifle" prob="0.5" quality="1,4"/>
+			<item name="gunmac11" prob="0.7" quality="1,4"/>
+			<item name="gunmicrouzi" prob="0.7" quality="1,4"/>
+			<item name="gunrsx1" prob="0.5" quality="1,4"/>
+			<item name="gunscarh"  quality="1,4"/>
+			<item name="gunhk416" prob="0.5" quality="1,4"/>
+			<item name="gunar15" prob="0.5" quality="1,4"/>
+			<item name="gung36c" prob="0.5" quality="1,4"/>
+			<item name="gunscarl" prob="0.5" quality="1,4"/>
+			<item name="gunsg553" prob="0.5" quality="1,4"/>
+			<item name="gunhk416" prob="0.5" quality="1,4"/>
+			<item name="gunusp" prob="0.5" quality="1,4"/>
+			<item name="gundeserteagle" prob="0.5" quality="1,4"/>
+			<item name="gunsvd" prob="0.5" quality="1,4"/>
 	</append>
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='ammo']">
 			<item name="ammo45BulletBall" count="30,110"/>

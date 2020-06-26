@@ -1,223 +1,66 @@
 <VFX>
-	<remove xpath="/recipes/recipe[@name='gunPistol']"/>
-	<remove xpath="/recipes/recipe[@name='gun44Magnum']"/>
-	<remove xpath="/recipes/recipe[@name='gunAK47']"/>
-	<remove xpath="/recipes/recipe[@name='gunM60']"/>
-	<remove xpath="/recipes/recipe[@name='gunDoubleBarrelShotgun']"/>
-	<remove xpath="/recipes/recipe[@name='gunPumpShotgun']"/>
-	<remove xpath="/recipes/recipe[@name='gunMR10']"/>
-	<remove xpath="/recipes/recipe[@name='gunHuntingRifle']"/>
-	<remove xpath="/recipes/recipe[@name='gunSMG5']"/>
-	<remove xpath="/recipes/recipe[@name='ammo9mmBulletBall']"/>
-	<remove xpath="/recipes/recipe[@name='ammoBundle9mmBulletBall']"/>
-	<remove xpath="/recipes/recipe[@name='ammo9mmBulletHP']"/>
-	<remove xpath="/recipes/recipe[@name='ammoBundle9mmBulletHP']"/>
-	<remove xpath="/recipes/recipe[@name='ammo9mmBulletAP']"/>
-	<remove xpath="/recipes/recipe[@name='ammoBundle9mmBulletAP']"/>
-	<remove xpath="/recipes/recipe[@name='ammo44MagnumBulletBall']"/>
-	<remove xpath="/recipes/recipe[@name='ammoBundle44MagnumBulletBall']"/>
-	<remove xpath="/recipes/recipe[@name='ammo44MagnumBulletHP']"/>
-	<remove xpath="/recipes/recipe[@name='ammoBundle44MagnumBulletHP']"/>
-	<remove xpath="/recipes/recipe[@name='ammo44MagnumBulletAP']"/>
-	<remove xpath="/recipes/recipe[@name='ammoBundle44MagnumBulletAP']"/>
-	<remove xpath="/recipes/recipe[@name='ammo762mmBulletBall']"/>
-	<remove xpath="/recipes/recipe[@name='ammoBundle762mmBulletBall']"/>
-	<remove xpath="/recipes/recipe[@name='ammo762mmBulletHP']"/>
-	<remove xpath="/recipes/recipe[@name='ammoBundle762mmBulletHP']"/>
-	<remove xpath="/recipes/recipe[@name='ammo762mmBulletAP']"/>
-	<remove xpath="/recipes/recipe[@name='ammoBundle762mmBulletAP']"/>
-	<remove xpath="/recipes/recipe[@name='ammoShotgunShell']"/>
-	<remove xpath="/recipes/recipe[@name='ammoBundleShotgunShell']"/>
-	<remove xpath="/recipes/recipe[@name='ammoShotgunSlug']"/>
-	<remove xpath="/recipes/recipe[@name='ammoBundleShotgunSlug']"/>
-	<remove xpath="/recipes/recipe[@name='ammoShotgunBreachingSlug']"/>
-	<remove xpath="/recipes/recipe[@name='ammoBundleShotgunBreachingSlug']"/>
-	<append xpath="/recipes">
-	<!-- base ammo -->
-	<recipe name="ammo9mmBulletBall" count="1" craft_time="0.5" craft_area="workbench" tags="workbenchCrafting">
-		<ingredient name="resourceBulletTip" count="1"/>
-		<ingredient name="resourceGunPowder" count="1"/>
-		<ingredient name="resourceBulletCasing" count="1"/>
-	</recipe>
-	<recipe name="ammoBundle9mmBulletBall" count="1" craft_time="0.5" craft_area="workbench" tags="learnable,workbenchCrafting">
-		<ingredient name="resourceBulletTip" count="80"/>
-		<ingredient name="resourceGunPowder" count="80"/>
-		<ingredient name="resourceBulletCasing" count="80"/>
-	</recipe>
-	<recipe name="ammo9mmBulletHP" count="1" craft_time="0.5" craft_area="workbench" tags="learnable,workbenchCrafting">
-		<ingredient name="resourceBulletTip" count="2"/>
-		<ingredient name="resourceGunPowder" count="1"/>
-		<ingredient name="resourceBulletCasing" count="1"/>
-	</recipe>
-	<recipe name="ammoBundle9mmBulletHP" count="1" craft_time="0.5" craft_area="workbench" tags="learnable,workbenchCrafting">
-		<ingredient name="resourceBulletTip" count="160"/>
-		<ingredient name="resourceGunPowder" count="80"/>
-		<ingredient name="resourceBulletCasing" count="80"/>
-	</recipe>
-	<recipe name="ammo9mmBulletAP" count="1" craft_time="0.5" craft_area="workbench" tags="learnable,workbenchCrafting">
+<append xpath="/recipes">
+	<recipe name="ammo45BulletBall" count="1" craft_area="workbench" tags="workbenchCrafting">
 		<ingredient name="resourceBulletTip" count="1"/>
 		<ingredient name="resourceGunPowder" count="2"/>
 		<ingredient name="resourceBulletCasing" count="1"/>
 	</recipe>
-	<recipe name="ammoBundle9mmBulletAP" count="1" craft_time="0.5" craft_area="workbench" tags="learnable,workbenchCrafting">
-		<ingredient name="resourceBulletTip" count="80"/>
-		<ingredient name="resourceGunPowder" count="160"/>
-		<ingredient name="resourceBulletCasing" count="80"/>
-	</recipe>
-	<recipe name="ammo44MagnumBulletBall" count="1" craft_time="0.5" craft_area="workbench" tags="workbenchCrafting">
-		<ingredient name="resourceBulletTip" count="1"/>
-		<ingredient name="resourceGunPowder" count="3"/>
-		<ingredient name="resourceBulletCasing" count="1"/>
-	</recipe>
-	<recipe name="ammoBundle44MagnumBulletBall" count="1" craft_time="0.5" craft_area="workbench" tags="learnable,workbenchCrafting">
-		<ingredient name="resourceBulletTip" count="80"/>
-		<ingredient name="resourceGunPowder" count="240"/>
-		<ingredient name="resourceBulletCasing" count="80"/>
-	</recipe>
-	<recipe name="ammo44MagnumBulletHP" count="1" craft_time="0.5" craft_area="workbench" tags="learnable,workbenchCrafting">
-		<ingredient name="resourceBulletTip" count="2"/>
-		<ingredient name="resourceGunPowder" count="3"/>
-		<ingredient name="resourceBulletCasing" count="1"/>
-	</recipe>
-	<recipe name="ammoBundle44MagnumBulletHP" count="1" craft_time="0.5" craft_area="workbench" tags="learnable,workbenchCrafting">
-		<ingredient name="resourceBulletTip" count="160"/>
-		<ingredient name="resourceGunPowder" count="240"/>
-		<ingredient name="resourceBulletCasing" count="80"/>
-	</recipe>
-	<recipe name="ammo44MagnumBulletAP" count="1" craft_time="0.5" craft_area="workbench" tags="learnable,workbenchCrafting">
-		<ingredient name="resourceBulletTip" count="1"/>
-		<ingredient name="resourceGunPowder" count="5"/>
-		<ingredient name="resourceBulletCasing" count="1"/>
-	</recipe>
-	<recipe name="ammoBundle44MagnumBulletAP" count="1" craft_time="0.5" craft_area="workbench" tags="learnable,workbenchCrafting">
-		<ingredient name="resourceBulletTip" count="80"/>
-		<ingredient name="resourceGunPowder" count="400"/>
-		<ingredient name="resourceBulletCasing" count="80"/>
-	</recipe>
-	<recipe name="ammo762mmBulletBall" count="1" craft_time="0.5" craft_area="workbench" tags="workbenchCrafting">
-		<ingredient name="resourceBulletTip" count="1"/>
-		<ingredient name="resourceGunPowder" count="3"/>
-		<ingredient name="resourceBulletCasing" count="1"/>
-	</recipe>
-	<recipe name="ammoBundle762mmBulletBall" count="1" craft_time="0.5" craft_area="workbench" tags="learnable,workbenchCrafting">
-		<ingredient name="resourceBulletTip" count="80"/>
-		<ingredient name="resourceGunPowder" count="240"/>
-		<ingredient name="resourceBulletCasing" count="80"/>
-	</recipe>
-	<recipe name="ammo762mmBulletHP" count="1" craft_time="0.5" craft_area="workbench" tags="learnable,workbenchCrafting">
-		<ingredient name="resourceBulletTip" count="2"/>
-		<ingredient name="resourceGunPowder" count="3"/>
-		<ingredient name="resourceBulletCasing" count="1"/>
-	</recipe>
-	<recipe name="ammoBundle762mmBulletHP" count="1" craft_time="0.5" craft_area="workbench" tags="learnable,workbenchCrafting">
-		<ingredient name="resourceBulletTip" count="160"/>
-		<ingredient name="resourceGunPowder" count="240"/>
-		<ingredient name="resourceBulletCasing" count="80"/>
-	</recipe>
-	<recipe name="ammo762mmBulletAP" count="1" craft_time="0.5" craft_area="workbench" tags="learnable,workbenchCrafting">
-		<ingredient name="resourceBulletTip" count="1"/>
-		<ingredient name="resourceGunPowder" count="5"/>
-		<ingredient name="resourceBulletCasing" count="1"/>
-	</recipe>
-	<recipe name="ammoBundle762mmBulletAP" count="1" craft_time="0.5" craft_area="workbench" tags="learnable,workbenchCrafting">
-		<ingredient name="resourceBulletTip" count="80"/>
-		<ingredient name="resourceGunPowder" count="400"/>
-		<ingredient name="resourceBulletCasing" count="80"/>
-	</recipe>
-	<recipe name="ammoShotgunShell" count="1" craft_time="0.5" craft_area="workbench" tags="workbenchCrafting">
-		<ingredient name="resourceBuckshot" count="1"/>
-		<ingredient name="resourceGunPowder" count="4"/>
-		<ingredient name="resourcePaper" count="1"/>
-	</recipe>
-	<recipe name="ammoBundleShotgunShell" count="1" craft_time="0.5" craft_area="workbench" tags="learnable,workbenchCrafting">
-		<ingredient name="resourceBuckshot" count="80"/>
-		<ingredient name="resourceGunPowder" count="320"/>
-		<ingredient name="resourcePaper" count="80"/>
-	</recipe>
-	<recipe name="ammoShotgunSlug" count="1" craft_time="0.5" craft_area="workbench" tags="learnable,workbenchCrafting">
-		<ingredient name="resourceBulletTip" count="2"/>
-		<ingredient name="resourceGunPowder" count="4"/>
-		<ingredient name="resourceScrapPolymers" count="1"/>
-	</recipe>
-	<recipe name="ammoBundleShotgunSlug" count="1" craft_time="0.5" craft_area="workbench" tags="learnable,workbenchCrafting">
-		<ingredient name="resourceBulletTip" count="160"/>
-		<ingredient name="resourceGunPowder" count="320"/>
-		<ingredient name="resourceScrapPolymers" count="80"/>
-	</recipe>
-	<recipe name="ammoShotgunBreachingSlug" count="1" craft_time="0.5" craft_area="workbench" tags="learnable,workbenchCrafting">
-		<ingredient name="resourceForgedSteel" count="4"/>
-		<ingredient name="resourceClayLump" count="2"/>
-		<ingredient name="resourceGunPowder" count="4"/>
-		<ingredient name="resourceScrapPolymers" count="1"/>
-	</recipe>
-	<recipe name="ammoBundleShotgunBreachingSlug" count="1" craft_time="0.5" craft_area="workbench" tags="learnable,workbenchCrafting">
-		<ingredient name="resourceForgedSteel" count="320"/>
-		<ingredient name="resourceClayLump" count="160"/>
-		<ingredient name="resourceGunPowder" count="320"/>
-		<ingredient name="resourceScrapPolymers" count="80"/>
-	</recipe>
-	<!-- vanilla extended ammo -->
-	<recipe name="ammo45BulletBall" count="1" craft_time="0.5" craft_area="workbench" tags="workbenchCrafting">
-		<ingredient name="resourceBulletTip" count="1"/>
-		<ingredient name="resourceGunPowder" count="2"/>
-		<ingredient name="resourceBulletCasing" count="1"/>
-	</recipe>
-	<recipe name="ammoBundle45BulletBall" count="1" craft_time="0.5" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<recipe name="ammoBundle45BulletBall" count="1" craft_time="240" craft_area="workbench" tags="learnable,workbenchCrafting">
 		<ingredient name="resourceBulletTip" count="60"/>
 		<ingredient name="resourceGunPowder" count="120"/>
 		<ingredient name="resourceBulletCasing" count="60"/>
 	</recipe>
-	<recipe name="ammo45BulletHP" count="1" craft_time="0.5" craft_area="workbench" tags="workbenchCrafting">
+	<recipe name="ammo45BulletHP" count="1" craft_area="workbench" tags="workbenchCrafting">
 		<ingredient name="resourceBulletTip" count="2"/>
 		<ingredient name="resourceGunPowder" count="2"/>
 		<ingredient name="resourceBulletCasing" count="1"/>
 	</recipe>
-	<recipe name="ammoBundle45BulletHP" count="1" craft_time="0.5" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<recipe name="ammoBundle45BulletHP" count="1" craft_time="240" craft_area="workbench" tags="learnable,workbenchCrafting">
 		<ingredient name="resourceBulletTip" count="120"/>
 		<ingredient name="resourceGunPowder" count="120"/>
 		<ingredient name="resourceBulletCasing" count="60"/>
 	</recipe>
-	<recipe name="ammo45BulletAP" count="1" craft_time="0.5" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<recipe name="ammo45BulletAP" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
 		<ingredient name="resourceBulletTip" count="1"/>
 		<ingredient name="resourceGunPowder" count="3"/>
 		<ingredient name="resourceBulletCasing" count="1"/>
 	</recipe>
-	<recipe name="ammoBundle45BulletAP" count="1" craft_time="0.5" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<recipe name="ammoBundle45BulletAP" count="1" craft_time="240" craft_area="workbench" tags="learnable,workbenchCrafting">
 		<ingredient name="resourceBulletTip" count="60"/>
 		<ingredient name="resourceGunPowder" count="180"/>
 		<ingredient name="resourceBulletCasing" count="60"/>
 	</recipe>
-	<recipe name="ammo556mmBulletBall" count="1" craft_time="0.5" craft_area="workbench" tags="workbenchCrafting">
+	<recipe name="ammo556mmBulletBall" count="1" craft_area="workbench" tags="workbenchCrafting">
 		<ingredient name="resourceBulletTip" count="1"/>
 		<ingredient name="resourceGunPowder" count="2"/>
 		<ingredient name="resourceBulletCasing" count="1"/>
 	</recipe>
-	<recipe name="ammoBundle556mmBulletBall" count="1" craft_time="0.5" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<recipe name="ammoBundle556mmBulletBall" count="1" craft_time="240" craft_area="workbench" tags="learnable,workbenchCrafting">
 		<ingredient name="resourceBulletTip" count="90"/>
 		<ingredient name="resourceGunPowder" count="180"/>
 		<ingredient name="resourceBulletCasing" count="90"/>
 	</recipe>
-	<recipe name="ammo556mmBulletHP" count="1" craft_time="0.5" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<recipe name="ammo556mmBulletHP" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
 		<ingredient name="resourceBulletTip" count="2"/>
 		<ingredient name="resourceGunPowder" count="2"/>
 		<ingredient name="resourceBulletCasing" count="1"/>
 	</recipe>
-	<recipe name="ammoBundle556mmBulletHP" count="1" craft_time="0.5" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<recipe name="ammoBundle556mmBulletHP" count="1" craft_time="240" craft_area="workbench" tags="learnable,workbenchCrafting">
 		<ingredient name="resourceBulletTip" count="180"/>
 		<ingredient name="resourceGunPowder" count="180"/>
 		<ingredient name="resourceBulletCasing" count="90"/>
 	</recipe>
-	<recipe name="ammo556mmBulletAP" count="1" craft_time="0.5" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<recipe name="ammo556mmBulletAP" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
 		<ingredient name="resourceBulletTip" count="1"/>
 		<ingredient name="resourceGunPowder" count="4"/>
 		<ingredient name="resourceBulletCasing" count="1"/>
 	</recipe>
-	<recipe name="ammoBundle556mmBulletAP" count="1" craft_time="0.5" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<recipe name="ammoBundle556mmBulletAP" count="1" craft_time="240" craft_area="workbench" tags="learnable,workbenchCrafting">
 		<ingredient name="resourceBulletTip" count="90"/>
 		<ingredient name="resourceGunPowder" count="360"/>
 		<ingredient name="resourceBulletCasing" count="90"/>
 	</recipe>
-	<!-- base weapons -->
+	
 	<recipe name="gunPistol" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
 		<ingredient name="gunPistolParts" count="4"/>
 		<ingredient name="resourceForgedIron" count="10"/>
@@ -308,8 +151,12 @@
 			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunPistolParts,resourceForgedSteel,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
 		</effect_group>
 	</recipe>
-	<!-- vanilla extended weapons -->
-	<recipe name="Makarov" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
+	
+	
+	
+	
+	
+	<recipe name="gunmakarov" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
 		<ingredient name="gunPistolParts" count="2"/>
 		<ingredient name="resourceForgedIron" count="5"/>
 		<ingredient name="resourceDuctTape" count="1"/>
@@ -319,7 +166,7 @@
 			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunPistolParts,resourceForgedIron,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
 		</effect_group>
 	</recipe> 
-	<recipe name="Revolver Pistol" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
+	<recipe name="gun9mmrevolver" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
 		<ingredient name="gunPistolParts" count="2"/>
 		<ingredient name="resourceForgedIron" count="5"/>
 		<ingredient name="resourceDuctTape" count="1"/>
@@ -328,18 +175,18 @@
 		<effect_group>
 			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunPistolParts,resourceForgedIron,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
 		</effect_group>
-	</recipe>
-	<recipe name="Colt Revolver Pistol" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
+	</recipe> 
+	<recipe name="gun9mmrevolver" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
 		<ingredient name="gunPistolParts" count="3"/>
-		<ingredient name="resourceForgedIron" count="5"/>
-		<ingredient name="resourceDuctTape" count="1"/>
+		<ingredient name="resourceForgedIron" count="7"/>
+		<ingredient name="resourceDuctTape" count="2"/>
 		<ingredient name="resourceScrapPolymers" count="3"/>
-		<ingredient name="resourceSpring" count="1"/>
+		<ingredient name="resourceSpring" count="2"/>
 		<effect_group>
 			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunPistolParts,resourceForgedIron,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
 		</effect_group>
 	</recipe> 
-	<recipe name="P250" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
+	<recipe name="gunp250" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
 		<ingredient name="gunPistolParts" count="4"/>
 		<ingredient name="resourceForgedIron" count="10"/>
 		<ingredient name="resourceDuctTape" count="2"/>
@@ -349,7 +196,7 @@
 			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunPistolParts,resourceForgedIron,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
 		</effect_group>
 	</recipe> 
-	<recipe name="P99" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
+	<recipe name="gunp99" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
 		<ingredient name="gunPistolParts" count="4"/>
 		<ingredient name="resourceForgedIron" count="10"/>
 		<ingredient name="resourceDuctTape" count="2"/>
@@ -359,7 +206,7 @@
 			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunPistolParts,resourceForgedIron,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
 		</effect_group>
 	</recipe> 
-	<recipe name="1911" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
+	<recipe name="gun1911" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
 		<ingredient name="gunPistolParts" count="4"/>
 		<ingredient name="resourceForgedIron" count="12"/>
 		<ingredient name="resourceDuctTape" count="2"/>
@@ -369,7 +216,7 @@
 			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunPistolParts,resourceForgedIron,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
 		</effect_group>
 	</recipe>
-	<recipe name="Glock17" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
+	<recipe name="gunGlock17" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
 		<ingredient name="gunPistolParts" count="4"/>
 		<ingredient name="resourceForgedIron" count="8"/>
 		<ingredient name="resourceDuctTape" count="2"/>
@@ -379,7 +226,7 @@
 			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunPistolParts,resourceForgedIron,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
 		</effect_group>
 	</recipe>
-	<recipe name="TEC-9" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
+	<recipe name="guntec9" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
 		<ingredient name="gunPistolParts" count="6"/>
 		<ingredient name="resourceForgedIron" count="12"/>
 		<ingredient name="resourceDuctTape" count="2"/>
@@ -389,7 +236,7 @@
 			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunPistolParts,resourceForgedIron,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
 		</effect_group>
 	</recipe> 
-	<recipe name="Mark-23" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
+	<recipe name="gunmk23" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
 		<ingredient name="gunPistolParts" count="6"/>
 		<ingredient name="resourceForgedIron" count="12"/>
 		<ingredient name="resourceDuctTape" count="2"/>
@@ -399,7 +246,7 @@
 			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunPistolParts,resourceForgedIron,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
 		</effect_group>
 	</recipe> 
-	<recipe name="USP" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
+	<recipe name="gunusp" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
 		<ingredient name="gunPistolParts" count="6"/>
 		<ingredient name="resourceForgedIron" count="12"/>
 		<ingredient name="resourceDuctTape" count="2"/>
@@ -409,7 +256,7 @@
 			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunPistolParts,resourceForgedIron,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
 		</effect_group>
 	</recipe> 
-	<recipe name="Desert Eagle" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
+	<recipe name="gundeserteagle" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
 		<ingredient name="gunPistolParts" count="6"/>
 		<ingredient name="resourceForgedSteel" count="28"/>
 		<ingredient name="resourceDuctTape" count="3"/>
@@ -419,7 +266,7 @@
 			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunPistolParts,resourceForgedSteel,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
 		</effect_group>
 	</recipe> 
-	<recipe name="M1 Carbine" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
+	<recipe name="gunm1pcarbine" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
 		<ingredient name="gunPistolParts" count="6"/>
 		<ingredient name="resourceForgedIron" count="12"/>
 		<ingredient name="resourceDuctTape" count="3"/>
@@ -429,7 +276,7 @@
 			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunPistolParts,resourceForgedSteel,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
 		</effect_group>
 	</recipe> 
-	<recipe name="SKS" count="1" craft_area="workbench" tags="learnable,perkMachineGunner">
+	<recipe name="gunsks" count="1" craft_area="workbench" tags="learnable,perkMachineGunner">
 		<ingredient name="gunAk47Parts" count="2"/>
 		<ingredient name="resourceForgedIron" count="6"/>
 		<ingredient name="resourceDuctTape" count="2"/>
@@ -439,7 +286,7 @@
 			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunAk47Parts,resourceForgedIron,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
 		</effect_group>
 	</recipe>
-	<recipe name="SCAR-H" count="1" craft_area="workbench" tags="learnable,perkMachineGunner">
+	<recipe name="gunscarh" count="1" craft_area="workbench" tags="learnable,perkMachineGunner">
 		<ingredient name="gunAk47Parts" count="5"/>
 		<ingredient name="resourceForgedSteel" count="14"/>
 		<ingredient name="resourceDuctTape" count="3"/>
@@ -449,7 +296,7 @@
 			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunAk47Parts,resourceForgedSteel,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
 		</effect_group>
 	</recipe>
-	<recipe name="Single-barrel Shotgun" count="1" craft_area="workbench" tags="learnable,perkBoomstick">
+	<recipe name="gunsinglebarrelshotgun" count="1" craft_area="workbench" tags="learnable,perkBoomstick">
 		<ingredient name="gunDoubleBarrelShotgunParts" count="2"/>
 		<ingredient name="resourceForgedIron" count="5"/>
 		<ingredient name="resourceDuctTape" count="1"/>
@@ -459,7 +306,7 @@
 			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunDoubleBarrelShotgunParts,resourceForgedIron,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
 		</effect_group>
 	</recipe>
-	<recipe name="Double-barrel Shotgun" count="1" craft_area="workbench" tags="learnable,perkBoomstick">
+	<recipe name="gundoublebarrelproper" count="1" craft_area="workbench" tags="learnable,perkBoomstick">
 		<ingredient name="gunDoubleBarrelShotgunParts" count="4"/>
 		<ingredient name="resourceForgedIron" count="10"/>
 		<ingredient name="resourceDuctTape" count="2"/>
@@ -469,7 +316,7 @@
 			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunDoubleBarrelShotgunParts,resourceForgedIron,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
 		</effect_group>
 	</recipe>
-	<recipe name="TOZ-34" count="1" craft_area="workbench" tags="learnable,perkBoomstick">
+	<recipe name="guntoz34" count="1" craft_area="workbench" tags="learnable,perkBoomstick">
 		<ingredient name="gunDoubleBarrelShotgunParts" count="4"/>
 		<ingredient name="resourceForgedIron" count="10"/>
 		<ingredient name="resourceDuctTape" count="2"/>
@@ -479,7 +326,7 @@
 			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunDoubleBarrelShotgunParts,resourceForgedIron,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
 		</effect_group>
 	</recipe>
-	<recipe name="RSX1" count="1" craft_area="workbench" tags="learnable,perkBoomstick">
+	<recipe name="gunrsx1" count="1" craft_area="workbench" tags="learnable,perkBoomstick">
 		<ingredient name="gunDoubleBarrelShotgunParts" count="8"/>
 		<ingredient name="resourceForgedSteel" count="24"/>
 		<ingredient name="resourceDuctTape" count="4"/>
@@ -489,7 +336,7 @@
 			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunDoubleBarrelShotgunParts,resourceForgedSteel,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
 		</effect_group>
 	</recipe>
-	<recipe name="AK-101" count="1" craft_area="workbench" tags="learnable,perkMachineGunner">
+	<recipe name="gunak101" count="1" craft_area="workbench" tags="learnable,perkMachineGunner">
 		<ingredient name="gunAk47Parts" count="4"/>
 		<ingredient name="resourceForgedIron" count="10"/>
 		<ingredient name="resourceDuctTape" count="2"/>
@@ -499,7 +346,7 @@
 			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunAk47Parts,resourceForgedIron,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
 		</effect_group>
 	</recipe>
-	<recipe name="AK-74u" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
+	<recipe name="gunaks74u" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
 		<ingredient name="gunAk47Parts" count="3"/>
 		<ingredient name="resourceForgedIron" count="8"/>
 		<ingredient name="resourceDuctTape" count="2"/>
@@ -509,7 +356,7 @@
 			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunAk47Parts,resourceForgedIron,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
 		</effect_group>
 	</recipe>
-	<recipe name="AR-15" count="1" craft_area="workbench" tags="learnable,perkMachineGunner">
+	<recipe name="gunar15" count="1" craft_area="workbench" tags="learnable,perkMachineGunner">
 		<ingredient name="gunAk47Parts" count="5"/>
 		<ingredient name="resourceForgedSteel" count="12"/>
 		<ingredient name="resourceDuctTape" count="10"/>
@@ -519,7 +366,7 @@
 			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunHuntingRifleParts,resourceForgedSteel,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
 		</effect_group>
 	</recipe>
-	<recipe name="HK416" count="1" craft_area="workbench" tags="learnable,perkMachineGunner">
+	<recipe name="gunhk416" count="1" craft_area="workbench" tags="learnable,perkMachineGunner">
 		<ingredient name="gunAk47Parts" count="5"/>
 		<ingredient name="resourceForgedSteel" count="12"/>
 		<ingredient name="resourceDuctTape" count="10"/>
@@ -529,7 +376,7 @@
 			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunHuntingRifleParts,resourceForgedSteel,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
 		</effect_group>
 	</recipe>
-	<recipe name="G36C" count="1" craft_area="workbench" tags="learnable,perkMachineGunner">
+	<recipe name="gung36c" count="1" craft_area="workbench" tags="learnable,perkMachineGunner">
 		<ingredient name="gunAk47Parts" count="5"/>
 		<ingredient name="resourceForgedSteel" count="12"/>
 		<ingredient name="resourceDuctTape" count="10"/>
@@ -539,7 +386,7 @@
 			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunHuntingRifleParts,resourceForgedSteel,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
 		</effect_group>
 	</recipe>
-	<recipe name="SCAR-L" count="1" craft_area="workbench" tags="learnable,perkMachineGunner">
+	<recipe name="gunscarl" count="1" craft_area="workbench" tags="learnable,perkMachineGunner">
 		<ingredient name="gunAk47Parts" count="5"/>
 		<ingredient name="resourceForgedSteel" count="12"/>
 		<ingredient name="resourceDuctTape" count="10"/>
@@ -549,7 +396,7 @@
 			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunHuntingRifleParts,resourceForgedSteel,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
 		</effect_group>
 	</recipe>
-	<recipe name="SG-553" count="1" craft_area="workbench" tags="learnable,perkMachineGunner">
+	<recipe name="gunsg553" count="1" craft_area="workbench" tags="learnable,perkMachineGunner">
 		<ingredient name="gunAk47Parts" count="5"/>
 		<ingredient name="resourceForgedSteel" count="12"/>
 		<ingredient name="resourceDuctTape" count="10"/>
@@ -559,7 +406,7 @@
 			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunHuntingRifleParts,resourceForgedSteel,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
 		</effect_group>
 	</recipe>
-	<recipe name="Bolt-Action Sports Rifle" count="1" craft_area="workbench" tags="learnable,perkDeadEye">
+	<recipe name="gun556rifle" count="1" craft_area="workbench" tags="learnable,perkDeadEye">
 		<ingredient name="gunHuntingRifleParts" count="4"/>
 		<ingredient name="resourceForgedIron" count="10"/>
 		<ingredient name="resourceDuctTape" count="2"/>
@@ -569,7 +416,7 @@
 			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunHuntingRifleParts,resourceForgedIron,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
 		</effect_group>
 	</recipe>
-	<recipe name="Bolt-Action Rifle" count="1" craft_area="workbench" tags="learnable,perkDeadEye">
+	<recipe name="gun9mmrifle" count="1" craft_area="workbench" tags="learnable,perkDeadEye">
 		<ingredient name="gunHuntingRifleParts" count="2"/>
 		<ingredient name="resourceForgedIron" count="6"/>
 		<ingredient name="resourceDuctTape" count="2"/>
@@ -579,7 +426,7 @@
 			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunHuntingRifleParts,resourceForgedIron,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
 		</effect_group>
 	</recipe>
-	<recipe name="Dragunov Sniper Rifle" count="1" craft_area="workbench" tags="learnable,perkDeadEye">
+	<recipe name="gunsvd" count="1" craft_area="workbench" tags="learnable,perkDeadEye">
 		<ingredient name="gunHuntingRifleParts" count="7"/>
 		<ingredient name="resourceForgedSteel" count="22"/>
 		<ingredient name="resourceDuctTape" count="10"/>
@@ -589,7 +436,7 @@
 			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunHuntingRifleParts,resourceForgedSteel,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
 		</effect_group>
 	</recipe>
-	<recipe name="MAC-11" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
+	<recipe name="gunmac11" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
 		<ingredient name="gunPistolParts" count="5"/>
 		<ingredient name="resourceForgedSteel" count="10"/>
 		<ingredient name="resourceDuctTape" count="3"/>
@@ -599,7 +446,7 @@
 			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunPistolParts,resourceForgedSteel,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
 		</effect_group>
 	</recipe>
-	<recipe name="Micro Uzi" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
+	<recipe name="gunmicrouzi" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
 		<ingredient name="gunPistolParts" count="5"/>
 		<ingredient name="resourceForgedSteel" count="10"/>
 		<ingredient name="resourceDuctTape" count="3"/>
@@ -609,7 +456,7 @@
 			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunPistolParts,resourceForgedSteel,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
 		</effect_group>
 	</recipe>
-	<recipe name="Skorpion" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
+	<recipe name="gunskorpion" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
 		<ingredient name="gunPistolParts" count="3"/>
 		<ingredient name="resourceForgedIron" count="10"/>
 		<ingredient name="resourceDuctTape" count="2"/>
@@ -619,7 +466,7 @@
 			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunPistolParts,resourceForgedSteel,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
 		</effect_group>
 	</recipe>
-	<recipe name="UMP" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
+	<recipe name="gunump45" count="1" craft_area="workbench" tags="learnable,perkGunslinger">
 		<ingredient name="gunPistolParts" count="5"/>
 		<ingredient name="resourceForgedSteel" count="10"/>
 		<ingredient name="resourceDuctTape" count="3"/>
@@ -629,7 +476,7 @@
 			<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunPistolParts,resourceForgedSteel,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
 		</effect_group>
 	</recipe>
-	<recipe name="P99" count="1" craft_area="workbench" tags="learnable,perkMachineGunner">
+	<recipe name="gunpp19" count="1" craft_area="workbench" tags="learnable,perkMachineGunner">
 		<ingredient name="gunPistolParts" count="3"/>
 		<ingredient name="resourceForgedIron" count="7"/>
 		<ingredient name="resourceDuctTape" count="2"/>
