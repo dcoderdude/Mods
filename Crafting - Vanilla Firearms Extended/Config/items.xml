@@ -9,9 +9,10 @@
 		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 		<property name="Material" value="Mbrass"/>
 		<property name="MeltTimePerUnit" value=".4"/>
-		<property name="Stacknumber" value="300"/>
+		<property name="Stacknumber" value="1300"/>
 		<property name="EconomicValue" value="9"/>
 		<property name="Group" value="Ammo/Weapons"/>
+		<property name="DescriptionKey" value=""/>
 		<effect_group name="ammo45BulletBall" tiered="false">
 			<passive_effect name="EntityDamage" operation="base_set" value="37"/>
 			<passive_effect name="BlockDamage" operation="base_set" value="8"/>
@@ -24,7 +25,9 @@
 		<property name="Extends" value="ammo45BulletBall"/>
 		<property name="CustomIcon" value="45bullethp"/>
 		<property name="DisplayType" value="ammoBulletHP"/>
+		<property name="Stacknumber" value="1300"/>
 		<property name="EconomicValue" value="14"/>
+		<property name="Group" value="Ammo/Weapons"/>
 		<property name="DescriptionKey" value="ammoHPGroupDesc"/>
 		<property name="UnlockedBy" value="perkPistolPeteHPAmmo"/>
 		<effect_group name="ammo45BulletHP" tiered="false">
@@ -41,7 +44,9 @@
 		<property name="Extends" value="ammo45BulletBall"/>
 		<property name="DisplayType" value="ammoBulletAP"/>
 		<property name="CustomIcon" value="45bulletap"/>
+		<property name="Stacknumber" value="1300"/>
 		<property name="EconomicValue" value="14"/>
+		<property name="Group" value="Ammo/Weapons"/>
 		<property name="DescriptionKey" value="ammoAPGroupDesc"/>
 		<property name="UnlockedBy" value="perkPistolPeteAPAmmo"/>
 		<effect_group name="ammo45BulletAP" tiered="false">
@@ -60,7 +65,6 @@
 	<item name="ammoBundle45BulletBall">
 		<property name="CustomIcon" value="45bullet"/>
 		<property name="ItemTypeIcon" value="bundle"/>
-		<property name="DescriptionKey" value="ammoBundleGroupDesc"/>
 		<property name="HoldType" value="45"/>
 		<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
@@ -69,6 +73,7 @@
 		<property name="Weight" value="0"/>
 		<property name="EconomicValue" value="900"/>
 		<property name="Group" value="Ammo/Weapons"/>
+		<property name="DescriptionKey" value="ammoBundleGroupDesc"/>
 		<property name="UnlockedBy" value="perkPistolPeteComplete"/>
 		<property class="Action0">
 			<property name="Class" value="OpenBundle"/>
@@ -87,7 +92,10 @@
 	<item name="ammoBundle45BulletHP">
 		<property name="Extends" value="ammoBundle45BulletBall"/>
 		<property name="CustomIcon" value="45bullethp"/>
+		<property name="Stacknumber" value="1300"/>
 		<property name="EconomicValue" value="1400"/>
+		<property name="Group" value="Ammo/Weapons"/>
+		<property name="DescriptionKey" value=""/>
 		<property class="Action0">
 			<property name="Create_item" value="ammo45BulletHP"/>
 			<property name="Create_item_count" value="75"/>
@@ -96,7 +104,10 @@
 	<item name="ammoBundle45BulletAP">
 		<property name="Extends" value="ammoBundle45BulletBall"/>
 		<property name="CustomIcon" value="45bulletap"/>
+		<property name="Stacknumber" value="1300"/>
 		<property name="EconomicValue" value="1400"/>
+		<property name="Group" value="Ammo/Weapons"/>
+		<property name="DescriptionKey" value=""/>
 		<property class="Action0">
 			<property name="Create_item" value="ammo45BulletAP"/>
 			<property name="Create_item_count" value="75"/>
@@ -106,8 +117,10 @@
 	<item name="ammo556mmBulletBall">
 		<property name="Extends" value="ammo9mmBulletBall"/>
 		<property name="CustomIcon" value="ammo556mmBulletBall"/>
-		<property name="Stacknumber" value="200"/> <!-- STK ammo low -->
+		<property name="Stacknumber" value="1300"/> <!-- STK ammo low -->
 		<property name="EconomicValue" value="11"/>
+		<property name="Group" value="Ammo/Weapons"/>
+		<property name="DescriptionKey" value=""/>
 		<effect_group name="ammo556mmBulletBall" tiered="false">
 			<passive_effect name="EntityDamage" operation="base_set" value="40"/>
 			<passive_effect name="BlockDamage" operation="base_set" value="8"/>
@@ -120,7 +133,9 @@
 		<property name="Extends" value="ammo556mmBulletBall"/>
 		<property name="DisplayType" value="ammoBulletHP"/>
 		<property name="CustomIcon" value="ammo556mmBulletHP"/>
+		<property name="Stacknumber" value="1300"/>
 		<property name="EconomicValue" value="16"/>
+		<property name="Group" value="Ammo/Weapons"/>
 		<property name="DescriptionKey" value="ammoHPGroupDesc"/>
 		<property name="UnlockedBy" value="perkSniperHPAmmo"/>
 		<effect_group name="ammo556mmBulletHP" tiered="false">
@@ -137,7 +152,9 @@
 		<property name="Extends" value="ammo556mmBulletBall"/>
 		<property name="CustomIcon" value="ammo556mmBulletAP"/>
 		<property name="DisplayType" value="ammoBulletAP"/>
+		<property name="Stacknumber" value="1300"/>
 		<property name="EconomicValue" value="16"/>
+		<property name="Group" value="Ammo/Weapons"/>
 		<property name="DescriptionKey" value="ammoAPGroupDesc"/>
 		<property name="UnlockedBy" value="perkSniperAPAmmo"/>
 		<effect_group name="ammo556mmBulletAP" tiered="false">
@@ -156,7 +173,10 @@
 	<item name="ammoBundle556mmBulletBall">
 		<property name="Extends" value="ammoBundle9mmBulletBall"/>
 		<property name="CustomIcon" value="ammo556mmBulletBall"/>
+		<property name="Stacknumber" value="1300"/>
 		<property name="EconomicValue" value="1100"/>
+		<property name="Group" value="Ammo/Weapons"/>
+		<property name="DescriptionKey" value=""/>
 		<property name="UnlockedBy" value="perkSniperComplete"/>
 		<property class="Action0">
 			<property name="Create_item" value="ammo556mmBulletBall"/>
@@ -166,7 +186,10 @@
 	<item name="ammoBundle556mmBulletHP">
 		<property name="Extends" value="ammoBundle556mmBulletBall"/>
 		<property name="CustomIcon" value="ammo556mmBulletHP"/>
+		<property name="Stacknumber" value="1300"/>
 		<property name="EconomicValue" value="1600"/>
+		<property name="Group" value="Ammo/Weapons"/>
+		<property name="DescriptionKey" value=""/>
 		<property name="UnlockedBy" value="perkSniperComplete"/>
 		<property class="Action0">
 			<property name="Create_item" value="ammo556mmBulletHP"/>
@@ -176,7 +199,10 @@
 	<item name="ammoBundle556mmBulletAP">
 		<property name="Extends" value="ammoBundle556mmBulletBall"/>
 		<property name="CustomIcon" value="ammo556mmBulletAP"/>
+		<property name="Stacknumber" value="1300"/>
 		<property name="EconomicValue" value="1600"/>
+		<property name="Group" value="Ammo/Weapons"/>
+		<property name="DescriptionKey" value=""/>
 		<property name="UnlockedBy" value="perkSniperComplete"/>
 		<property class="Action0">
 			<property name="Create_item" value="ammo556mmBulletAP"/>
@@ -204,10 +230,10 @@
 	<property name="LightSource" value="lightSource"/> <!-- Start: Needed for the attachment flashlight -->
 	<property name="ActivateObject" value="Attachments/flashlight/lightSource"/>
 	<property name="AttachmentFlashlight" value="flashlight02"/> <!-- End: Needed for the attachment flashlight -->
-	<property name="Group" value="Ammo/Weapons"/>
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="LightValue" value=".45"/>
 	<property name="EconomicValue" value="550"/>
+	<property name="Group" value="Ammo/Weapons"/>
 	<property name="DescriptionKey" value="gun1911Desc"/>
 	<property name="UnlockedBy" value="perkGunslinger,gun1911Schematic"/>
 	<property name="ShowQuality" value="true"/>
@@ -307,6 +333,7 @@
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="LightValue" value=".45"/>
 	<property name="EconomicValue" value="680"/>
+	<property name="Group" value="Ammo/Weapons"/>
 	<property name="DescriptionKey" value="gunmk23Desc"/>
 	<property name="UnlockedBy" value="perkGunslinger,gunmk23Schematic"/>
 	<property name="ShowQuality" value="true"/>
@@ -402,10 +429,10 @@
 	<property name="LightSource" value="lightSource"/> <!-- Start: Needed for the attachment flashlight -->
 	<property name="ActivateObject" value="Attachments/flashlight/lightSource"/>
 	<property name="AttachmentFlashlight" value="flashlight02"/> <!-- End: Needed for the attachment flashlight -->
-	<property name="Group" value="Ammo/Weapons"/>
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="LightValue" value=".45"/>
 	<property name="EconomicValue" value="680"/>
+	<property name="Group" value="Ammo/Weapons"/>
 	<property name="UnlockedBy" value="perkGunslinger,gunmakarovSchematic"/>
 	<property name="DescriptionKey" value="gunmakarovDesc"/>
 	<property name="ShowQuality" value="true"/>
@@ -601,10 +628,10 @@
 	<property name="LightSource" value="lightSource"/> <!-- Start: Needed for the attachment flashlight -->
 	<property name="ActivateObject" value="Attachments/flashlight/lightSource"/>
 	<property name="AttachmentFlashlight" value="flashlight02"/> <!-- End: Needed for the attachment flashlight -->
-	<property name="Group" value="Ammo/Weapons"/>
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="LightValue" value=".45"/>
 	<property name="EconomicValue" value="520"/>
+	<property name="Group" value="Ammo/Weapons"/>
 	<property name="UnlockedBy" value="perkGunslinger,guntec9Schematic"/>
 	<property name="DescriptionKey" value="guntec9Desc"/>
 	<property name="ShowQuality" value="true"/>
@@ -700,10 +727,10 @@
 	<property name="LightSource" value="lightSource"/> <!-- Start: Needed for the attachment flashlight -->
 	<property name="ActivateObject" value="Attachments/flashlight/lightSource"/>
 	<property name="AttachmentFlashlight" value="flashlight02"/> <!-- End: Needed for the attachment flashlight -->
-	<property name="Group" value="Ammo/Weapons"/>
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="LightValue" value=".45"/>
 	<property name="EconomicValue" value="520"/>
+	<property name="Group" value="Ammo/Weapons"/>
 	<property name="UnlockedBy" value="perkGunslinger,gunp250Schematic"/>
 	<property name="DescriptionKey" value="gunp250Desc"/>
 	<property name="ShowQuality" value="true"/>
@@ -799,10 +826,10 @@
 	<property name="ActivateObject" value="Attachments/flashlight/lightSource"/>
 	<property name="AttachmentFlashlight" value="flashlight02"/> <!-- End: Needed for the attachment flashlight -->
 	<property name="CrosshairOnAim" value="false"/>
-	<property name="Group" value="Ammo/Weapons"/>
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="LightValue" value=".45"/>
 	<property name="EconomicValue" value="520"/>
+	<property name="Group" value="Ammo/Weapons"/>
 	<property name="UnlockedBy" value="perkGunslinger,gunp99Schematic"/>
 	<property name="DescriptionKey" value="gunp99Desc"/>
 	<property name="ShowQuality" value="true"/>
@@ -898,10 +925,10 @@
 	<property name="LightSource" value="lightSource"/> <!-- Start: Needed for the attachment flashlight -->
 	<property name="ActivateObject" value="Attachments/flashlight/lightSource"/>
 	<property name="AttachmentFlashlight" value="flashlight02"/> <!-- End: Needed for the attachment flashlight -->
-	<property name="Group" value="Ammo/Weapons"/>
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="LightValue" value=".45"/>
 	<property name="EconomicValue" value="680"/>
+	<property name="Group" value="Ammo/Weapons"/>
 	<property name="UnlockedBy" value="perkGunslinger,gunuspSchematic"/>
 	<property name="DescriptionKey" value="gunuspDesc"/>
 	<property name="ShowQuality" value="true"/>
@@ -997,10 +1024,10 @@
 	<property name="LightSource" value="lightSource"/> <!-- Start: Needed for the attachment flashlight -->
 	<property name="ActivateObject" value="Attachments/flashlight/lightSource"/>
 	<property name="AttachmentFlashlight" value="meleeToolFlashlight02"/> <!-- End: Needed for the attachment flashlight -->
-	<property name="Group" value="Ammo/Weapons"/>
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="LightValue" value=".45"/>
 	<property name="EconomicValue" value="450"/>
+	<property name="Group" value="Ammo/Weapons"/>
 	<property name="UnlockedBy" value="perkGunslinger,gun9mmrevolverSchematic"/>
 	<property name="DescriptionKey" value="gun9mmrevolverDesc"/>
 	<property name="ShowQuality" value="true"/>
@@ -1097,10 +1124,10 @@
 	<property name="LightSource" value="lightSource"/> <!-- Start: Needed for the attachment flashlight -->
 	<property name="ActivateObject" value="Attachments/flashlight/lightSource"/>
 	<property name="AttachmentFlashlight" value="meleeToolFlashlight02"/> <!-- End: Needed for the attachment flashlight -->
-	<property name="Group" value="Ammo/Weapons"/>
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="LightValue" value=".45"/>
 	<property name="EconomicValue" value="450"/>
+	<property name="Group" value="Ammo/Weapons"/>
 	<property name="UnlockedBy" value="perkGunslinger,gun45revolverSchematic"/>
 	<property name="DescriptionKey" value="gun45revolverDesc"/>
 	<property name="ShowQuality" value="true"/>
@@ -1187,6 +1214,7 @@
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="CustomIcon" value="deserteagle"/>
+	<property name="DescriptionKey" value="gundeserteagleDesc"/>
 	<property name="HoldType" value="1"/>
 	<property name="Meshfile" value="#@modfolder:Resources/deserteagle.unity3d?deserteagle"/>
 	<property name="Material" value="MHandGunParts"/> <property name="Weight" value="4"/>
@@ -1206,7 +1234,6 @@
 	<property name="LightValue" value=".45"/>
 	<property name="EconomicValue" value="680"/>
 	<property name="UnlockedBy" value="gundeserteagleSchematic"/>
-	<property name="DescriptionKey" value="gundeserteagleDesc"/>
 	<property name="ShowQuality" value="true"/>
 
 	<property class="Action0">
