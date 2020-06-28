@@ -2,6 +2,30 @@
 	<remove xpath="/recipes/recipe[@name='resourceConcreteMix']"/>
 	<remove xpath="/recipes/recipe[@name='resourceCement']"/>
 	<remove xpath="/recipes/recipe[@name='bucketEmpty']"/>
+	<remove xpath="/recipes/recipe[@name='ammo9mmBulletBall']"/>
+	<remove xpath="/recipes/recipe[@name='ammoBundle9mmBulletBall']"/>
+	<remove xpath="/recipes/recipe[@name='ammo9mmBulletHP']"/>
+	<remove xpath="/recipes/recipe[@name='ammoBundle9mmBulletHP']"/>
+	<remove xpath="/recipes/recipe[@name='ammo9mmBulletAP']"/>
+	<remove xpath="/recipes/recipe[@name='ammo44MagnumBulletBall']"/>
+	<remove xpath="/recipes/recipe[@name='ammoBundle44MagnumBulletBall']"/>
+	<remove xpath="/recipes/recipe[@name='ammo44MagnumBulletHP']"/>
+	<remove xpath="/recipes/recipe[@name='ammoBundle44MagnumBulletHP']"/>
+	<remove xpath="/recipes/recipe[@name='ammo44MagnumBulletAP']"/>
+	<remove xpath="/recipes/recipe[@name='ammoBundle44MagnumBulletAP']"/>
+	<remove xpath="/recipes/recipe[@name='ammo762mmBulletBall']"/>
+	<remove xpath="/recipes/recipe[@name='ammoBundle762mmBulletBall']"/>
+	<remove xpath="/recipes/recipe[@name='ammo762mmBulletHP']"/>
+	<remove xpath="/recipes/recipe[@name='ammoBundle762mmBulletHP']"/>
+	<remove xpath="/recipes/recipe[@name='ammo762mmBulletAP']"/>
+	<remove xpath="/recipes/recipe[@name='ammoBundle762mmBulletAP']"/>
+	<remove xpath="/recipes/recipe[@name='ammoShotgunShell']"/>
+	<remove xpath="/recipes/recipe[@name='ammoBundleShotgunShell']"/>
+	<remove xpath="/recipes/recipe[@name='ammoShotgunSlug']"/>
+	<remove xpath="/recipes/recipe[@name='ammoBundleShotgunSlug']"/>
+	<remove xpath="/recipes/recipe[@name='ammoShotgunBreachingSlug']"/>
+	<remove xpath="/recipes/recipe[@name='ammoBundleShotgunBreachingSlug']"/>
+	
 	<append xpath="/recipes">
 		<recipe name="bucketEmpty" count="1" material_based="true" craft_area="forge">
 			<ingredient name="unit_iron" count="3"/>
