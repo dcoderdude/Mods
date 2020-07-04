@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<xml>
-	<ModInfo>
-		<Name value="SimpleUI-CraftingQueue" />
-		<Description value="Adds an extra slot to the crafting queue and adds non-craftable items to forge and chemistry station as well as reduce crafting queue times" />
-		<Author value="DanzoBlade" />
-		<Version value="1.0" />
-	</ModInfo>
-</xml>

@@ -1,3 +1,0 @@
-﻿Key,Source,Context,Changes,English
-millMachine,blocks,Workstation,New,Milling Machine,,,,,
-millMachineDesc,blocks,Block Building,,This milling machine can be used to fashion piece parts for weapons, tools, and autos.,,,,

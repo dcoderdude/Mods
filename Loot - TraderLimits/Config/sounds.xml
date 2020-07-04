@@ -1,7 +1,0 @@
-<config>
-
-<remove xpath="/Sounds/SoundDataNode[@name='trader_announce_open']"/>
-<remove xpath="/Sounds/SoundDataNode[@name='trader_announce_closing']"/>
-<remove xpath="/Sounds/SoundDataNode[@name='trader_announce_closed']"/>
-
-</config>

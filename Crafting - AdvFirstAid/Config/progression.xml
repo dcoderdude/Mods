@@ -1,7 +1,0 @@
-<configs>
-	<append xpath="/progression/perks/perk[@name='perkYeahScience']">
-	<effect_group>
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5" value="1" tags="Advanced First Aid Kit"/>
-	</effect_group>
-	</append>
-</configs>
