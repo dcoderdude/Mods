@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Delmod Tools" />
+		<Description value="Craftable workstation to craft parts" />
+		<Author value="DelStryker" />
+		<Version value="1.0.0" />
+	</ModInfo>
+</xml>

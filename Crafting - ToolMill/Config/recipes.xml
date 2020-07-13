@@ -1,0 +1,90 @@
+<delmod>
+	<!--================================  	ADD CRAFTABLE MILL AND PARTS  ================================ -->
+	<append xpath="/recipes" >	
+		<recipe name="millMachine" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable,workbenchCrafting">
+			<ingredient name="resourceForgedIron" count="20"/>
+			<ingredient name="resourceMechanicalParts" count="20"/>
+			<ingredient name="resourceElectricParts" count="12"/>
+			<ingredient name="resourceSpring" count="4"/>
+			<ingredient name="smallEngine" count="1"/>
+		</recipe>
+		<recipe name="toolAndDieSet" count="1" material_based="true" craft_area="forge">
+			<ingredient name="unit_iron" count="1"/>
+			<ingredient name="unit_brass" count="1"/>
+			<ingredient name="unit_clay" count="1"/>
+		</recipe>
+		<recipe name="toolCalipers" count="1" material_based="true" craft_area="forge">
+			<ingredient name="unit_iron" count="1"/>
+			<ingredient name="unit_brass" count="1"/>
+			<ingredient name="unit_clay" count="1"/>
+		</recipe>
+		<recipe name="gunBowT1WoodenBowParts" count="1" craft_area="millMachine" tags="millMachineCrafting">
+			<ingredient name="resourceWood" count="10"/>
+			<ingredient name="resourceMechanicalParts" count="1"/>
+		</recipe>
+		<recipe name="gunHandgunT1PistolParts" count="1" craft_area="millMachine" tags="millMachineCrafting" craft_tool="toolAndDieSet"> 
+			<ingredient name="resourceForgedIron" count="1"/>
+			<ingredient name="resourceMechanicalParts" count="1"/>
+		</recipe>
+		<recipe name="gunShotgunT1DoubleBarrelParts" count="1" craft_area="millMachine" tags="millMachineCrafting"  craft_tool="toolAndDieSet"> 
+			<ingredient name="resourceForgedIron" count="1"/>
+			<ingredient name="resourceMechanicalParts" count="1"/>
+		</recipe>
+		<recipe name="gunRifleT1HuntingRifleParts" count="1" craft_area="millMachine" tags="millMachineCrafting" craft_tool="toolCalipers"> 
+			<ingredient name="resourceForgedIron" count="1"/>
+			<ingredient name="resourceMechanicalParts" count="1"/>
+		</recipe>
+		<recipe name="gunMGT1AK47Parts" count="1" craft_area="millMachine" tags="millMachineCrafting" craft_tool="toolAndDieSet"> 
+			<ingredient name="resourceForgedIron" count="1"/>
+			<ingredient name="resourceMechanicalParts" count="1"/>
+		</recipe>
+		<recipe name="gunExplosivesT3RocketLauncherParts" count="1" craft_area="millMachine" tags="millMachineCrafting" craft_tool="toolAndDieSet"> 
+			<ingredient name="resourceForgedIron" count="2"/>
+			<ingredient name="resourceMechanicalParts" count="2"/>
+		</recipe>
+		<recipe name="gunBotRoboticsParts" count="1" craft_area="millMachine" tags="millMachineCrafting" craft_tool="toolAndDieSet"> 
+			<ingredient name="resourceForgedIron" count="2"/>
+			<ingredient name="resourceElectricParts" count="2"/>
+		</recipe>
+		<recipe name="meleeWpnBatonT2StunBatonParts" count="1" craft_area="millMachine" tags="millMachineCrafting"> 
+			<ingredient name="resourceForgedIron" count="1"/>
+			<ingredient name="resourceElectricParts" count="1"/>
+		</recipe>
+		<recipe name="meleeWpnKnucklesT3SteelKnucklesParts" count="1" craft_area="millMachine" tags="millMachineCrafting"> 
+			<ingredient name="resourceForgedSteel" count="20"/>
+			<ingredient name="resourceMechanicalParts" count="20"/>
+		</recipe>
+		<recipe name="meleeToolAxeT3ChainsawParts" count="1" craft_area="millMachine" tags="millMachineCrafting"> 
+			<ingredient name="resourceForgedIron" count="20"/>
+			<ingredient name="resourceMechanicalParts" count="20"/>
+		</recipe>
+		<recipe name="meleeWpnBladeT3MacheteParts" count="1" craft_area="millMachine" tags="millMachineCrafting"> 
+			<ingredient name="resourceForgedIron" count="20"/>
+			<ingredient name="resourceMechanicalParts" count="20"/>
+		</recipe>
+		<recipe name="meleeWpnSpearT3SteelSpearParts" count="1" craft_area="millMachine" tags="millMachineCrafting"> 
+			<ingredient name="resourceForgedSteel" count="20"/>
+			<ingredient name="resourceMechanicalParts" count="20"/>
+		</recipe>
+		<recipe name="meleeWpnClubT3SteelClubParts" count="1" craft_area="millMachine" tags="millMachineCrafting"> 
+			<ingredient name="resourceForgedSteel" count="20"/>
+			<ingredient name="resourceMechanicalParts" count="20"/>
+		</recipe>
+		<recipe name="meleeWpnSledgeT3SteelSledgehammerParts" count="1" craft_area="millMachine" tags="millMachineCrafting"> 
+			<ingredient name="resourceForgedSteel" count="20"/>
+			<ingredient name="resourceMechanicalParts" count="20"/>
+		</recipe>
+		<recipe name="meleeToolAllSteelParts" count="1" craft_area="millMachine" tags="millMachineCrafting"> 
+			<ingredient name="resourceForgedSteel" count="20"/>
+			<ingredient name="resourceMechanicalParts" count="20"/>
+		</recipe>
+		<recipe name="armorMilitarySetParts" count="1" craft_area="millMachine" tags="millMachineCrafting"> 
+			<ingredient name="resourceForgedIron" count="20"/>
+			<ingredient name="resourceMechanicalParts" count="20"/>
+		</recipe>
+		<recipe name="armorSteelSetParts" count="1" craft_area="millMachine" tags="millMachineCrafting"> 
+			<ingredient name="resourceForgedSteel" count="20"/>
+			<ingredient name="resourceMechanicalParts" count="20"/>
+		</recipe>
+	</append>
+</delmod>

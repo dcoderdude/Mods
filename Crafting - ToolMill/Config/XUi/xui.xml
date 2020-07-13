@@ -1,0 +1,16 @@
+<delmod>
+	
+	
+	<append xpath="/xui/ruleset">
+		<window_group name="workstation_millMachine" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowToolsMill"/>
+			<window name="queue5CraftingQueue"/>
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+  </append>
+	
+		
+</delmod>

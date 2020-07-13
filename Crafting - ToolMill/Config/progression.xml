@@ -1,0 +1,6 @@
+<delmod>
+
+		<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@level='2,5']/@tags">,millMachine</append>
+
+</delmod>
+
