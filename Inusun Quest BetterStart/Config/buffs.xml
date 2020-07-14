@@ -1,0 +1,10 @@
+<configs>
+  <!--<append xpath="/buffs">
+    <buff name="TestBuff" icon="ui_game_symbol_perk" icon_color="255,0,0">
+      <display_value_key value="Min Stats"/>
+      <effect_group>
+        <triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" buff="buffme"/>
+      </effect_group>
+    </buff>
+  </append>-->
+</configs>

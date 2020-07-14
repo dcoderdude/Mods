@@ -1,0 +1,10 @@
+<configs>
+  <remove xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvival']"/>
+  <remove xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalSP']"/>
+  <remove xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalMP']"/>
+  <append xpath="/entity_classes/entity_class[@name='playerMale']">
+    <property name="ItemsOnEnterGame.GameModeSurvival" value="meleeToolRepairT0StoneAxe,meleeToolTorch"/>
+    <property name="ItemsOnEnterGame.GameModeSurvivalSP" value="meleeToolRepairT0StoneAxe,meleeToolTorch"/>
+    <property name="ItemsOnEnterGame.GameModeSurvivalMP" value="meleeToolRepairT0StoneAxe,meleeToolTorch"/>
+  </append>
+</configs>
