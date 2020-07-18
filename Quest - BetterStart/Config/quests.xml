@@ -1,10 +1,6 @@
 <configs>
   <remove xpath="/quests/quest[@id='quest_BasicSurvival1']/objective"/>
   <remove xpath="/quests/quest[@id='quest_BasicSurvival1']/reward[@id='quest_BasicSurvival2']"/>
-  <!-- <append xpath="/quests/quest[@id='quest_BasicSurvival1']/reward"> -->
-    <!-- <reward type="SkillPoints" value="20" /> -->
-    <!-- <reward type="Item" id="casinoCoin" value="1000"/> -->
-  <!-- </append> -->
   <append xpath="/quests/quest[@id='quest_BasicSurvival1']">
     <reward type="Quest" id="quest_whiteRiverCitizen1"/>
   </append>
@@ -39,72 +35,8 @@
       </objective>
 		  <reward type="SkillPoints" value="20" />
 		  <reward type="Item" id="casinoCoin" value="1000"/>
-      <!-- <reward type="Item" id="qc_loadMedic" ischosen="true" isfixed="true" value="1"/> -->
-      <!-- <reward type="Item" id="qc_loadMiner" ischosen="true" isfixed="true" value="1"/> -->
-      <!-- <reward type="Item" id="qc_loadFarmer" ischosen="true" isfixed="true" value="1"/> -->
-      <!-- <reward type="Item" id="qc_loadWeapons" ischosen="true" isfixed="true" value="1"/> -->
     </quest>
 
-
-    <!-- <quest id="loadout_medic"> -->
-      <!-- <property name="name_key" value="loadout_medic"/> -->
-      <!-- <property name="group_name_key" value="quest_LoadOut"/> -->
-      <!-- <property name="subtitle_key" value="loadout_medic_subtitle"/> -->
-      <!-- <property name="description_key" value="loadout_medic_description"/> -->
-      <!-- <property name="icon" value="ui_game_symbol_map_bed"/> -->
-      <!-- <property name="category_key" value="quest"/> -->
-      <!-- <property name="difficulty" value="veryeasy"/> -->
-      <!-- <property name="offer_key" value="loadout_medic_offer"/> -->
-      <!-- <property name="shareable" value="false"/> -->
-		<!-- <objective type="Fetch" id="qc_loadMiner" value="1" phase="1"/> -->
-		<!-- <objective type="Fetch" id="qc_loadFarmer" value="1" phase="1"/> -->
-		<!-- <objective type="Fetch" id="qc_loadWeapons" value="1" phase="1"/> -->
-      <!-- <reward type="Item" id="gunHandgunT1Pistol" value="1"/> -->
-      <!-- <reward type="Item" id="ammo9mmBulletBall" value="100"/> -->
-      <!-- <reward type="Item" id="medicalFirstAidBandage" value="50"/> -->
-      <!-- <reward type="Item" id="medicalFirstAidKit" value="5"/> -->
-      <!-- <reward type="Item" id="medicalSplint" value="1"/> -->
-      <!-- <reward type="Item" id="drugVitamins" value="10"/> -->
-    <!-- </quest> -->
-    <!-- <quest id="loadout_miner"> -->
-      <!-- <property name="name_key" value="loadout_miner"/> -->
-      <!-- <property name="group_name_key" value="quest_LoadOut"/> -->
-      <!-- <property name="subtitle_key" value="loadout_miner_subtitle"/> -->
-      <!-- <property name="description_key" value="loadout_miner_description"/> -->
-      <!-- <property name="icon" value="ui_game_symbol_map_bed"/> -->
-      <!-- <property name="category_key" value="quest"/> -->
-      <!-- <property name="difficulty" value="veryeasy"/> -->
-      <!-- <property name="offer_key" value="loadout_miner_offer"/> -->
-      <!-- <property name="shareable" value="false"/> -->
-      <!-- <reward type="Item" id="meleeToolPickT1IronPickaxe" value="1"/> -->
-      <!-- <reward type="Item" id="gunShotgunT0Blunderbuss" value="1"/> -->
-      <!-- <reward type="Item" id="ammoBlunderbuss" value="100"/> -->
-    <!-- </quest> -->
-    <!-- <quest id="loadout_farmer"> -->
-      <!-- <property name="name_key" value="loadout_farmer"/> -->
-      <!-- <property name="group_name_key" value="quest_LoadOut"/> -->
-      <!-- <property name="subtitle_key" value="loadout_farmer_subtitle"/> -->
-      <!-- <property name="description_key" value="loadout_farmer_description"/> -->
-      <!-- <property name="icon" value="ui_game_symbol_map_bed"/> -->
-      <!-- <property name="category_key" value="quest"/> -->
-      <!-- <property name="difficulty" value="veryeasy"/> -->
-      <!-- <property name="offer_key" value="loadout_farmer_offer"/> -->
-      <!-- <property name="shareable" value="false"/> -->
-      <!-- <reward type="Item" id="meleeToolShovelT1IronShovel" value="1"/> -->
-      <!-- <reward type="Item" id="plantedAloe1" value="10"/> -->
-      <!-- <reward type="Item" id="plantedBlueberry1" value="10"/> -->
-      <!-- <reward type="Item" id="plantedChrysanthemum1" value="10"/> -->
-      <!-- <reward type="Item" id="plantedCoffee1" value="10"/> -->
-      <!-- <reward type="Item" id="plantedCorn1" value="10"/> -->
-      <!-- <reward type="Item" id="plantedCotton1" value="10"/> -->
-      <!-- <reward type="Item" id="plantedGoldenrod1" value="10"/> -->
-      <!-- <reward type="Item" id="plantedGraceCorn1" value="10"/> -->
-      <!-- <reward type="Item" id="plantedHop1" value="10"/> -->
-      <!-- <reward type="Item" id="plantedMushroom1" value="10" /> -->
-      <!-- <reward type="Item" id="plantedPotato1" value="10"/> -->
-      <!-- <reward type="Item" id="plantedYucca1" value="10"/> -->
-      <!-- <reward type="Item" id="plantedPumpkin1" value="10"/> -->
-    <!-- </quest> -->
     <quest id="loadout_weapons">
       <property name="name_key" value="loadout_weapons"/>
       <property name="group_name_key" value="quest_LoadOut"/>

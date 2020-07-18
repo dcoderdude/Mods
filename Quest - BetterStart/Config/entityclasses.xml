@@ -3,8 +3,7 @@
   <remove xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalSP']"/>
   <remove xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalMP']"/>
   <append xpath="/entity_classes/entity_class[@name='playerMale']">
-    <property name="ItemsOnEnterGame.GameModeSurvival" value="meleeToolRepairT0StoneAxe,meleeToolTorch,medicalFirstAidBandage,qc_loadWeapons"/>
-    <!-- <property name="ItemsOnEnterGame.GameModeSurvival" value="meleeToolRepairT0StoneAxe,meleeToolTorch,medicalFirstAidBandage,qc_loadMedic,qc_loadMiner,qc_loadFarmer,qc_loadWeapons"/> -->
+    <property name="ItemsOnEnterGame.GameModeSurvival" value="meleeToolRepairT0StoneAxe,meleeToolTorch,medicalFirstAidBandage,foodGrilledMeat,drinkJarBoiledWater,qc_loadWeapons"/>
     <property name="ItemsOnEnterGame.GameModeSurvivalSP" value="meleeToolRepairT0StoneAxe,meleeToolTorch,medicalFirstAidBandage"/>
     <property name="ItemsOnEnterGame.GameModeSurvivalMP" value="meleeToolRepairT0StoneAxe,meleeToolTorch,medicalFirstAidBandage"/>
   </append>
