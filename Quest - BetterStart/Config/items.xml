@@ -1,0 +1,32 @@
+<configs>
+  <append xpath="/items">
+    <!-- <item name="qc_loadMedic"> -->
+      <!-- <property name="Extends" value="challengeQuestMaster"/> -->
+      <!-- <property class="Action0"> -->
+        <!-- <property name="UseAnimation" value="false"/> -->
+        <!-- <property name="QuestGiven" value="loadout_medic"/> -->
+      <!-- </property> -->
+    <!-- </item> -->
+    <!-- <item name="qc_loadMiner"> -->
+      <!-- <property name="Extends" value="challengeQuestMaster"/> -->
+      <!-- <property class="Action0"> -->
+        <!-- <property name="UseAnimation" value="false"/> -->
+        <!-- <property name="QuestGiven" value="loadout_miner"/> -->
+      <!-- </property> -->
+    <!-- </item> -->
+    <!-- <item name="qc_loadFarmer"> -->
+      <!-- <property name="Extends" value="challengeQuestMaster"/> -->
+      <!-- <property class="Action0"> -->
+        <!-- <property name="UseAnimation" value="false"/> -->
+        <!-- <property name="QuestGiven" value="loadout_farmer"/> -->
+      <!-- </property> -->
+    <!-- </item> -->
+    <item name="qc_loadWeapons">
+      <property name="Extends" value="challengeQuestMaster"/>
+      <property class="Action0">
+        <property name="UseAnimation" value="false"/>
+        <property name="QuestGiven" value="loadout_weapons"/>
+      </property>
+    </item>
+  </append>
+</configs>
