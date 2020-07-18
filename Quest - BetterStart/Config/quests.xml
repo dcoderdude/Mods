@@ -47,10 +47,8 @@
       <property name="difficulty" value="veryeasy"/>
       <property name="offer_key" value="loadout_weapons_offer"/>
       <property name="shareable" value="false"/>
-      <reward type="Item" id="gunHandgunT1Pistol" value="1"/>
-      <reward type="Item" id="ammo9mmBulletBall" value="100"/>
-      <reward type="Item" id="gunRifleT1HuntingRifle" value="1"/>
-      <reward type="Item" id="ammo762mmBulletBall" value="100"/>
+      <reward type="Item" id="gunShotgunT0Blunderbuss" value="1"/>
+      <reward type="Item" id="ammoBlunderbuss" value="100"/>
     </quest>
   </append>
 </configs>
