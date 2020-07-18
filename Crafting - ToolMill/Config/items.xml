@@ -2,6 +2,7 @@
 <append xpath="/items">
 
 <item name="toolCalipers">
+	<property name="UnlockedBy" value="perkAdvancedEngineering"/>
 	<property name="HoldType" value="45"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
@@ -10,6 +11,19 @@
 	<property name="Stacknumber" value="1"/>
 	<property name="Group" value="Resources,Tools/Traps"/>
 	<property name="EconomicValue" value="2000"/>
+</item>
+
+<item name="toolAndDieSet">
+	<property name="UnlockedBy" value="perkAdvancedEngineering"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Msteel"/>
+	<property name="Weight" value="30"/>
+	<property name="Stacknumber" value="1"/> <!-- STK loot -->
+	<property name="EconomicValue" value="2000"/>
+	<property name="Group" value="Tools/Traps"/>
+	<property name="ItemTypeIcon" value="forge"/>
 </item>
 
 </append>

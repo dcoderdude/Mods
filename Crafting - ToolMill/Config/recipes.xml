@@ -8,15 +8,15 @@
 			<ingredient name="resourceSpring" count="4"/>
 			<ingredient name="smallEngine" count="1"/>
 		</recipe>
-		<recipe name="toolAndDieSet" count="1" material_based="true" craft_area="forge">
-			<ingredient name="unit_iron" count="1"/>
-			<ingredient name="unit_brass" count="1"/>
-			<ingredient name="unit_clay" count="1"/>
+		<recipe name="toolAndDieSet" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering,learnable,forgeCrafting">
+			<ingredient name="unit_iron" count="100"/>
+			<ingredient name="unit_brass" count="50"/>
+			<ingredient name="unit_clay" count="100"/>
 		</recipe>
-		<recipe name="toolCalipers" count="1" material_based="true" craft_area="forge">
-			<ingredient name="unit_iron" count="1"/>
-			<ingredient name="unit_brass" count="1"/>
-			<ingredient name="unit_clay" count="1"/>
+		<recipe name="toolCalipers" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering,learnable,forgeCrafting">
+			<ingredient name="unit_iron" count="100"/>
+			<ingredient name="unit_brass" count="50"/>
+			<ingredient name="unit_clay" count="100"/>
 		</recipe>
 		<recipe name="gunBowT1WoodenBowParts" count="1" craft_area="millMachine" tags="millMachineCrafting">
 			<ingredient name="resourceWood" count="10"/>
