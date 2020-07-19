@@ -45,7 +45,7 @@
       <property name="icon" value="ui_game_symbol_map_bed"/>
       <property name="category_key" value="quest"/>
       <property name="difficulty" value="veryeasy"/>
-      <property name="offer_key" value="loadout_weapons_offer"/>
+      <property name="offer_key" value="GET TO THE CHOPPER! \nTalk with the trader twice to receive 1000 casino coins and 20 skill points"/>
       <property name="shareable" value="false"/>
       <reward type="Item" id="gunShotgunT0Blunderbuss" value="1"/>
       <reward type="Item" id="ammoBlunderbuss" value="100"/>
