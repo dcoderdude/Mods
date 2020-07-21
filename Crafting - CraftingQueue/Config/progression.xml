@@ -4,37 +4,58 @@
 		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="gunHandgunT2Magnum44"/>
 		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="gunHandgunT3DesertVulture"/>
 	</append>
-
+	
 	<append xpath="/progression/perks/perk[@name='perkBoomstick']/effect_group">
 		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="gunShotgunT2PumpShotgun"/>
 		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="gunShotgunT3AutoShotgun"/>
 	</append>
-
+	
 	<append xpath="/progression/perks/perk[@name='perkDeadEye']/effect_group">
 		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="gunRifleT2MarksmanRifle"/>
 		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="gunRifleT3SniperRifle"/>
 	</append>
-
+	
 	<append xpath="/progression/perks/perk[@name='perkMachineGunner']/effect_group">
 		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="gunMGT2TacticalAR"/>
 		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="gunMGT3M60"/>
 	</append>
-
+	
 	<append xpath="/progression/perks/perk[@name='perkArchery']/effect_group">
 		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="gunBowT1WoodenBow"/>
 		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="gunBowT3CompoundBow"/>
 		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="gunBowT1IronCrossbow"/>
 		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="gunBowT3CompoundCrossbow"/>
 	</append>
-
+	
 	<append xpath="/progression/perks/perk[@name='perkTurrets']/effect_group">
 		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="gunBotT1JunkSledge"/>
 		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="gunBotT2JunkTurret"/>
 		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="gunBotT3JunkDrone"/>
 	</append>
-
+	
 	<append xpath="/progression/perks/perk[@name='perkDemolitionsExpert']/effect_group">
 		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="gunExplosivesT3RocketLauncher"/>
 		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="ammoRocketHE,ammoRocketFrag,resourceRocketTip,resourceRocketCasing"/>
+	</append>
+	
+	<append xpath="/progression/perks/perk[@name='perkMiner69r']">
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="meleeToolAxeT3Chainsaw"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="meleeToolPickT3Auger"/>
+		</effect_group>
+	</append>
+	
+	<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']">
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="toolBellows"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="toolAnvil"/>
+		</effect_group>
+	</append>
+	
+	<append xpath="/progression/perks/perk[@name='perkSalvageOperations']">
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="meleeToolSalvageT2Ratchet"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="meleeToolSalvageT3ImpactDriver"/>
+		</effect_group>
 	</append>
 </configs>

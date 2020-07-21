@@ -36,13 +36,13 @@
 		</recipe>
 		<!--  forge crafting, add non-craftable items -->
 		<recipe name="toolBeaker" count="1" material_based="true" craft_area="forge">
-			<ingredient name="unit_glass" count="1"/>
-			<ingredient name="unit_lead" count="1"/>
-			<ingredient name="unit_clay" count="1"/>
+			<ingredient name="unit_glass" count="13"/>
+			<ingredient name="unit_lead" count="6"/>
+			<ingredient name="unit_clay" count="5"/>
 		</recipe>
 		<recipe name="resourceSpring" count="1" material_based="true" craft_area="forge">
-			<ingredient name="unit_iron" count="1"/>
-			<ingredient name="unit_brass" count="1"/>
+			<ingredient name="unit_iron" count="11"/>
+			<ingredient name="unit_brass" count="5"/>
 		</recipe>
 		<recipe name="bucketEmpty" craft_time = "0.5" count="1" material_based="true" craft_area="forge">
 			<ingredient name="unit_iron" count="3"/>

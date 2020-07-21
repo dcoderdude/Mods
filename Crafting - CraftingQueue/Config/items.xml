@@ -1,134 +1,139 @@
 <configs>
 <append xpath="/items">
-	<item name="drugPainkillers">
-		<property name="Tags" value="medical"/>
-		<property name="DisplayType" value="medicalPainkillers"/>
-		<property name="HoldType" value="16"/>
-		<property name="Meshfile" value="#Other/Items?Health/painkillersPrefab.prefab"/>
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-		<property name="Material" value="Morganic"/>
-		<property name="EconomicValue" value="80"/>
-		<property name="Stacknumber" value="250"/>
-		<property name="Group" value="Science,Resources,Chemicals,CFChemicals,Medical"/>
-		<property class="Action0">
-			<property name="Class" value="Eat"/>
-			<property name="Delay" value="1.0"/>
-			<property name="Use_time" value="..."/>
-			<property name="Sound_start" value="player_painkillers"/>
-			<requirement name="NotHasBuff" buff="buffDrugPainkillers"/>
-		</property>
-		<effect_group tiered="false">
-			<display_value name="dInstantHealth" value="40"/>
-			<display_value name="dHealthLoss" value=".1"/>
-			<display_value name="$waterAmountAdd" value="-40"/>
-			<display_value name="dStunResist" value="1"/>
-			<display_value name="dDuration" value="183"/>
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugPainkillersDuration" operation="add" value="183"/>
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugPainkillersDuration" operation="set" value="543">
-				<requirement name="CVarCompare" cvar="$buffDrugPainkillersDuration" operation="GT" value="543"/></triggered_effect>
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffDrugPainkillers"/>
-		</effect_group>
-	</item>
-	<item name="toolBeaker">
-		<property name="HoldType" value="45"/>
-		<property name="Tags" value="junk"/>
-		<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-		<property name="Material" value="MtoolBeaker"/>
-		<property name="Stacknumber" value="100"/>
-		<property name="Weight" value="15"/>
-		<property name="EconomicValue" value="250"/>
-		<property name="Group" value="Tools/Traps,Chemicals,Resources"/>
-	</item>
-	<item name="foodRottingFlesh">
-		<property name="Tags" value="food"/>
-		<property name="HoldType" value="31"/>
-		<property name="DisplayType" value="food"/>
-		<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-		<property name="Material" value="MfoodRawMeat"/>
-		<property name="Stacknumber" value="250"/>
-		<property name="EconomicValue" value="5"/>
-		<property name="EconomicBundleSize" value="1"/>
-		<property name="SellableToTrader" value="false"/>
-		<property class="Action0">
-			<property name="Class" value="Eat"/>
-			<property name="Delay" value="1.0"/>
-			<property name="Use_time" value="..."/>
-			<property name="Sound_start" value="player_eating"/>
-		</property>
-		<property name="CraftingIngredientExp" value="0"/>
-		<property name="CraftingIngredientTime" value="95"/>
-		<property name="Group" value="Science,Resources,Chemicals,CFChemicals,Medical"/>
+<!-- * * * * * * * * * * Unlocked Essential Items * * * * * * * * * * -->
+<item name="drugPainkillers">
+	<property name="Tags" value="medical"/>
+	<property name="DisplayType" value="medicalPainkillers"/>
+	<property name="HoldType" value="16"/>
+	<property name="Meshfile" value="#Other/Items?Health/painkillersPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="EconomicValue" value="80"/>
+	<property name="Stacknumber" value="250"/>
+	<property name="Group" value="Science,Resources,Chemicals,CFChemicals,Medical"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_painkillers"/>
+		<requirement name="NotHasBuff" buff="buffDrugPainkillers"/>
+	</property>
+	<effect_group tiered="false">
+		<display_value name="dInstantHealth" value="40"/>
+		<display_value name="dHealthLoss" value=".1"/>
+		<display_value name="$waterAmountAdd" value="-40"/>
+		<display_value name="dStunResist" value="1"/>
+		<display_value name="dDuration" value="183"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugPainkillersDuration" operation="add" value="183"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugPainkillersDuration" operation="set" value="543">
+			<requirement name="CVarCompare" cvar="$buffDrugPainkillersDuration" operation="GT" value="543"/></triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffDrugPainkillers"/>
+	</effect_group>
+</item>
 
-		<effect_group tiered="false">
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="1"/>
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+<item name="toolBeaker">
+	<property name="HoldType" value="45"/>
+	<property name="Tags" value="junk"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="MtoolBeaker"/>
+	<property name="Stacknumber" value="100"/>
+	<property name="Weight" value="15"/>
+	<property name="EconomicValue" value="250"/>
+	<property name="Group" value="Tools/Traps,Chemicals,Resources"/>
+</item>
 
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="18"/><display_value name="dFoodPoisoningRisk" value=".18"/>
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffIllFoodPoisoning01">
-				<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
-			</triggered_effect>
-		</effect_group>
-	</item>
-	<item name="resourceAcid">
-		<property name="HoldType" value="45"/>
-		<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-		<property name="Material" value="MresourceAcid"/>
-		<property name="Weight" value="0"/>
-		<property name="Stacknumber" value="100"/> <!-- STK resource -->
-		<property name="EconomicValue" value="140"/>
-		<property name="EconomicBundleSize" value="1"/>
-		<property name="Group" value="Science,Resources,Chemicals,CFChemicals,Medical"/>
-	</item>
-	<item name="bucketEmpty">
-		<property name="HoldType" value="34"/>
-		<property name="Meshfile" value="#Other/Items?Crafting/Metal/IronBucket.fbx"/>
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-		<property name="Material" value="Mmetal"/>
-		<property name="Stacknumber" value="250"/>
-		<property name="EconomicValue" value="84"/>
-		<property class="Action0">
-			<property name="Class" value="BailLiquid"/>
-			<property name="Delay" value=".35"/>
-			<property name="Sound_start" value="bucketbail_water"/>
-		</property>
-		<property class="Action1"> <!-- UseAction -->
-			<property name="Class" value="ExchangeItem"/>
-			<property name="Delay" value=".35"/>
-			<property name="Change_item_to" value="bucketRiverWater"/>
-			<property name="Do_block_action" value="deplete3"/>
-			<property name="Focused_blockname_1" value="water"/>
-			<property name="Focused_blockname_2" value="waterMoving"/>
-			<property name="Focused_blockname_3" value="waterStaticBucket"/>
-			<property name="Focused_blockname_4" value="waterMovingBucket"/>
-			<property name="Focused_blockname_5" value="terrWaterPOI"/>
-			<property name="Sound_start" value="bucketfill_water"/>
-		</property>
-		<property name="Group" value="Tools/Traps"/>
-	</item>
-	<item name="bucketRiverWater">
-		<property name="HoldType" value="34"/>
-		<property name="Meshfile" value="#Other/Items?Crafting/Metal/IronBucketWaterPrefab.prefab"/>
-		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-		<property name="Material" value="Mmetal"/>
-		<property name="Stacknumber" value="250"/>
-		<property name="EconomicValue" value="88"/>
-		<property class="Action1"> <!-- UseAction -->
-			<property name="Class" value="PlaceAsBlock"/>
-			<property name="Delay" value=".5"/>
-			<property name="Blockname" value="waterMovingBucket"/>
-			<property name="Change_item_to" value="bucketEmpty"/>
-			<property name="Sound_start" value="bucketplace_water"/>
-		</property>
-		<property name="Group" value="Tools/Traps"/>
-	</item>
-	
+<item name="foodRottingFlesh">
+	<property name="Tags" value="food"/>
+	<property name="HoldType" value="31"/>
+	<property name="DisplayType" value="food"/>
+	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="MfoodRawMeat"/>
+	<property name="Stacknumber" value="250"/>
+	<property name="EconomicValue" value="5"/>
+	<property name="EconomicBundleSize" value="1"/>
+	<property name="SellableToTrader" value="false"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_eating"/>
+	</property>
+	<property name="CraftingIngredientExp" value="0"/>
+	<property name="CraftingIngredientTime" value="95"/>
+	<property name="Group" value="Science,Resources,Chemicals,CFChemicals,Medical"/>
+
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="18"/><display_value name="dFoodPoisoningRisk" value=".18"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffIllFoodPoisoning01">
+			<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
+		</triggered_effect>
+	</effect_group>
+</item>
+
+<item name="resourceAcid">
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="MresourceAcid"/>
+	<property name="Weight" value="0"/>
+	<property name="Stacknumber" value="100"/> <!-- STK resource -->
+	<property name="EconomicValue" value="140"/>
+	<property name="EconomicBundleSize" value="1"/>
+	<property name="Group" value="Science,Resources,Chemicals,CFChemicals,Medical"/>
+</item>
+
+<item name="bucketEmpty">
+	<property name="HoldType" value="34"/>
+	<property name="Meshfile" value="#Other/Items?Crafting/Metal/IronBucket.fbx"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="250"/>
+	<property name="EconomicValue" value="84"/>
+	<property class="Action0">
+		<property name="Class" value="BailLiquid"/>
+		<property name="Delay" value=".35"/>
+		<property name="Sound_start" value="bucketbail_water"/>
+	</property>
+	<property class="Action1"> <!-- UseAction -->
+		<property name="Class" value="ExchangeItem"/>
+		<property name="Delay" value=".35"/>
+		<property name="Change_item_to" value="bucketRiverWater"/>
+		<property name="Do_block_action" value="deplete3"/>
+		<property name="Focused_blockname_1" value="water"/>
+		<property name="Focused_blockname_2" value="waterMoving"/>
+		<property name="Focused_blockname_3" value="waterStaticBucket"/>
+		<property name="Focused_blockname_4" value="waterMovingBucket"/>
+		<property name="Focused_blockname_5" value="terrWaterPOI"/>
+		<property name="Sound_start" value="bucketfill_water"/>
+	</property>
+	<property name="Group" value="Tools/Traps"/>
+</item>
+
+<item name="bucketRiverWater">
+	<property name="HoldType" value="34"/>
+	<property name="Meshfile" value="#Other/Items?Crafting/Metal/IronBucketWaterPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="250"/>
+	<property name="EconomicValue" value="88"/>
+	<property class="Action1"> <!-- UseAction -->
+		<property name="Class" value="PlaceAsBlock"/>
+		<property name="Delay" value=".5"/>
+		<property name="Blockname" value="waterMovingBucket"/>
+		<property name="Change_item_to" value="bucketEmpty"/>
+		<property name="Sound_start" value="bucketplace_water"/>
+	</property>
+	<property name="Group" value="Tools/Traps"/>
+</item>
 
 
-<!-- * * * * * * * * * * Pistols, SMG (perkGunslinger) * * * * * * * * * * -->
+<!-- * * * * * * * * * * Unlocked (perkGunslinger) * * * * * * * * * * -->
 
 <item name="gunHandgunT3SMG5">
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,bottomAttachments,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
@@ -404,7 +409,7 @@
 </item>
 
 
-<!-- * * * * * * * * * * Shotguns (perkBoomstick) * * * * * * * * * * -->
+<!-- * * * * * * * * * * Unlocked (perkBoomstick) * * * * * * * * * * -->
 
 <item name="gunShotgunT2PumpShotgun">
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
@@ -571,7 +576,7 @@
 	</effect_group>
 </item>
 
-<!-- * * * * * * * * * * Rifles (perkDeadEye) * * * * * * * * * * -->
+<!-- * * * * * * * * * * Unlocked (perkDeadEye) * * * * * * * * * * -->
 
 <item name="gunRifleT2MarksmanRifle">
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,canHaveCosmetic"/>
@@ -762,7 +767,7 @@
 	</effect_group>
 </item>
 
-<!-- * * * * * * * * * * Machine Guns (perkMachineGunner) * * * * * * * * * * -->
+<!-- * * * * * * * * * * Unlocked (perkMachineGunner) * * * * * * * * * * -->
 
 <item name="gunMGT2TacticalAR">
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic"/>
@@ -943,7 +948,7 @@
 </item>
 
 
-<!-- * * * * * * * * * * Rocket Launcher (perkDemolitionsExpert) * * * * * * * * * * -->
+<!-- * * * * * * * * * * Unlocked (perkDemolitionsExpert) * * * * * * * * * * -->
 
 <item name="gunExplosivesT3RocketLauncher">
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,launcher,attPerception,perkDemolitionsExpert,canHaveCosmetic,barrelAttachments,noSilencer,sideAttachments,smallTopAttachments"/>
@@ -1032,7 +1037,7 @@
 	</effect_group>
 </item>
 
-<!-- * * * * * * * * * * Archery (perkArchery) * * * * * * * * * * -->
+<!-- * * * * * * * * * * Unlocked (perkArchery) * * * * * * * * * * -->
 
 <item name="gunBowT3CompoundBow">
 	<property name="Tags" value="weapon,ranged,bowDrawPenalty,archery,bow,attAgility,perkArchery,canHaveCosmetic"/>
@@ -1309,7 +1314,7 @@
 	</effect_group>
 </item>
 
-<!-- * * * * * * * * * * Robotic / Junk Weapons (perkTurrets) * * * * * * * * * * -->
+<!-- * * * * * * * * * * Unlocked (perkTurrets) * * * * * * * * * * -->
 
 <item name="gunBotT1JunkSledge">
 	<property name="Tags" value="turretMelee,melee,weapon,blunt,longShaft,attIntellect,perkTurrets,canHaveCosmetic"/>
@@ -1613,6 +1618,345 @@
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+	</effect_group>
+</item>
+
+<!-- * * * * * * * * * * Unlocked (perkMiner69r) * * * * * * * * * * -->
+<item name="meleeToolAxeT3Chainsaw">
+	<property name="Tags" value="melee,heavy,tool,motorTool,attStrength,perkMiner69r,perkMotherLode,chainsaw,canHaveCosmetic"/>
+	<property name="DisplayType" value="motorTool"/>
+	<property name="HoldType" value="19"/>
+	<property name="Meshfile" value="#Other/Items?Weapons/Melee/Chainsaw/chainsaw.fbx"/>
+	<property name="Material" value="MMotorToolParts"/> <property name="Weight" value="6"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
+	<property name="SoundIdle" value="chainsaw_idle"/>
+	<property name="Group" value="Tools/Traps"/>
+	<property name="RepairExpMultiplier" value="10.8"/>
+	<property name="EconomicValue" value="1500"/>
+	<property name="UnlockedBy" value="perkMiner69r,meleeToolAxeT3ChainsawSchematic"/>
+	<property name="ShowQuality" value="true"/>
+
+	<property class="Action0">
+		<property name="Class" value="Ranged"/>
+		<property name="Hitmask_override" value="Melee"/> <!-- "Class" value="Ranged" is hardcoded to never collide with grass regardless -->
+		<property name="UseMeleeCrosshair" value="true"/>
+		<property name="Single_magazine_usage" value="false"/>
+		<property name="Magazine_items" value="ammoGasCan"/>
+		<property name="Bullet_material" value="metal"/>
+		<property name="Reload_time" value="4.1"/>
+		<property name="Sound_start" value="chainsaw_fire_start"/>
+		<property name="Sound_empty" value="chainsaw_empty"/>
+		<property name="Sound_repeat" value="Sounds/Weapons/Motorized/Chainsaw/chainsaw_fire_lp"/>
+		<property name="Sound_end" value="Sounds/Weapons/Motorized/Chainsaw/chainsaw_fire_end"/>
+		<property name="Sound_reload" value="chainsaw_reload"/>
+		<property name="Particles_muzzle_smoke" value="nozzlesmoke_chainsaw"/>
+		<!-- <property name="DamageBonus.wood" value="10"/>
+		<property name="DamageBonus.head" value="5"/> -->
+		<property name="SupportHarvesting" value="true"/>
+		<property name="ToolCategory.harvestingTools" value="1" param1="1"/>
+
+	</property>
+
+	<effect_group name="meleeToolAxeT3Chainsaw">
+		<passive_effect name="EntityDamage" operation="base_set" value="6" tags="perkMiner69r"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="24.3" tags="perkMiner69r"/>
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="300" tags="perkMiner69r"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="1400,4200" tier="1,6" tags="perkMiner69r"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMiner69r"/>
+		<passive_effect name="MaxRange" operation="base_set" value="2.35" tags="perkMiner69r"/>
+		<passive_effect name="BlockRange" operation="base_set" value="3.5" tags="perkMiner69r"/>
+
+		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+
+		<passive_effect name="SphereCastRadius" operation="base_set" value=".1"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="100" tags="perkMiner69r"/>
+		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2" tags="perkMiner69r"/> <!-- random effective rng -->
+		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkMiner69r"/> <!-- random EntityDmg -->
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkMiner69r"/> <!-- tier bonus -->
+		<passive_effect name="PlayerExpGain" operation="perc_add" value="-.3" tags="Harvesting"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15" tags="perkMiner69r"/> <!-- random BlockDmg -->
+		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkMiner69r"/> <!-- tier bonus -->
+
+		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkMiner69r"/> <!-- random DegMax -->
+		<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05" tags="perkMiner69r"/> <!-- random APM -->
+		<passive_effect name="MagazineSize" operation="perc_add" value="-.122,.122"/> <!-- random MagazineSize -->
+		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08" tags="perkMiner69r"/> <!-- random WeaponHandling -->
+
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.85" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.85" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.85" tags="metal"/>
+
+		<passive_effect name="BurstRoundCount" operation="base_set" value="1000" tags="perkMiner69r"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="300" tags="perkMiner69r"/>
+		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1" tags="perkMiner69r"/> <!-- 3.5s -->
+
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value=".5" tags="perkMiner69r"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value=".5" tags="perkMiner69r"/>
+		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="-.25" tags="perkMiner69r"/>
+		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value=".25" tags="perkMiner69r"/>
+		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.45" tags="perkMiner69r"/>
+		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".45" tags="perkMiner69r"/>
+
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1" tags="perkMiner69r"/>
+		<passive_effect name="WeaponHandling" operation="base_set" value="5" tags="perkMiner69r"/>
+	</effect_group>
+</item>
+
+<item name="meleeToolPickT3Auger">
+	<property name="Tags" value="melee,heavy,tool,motorTool,attStrength,perkMiner69r,perkMotherLode,miningTool,canHaveCosmetic"/>
+	<property name="DisplayType" value="motorTool"/>
+	<property name="HoldType" value="20"/>
+	<property name="Meshfile" value="#Other/Items?Tools/augerPrefab.prefab"/>
+	<property name="Material" value="MMotorToolParts"/> <property name="Weight" value="6"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
+	<property name="SoundIdle" value="Auger_Idle"/>
+	<property name="Particles_muzzle_smoke" value="nozzlesmoke_chainsaw"/>
+	<property name="Group" value="Tools/Traps"/>
+	<property name="RepairExpMultiplier" value="10.8"/>
+	<property name="EconomicValue" value="1500"/>
+	<property name="UnlockedBy" value="perkMiner69r,meleeToolPickT3AugerSchematic"/>
+	<property name="ShowQuality" value="true"/>
+
+	<property class="Action0">
+		<property name="Class" value="Ranged"/>
+		<property name="Hitmask_override" value="Melee"/>
+		<property name="UseMeleeCrosshair" value="true"/>
+		<property name="Single_magazine_usage" value="false"/>
+		<property name="Magazine_items" value="ammoGasCan"/>
+		<property name="Bullet_material" value="metal"/>
+		<property name="Reload_time" value="4.1"/>
+		<property name="Sound_start" value="Auger_Fire_Start"/>
+		<property name="Sound_repeat" value="Weapons/Motorized/Auger/auger_fire_lp"/>
+		<property name="Sound_end" value="Weapons/Motorized/Auger/auger_fire_end"/>
+		<property name="Sound_empty" value="auger_empty"/>
+		<property name="Sound_reload" value="Auger_Reload"/>
+		<property name="Particles_muzzle_smoke" value="nozzlesmoke_chainsaw"/>
+		<!-- <property name="DamageBonus.wood" value=".25"/> -->
+		<!-- <property name="DamageBonus.head" value="3"/> -->
+		<property name="SupportHarvesting" value="true"/>
+		<property name="ToolCategory.harvestingTools" value="1" param1="1"/>
+	</property>
+
+	<effect_group name="meleeToolPickT3Auger">
+		<passive_effect name="EntityDamage" operation="base_set" value="4.2" tags="perkMiner69r"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="20.7" tags="perkMiner69r,miningTool"/>
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="300" tags="perkMiner69r"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="1400,4200" tier="1,6" tags="perkMiner69r"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMiner69r"/>
+		<passive_effect name="MaxRange" operation="base_set" value="2.35" tags="perkMiner69r"/>
+		<passive_effect name="BlockRange" operation="base_set" value="3.5" tags="perkMiner69r"/>
+
+		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+
+		<passive_effect name="SphereCastRadius" operation="base_set" value=".1"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="100" tags="perkMiner69r"/>
+		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2" tags="perkMiner69r"/> <!-- random effective rng -->
+		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkMiner69r"/> <!-- random EntityDmg -->
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkMiner69r"/> <!-- tier bonus -->
+		<passive_effect name="PlayerExpGain" operation="perc_add" value="-.3" tags="Harvesting"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15" tags="perkMiner69r"/> <!-- random BlockDmg -->
+		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkMiner69r"/> <!-- tier bonus -->
+
+		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkMiner69r"/> <!-- random DegMax -->
+		<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05" tags="perkMiner69r"/> <!-- random APM -->
+		<passive_effect name="MagazineSize" operation="perc_add" value="-.122,.122"/> <!-- random MagazineSize -->
+		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08" tags="perkMiner69r"/> <!-- random WeaponHandling -->
+
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="wood"/>
+		<passive_effect name="BurstRoundCount" operation="base_set" value="1000" tags="perkMiner69r"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="300" tags="perkMiner69r"/>
+		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1" tags="perkMiner69r"/> <!-- 3.5s -->
+
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value=".5" tags="perkMiner69r"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value=".5" tags="perkMiner69r"/>
+		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="-.35" tags="perkMiner69r"/>
+		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value=".35" tags="perkMiner69r"/>
+		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.35" tags="perkMiner69r"/>
+		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".35" tags="perkMiner69r"/>
+
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1" tags="perkMiner69r"/>
+		<passive_effect name="WeaponHandling" operation="base_set" value="5" tags="perkMiner69r"/>
+	</effect_group>
+</item>
+
+<!-- * * * * * * * * * * Unlocked (perkSalvageOperations) * * * * * * * * * * -->
+<item name="meleeToolSalvageT2Ratchet">
+	<property name="Tags" value="blunt,melee,grunting,light,tool,attPerception,perkSalvageOperations,canHaveCosmetic"/>
+	<property name="DisplayType" value="melee"/>
+	<property name="HoldType" value="72"/>
+	<property name="Meshfile" value="#Other/Items?Tools/ratchetPrefab.prefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="SoundJammed" value="ItemNeedsRepair"/>
+	<property name="SoundDestroy" value="metaldestroy"/>
+	<property name="EconomicValue" value="700"/>
+	<property name="UnlockedBy" value="perkSalvageOperations,meleeToolSalvageT2RatchetSchematic"/>
+	<property name="ShowQuality" value="true"/>
+	<property class="Action0">
+		<property name="Class" value="DynamicMelee"/>
+		<property name="Sound_start" value="swoosh"/>
+		<property name="ToolCategory.harvestingTools" value=".5" param1="1"/>
+		<property name="ToolCategory.Disassemble" value="1" param1="1"/>
+		<property name="Particle_harvesting" value="true" param1="metal"/>
+
+		<property name="UseGrazingHits" value="true"/>
+		<property name="GrazeStart" value=".25"/>
+		<property name="GrazeEnd" value=".3"/>
+		<property name="SwingDegrees" value="50"/>
+		<property name="SwingAngle" value="180"/>
+	</property>
+
+	<property class="Action1">
+		<property name="Class" value="DynamicMelee"/>
+		<property name="Sound_start" value="swoosh"/>
+		<property name="ToolCategory.harvestingTools" value=".5" param1="1"/>
+		<!-- <property name="UsePowerAttackAnimation" value="true"/> -->
+	</property>
+
+	<effect_group name="meleeToolSalvageT2Ratchet">
+		<passive_effect name="EntityDamage" operation="base_set" value="16.5" tags="perkSalvageOperations"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="48.5" tags="perkSalvageOperations"/>
+		<passive_effect name="AttacksPerMinute" operation="base_set" value="50" tags="perkSalvageOperations"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="21.8" tags="primary"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="300,900" tier="1,6" tags="perkSalvageOperations"/>
+
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkSalvageOperations"/>
+		<passive_effect name="MaxRange" operation="base_set" value="2.4" tags="perkSalvageOperations"/>
+		<passive_effect name="BlockRange" operation="base_set" value="3.5" tags="perkSalvageOperations"/>
+
+		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+
+		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkSalvageOperations"/> <!-- random EntityDmg -->
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkSalvageOperations"/> <!-- tier bonus -->
+		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15" tags="perkSalvageOperations"/> <!-- random BlockDmg -->
+		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkSalvageOperations"/> <!-- tier bonus -->
+
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="wood"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.75" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="stone"/>
+
+		<passive_effect name="HarvestCount" operation="base_set" value="1" tags="salvageHarvest"/>
+	</effect_group>
+	<effect_group name="Power Attack">
+		<passive_effect name="EntityDamage" operation="perc_add" value="1" tags="secondary"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="37" tags="secondary"/>
+	</effect_group>
+	<property name="Group" value="Tools/Traps"/>
+	<property name="RepairExpMultiplier" value="5.5"/>
+</item>
+
+<item name="meleeToolSalvageT3ImpactDriver">
+	<property name="Tags" value="blunt,melee,grunting,light,tool,attPerception,perkSalvageOperations,canHaveCosmetic"/>
+	<property name="DisplayType" value="melee"/>
+	<property name="HoldType" value="74"/>
+	<property name="Meshfile" value="#Other/Items?Tools/impactDriverPrefab.prefab"/>
+	<property name="Material" value="MMotorToolParts"/> <property name="Weight" value="6"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="SoundJammed" value="ItemNeedsRepair"/>
+	<property name="SoundDestroy" value="metaldestroy"/>
+	<property name="EconomicValue" value="1500"/>
+	<property name="UnlockedBy" value="perkSalvageOperations,meleeToolSalvageT3ImpactDriverSchematic"/>
+	<property name="ShowQuality" value="true"/>
+	<property name="Stacknumber" value="1"/>
+	<property class="Action0">
+		<property name="Class" value="DynamicMelee"/>
+		<property name="Sound_start" value="swoosh"/>
+		<property name="ToolCategory.harvestingTools" value=".5" param1="1"/>
+		<property name="ToolCategory.Disassemble" value="1" param1="1"/>
+		<property name="Particle_harvesting" value="true" param1="metal"/>
+
+		<property name="UseGrazingHits" value="true"/>
+		<property name="GrazeStart" value=".25"/>
+		<property name="GrazeEnd" value=".3"/>
+		<property name="SwingDegrees" value="50"/>
+		<property name="SwingAngle" value="180"/>
+	</property>
+
+	<property class="Action1">
+		<property name="Class" value="DynamicMelee"/>
+		<property name="Sound_start" value="swoosh"/>
+		<property name="ToolCategory.harvestingTools" value=".5" param1="1"/>
+		<!-- <property name="UsePowerAttackAnimation" value="true"/> -->
+	</property>
+
+	<effect_group name="meleeToolSalvageT3ImpactDriver">
+		<passive_effect name="EntityDamage" operation="base_set" value="16.5" tags="perkSalvageOperations"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="58" tags="perkSalvageOperations"/>
+		<passive_effect name="AttacksPerMinute" operation="base_set" value="50" tags="perkSalvageOperations"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="24.7" tags="primary"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="500,1100" tier="1,6" tags="perkSalvageOperations"/>
+
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkSalvageOperations"/>
+		<passive_effect name="MaxRange" operation="base_set" value="2.4" tags="perkSalvageOperations"/>
+		<passive_effect name="BlockRange" operation="base_set" value="3.5" tags="perkSalvageOperations"/>
+
+		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+
+		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkSalvageOperations"/> <!-- random EntityDmg -->
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkSalvageOperations"/> <!-- tier bonus -->
+		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15" tags="perkSalvageOperations"/> <!-- random BlockDmg -->
+		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkSalvageOperations"/> <!-- tier bonus -->
+
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="wood"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.75" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="stone"/>
+
+		<passive_effect name="HarvestCount" operation="base_set" value="1" tags="salvageHarvest"/>
+	</effect_group>
+	<effect_group name="Power Attack">
+		<passive_effect name="EntityDamage" operation="perc_add" value="1" tags="secondary"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="41.9" tags="secondary"/>
+	</effect_group>
+	<property name="Group" value="Tools/Traps"/>
+	<property name="RepairExpMultiplier" value="5.5"/>
+</item>
+
+<!-- * * * * * * * * * * Unlocked (perkAdvancedEngineering) * * * * * * * * * * -->
+<item name="toolAnvil">
+	<property name="UnlockedBy" value="perkAdvancedEngineering,toolAnvilSchematic"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Msteel"/>
+	<property name="Weight" value="200"/>
+	<property name="Stacknumber" value="1"/> <!-- STK loot -->
+	<property name="EconomicValue" value="240"/>
+	<property name="Group" value="Tools/Traps"/>
+	<property name="DisplayType" value="toolAnvil"/>
+	<property name="ItemTypeIcon" value="forge"/>
+	<effect_group tiered="false">
+		<passive_effect name="CraftingTime" operation="perc_add" value="-.333"/>
+		<display_value name="dCraftingTime" value=".5"/>
+	</effect_group>
+</item>
+
+<item name="toolBellows">
+	<property name="UnlockedBy" value="perkAdvancedEngineering,toolBellowsSchematic"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="MtoolBellows"/>
+	<property name="Stacknumber" value="1"/> <!-- STK resource -->
+	<property name="Weight" value="100"/>
+	<property name="EconomicValue" value="500"/>
+	<property name="Group" value="Tools/Traps"/>
+	<property name="DisplayType" value="toolBellows"/>
+	<property name="ItemTypeIcon" value="forge"/>
+	<effect_group tiered="false">
+		<passive_effect name="CraftingSmeltTime" operation="perc_add" value="-.333"/> <!-- this is essentially a multiplier -->
+		<display_value name="dCraftingSmeltTime" value=".5"/>
 	</effect_group>
 </item>
 
