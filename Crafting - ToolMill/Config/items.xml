@@ -22,7 +22,7 @@
 	<property name="Weight" value="30"/>
 	<property name="Stacknumber" value="1"/> <!-- STK loot -->
 	<property name="EconomicValue" value="2000"/>
-	<property name="Group" value="Tools/Traps"/>
+	<property name="Group" value="Resources,Tools/Traps"/>
 	<property name="ItemTypeIcon" value="forge"/>
 </item>
 
