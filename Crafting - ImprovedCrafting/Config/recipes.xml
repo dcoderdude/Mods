@@ -86,6 +86,9 @@
 		<ingredient name="foodRawMeat" count="1"/>
 		<ingredient name="drinkJarRiverWater" count="1"/>
 	</recipe>
+	<recipe name="resourceRawDiamond" count="1" craft_area="chemistryStation">
+		<ingredient name="resourceCoal" count="100"/>
+	</recipe>
 	<!-- cement mixer; reduce crafting times and change recipe requirements -->
 	<recipe name="resourceCobblestones" count="1" craft_time = "0.5" craft_area="cementMixer" tags="cementMixerCrafting">
 		<ingredient name="resourceClayLump" count="1"/>
@@ -102,7 +105,20 @@
 			<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="resourceRockSmall,bucketRiverWater"/>
 		</effect_group>
 	</recipe>
-	<!-- workbench; reduce crafting times -->
+	<!-- workbench; add non-craftable items and reduce crafting times -->
+	<recipe name="solarCell" count="1" craft_area="workbench">
+		 <ingredient name="glassBlockVariantHelper" count="10"/>
+		 <ingredient name="resourceRawDiamond" count="1"/>
+		 <ingredient name="resourceElectricParts" count="4"/>
+		 <effect_group>
+			 <passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value="1,5" tags="glassBlockVariantHelper,resourceRawDiamond,resourceElectronicParts,resourceMechanicalParts"/>
+		 </effect_group>
+	</recipe>
+	<recipe name="solarbank" count="1" craft_area="workbench" tags="workbenchCrafting">
+		 <ingredient name="glassBlockVariantHelper" count="13"/>
+		 <ingredient name="resourceForgedSteel" count="5"/>
+		 <ingredient name="resourceElectricParts" count="3"/>
+	</recipe>
 	<recipe name="ammo9mmBulletBall" count="1" craft_time="0.5" craft_area="workbench" tags="workbenchCrafting">
 		<ingredient name="resourceBulletTip" count="1"/>
 		<ingredient name="resourceGunPowder" count="1"/>
