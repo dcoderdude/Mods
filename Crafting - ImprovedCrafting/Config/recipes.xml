@@ -55,7 +55,7 @@
 		<ingredient name="unit_clay" count="5"/>
 	</recipe>
 	<recipe name="bucketEmpty" craft_time = "0.5" count="1" material_based="true" craft_area="forge">
-		<ingredient name="unit_clay" count="5"/>
+		<ingredient name="unit_clay" count="1"/>
 	</recipe>
 	<recipe name="resourceBulletCasing" craft_time = "0.5" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering">
 		<ingredient name="unit_brass" count="5"/>
