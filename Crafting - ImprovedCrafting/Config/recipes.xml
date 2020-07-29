@@ -94,12 +94,12 @@
 		<ingredient name="resourceRockSmall" count="1"/>
 	</recipe>
 	<recipe name="resourceConcreteMix" count="1" craft_time = "0.5" craft_area="cementMixer" tags="cementMixerCrafting">
-		<ingredient name="resourceCrushedSand" count="1"/>
 		<ingredient name="resourceCement" count="1"/>
+		<ingredient name="bucketRiverWater" count="1"/>
 	</recipe>
 	<recipe name="resourceCement" count="1" craft_time = "0.5" craft_area="cementMixer" tags="perkAdvancedEngineering">
+		<ingredient name="resourceCrushedSand" count="1"/>
 		<ingredient name="resourceRockSmall" count="1"/>
-		<ingredient name="bucketRiverWater" count="1"/>
 		<effect_group>
 			<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="resourceRockSmall,bucketRiverWater"/>
 		</effect_group>
