@@ -29,7 +29,7 @@
 			<ingredient name="resourceElectricParts" count="25"/>
 			<ingredient name="resourceForgedSteel" count="50"/>
 			<ingredient name="resourceSpring" count="20"/>
-			<ingredient name="smallEngine" count="10"/>
+			<ingredient name="smallEngine" count="1"/>
 		</recipe>
 	</append>
 </configs>
