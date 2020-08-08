@@ -2,9 +2,9 @@
 <configs>
 <append xpath="/items">
 
-<item name="AxePickShovel">
-	<property name="CustomIcon" value="meleeToolPickaxeSteel"/>
-	<property name="DescriptionKey" value="AxePickShovelDesc"/>
+<item name="PickaxeShovel">
+	<property name="CustomIcon" value="meleeToolPickT2SteelPickaxe"/>
+	<property name="DescriptionKey" value="PickaxeShovelDesc"/>
 	<property name="Group" value="Tools/Traps"/>
 	<property name="CustomIconTint" value="9f59de"/>
 	<property name="Tags" value="knife,melee,medium,tool,shovel,perkDeepCuts,perkMotherLode"/>
@@ -36,7 +36,7 @@
 		<property name="Sound_harvesting" value="open_animal" param1="organic"/>
 		<property name="UsePowerAttackAnimation" value="false"/>
 	</property>
-	<effect_group name="AxePickShovel">
+	<effect_group name="PickaxeShovel">
 		<passive_effect name="MaxRange" operation="base_set" value="5"/>
 		<passive_effect name="BlockRange" operation="base_set" value="5"/>
 		<passive_effect name="EntityDamage" operation="base_set" value="26"/> 
@@ -74,7 +74,7 @@
 </item>
 
 <item name="WrenchHammer">
-	<property name="CustomIcon" value="meleeToolWrench"/>
+	<property name="CustomIcon" value="meleeToolSalvageT1Wrench"/>
 	<property name="DescriptionKey" value="WrenchHammerDesc"/>
 	<property name="Group" value="Tools/Traps"/>
 	<property name="CustomIconTint" value="9f59de"/>
@@ -130,7 +130,7 @@
 </item>
 
 <item name="MacheteShears">
-   <property name="CustomIcon" value="meleeToolKnifeMachete" />
+   <property name="CustomIcon" value="meleeWpnBladeT3Machete" />
 	<property name="DescriptionKey" value="MacheteShearsDesc"/>
 	<property name="Group" value="Tools/Traps"/>
 	<property name="CustomIconTint" value="9f59de"/>

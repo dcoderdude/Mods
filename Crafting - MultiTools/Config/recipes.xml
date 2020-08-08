@@ -2,19 +2,19 @@
 <configs>
 <append xpath="/recipes">
 
-<recipe name="AxePickShovel" count="1" craft_time = "10" tags="learnable,perkMiner69r">
-	<ingredient name="meleeToolPickaxeIron" count="1"/>
-	<ingredient name="meleeToolShovelIron" count="1"/>
+<recipe name="PickaxeShovel" count="1" craft_time = "10" tags="learnable,perkMiner69r">
+	<ingredient name="meleeToolPickT2SteelPickaxe" count="1"/>
+	<ingredient name="meleeToolShovelT2SteelShovel" count="1"/>
 </recipe>
 
 <recipe name="MacheteShears" count="1" craft_time = "10" tags="learnable,perkMiner69r">
-	<ingredient name="meleeToolKnifeMachete" count="1"/>
-	<ingredient name="meleeToolKnifeIron" count="1"/>
+	<ingredient name="meleeWpnBladeT3Machete" count="1"/>
+	<ingredient name="meleeWpnBladeT1HuntingKnife" count="1"/>
 </recipe>
 
 <recipe name="WrenchHammer" count="1" craft_time = "10" tags="learnable,perkMiner69r">
-	<ingredient name="meleeToolWrench" count="1"/>
-	<ingredient name="meleeToolClawHammer" count="1"/>
+	<ingredient name="meleeToolSalvageT1Wrench" count="1"/>
+	<ingredient name="meleeToolRepairT1ClawHammer" count="1"/>
 </recipe>
 
 </append>
