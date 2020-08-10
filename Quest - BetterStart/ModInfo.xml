@@ -4,10 +4,6 @@
     <Name value="Inusun Quest BetterStart" />
     <Description value="Changes the starting quest and gives a much better reward." />
     <Author value="Inusun" />
-    <Version value="A19" />
+    <Version value="a19" />
   </ModInfo>
-  <!-- <DMT> -->
-    <!-- <dependencies /> -->
-    <!-- <conflicts /> -->
-  <!-- </DMT> -->
 </xml>

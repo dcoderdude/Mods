@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
 	<ModInfo>
-		<Name value="DanzoBlade Improved Crafting"/>
+		<Name value="Improved Crafting" />
 		<Description value="Adds an extra slot to the crafting queue, adds ability to craft non-craftable items, and reduces crafting queue times" />
-		<Author value="DanzoBlade"/>
-		<Version value="A19"/>
+		<Author value="DanzoBlade" />
+		<Version value="A.19" />
 	</ModInfo>
 </xml>

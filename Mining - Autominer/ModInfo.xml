@@ -1,9 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
 <xml>
 	<ModInfo>
-		<Name value="Autominer" />
-		<Description value="" />
-		<Author value="Snufkin" />
-		<Version value="18.4" />
-		<Website value="" />
+		<Name value="Autominer"/>
+		<Description value="Provides essential resources from Gas cans"/>
+		<Author value="Snufkin"/>
+		<Version value="a19"/>
 	</ModInfo>
 </xml>
