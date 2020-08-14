@@ -1,0 +1,89 @@
+<configs>
+	<append xpath="/blocks">
+<block name="steel Bars Centered">
+	<property name="CustomIcon" value="steelBars"/>
+	<property name="DisplayType" value="blockHardened" />
+	<property name="Material" value="Mmetal_hard"/>
+	<property name="MaxDamage" value="6000"/>
+	<property name="Shape" value="New"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Model" value="iron_bars_centered"/>
+	<property name="Texture" value="62"/><!-- Steel block 356-->
+	<property name="UseGlobalUV" value="Local"/>
+	<property name="ImposterExcludeAndStop" value="true"/>
+	<property name="Place" value="TowardsPlacer"/>
+	<property name="Collide" value="movement,melee,rocket"/> <!-- -rocket -->
+	<property class="RepairItems"> <property name="resourceForgedSteel" value="10"/> </property>
+	<drop event="Harvest" name="resourceScrapIron" count="64" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="1" stick_chance="1"/>
+	<property name="Group" value="Building"/>
+	<property name="EconomicValue" value="10"/>
+	<property name="DescriptionKey" value="ironBarsDesc"/>
+	<property name="FilterTags" value="fdecor,fother,fwindows,fdoors"/>
+	<property name="SortOrder1" value="7060"/>
+	<property name="SortOrder2" value="0061"/> <!-- SortDoors -->
+</block>
+<block name="steel Bars">
+	<property name="Extends" value="steel Bars Centered"/>
+	<property name="Model" value="iron_bars"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="SortOrder2" value="0060"/> <!-- SortDoors -->
+</block>
+<block name="scrap Iron Bars Centered">
+	<property name="CustomIcon" value="scrapBars"/>
+	<property name="DisplayType" value="blockHardened" />
+	<property name="Material" value="Mmetal_hard"/>
+	<property name="MaxDamage" value="1000"/>
+	<property name="Shape" value="New"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Model" value="iron_bars_centered"/>
+	<property name="Texture" value="352"/><!-- scrap iron log spike 2.352 and 380 (woodlogspike) -->
+	<property name="UseGlobalUV" value="Local"/>
+	<property name="ImposterExcludeAndStop" value="true"/>
+	<property name="Place" value="TowardsPlacer"/>
+	<property name="Collide" value="movement,melee,rocket"/> <!-- -rocket -->
+	<property class="RepairItems"> <property name="resourceScrapIron" value="40"/> </property>
+	<drop event="Harvest" name="resourceScrapIron" count="32" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Group" value="Building"/>
+	<property name="EconomicValue" value="10"/>
+	<property name="DescriptionKey" value="ironBarsDesc"/>
+	<property name="FilterTags" value="fdecor,fother,fwindows,fdoors"/>
+	<property name="SortOrder1" value="7060"/>
+	<property name="SortOrder2" value="0061"/> <!-- SortDoors -->
+		<property class="UpgradeBlock">
+		<property name="ToBlock" value="ironBarsCentered"/>
+		<property name="Item" value="resourceForgedIron"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	</property>
+</block>
+<block name="scrap Iron Bars">
+	<property name="Extends" value="scrap Iron Bars Centered"/>
+	<property name="Model" value="iron_bars"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="SortOrder2" value="0060"/> <!-- SortDoors -->
+	<property class="UpgradeBlock"> <property name="ToBlock" value="ironBars"/> </property>
+</block>
+	</append>
+	
+	<set xpath="/blocks/block[@name='woodBarsCentered']/property[@name='Texture']/@value">379</set>
+	<set xpath="/blocks/block[@name='woodBarsCentered']/property[@class='UpgradeBlock']/property[@name='ToBlock']/@value">scrap Iron Bars Centered</set>
+	<set xpath="/blocks/block[@name='woodBarsCentered']/property[@class='UpgradeBlock']/property[@name='Item']/@value">resourceScrapIron</set>
+	<set xpath="/blocks/block[@name='woodBarsCentered']/property[@class='UpgradeBlock']/property[@name='ItemCount']/@value">40</set>
+	<set xpath="/blocks/block[@name='woodBars']/property[@class='UpgradeBlock']/property[@name='ToBlock']/@value">scrap Iron Bars</set>
+
+	<append xpath="/blocks/block[@name='ironBarsCentered']">
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="steel Bars Centered"/>
+		<property name="Item" value="resourceForgedSteel"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	</property>
+	</append>
+	<append xpath="/blocks/block[@name='ironBars']">
+	<property class="UpgradeBlock"> <property name="ToBlock" value="steel Bars"/> </property>
+	</append>
+</configs>
