@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
     <ModInfo>
-        <Name value="Stallionsdens Stack Size Increaser"/>
+        <Name value="Stack Size Increaser"/>
         <Description value="Increases stacksizes of Items you wish to increase."/>
         <Author value="Stallionsden"/>
-        <Version value="a19"/>
+        <Version value="A.19"/>
     </ModInfo>
 </xml>
