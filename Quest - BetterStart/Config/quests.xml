@@ -37,8 +37,8 @@
 		  <reward type="Item" id="casinoCoin" value="1000"/>
     </quest>
 
-    <quest id="loadout_weapons">
-      <property name="name_key" value="loadout_weapons"/>
+    <quest id="Note">
+      <property name="name_key" value="Note"/>
       <property name="group_name_key" value="quest_LoadOut"/>
       <property name="subtitle_key" value="loadout_weapons_subtitle"/>
       <property name="description_key" value="loadout_weapons_description"/>
@@ -47,8 +47,16 @@
       <property name="difficulty" value="veryeasy"/>
       <property name="offer_key" value="GET TO THE CHOPPER! \nTalk with the trader twice to receive 1000 casino coins and 20 skill points"/>
       <property name="shareable" value="false"/>
-      <reward type="Item" id="gunShotgunT0Blunderbuss" value="1"/>
-      <reward type="Item" id="ammoBlunderbuss" value="100"/>
+      <reward type="Item" id="gunBowT0PrimitiveBow" value="1"/>
+      <reward type="Item" id="ammoArrowStone" value="100"/>
+		<reward type="Item" id="meleeToolRepairT0StoneAxe" value="1"/>
+		<reward type="Item" id="meleeToolShovelT0StoneShovel" value="1"/>
+		<reward type="Item" id="meleeWpnSpearT0StoneSpear" value="1"/>
+		<reward type="Item" id="apparelPlantFiberPants" value="1"/>
+		<reward type="Item" id="apparelPlantFiberShirt" value="1"/>
+		<reward type="Item" id="apparelPlantFiberHood" value="1"/>
+		<reward type="Item" id="apparelPlantFiberShoes" value="1"/>
+		<reward type="Item" id="apparelPlantFiberGloves" value="1"/>
     </quest>
   </append>
 </configs>

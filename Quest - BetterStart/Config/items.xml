@@ -1,10 +1,10 @@
 <configs>
   <append xpath="/items">
-    <item name="qc_loadWeapons">
+    <item name="Better Start">
       <property name="Extends" value="challengeQuestMaster"/>
       <property class="Action0">
         <property name="UseAnimation" value="false"/>
-        <property name="QuestGiven" value="loadout_weapons"/>
+        <property name="QuestGiven" value="Note"/>
       </property>
     </item>
   </append>
