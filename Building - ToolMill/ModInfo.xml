@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Parts Machine" />
+		<Description value="Craftable workstation to craft parts" />
+		<Author value="DelStryker" />
+		<Version value="A.19" />
+	</ModInfo>
+</xml>
