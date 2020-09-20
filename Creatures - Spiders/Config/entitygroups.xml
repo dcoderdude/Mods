@@ -1,0 +1,17 @@
+<configs>
+<append xpath="/entitygroups">
+	<entitygroup name="TelricsSpiders">
+		<entity name="invisibleAnimalEnemy" prob="1"/>
+		<entity name="animalSmallSpider" prob=".4"/>
+		<entity name="animalSpiderEggsSpawn" prob=".25" />
+		<entity name="animalQueenSpider" prob=".05"/>
+	</entitygroup>
+</append>
+
+
+
+
+
+
+
+</configs>

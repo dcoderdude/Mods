@@ -1,0 +1,23 @@
+<configs>
+<append xpath="/Sounds">
+<!-- Entities -->
+<SoundDataNode name="SpiderScreamSound"> <!--<AudioSource name="Sounds/AudioSource_Screamer"/>--> <AudioSource name="Sounds/AudioSource_WeaponFire"/> <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+	<AudioClip ClipName="#@modfolder:Resources/TelricsSpiders.unity3d?SpiderScreamSound"/>
+	<!--<Channel name="Mouth"/>-->
+	<Priority name="3"/>
+	<maxVoicesPerEntity value="10"/>
+  <LowestPitch name="0.95"/>
+  <HighestPitch name="1.05"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="7"/> 
+</SoundDataNode>
+
+<!-- tests -->
+</append>
+
+
+
+
+
+
+
+</configs>

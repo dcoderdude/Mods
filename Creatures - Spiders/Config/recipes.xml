@@ -1,0 +1,17 @@
+<configs>
+<append xpath="/recipes">
+<!-- Entities -->
+<recipe name="SpiderWebTrap" count="1">
+	<ingredient name="resourceSpiderSilk" count="10"/>
+</recipe>
+<!-- tests -->
+</append>
+
+
+
+
+
+
+
+
+</configs>

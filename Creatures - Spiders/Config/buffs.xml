@@ -1,0 +1,169 @@
+<configs>
+<append xpath="/buffs">
+<!-- Entities -->
+<buff name="buffSmallSpider" hidden="true">
+		<stack_type value="ignore"/>
+		<duration value="0"/>
+		<update_rate value="5" />
+		<effect_group name="Add Kill">
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffSmallSpiderKill" target="self"/>
+		</effect_group>
+		<effect_group name="Resistance">
+			<passive_effect name="BuffResistance" operation="base_add" value="1" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffInfectionCatch,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo,triggerInfection,triggerBleeding,triggerLaceration,triggerAbrasion,triggerSprainedLeg,triggerBrokenLeg,triggerSprainedArm,triggerBrokenArm,triggerFatigued,triggerStun,triggerConcussion,buffInjuryBleedingOne,buffInjuryBleeding,buffBLegBroken,buffLegSprained,buffLegSplinted,buffLegCast,buffInjuryAbrasion,buffLegGetsWorse,buffArmGetsWorse,buffArmSprained,buffBrokenLimbStatus,buffFatigued,buffInjuryConcussion"/>
+		</effect_group>
+		<effect_group name="Attach">
+				<triggered_effect trigger="onSelfBuffStart" action="RemovePrefabFromEntity" prefab="SpiderAttackPrefab"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/TelricsSpiders.unity3d?SpiderWalkPrefab" local_offset="-.2,1.45,0" parent_transform="Global"/>
+				
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" buff="buffSpiderMeleeAttack" target="self"/>
+				
+			
+				<triggered_effect trigger="onSelfDied" action="RemovePrefabFromEntity" prefab="SpiderWalkPrefab"/>
+				<triggered_effect trigger="onSelfDied" action="RemovePrefabFromEntity" prefab="SpiderAttackPrefab"/>
+				<triggered_effect trigger="onSelfDied" action="RemovePrefabFromEntity" prefab="SpiderWebParticlePrefab"/>
+				<triggered_effect trigger="onSelfDied" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/TelricsSpiders.unity3d?SpiderDeathPrefab" local_offset="-1,1.80,0" parent_transform="Global"/>
+		</effect_group>
+		<effect_group name="Resist">
+			<passive_effect name="BuffResistance" operation="base_add" value="2" tags="buffSpiderWebTrap"/>		
+		</effect_group>
+</buff>
+<buff name="buffSpiderMeleeAttack" hidden="true">
+		<stack_type value="ignore"/>
+		<duration value="1"/>
+		<effect_group name="Resistance">
+			<passive_effect name="BuffResistance" operation="base_add" value="1" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffInfectionCatch,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo,triggerInfection,triggerBleeding,triggerLaceration,triggerAbrasion,triggerSprainedLeg,triggerBrokenLeg,triggerSprainedArm,triggerBrokenArm,triggerFatigued,triggerStun,triggerConcussion,buffInjuryBleedingOne,buffInjuryBleeding,buffBLegBroken,buffLegSprained,buffLegSplinted,buffLegCast,buffInjuryAbrasion,buffLegGetsWorse,buffArmGetsWorse,buffArmSprained,buffBrokenLimbStatus,buffFatigued,buffInjuryConcussion"/>
+		</effect_group>
+		<effect_group name="Attach">
+				<triggered_effect trigger="onSelfBuffStart" action="RemovePrefabFromEntity" prefab="SpiderWalkPrefab"/>
+				
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/TelricsSpiders.unity3d?SpiderAttackPrefab" local_offset="-.2,1.45,0" parent_transform="Global"/>
+				
+				<triggered_effect trigger="onSelfDied" action="RemovePrefabFromEntity" prefab="SpiderWalkPrefab"/>
+				<triggered_effect trigger="onSelfDied" action="RemovePrefabFromEntity" prefab="SpiderAttackPrefab"/>
+				<triggered_effect trigger="onSelfDied" action="RemovePrefabFromEntity" prefab="SpiderWebParticlePrefab"/>
+				<triggered_effect trigger="onSelfDied" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/TelricsSpiders.unity3d?SpiderDeathPrefab" local_offset="-1,1.80,0" parent_transform="Global"/>
+				
+				<triggered_effect trigger="onSelfBuffFinish" action="RemovePrefabFromEntity" prefab="SpiderAttackPrefab"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="RemovePrefabFromEntity" prefab="SpiderWebParticlePrefab"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/TelricsSpiders.unity3d?SpiderWalkPrefab" local_offset="-.2,1.45,0" parent_transform="Global"/>
+		</effect_group>
+		<effect_group name="Chance to particle">
+				<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="85"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/TelricsSpiders.unity3d?SpiderWebParticlePrefab" local_offset="0,2,0" parent_transform="Global"/>
+		</effect_group>
+	</buff>
+
+
+<!-- utility buffs -->
+<buff name="buffSmallSpiderKill" hidden="true">
+		<stack_type value="ignore"/>
+		<duration value="300"/>
+		<effect_group name="Kill">
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyStats" stat="Health" operation="subtract" value="5000"/>	
+		</effect_group>
+</buff>
+<buff name="buffInstaGib" hidden="true">
+		<stack_type value="ignore"/>
+		<duration value=".5"/>
+		<effect_group name="Deal Damage">
+			<triggered_effect trigger="onSelfBuffFinish" action="ModifyStats" stat="Health" operation="subtract" value="5000"/>
+		</effect_group>
+	</buff>
+<buff name="buffSpiderWebTrap"  hidden="true">
+		<stack_type value="ignore"/>
+		<duration value="4"/>
+		<update_rate value="1" />
+		<effect_group name="Slow">	
+			<passive_effect name="WalkSpeed" operation="perc_subtract" value=".60"/>
+			<passive_effect name="RunSpeed" operation="perc_subtract" value=".60"/>
+		</effect_group>
+		<effect_group name="Damage" >
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="Health" operation="subtract" value="8"/>		
+		</effect_group>
+		<effect_group name="Attach">
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/TelricsSpiders.unity3d?SpiderWebTrapParticlePrefab" local_offset="0,.75,0" parent_transform="Global"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/TelricsSpiders.unity3d?SpiderWebTrapParticlePrefab" local_offset="0,.75,0" parent_transform="Hips"/>
+				
+				<triggered_effect trigger="onSelfBuffFinish" action="RemovePrefabFromEntity" prefab="SpiderWebTrapParticlePrefab"/>
+		</effect_group>
+	</buff>
+
+<buff name="buffPlayerSpiderTrapImmunity"  hidden="true">
+		<stack_type value="ignore"/>
+		<duration value="0"/>
+		<effect_group name="Slow">	
+			<passive_effect name="BuffResistance" operation="base_add" value="1" tags="buffSpiderWebTrap"/>
+		</effect_group>
+	</buff>
+
+<buff name="buffQueenSpider" hidden="true">
+		<stack_type value="ignore"/>
+		<duration value="0"/>
+		<update_rate value="5" />
+		<effect_group name="Resistance">
+			<passive_effect name="BuffResistance" operation="base_add" value="1" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffInfectionCatch,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo,triggerInfection,triggerBleeding,triggerLaceration,triggerAbrasion,triggerSprainedLeg,triggerBrokenLeg,triggerSprainedArm,triggerBrokenArm,triggerFatigued,triggerStun,triggerConcussion,buffInjuryBleedingOne,buffInjuryBleeding,buffBLegBroken,buffLegSprained,buffLegSplinted,buffLegCast,buffInjuryAbrasion,buffLegGetsWorse,buffArmGetsWorse,buffArmSprained,buffBrokenLimbStatus,buffFatigued,buffInjuryConcussion"/>
+		</effect_group>
+		<effect_group name="Attach">
+				<triggered_effect trigger="onSelfBuffStart" action="RemovePrefabFromEntity" prefab="QueenSpiderAttackPrefab"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/TelricsSpiders.unity3d?QueenSpiderWalkPrefab" local_offset="-.2,.8,0" parent_transform="Global"/>
+				
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" buff="buffQueenSpiderMeleeAttack" target="self"/>
+				
+			
+				<triggered_effect trigger="onSelfDied" action="RemovePrefabFromEntity" prefab="QueenSpiderWalkPrefab"/>
+				<triggered_effect trigger="onSelfDied" action="RemovePrefabFromEntity" prefab="QueenSpiderAttackPrefab"/>
+				<triggered_effect trigger="onSelfDied" action="RemovePrefabFromEntity" prefab="QueenSpiderWebParticlePrefab"/>
+				<triggered_effect trigger="onSelfDied" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/TelricsSpiders.unity3d?QueenSpiderDeathPrefab" local_offset="-1,.8,0" parent_transform="Global"/>
+		</effect_group>
+		<effect_group name="Resist">
+			<passive_effect name="BuffResistance" operation="base_add" value="2" tags="buffSpiderWebTrap"/>		
+		</effect_group>
+</buff>
+<buff name="buffQueenSpiderMeleeAttack" hidden="true">
+		<stack_type value="ignore"/>
+		<duration value="1"/>
+		<effect_group name="Resistance">
+			<passive_effect name="BuffResistance" operation="base_add" value="1" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffInfectionCatch,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo,triggerInfection,triggerBleeding,triggerLaceration,triggerAbrasion,triggerSprainedLeg,triggerBrokenLeg,triggerSprainedArm,triggerBrokenArm,triggerFatigued,triggerStun,triggerConcussion,buffInjuryBleedingOne,buffInjuryBleeding,buffBLegBroken,buffLegSprained,buffLegSplinted,buffLegCast,buffInjuryAbrasion,buffLegGetsWorse,buffArmGetsWorse,buffArmSprained,buffBrokenLimbStatus,buffFatigued,buffInjuryConcussion"/>
+		</effect_group>
+		<effect_group name="Attach">
+				<triggered_effect trigger="onSelfBuffStart" action="RemovePrefabFromEntity" prefab="QueenSpiderWalkPrefab"/>
+				
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/TelricsSpiders.unity3d?QueenSpiderAttackPrefab" local_offset="-.2,.8,0" parent_transform="Global"/>
+				
+				<triggered_effect trigger="onSelfDied" action="RemovePrefabFromEntity" prefab="QueenSpiderWalkPrefab"/>
+				<triggered_effect trigger="onSelfDied" action="RemovePrefabFromEntity" prefab="QueenSpiderAttackPrefab"/>
+				<triggered_effect trigger="onSelfDied" action="RemovePrefabFromEntity" prefab="SpiderWebParticlePrefab"/>
+				<triggered_effect trigger="onSelfDied" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/TelricsSpiders.unity3d?SpiderDeathPrefab" local_offset="-1,.8,0" parent_transform="Global"/>
+				
+				<triggered_effect trigger="onSelfBuffFinish" action="RemovePrefabFromEntity" prefab="QueenSpiderAttackPrefab"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="RemovePrefabFromEntity" prefab="SpiderWebParticlePrefab"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/TelricsSpiders.unity3d?QueenSpiderWalkPrefab" local_offset="-.2,.8,0" parent_transform="Global"/>
+		</effect_group>
+		<effect_group name="Chance to particle">
+				<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="85"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/TelricsSpiders.unity3d?SpiderWebParticlePrefab" local_offset="0,2,0" parent_transform="Global"/>
+		</effect_group>
+	</buff>
+
+<!-- tests -->
+
+
+
+
+
+
+
+</append>
+<append xpath="/buffs/buff[@name='buffStatusCheck01']">
+	<effect_group name="Add Immunity to Spider Trap">
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffPlayerSpiderTrapImmunity" target="self"/>
+	</effect_group>
+
+</append>
+
+
+
+
+
+
+</configs>
