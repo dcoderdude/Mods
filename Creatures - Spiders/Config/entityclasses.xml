@@ -103,7 +103,7 @@
 	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="25"/>
 	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
 	
-	<drop event="Harvest" name="vehicleSpiderMountPlaceable" tag="butcherHarvest" count="1" prob=".03" />
+	<drop event="Harvest" name="vehicleSpiderMountPlaceable" tag="butcherHarvest" count="1" prob=".5" />
 
 <property name="TimeStayAfterDeath" value="150"/>
 
