@@ -11,6 +11,7 @@
 	<property name="Stacknumber" value="1"/>
 	<property name="Group" value="Resources,Tools/Traps"/>
 	<property name="EconomicValue" value="2000"/>
+	<property name="ItemTypeIcon" value="workbench"/>
 </item>
 
 <item name="toolAndDieSet">
@@ -23,7 +24,7 @@
 	<property name="Stacknumber" value="1"/> <!-- STK loot -->
 	<property name="EconomicValue" value="2000"/>
 	<property name="Group" value="Resources,Tools/Traps"/>
-	<property name="ItemTypeIcon" value="forge"/>
+	<property name="ItemTypeIcon" value="workbench"/>
 </item>
 
 </append>
