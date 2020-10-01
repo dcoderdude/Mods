@@ -1,4 +1,5 @@
 <configs>
+<remove xpath="/recipes/recipe[@name='resourceScrapBrass']"/>
 <remove xpath="/recipes/recipe[@name='resourceCobblestones']"/>
 <remove xpath="/recipes/recipe[@name='resourceConcreteMix']"/>
 <remove xpath="/recipes/recipe[@name='resourceCement']"/>
@@ -35,6 +36,9 @@
 		<ingredient name="resourceCropCottonPlant" count="5"/>
 	</recipe>
 	<!--  forge crafting; add non-craftable items, and reduce crafting times -->
+	<recipe name="resourceScrapBrass" count="10" material_based="true" craft_area="forge" craft_time="1" craft_exp_gain="0" always_unlocked="true" use_ingredient_modifier="false">
+		<ingredient name="unit_iron" count="5"/>
+	</recipe>
 	<recipe name="resourceMechanicalParts" count="1" material_based="true" craft_area="forge">
 		<ingredient name="unit_iron" count="3"/>
 		<ingredient name="unit_brass" count="2"/>
@@ -58,7 +62,7 @@
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
 	<recipe name="resourceBulletCasing" craft_time = "0.5" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering">
-		<ingredient name="unit_brass" count="5"/>
+		<ingredient name="unit_brass" count="3"/>
 		<ingredient name="unit_clay" count="1"/>
 		<effect_group>
 			<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_brass"/>
@@ -86,7 +90,7 @@
 		<ingredient name="drinkJarRiverWater" count="1"/>
 	</recipe>
 	<recipe name="resourceRawDiamond" count="1" craft_area="chemistryStation">
-		<ingredient name="resourceCoal" count="100"/>
+		<ingredient name="resourceCoal" count="1000"/>
 	</recipe>
 	<!-- cement mixer; reduce crafting times and change recipe requirements -->
 	<recipe name="resourceCobblestones" count="1" craft_time = "0.5" craft_area="cementMixer" tags="cementMixerCrafting">
