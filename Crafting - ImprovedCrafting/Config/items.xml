@@ -9,8 +9,8 @@
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Morganic"/>
 	<property name="EconomicValue" value="80"/>
-	<property name="Stacknumber" value="250"/>
-	<property name="Group" value="Science,Resources,Chemicals,CFChemicals,Medical"/>
+	<property name="Stacknumber" value="10"/> <!-- STK loot -->
+	<property name="Group" value="Science,CFChemicals,Medical"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
@@ -19,11 +19,12 @@
 		<requirement name="NotHasBuff" buff="buffDrugPainkillers"/>
 	</property>
 	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="buffInjuryConcussion"/><display_value name="dStopsConcussion" value="1"/>
 		<display_value name="dInstantHealth" value="40"/>
 		<display_value name="dHealthLoss" value=".1"/>
 		<display_value name="$waterAmountAdd" value="-40"/>
 		<display_value name="dStunResist" value="1"/>
-		<display_value name="dDuration" value="183"/>
+		<display_value name="dDuration" value="180"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugPainkillersDuration" operation="add" value="183"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugPainkillersDuration" operation="set" value="543">
 			<requirement name="CVarCompare" cvar="$buffDrugPainkillersDuration" operation="GT" value="543"/></triggered_effect>
