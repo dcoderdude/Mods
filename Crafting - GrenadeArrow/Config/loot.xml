@@ -1,5 +1,5 @@
 <configs>
 <append xpath="//lootgroup[@name='groupAmmoRegularT0']">
-    <item name="ammoArrowGrenade" count="1,5"/>
+    <item name="ammoArrowGrenade" prob="0.25" count="1,5"/>
 </append>
 </configs>
