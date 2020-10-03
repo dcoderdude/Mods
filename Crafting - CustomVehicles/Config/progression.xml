@@ -1,0 +1,9 @@
+<configs>
+<append xpath="/progression/perks/perk[@name='perkGreaseMonkey']">
+	<effect_group>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="3" tags="manux_vehicleMonoHogPlaceable"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,5" value="4" tags="manux_vehicleQuadPlaceable"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,5" value="5" tags="manux_vehicleJetPackPlaceable"/>
+	</effect_group>
+</append>
+</configs>
