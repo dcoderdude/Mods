@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="VisualArmorMods" />
+		<Description value="Adds visual armor mods as attachments to change default armor look" />
+		<Author value="Snufkin" />
+		<Version value="A.19" />
+	</ModInfo>
+</xml>
