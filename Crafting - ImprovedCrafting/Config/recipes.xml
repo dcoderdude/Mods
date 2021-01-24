@@ -35,10 +35,6 @@
 	<recipe name="resourceFeather" count="1">
 		<ingredient name="resourceCropCottonPlant" count="5"/>
 	</recipe>
-	<recipe name="resourceAcid" count="1">
-		<ingredient name="resourcePotassiumNitratePowder" count="5"/>
-		<ingredient name="drinkJarGrainAlcohol" count="1"/>
-	</recipe>
 	<!--  forge crafting; add non-craftable items, and reduce crafting times -->
 	<recipe name="resourceScrapBrass" count="10" material_based="true" craft_area="forge" craft_time="1" craft_exp_gain="0" always_unlocked="true" use_ingredient_modifier="false">
 		<ingredient name="unit_iron" count="5"/>
@@ -91,6 +87,14 @@
 	</recipe>
 	<recipe name="resourceRawDiamond" count="1" craft_area="chemistryStation">
 		<ingredient name="resourceCoal" count="1000"/>
+	</recipe>
+	<recipe name="resourceAcid" count="1" craft_area="chemistryStation">
+		<ingredient name="resourcePotassiumNitratePowder" count="5"/>
+		<ingredient name="drinkJarBoiledWater" count="1"/>
+	</recipe>
+	<recipe name="resourceScrapPolymers" count="1" craft_area="chemistryStation">
+		<ingredient name="resourcePotassiumNitratePowder" count="3"/>
+		<ingredient name="drinkJarBoiledWater" count="1"/>
 	</recipe>
 	<!-- cement mixer; reduce crafting times and change recipe requirements -->
 	<recipe name="resourceCobblestones" count="1" craft_time = "0.5" craft_area="cementMixer" tags="cementMixerCrafting">
