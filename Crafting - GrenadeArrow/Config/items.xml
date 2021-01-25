@@ -9,7 +9,7 @@
 			<property name="CustomIconTint" value="FF2B1C"/>
 		<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Bows/WoodenBow/bodkinArrowPrefab.prefab"/>
 		<property name="IsSticky" value="false"/>
-		<property name="Stacknumber" value="75"/>
+		<property name="Stacknumber" value="1000"/>
 		<property name="FuelValue" value="27"/>
 		<property name="EconomicValue" value="165"/>
 		<property name="EconomicBundleSize" value="1"/>
