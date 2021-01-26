@@ -3,24 +3,22 @@
 <!-- Entities -->
 <block name="SpiderEggsBlockNew">
 	<property name="AllowAllRotations" value="true"/>
-        <property name="CustomIcon" value="" /> 
-        <property name="Material" value="Mwood_regular"/>
-        <property name="IsTerrainDecoration" value="true"/>
-        <property name="Shape" value="ModelEntity"/>
-        <property name="Model" value="#@modfolder:Resources/TelricsSpiders.unity3d?SpiderEggsPrefab"/>
-        
-        <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-        <property name="CreativeMode" value="Player"/>
-        <property name="Stacknumber" value="500"/>
-        <property name="Group" value="Building,Building2"/>
-        <property name="DescriptionKey" value="steelBlockGroupDesc"/>
-        <property name="EconomicValue" value="300"/>
-        <property name="FilterTags" value="fdecor"/>
-        <property name="SortOrder2" value="0050"/>
-        <property name="MaxDamage" value="300"/>
-		<property name="DisplayInfo" value="Name"/>
-		<property name="Place" value="TowardsPlacer"/>
-	
+  <property name="CustomIcon" value="" /> 
+  <property name="Material" value="Mwood_regular"/>
+  <property name="IsTerrainDecoration" value="true"/>
+  <property name="Shape" value="ModelEntity"/>
+  <property name="Model" value="#@modfolder:Resources/TelricsSpiders.unity3d?SpiderEggsPrefab"/>
+  <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+  <property name="CreativeMode" value="Player"/>
+  <property name="Stacknumber" value="500"/>
+  <property name="Group" value="Building,Building2"/>
+  <property name="DescriptionKey" value="steelBlockGroupDesc"/>
+  <property name="EconomicValue" value="300"/>
+  <property name="FilterTags" value="fdecor"/>
+  <property name="SortOrder2" value="0050"/>
+  <property name="MaxDamage" value="300"/>
+  <property name="DisplayInfo" value="Name"/>
+  <property name="Place" value="TowardsPlacer"/>
 	<property name="Class" value="PlantGrowing"/>
 	<property name="PlantGrowing.FertileLevel" value="0"/>
 	<property name="PlantGrowing.Next" value="goreBlockHumanBones"/>
@@ -31,42 +29,32 @@
 
 	<drop event="Destroy" count="0"/>
 	<drop event="Harvest" name="resourceSpiderSilk" count="4,20" tag="allHarvest"/>
+	<drop event="Harvest" name="resourceAnimalFat" count="0,3" tag="allHarvest"/>
 	<drop event="Harvest" name="foodEgg" count="0,3" tag="allHarvest"/>
-	
 </block>
-
 
 <block name="SpiderWebTrap">
-        <property name="Material" value="Mcloth"/>
-		<property name="CustomIcon" value="SpiderWebTrapIcon" />
-        <property name="Shape" value="ModelEntity"/>
-        <property name="Model" value="#@modfolder:Resources/TelricsSpiders.unity3d?SpiderWebTrapPrefab"/>
-        <property name="Collide" value="melee,bullet,arrow,rocket"/>
-        <property name="CreativeMode" value="Player"/>
-        <property name="Stacknumber" value="500"/>
-        <property name="Group" value="Building,Building2"/>
-        <property name="DescriptionKey" value="SpiderWebTrapDesc"/>
-        <property name="EconomicValue" value="300"/>
-        <property name="FilterTags" value="fdecor"/>
-        <property name="SortOrder2" value="0050"/>
-		
-		<property class="RepairItems">
-		<property name="resourceSpiderSilk" value="8"/>
-		</property>
-		
-		<property name="BuffsWhenWalkedOn" value="buffSpiderWebTrap"/>
-        <property name="MaxDamage" value="350"/>
+  <property name="Material" value="Mcloth"/>
+  <property name="CustomIcon" value="SpiderWebTrapIcon" />
+  <property name="Shape" value="ModelEntity"/>
+  <property name="Model" value="#@modfolder:Resources/TelricsSpiders.unity3d?SpiderWebTrapPrefab"/>
+  <property name="Collide" value="melee,bullet,arrow,rocket"/>
+  <property name="CreativeMode" value="Player"/>
+  <property name="Stacknumber" value="500"/>
+  <property name="Group" value="Building,Building2"/>
+  <property name="DescriptionKey" value="SpiderWebTrapDesc"/>
+  <property name="EconomicValue" value="300"/>
+  <property name="FilterTags" value="fdecor"/>
+  <property name="SortOrder2" value="0050"/>
+  <property name="BuffsWhenWalkedOn" value="buffSpiderWebTrap"/>
+  <property name="MaxDamage" value="350"/>
+  
+  <property class="RepairItems">
+    <property name="resourceSpiderSilk" value="8"/>
+  </property>
+  
 	<drop event="Destroy"  count="0"/>
 </block>
-
 <!-- tests -->
 </append>
-
-
-
-
-
-
-
-
 </configs>

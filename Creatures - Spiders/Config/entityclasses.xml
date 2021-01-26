@@ -36,15 +36,15 @@
 	<property name="DeadBodyHitPoints" value="300"/>
 
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="5"/> 
-	<drop event="Harvest" name="resourceSpiderSilk" tag="butcherHarvest" count="0,6"/>
-	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="1"/>
-	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="25"/>
+	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="1,5"/> 
+	<drop event="Harvest" name="resourceSpiderSilk" tag="butcherHarvest" count="1,6"/>
+	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="1,5"/>
+	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,25"/>
 	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
 	
 	<drop event="Harvest" name="vehicleSpiderMountPlaceable" tag="butcherHarvest" count="1" prob=".01" />
 
-<property name="TimeStayAfterDeath" value="150"/>
+  <property name="TimeStayAfterDeath" value="150"/>
 
 	<property name="SizeScale" value=".35"/>
 	<property name="HandItem" value="meleeHandSmallSpider"/>
@@ -62,6 +62,7 @@
 
 	<property name="NavObject" value="animaltracking_bear,clear_sleeper" />
 </entity_class>
+
 <entity_class name="animalQueenSpider" extends="animalBear">
 	<property name="Tags" value="entity,animal,hostile,perkAT03,spider"/>
 	<property name="HasRagdoll" value="false"/>
@@ -97,15 +98,15 @@
 	<property name="DeadBodyHitPoints" value="300"/>
 
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="35"/> 
+	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="1,35"/> 
 	<drop event="Harvest" name="resourceSpiderSilk" tag="butcherHarvest" count="75,120"/>
-	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="1"/>
-	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="25"/>
-	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="1,35"/>
+	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,25"/>
+	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1,5"/>
 	
 	<drop event="Harvest" name="vehicleSpiderMountPlaceable" tag="butcherHarvest" count="1" prob=".5" />
 
-<property name="TimeStayAfterDeath" value="150"/>
+  <property name="TimeStayAfterDeath" value="150"/>
 
 	<property name="SizeScale" value=".95"/>
 	<property name="HandItem" value="meleeHandQueenSpider"/>
@@ -123,6 +124,7 @@
 
 	<property name="NavObject" value="animaltracking_bear,clear_sleeper" />
 </entity_class>
+
 <entity_class name="animalSpiderEggsSpawn" extends="animalBear">
 	<property name="Tags" value="entity,animal,hostile,perkAT03,spider"/>
 	<property name="MapIcon" value="ui_game_symbol_tracking_bear"/>
@@ -147,13 +149,11 @@
 	<property name="DeadBodyHitPoints" value="600"/>
 
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="5"/> 
+	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="1,5"/> 
 	<drop event="Harvest" name="resourceSpiderSilk" tag="butcherHarvest" count="1,2"/>
-	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="1"/>
-	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="25"/>
-	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
-
-
+	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="1,5"/>
+	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,5"/>
+	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1,5"/>
 
 	<property name="SizeScale" value=".25"/>
 	<property name="HandItem" value="meleeHandSmallSpider"/>
@@ -174,6 +174,7 @@
 
 	<property name="NavObject" value="animaltracking_bear,clear_sleeper" />
 </entity_class>
+
 <entity_class name="vehicleSpiderMount">
 	<property name="Tags" value="vehicle"/>
 	<property name="Class" value="EntityVJeep"/>
@@ -194,17 +195,6 @@
 	<property name="MapIcon" value="ui_game_symbol_SpiderMountIcon"/>
 	<property name="NavObject" value="spiderMount" />
 </entity_class>
-
-
-
-
 <!-- tests -->
-
 </append>
-
-
-
-
-
-
 </configs>

@@ -19,11 +19,4 @@
 		<spawn maxcount="4" respawndelay="3" time="Day" entitygroup="TelricsSpiders" />
 		<spawn maxcount="4" respawndelay="1" time="Night" entitygroup="TelricsSpiders" />
 </append>
-
-
-
-
-
-
-
 </configs>
