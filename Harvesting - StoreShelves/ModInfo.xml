@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+	<ModInfo>
+		<Name value="Lootable Trader Store Shelves" />
+		<Description value="Makes shop shelving lootable" />
+		<Author value="Stallionsden" />
+		<Version value="A.19" />
+		</ModInfo>
+</xml>

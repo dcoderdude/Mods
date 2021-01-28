@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<survager>
+	<append xpath="/lootcontainers">
+		<lootcontainer id="200" count="1,2" size="6,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="qualBaseTemplate">
+			<item name="resourceBulletCasing"/>
+			<item name="gunHandgunT1Pistol"/>
+			<item name="resourceCloth" count="2,7" prob=".08"/>
+			<item group="groupApparelPants" prob="1"/>
+			<item name="apparelSuitPants" prob=".1" mods="dye" mod_chance="0"/>
+			<item group="junk"/>
+		</lootcontainer>
+	</append>
+</survager>
