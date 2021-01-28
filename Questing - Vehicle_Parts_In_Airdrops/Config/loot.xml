@@ -1,9 +1,0 @@
-<Configs>
-
-	<!-- This small modlet was requested in forum it adds chances of vehicle parts to the Air-drops will work with other vehicle mods that add parts to the vehiclePartsTiered lootgroup-->
-
-	<append xpath="/lootcontainers/lootcontainer[@id='34']">
-	    <item group="vehiclePartsTiered"/>
-	</append>
-
-</Configs>
