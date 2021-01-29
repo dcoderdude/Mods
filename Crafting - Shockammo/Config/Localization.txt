@@ -1,0 +1,4 @@
+Key,Source,Context,Changes,English
+modGunShocked,item_modifiers,mod,New,Shocking Mod,,,,
+modGunShockedDesc,item_modifiers,mod,New,Electricity is dangerous How dangerous you may ask?,,,,
+modGunShockedSchematic,item_modifiers,Mod,New,Incendiary Rounds Mod Schematic,,,,

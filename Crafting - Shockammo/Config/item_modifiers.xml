@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+	<!--  Incendiary Rounds	-->
+	<append xpath="/item_modifiers">
+		<item_modifier name="modGunShocked" installable_tags="ranged" modifier_tags="fire" blocked_tags="noMods" type="attachment">
+			<property name="UnlockedBy" value="modGunShockedSchematic,perkElectrocutioner"/>
+			<property name="CustomIcon" value="modGunMeleeNiCdBattery"/>
+			<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>		
+			<effect_group name="new Fire Proc" tiered="false">
+				<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".93"/>
+				<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="30"/>
+			<triggered_effect trigger="onProjectileImpact" action="AddBuff" target="other" buff="buffShocked"/>
+			<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffShocked"/>
+			</effect_group>		
+			<effect_group name="always refresh existing Fire Proc" tiered="false">
+				<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".93"/>
+				<requirement name="HasBuff" target="other" buff="buffShocked"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffShocked"/>
+				<!--default duration is 10-->
+			</effect_group>
+			<property name="PickupJournalEntry" value="augmentGunsTip"/>
+		</item_modifier>
+	</append>
+</configs>
