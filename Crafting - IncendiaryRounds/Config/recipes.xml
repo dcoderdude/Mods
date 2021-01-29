@@ -3,10 +3,10 @@
 	<!--  Incendiary Rounds	-->
 	<append xpath="/recipes">
 		<recipe name="modGunIncendiaryRounds" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
-			<ingredient name="resourceForgedSteel" count="5"/>
-			<ingredient name="resourceGlue" count="5"/>
-			<ingredient name="resourceOil" count="5"/>
-			<ingredient name="ammoGasCan" count="50"/>
+			<ingredient name="resourceForgedSteel" count="50"/>
+			<ingredient name="resourceGlue" count="25"/>
+			<ingredient name="resourceOil" count="50"/>
+			<ingredient name="resourceMechanicalParts" count="50"/>
 		</recipe>
 	</append>
 </configs>
