@@ -3,6 +3,7 @@
 <remove xpath="/recipes/recipe[@name='resourceCobblestones']"/>
 <remove xpath="/recipes/recipe[@name='resourceConcreteMix']"/>
 <remove xpath="/recipes/recipe[@name='resourceCement']"/>
+<remove xpath="/recipes/recipe[@name='resourceGlue']"/>
 <remove xpath="/recipes/recipe[@name='bucketEmpty']"/>
 <remove xpath="/recipes/recipe[@name='resourceBulletCasing']"/>
 <remove xpath="/recipes/recipe[@name='resourceBulletTip']"/>
@@ -92,9 +93,11 @@
 		<ingredient name="resourcePotassiumNitratePowder" count="5"/>
 		<ingredient name="drinkJarBoiledWater" count="1"/>
 	</recipe>
+	<recipe name="resourceGlue" count="1" craft_area="chemistryStation">
+		<ingredient name="resourceScrapPolymers" count="3"/>
+	</recipe>
 	<recipe name="resourceScrapPolymers" count="1" craft_area="chemistryStation">
 		<ingredient name="resourcePotassiumNitratePowder" count="3"/>
-		<ingredient name="drinkJarBoiledWater" count="1"/>
 	</recipe>
 	<!-- cement mixer; reduce crafting times and change recipe requirements -->
 	<recipe name="resourceCobblestones" count="1" craft_time = "0.5" craft_area="cementMixer" tags="cementMixerCrafting">
