@@ -1,0 +1,8 @@
+<configs>
+  <append xpath="/lootcontainers/lootcontainer[@id='34']">
+    <item name="HDAeroDynamicsUpgrade" prob="0.1"/>
+    <item name="HDFuelSaverUpgrade" prob="0.1"/>
+    <item name="HDHeadlightsUpgrade" prob="0.1"/>
+    <item name="HDTurboUpgrade" prob="0.1"/>
+  </append>
+</configs>
