@@ -12,7 +12,9 @@
 
 <set xpath="/items/item[starts-with(@name, 'drink')]/property[@name='Stacknumber']/@value">250</set>
 
-<set xpath="/items/item[starts-with(@name, 'ammo')]/property[@name='Stacknumber']/@value">1000</set>
+<set xpath="/items/item[starts-with(@name, 'ammo')]/property[@name='Stacknumber']/@value">2000</set>
+
+<set xpath="/items/item[starts-with(@name, 'thrown')]/property[@name='Stacknumber']/@value">2000</set>
 
 <set xpath="/items/item[starts-with(@name, 'medical')]/property[@name='Stacknumber']/@value">250</set>
 
