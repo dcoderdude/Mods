@@ -1,0 +1,192 @@
+<config>
+	<append xpath="/buffs/buff[@name='buffStatusCheck01']">
+		<effect_group>
+			<requirement name="CVarCompare" cvar="$userID" operation="Equals" value="0"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffGenerateID"/>
+		</effect_group>
+		<effect_group>
+			<requirement name="CVarCompare" cvar="$casinoMoney" operation="GT" value="0"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="BuffCasino"/>
+		</effect_group>
+	</append>
+	<append xpath="/buffs">
+		<buff name="buffGenerateID" hidden="true">
+			<duration value="1"/>
+			<stack_type value="ignore"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="genID_A" operation="set" value="randomint(1,10)"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="genID_B" operation="set" value="randomint(1,10)"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$userID_A" operation="set" value="2"><requirement name="CVarCompare" cvar="genID_A" operation="Equals" value="1"/></triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$userID_A" operation="set" value="4"><requirement name="CVarCompare" cvar="genID_A" operation="Equals" value="2"/></triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$userID_A" operation="set" value="8"><requirement name="CVarCompare" cvar="genID_A" operation="Equals" value="3"/></triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$userID_A" operation="set" value="16"><requirement name="CVarCompare" cvar="genID_A" operation="Equals" value="4"/></triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$userID_A" operation="set" value="32"><requirement name="CVarCompare" cvar="genID_A" operation="Equals" value="5"/></triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$userID_A" operation="set" value="64"><requirement name="CVarCompare" cvar="genID_A" operation="Equals" value="6"/></triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$userID_A" operation="set" value="128"><requirement name="CVarCompare" cvar="genID_A" operation="Equals" value="7"/></triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$userID_A" operation="set" value="256"><requirement name="CVarCompare" cvar="genID_A" operation="Equals" value="8"/></triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$userID_A" operation="set" value="512"><requirement name="CVarCompare" cvar="genID_A" operation="Equals" value="9"/></triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$userID_A" operation="set" value="1024"><requirement name="CVarCompare" cvar="genID_A" operation="Equals" value="10"/></triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$userID_B" operation="set" value="2048"><requirement name="CVarCompare" cvar="genID_B" operation="Equals" value="1"/></triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$userID_B" operation="set" value="4096"><requirement name="CVarCompare" cvar="genID_B" operation="Equals" value="2"/></triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$userID_B" operation="set" value="8192"><requirement name="CVarCompare" cvar="genID_B" operation="Equals" value="3"/></triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$userID_B" operation="set" value="16384"><requirement name="CVarCompare" cvar="genID_B" operation="Equals" value="4"/></triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$userID_B" operation="set" value="32768"><requirement name="CVarCompare" cvar="genID_B" operation="Equals" value="5"/></triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$userID_B" operation="set" value="65536"><requirement name="CVarCompare" cvar="genID_B" operation="Equals" value="6"/></triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$userID_B" operation="set" value="131072"><requirement name="CVarCompare" cvar="genID_B" operation="Equals" value="7"/></triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$userID_B" operation="set" value="262144"><requirement name="CVarCompare" cvar="genID_B" operation="Equals" value="8"/></triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$userID_B" operation="set" value="524288"><requirement name="CVarCompare" cvar="genID_B" operation="Equals" value="9"/></triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$userID_B" operation="set" value="1048576"><requirement name="CVarCompare" cvar="genID_B" operation="Equals" value="10"/></triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$userID" operation="set" value="@$userID_A"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$userID" operation="add" value="@$userID_B"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="$userID_A" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" cvar="$userID_B" operation="add" value="0"/>
+			</effect_group>
+		</buff>
+		<buff name="BuffCasino" icon="ui_game_symbol_coin" icon_color="255,128,0">
+			<display_value value="$casinoMoney"/>
+			<stack_type value="ignore"/>
+			<effect_group>
+				<passive_effect name="HarvestCount" operation="base_set" value="@$casinoMoney" tags="casinoBlockHarvest"/>
+				<triggered_effect trigger="onSelfDestroyedBlock" action="AddBuff" buff="BuffSlotsClear">
+					<requirement name="TriggerHasTags" tags="casinoBlock"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="BuffSlotsClear" hidden="true">
+			<duration value=".01"/>
+			<stack_type value="ignore"/>
+			<effect_group>
+				<passive_effect name="PlayerExpGain" operation="perc_set" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$casinoMoney" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="RemoveBuff" buff="BuffCasino"/>
+			</effect_group>
+		</buff>
+		<buff name="SlotsAnimate" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="false" transform_path="FakeSlots"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="false" transform_path="AllSlots"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="false" transform_path="Arm"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="true" transform_path="ArmPull"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="true" transform_path="AllSlot_1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="true" transform_path="AllSlot_2"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="true" transform_path="AllSlot_3"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="true" transform_path="AllSlots"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformChildrenActive" active="false" transform_path="Slot_1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformChildrenActive" active="false" transform_path="Slot_2"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformChildrenActive" active="false" transform_path="Slot_3"/>
+			</effect_group>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="false" transform_path="AllSlot_1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="false" transform_path="AllSlot_2"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="false" transform_path="AllSlot_3"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="false" transform_path="AllSlots"/>
+			</effect_group>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="true" transform_path="Slot_1_1"><requirement name="CVarCompare" cvar="slotMachineSlot1" operation="Equals" value="1"/></triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="true" transform_path="Slot_1_2"><requirement name="CVarCompare" cvar="slotMachineSlot1" operation="Equals" value="2"/></triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="true" transform_path="Slot_1_3"><requirement name="CVarCompare" cvar="slotMachineSlot1" operation="Equals" value="3"/></triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="true" transform_path="Slot_1_4"><requirement name="CVarCompare" cvar="slotMachineSlot1" operation="Equals" value="4"/></triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="true" transform_path="Slot_1_5"><requirement name="CVarCompare" cvar="slotMachineSlot1" operation="Equals" value="5"/></triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="true" transform_path="Slot_1_6"><requirement name="CVarCompare" cvar="slotMachineSlot1" operation="Equals" value="6"/></triggered_effect>
+			</effect_group>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="true" transform_path="Slot_2_1"><requirement name="CVarCompare" cvar="slotMachineSlot2" operation="Equals" value="1"/></triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="true" transform_path="Slot_2_2"><requirement name="CVarCompare" cvar="slotMachineSlot2" operation="Equals" value="2"/></triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="true" transform_path="Slot_2_3"><requirement name="CVarCompare" cvar="slotMachineSlot2" operation="Equals" value="3"/></triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="true" transform_path="Slot_2_4"><requirement name="CVarCompare" cvar="slotMachineSlot2" operation="Equals" value="4"/></triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="true" transform_path="Slot_2_5"><requirement name="CVarCompare" cvar="slotMachineSlot2" operation="Equals" value="5"/></triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="true" transform_path="Slot_2_6"><requirement name="CVarCompare" cvar="slotMachineSlot2" operation="Equals" value="6"/></triggered_effect>
+			</effect_group>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="true" transform_path="Slot_3_1"><requirement name="CVarCompare" cvar="slotMachineSlot3" operation="Equals" value="1"/></triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="true" transform_path="Slot_3_2"><requirement name="CVarCompare" cvar="slotMachineSlot3" operation="Equals" value="2"/></triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="true" transform_path="Slot_3_3"><requirement name="CVarCompare" cvar="slotMachineSlot3" operation="Equals" value="3"/></triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="true" transform_path="Slot_3_4"><requirement name="CVarCompare" cvar="slotMachineSlot3" operation="Equals" value="4"/></triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="true" transform_path="Slot_3_5"><requirement name="CVarCompare" cvar="slotMachineSlot3" operation="Equals" value="5"/></triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="true" transform_path="Slot_3_6"><requirement name="CVarCompare" cvar="slotMachineSlot3" operation="Equals" value="6"/></triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" buff="SlotsCooldown"/>
+			</effect_group>
+		</buff>
+		<buff name="SlotsCooldown" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value=".9"/>
+			<effect_group>
+				<requirement name="CVarCompare" cvar="multiplier" operation="Equals" value="10"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" target="selfAOE" range="10" cvar="$casinoMoney" operation="add" value="100">
+					<requirement name="CVarCompare" target="other" cvar="$userID" operation="Equals" value="@$playerID"/>
+					<requirement name="CVarCompare" cvar="slotMachineCombo" operation="Equals" value="1"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" target="selfAOE" range="10" cvar="$casinoMoney" operation="add" value="40">
+					<requirement name="CVarCompare" target="other" cvar="$userID" operation="Equals" value="@$playerID"/>
+					<requirement name="CVarCompare" cvar="slotMachineCombo" operation="Equals" value="2"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" target="selfAOE" range="10" cvar="$casinoMoney" operation="add" value="20">
+					<requirement name="CVarCompare" target="other" cvar="$userID" operation="Equals" value="@$playerID"/>
+					<requirement name="CVarCompare" cvar="slotMachineCombo" operation="Equals" value="3"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" target="selfAOE" range="10" cvar="$casinoMoney" operation="add" value="10">
+					<requirement name="CVarCompare" target="other" cvar="$userID" operation="Equals" value="@$playerID"/>
+					<requirement name="CVarCompare" cvar="slotMachineCombo" operation="Equals" value="4"/>
+				</triggered_effect>
+			</effect_group>
+			<effect_group>
+				<requirement name="CVarCompare" cvar="multiplier" operation="Equals" value="100"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" target="selfAOE" range="10" cvar="$casinoMoney" operation="add" value="1000">
+					<requirement name="CVarCompare" target="other" cvar="$userID" operation="Equals" value="@$playerID"/>
+					<requirement name="CVarCompare" cvar="slotMachineCombo" operation="Equals" value="1"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" target="selfAOE" range="10" cvar="$casinoMoney" operation="add" value="400">
+					<requirement name="CVarCompare" target="other" cvar="$userID" operation="Equals" value="@$playerID"/>
+					<requirement name="CVarCompare" cvar="slotMachineCombo" operation="Equals" value="2"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" target="selfAOE" range="10" cvar="$casinoMoney" operation="add" value="200">
+					<requirement name="CVarCompare" target="other" cvar="$userID" operation="Equals" value="@$playerID"/>
+					<requirement name="CVarCompare" cvar="slotMachineCombo" operation="Equals" value="3"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" target="selfAOE" range="10" cvar="$casinoMoney" operation="add" value="100">
+					<requirement name="CVarCompare" target="other" cvar="$userID" operation="Equals" value="@$playerID"/>
+					<requirement name="CVarCompare" cvar="slotMachineCombo" operation="Equals" value="4"/>
+				</triggered_effect>
+			</effect_group>
+			<effect_group>
+				<requirement name="CVarCompare" cvar="multiplier" operation="Equals" value="1000"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" target="selfAOE" range="10" cvar="$casinoMoney" operation="add" value="10000">
+					<requirement name="CVarCompare" target="other" cvar="$userID" operation="Equals" value="@$playerID"/>
+					<requirement name="CVarCompare" cvar="slotMachineCombo" operation="Equals" value="1"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" target="selfAOE" range="10" cvar="$casinoMoney" operation="add" value="4000">
+					<requirement name="CVarCompare" target="other" cvar="$userID" operation="Equals" value="@$playerID"/>
+					<requirement name="CVarCompare" cvar="slotMachineCombo" operation="Equals" value="2"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" target="selfAOE" range="10" cvar="$casinoMoney" operation="add" value="2000">
+					<requirement name="CVarCompare" target="other" cvar="$userID" operation="Equals" value="@$playerID"/>
+					<requirement name="CVarCompare" cvar="slotMachineCombo" operation="Equals" value="3"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" target="selfAOE" range="10" cvar="$casinoMoney" operation="add" value="1000">
+					<requirement name="CVarCompare" target="other" cvar="$userID" operation="Equals" value="@$playerID"/>
+					<requirement name="CVarCompare" cvar="slotMachineCombo" operation="Equals" value="4"/>
+				</triggered_effect>
+			</effect_group>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetTransformActive" active="true" transform_path="Arm"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="SetTransformActive" active="false" transform_path="ArmPull"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" target="selfAOE" range="10" buff="SlotsPlayerCooldownRemove">
+					<requirement name="CVarCompare" target="other" cvar="$userID" operation="Equals" value="@$playerID"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="SlotsPlayerCooldown" hidden="true">
+			<stack_type value="replace"/>
+			<duration value="30"/>
+		</buff>
+		<buff name="SlotsPlayerCooldownRemove" hidden="true">
+			<stack_type value="replace"/>
+			<duration value=".5"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffFinish" action="RemoveBuff" buff="SlotsPlayerCooldown"/>
+			</effect_group>
+		</buff>
+	</append>
+</config>

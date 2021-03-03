@@ -1,0 +1,6 @@
+<configs>
+	<append xpath="/vehicles">
+		<vehicle name="slotMachine">
+		</vehicle>
+	</append>
+</configs>

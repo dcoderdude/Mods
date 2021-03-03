@@ -1,0 +1,21 @@
+<configs>
+	<append xpath="/entity_classes">
+		<entity_class name="slotMachine">
+			<property name="SizeScale" value="1.15"/>
+			<property name="Tags" value="vehicle,slots"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/slotmachine.unity3d?SlotMachine2"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="LootListAlive" value="139"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="0"/>
+			<property name="Explosion.RadiusBlocks" value="1"/>
+			<property name="Explosion.RadiusEntities" value="1"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="ui_game_symbol_noise"/>
+		</entity_class>
+	</append>
+</configs>
