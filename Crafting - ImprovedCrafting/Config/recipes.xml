@@ -99,6 +99,9 @@
 	<recipe name="resourceScrapPolymers" count="1" craft_area="chemistryStation">
 		<ingredient name="resourcePotassiumNitratePowder" count="3"/>
 	</recipe>
+	<recipe name="ammoGasCan" count="1000" craft_area="chemistryStation">
+		<ingredient name="foodCropGraceCorn" count="1"/>
+	</recipe>
 	<!-- cement mixer; reduce crafting times and change recipe requirements -->
 	<recipe name="resourceCobblestones" count="1" craft_time = "0.5" craft_area="cementMixer" tags="cementMixerCrafting">
 		<ingredient name="resourceClayLump" count="1"/>
