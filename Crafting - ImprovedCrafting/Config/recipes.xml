@@ -36,8 +36,9 @@
 	<recipe name="resourceFeather" count="1">
 		<ingredient name="resourceCropCottonPlant" count="5"/>
 	</recipe>
+  
 	<!--  forge crafting; add non-craftable items, and reduce crafting times -->
-	<recipe name="resourceScrapBrass" count="10" material_based="true" craft_area="forge" craft_time="1" craft_exp_gain="0" always_unlocked="true" use_ingredient_modifier="false">
+	<recipe name="resourceScrapBrass" count="10" material_based="true" craft_area="forge">
 		<ingredient name="unit_iron" count="5"/>
 	</recipe>
 	<recipe name="resourceMechanicalParts" count="1" material_based="true" craft_area="forge">
@@ -76,6 +77,7 @@
 			<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_lead"/>
 		</effect_group>
 	</recipe>
+  
 	<!-- chemistry station; add non-craftable items -->
 	<recipe name="drugPainkillers" count="1" craft_area="chemistryStation">
 		<ingredient name="resourceCropChrysanthemumPlant" count="1"/>
@@ -102,6 +104,7 @@
 	<recipe name="ammoGasCan" count="1000" craft_area="chemistryStation">
 		<ingredient name="foodCropGraceCorn" count="1"/>
 	</recipe>
+  
 	<!-- cement mixer; reduce crafting times and change recipe requirements -->
 	<recipe name="resourceCobblestones" count="1" craft_time = "0.5" craft_area="cementMixer" tags="cementMixerCrafting">
 		<ingredient name="resourceClayLump" count="1"/>
@@ -118,19 +121,18 @@
 			<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="resourceRockSmall,bucketRiverWater"/>
 		</effect_group>
 	</recipe>
+  
 	<!-- workbench; add non-craftable items and reduce crafting times -->
-	<recipe name="solarCell" count="1" craft_area="workbench">
-		 <ingredient name="glassBlockVariantHelper" count="10"/>
+	<recipe name="solarCell" count="1" craft_area="workbench" tags="perkAdvancedEngineering">
+		 <ingredient name="glassBlockVariantHelper" count="5"/>
 		 <ingredient name="resourceRawDiamond" count="1"/>
 		 <ingredient name="resourceElectricParts" count="4"/>
-		 <effect_group>
-			 <passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value="1,5" tags="glassBlockVariantHelper,resourceRawDiamond,resourceElectronicParts,resourceMechanicalParts"/>
-		 </effect_group>
 	</recipe>
 	<recipe name="solarbank" count="1" craft_area="workbench" tags="workbenchCrafting">
-		 <ingredient name="glassBlockVariantHelper" count="13"/>
+		 <ingredient name="glassBlockVariantHelper" count="10"/>
 		 <ingredient name="resourceForgedSteel" count="5"/>
 		 <ingredient name="resourceElectricParts" count="3"/>
+     <ingredient name="resourceMechanicalParts" count="3"/>
 	</recipe>
 	<recipe name="ammo9mmBulletBall" count="1" craft_time="0.5" craft_area="workbench" tags="workbenchCrafting">
 		<ingredient name="resourceBulletTip" count="1"/>
@@ -254,73 +256,73 @@
 		<ingredient name="resourceGunPowder" count="320"/>
 		<ingredient name="resourceScrapPolymers" count="80"/>
 	</recipe>
-  		<recipe name="gunBowT1WoodenBowParts" count="1" craft_area="workbenchCrafting" tags="workbenchCrafting">
-			<ingredient name="resourceWood" count="1"/>
-			<ingredient name="resourceMechanicalParts" count="1"/>
-		</recipe>
-		<recipe name="gunHandgunT1PistolParts" count="1" craft_area="workbenchCrafting" tags="workbenchCrafting" > 
-			<ingredient name="resourceForgedIron" count="1"/>
-			<ingredient name="resourceMechanicalParts" count="1"/>
-		</recipe>
-		<recipe name="gunShotgunT1DoubleBarrelParts" count="1" craft_area="workbenchCrafting" tags="workbenchCrafting"  > 
-			<ingredient name="resourceForgedIron" count="1"/>
-			<ingredient name="resourceMechanicalParts" count="1"/>
-		</recipe>
-		<recipe name="gunRifleT1HuntingRifleParts" count="1" craft_area="workbenchCrafting" tags="workbenchCrafting" > 
-			<ingredient name="resourceForgedIron" count="1"/>
-			<ingredient name="resourceMechanicalParts" count="1"/>
-		</recipe>
-		<recipe name="gunMGT1AK47Parts" count="1" craft_area="workbenchCrafting" tags="workbenchCrafting" > 
-			<ingredient name="resourceForgedIron" count="1"/>
-			<ingredient name="resourceMechanicalParts" count="1"/>
-		</recipe>
-		<recipe name="gunExplosivesT3RocketLauncherParts" count="1" craft_area="workbenchCrafting" tags="workbenchCrafting" > 
-			<ingredient name="resourceForgedIron" count="1"/>
-			<ingredient name="resourceMechanicalParts" count="1"/>
-		</recipe>
-		<recipe name="gunBotRoboticsParts" count="1" craft_area="workbenchCrafting" tags="workbenchCrafting" > 
-			<ingredient name="resourceForgedIron" count="1"/>
-			<ingredient name="resourceElectricParts" count="1"/>
-		</recipe>
-		<recipe name="meleeWpnBatonT2StunBatonParts" count="1" craft_area="workbenchCrafting" tags="workbenchCrafting"> 
-			<ingredient name="resourceForgedIron" count="1"/>
-			<ingredient name="resourceElectricParts" count="1"/>
-		</recipe>
-		<recipe name="meleeWpnKnucklesT3SteelKnucklesParts" count="1" craft_area="workbenchCrafting" tags="workbenchCrafting"> 
-			<ingredient name="resourceForgedSteel" count="1"/>
-			<ingredient name="resourceMechanicalParts" count="1"/>
-		</recipe>
-		<recipe name="meleeToolAxeT3ChainsawParts" count="1" craft_area="workbenchCrafting" tags="workbenchCrafting"> 
-			<ingredient name="resourceForgedIron" count="1"/>
-			<ingredient name="resourceMechanicalParts" count="1"/>
-		</recipe>
-		<recipe name="meleeWpnBladeT3MacheteParts" count="1" craft_area="workbenchCrafting" tags="workbenchCrafting"> 
-			<ingredient name="resourceForgedIron" count="1"/>
-			<ingredient name="resourceMechanicalParts" count="1"/>
-		</recipe>
-		<recipe name="meleeWpnSpearT3SteelSpearParts" count="1" craft_area="workbenchCrafting" tags="workbenchCrafting"> 
-			<ingredient name="resourceForgedSteel" count="1"/>
-			<ingredient name="resourceMechanicalParts" count="1"/>
-		</recipe>
-		<recipe name="meleeWpnClubT3SteelClubParts" count="1" craft_area="workbenchCrafting" tags="workbenchCrafting"> 
-			<ingredient name="resourceForgedSteel" count="1"/>
-			<ingredient name="resourceMechanicalParts" count="1"/>
-		</recipe>
-		<recipe name="meleeWpnSledgeT3SteelSledgehammerParts" count="1" craft_area="workbenchCrafting" tags="workbenchCrafting"> 
-			<ingredient name="resourceForgedSteel" count="1"/>
-			<ingredient name="resourceMechanicalParts" count="1"/>
-		</recipe>
-		<recipe name="meleeToolAllSteelParts" count="1" craft_area="workbenchCrafting" tags="workbenchCrafting"> 
-			<ingredient name="resourceForgedSteel" count="1"/>
-			<ingredient name="resourceMechanicalParts" count="1"/>
-		</recipe>
-		<recipe name="armorMilitarySetParts" count="1" craft_area="workbenchCrafting" tags="workbenchCrafting"> 
-			<ingredient name="resourceForgedIron" count="1"/>
-			<ingredient name="resourceMechanicalParts" count="1"/>
-		</recipe>
-		<recipe name="armorSteelSetParts" count="1" craft_area="workbenchCrafting" tags="workbenchCrafting"> 
-			<ingredient name="resourceForgedSteel" count="1"/>
-			<ingredient name="resourceMechanicalParts" count="1"/>
-		</recipe>
+  <recipe name="gunBowT1WoodenBowParts" count="1" craft_area="workbenchCrafting" tags="workbenchCrafting">
+    <ingredient name="resourceWood" count="1"/>
+    <ingredient name="resourceMechanicalParts" count="1"/>
+  </recipe>
+  <recipe name="gunHandgunT1PistolParts" count="1" craft_area="workbenchCrafting" tags="workbenchCrafting" > 
+    <ingredient name="resourceForgedIron" count="1"/>
+    <ingredient name="resourceMechanicalParts" count="1"/>
+  </recipe>
+  <recipe name="gunShotgunT1DoubleBarrelParts" count="1" craft_area="workbenchCrafting" tags="workbenchCrafting"  > 
+    <ingredient name="resourceForgedIron" count="1"/>
+    <ingredient name="resourceMechanicalParts" count="1"/>
+  </recipe>
+  <recipe name="gunRifleT1HuntingRifleParts" count="1" craft_area="workbenchCrafting" tags="workbenchCrafting" > 
+    <ingredient name="resourceForgedIron" count="1"/>
+    <ingredient name="resourceMechanicalParts" count="1"/>
+  </recipe>
+  <recipe name="gunMGT1AK47Parts" count="1" craft_area="workbenchCrafting" tags="workbenchCrafting" > 
+    <ingredient name="resourceForgedIron" count="1"/>
+    <ingredient name="resourceMechanicalParts" count="1"/>
+  </recipe>
+  <recipe name="gunExplosivesT3RocketLauncherParts" count="1" craft_area="workbenchCrafting" tags="workbenchCrafting" > 
+    <ingredient name="resourceForgedIron" count="1"/>
+    <ingredient name="resourceMechanicalParts" count="1"/>
+  </recipe>
+  <recipe name="gunBotRoboticsParts" count="1" craft_area="workbenchCrafting" tags="workbenchCrafting" > 
+    <ingredient name="resourceForgedIron" count="1"/>
+    <ingredient name="resourceElectricParts" count="1"/>
+  </recipe>
+  <recipe name="meleeWpnBatonT2StunBatonParts" count="1" craft_area="workbenchCrafting" tags="workbenchCrafting"> 
+    <ingredient name="resourceForgedIron" count="1"/>
+    <ingredient name="resourceElectricParts" count="1"/>
+  </recipe>
+  <recipe name="meleeWpnKnucklesT3SteelKnucklesParts" count="1" craft_area="workbenchCrafting" tags="workbenchCrafting"> 
+    <ingredient name="resourceForgedSteel" count="1"/>
+    <ingredient name="resourceMechanicalParts" count="1"/>
+  </recipe>
+  <recipe name="meleeToolAxeT3ChainsawParts" count="1" craft_area="workbenchCrafting" tags="workbenchCrafting"> 
+    <ingredient name="resourceForgedIron" count="1"/>
+    <ingredient name="resourceMechanicalParts" count="1"/>
+  </recipe>
+  <recipe name="meleeWpnBladeT3MacheteParts" count="1" craft_area="workbenchCrafting" tags="workbenchCrafting"> 
+    <ingredient name="resourceForgedIron" count="1"/>
+    <ingredient name="resourceMechanicalParts" count="1"/>
+  </recipe>
+  <recipe name="meleeWpnSpearT3SteelSpearParts" count="1" craft_area="workbenchCrafting" tags="workbenchCrafting"> 
+    <ingredient name="resourceForgedSteel" count="1"/>
+    <ingredient name="resourceMechanicalParts" count="1"/>
+  </recipe>
+  <recipe name="meleeWpnClubT3SteelClubParts" count="1" craft_area="workbenchCrafting" tags="workbenchCrafting"> 
+    <ingredient name="resourceForgedSteel" count="1"/>
+    <ingredient name="resourceMechanicalParts" count="1"/>
+  </recipe>
+  <recipe name="meleeWpnSledgeT3SteelSledgehammerParts" count="1" craft_area="workbenchCrafting" tags="workbenchCrafting"> 
+    <ingredient name="resourceForgedSteel" count="1"/>
+    <ingredient name="resourceMechanicalParts" count="1"/>
+  </recipe>
+  <recipe name="meleeToolAllSteelParts" count="1" craft_area="workbenchCrafting" tags="workbenchCrafting"> 
+    <ingredient name="resourceForgedSteel" count="1"/>
+    <ingredient name="resourceMechanicalParts" count="1"/>
+  </recipe>
+  <recipe name="armorMilitarySetParts" count="1" craft_area="workbenchCrafting" tags="workbenchCrafting"> 
+    <ingredient name="resourceForgedIron" count="1"/>
+    <ingredient name="resourceMechanicalParts" count="1"/>
+  </recipe>
+  <recipe name="armorSteelSetParts" count="1" craft_area="workbenchCrafting" tags="workbenchCrafting"> 
+    <ingredient name="resourceForgedSteel" count="1"/>
+    <ingredient name="resourceMechanicalParts" count="1"/>
+  </recipe>
 </append>
 </configs>

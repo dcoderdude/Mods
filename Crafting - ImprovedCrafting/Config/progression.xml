@@ -47,6 +47,7 @@
 
 <append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']">
 	<effect_group>
+    <passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,6" value="1" tags="solarCell"/>
 		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="toolBellows"/>
 		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="toolAnvil"/>
 	</effect_group>
