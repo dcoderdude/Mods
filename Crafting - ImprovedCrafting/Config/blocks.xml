@@ -22,6 +22,7 @@
     <property name="SlotItem" value="solarCell"/>
     <property name="MaxPower" value="180"/>
     <property name="Group" value="Science"/>
+    <property name="UnlockedBy" value="perkAdvancedEngineering"/>
     <property name="ActivationDistance" value="6"/>
     <property class="RepairItems">
       <property name="resourceForgedIron" value="5"/>

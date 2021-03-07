@@ -97,6 +97,7 @@
 	</recipe>
 	<recipe name="resourceGlue" count="1" craft_area="chemistryStation">
 		<ingredient name="resourceScrapPolymers" count="3"/>
+    <ingredient name="drinkJarRiverWater" count="1"/>
 	</recipe>
 	<recipe name="resourceScrapPolymers" count="1" craft_area="chemistryStation">
 		<ingredient name="resourcePotassiumNitratePowder" count="3"/>
@@ -123,7 +124,7 @@
 	</recipe>
   
 	<!-- workbench; add non-craftable items and reduce crafting times -->
-	<recipe name="solarCell" count="1" craft_area="workbench" tags="perkAdvancedEngineering">
+	<recipe name="solarCell" count="1" craft_area="workbench" tags="learnable,perkAdvancedEngineering">
 		 <ingredient name="glassBlockVariantHelper" count="5"/>
 		 <ingredient name="resourceRawDiamond" count="1"/>
 		 <ingredient name="resourceElectricParts" count="4"/>
