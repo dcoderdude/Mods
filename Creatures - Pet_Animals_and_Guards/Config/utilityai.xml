@@ -1,8 +1,8 @@
 <configs>
 
- <insertBefore xpath="/utility_ai/ai_packages/ai_package[@name='Zombie_Dumb']" >
+<insertBefore xpath="/utility_ai/ai_packages/ai_package[@name='Zombie_Dumb']" >
 
-               <!-- mode XML Nodes -->
+<!-- mode XML Nodes -->
 <ai_package name="Oaks Basic"> <!-- Basic AI -->
 			<action name="MoveToWaypoint" weight="1">
 				<task class="MoveToTarget" run="false"/>

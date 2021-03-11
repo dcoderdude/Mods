@@ -26,59 +26,7 @@
 
 			<reward type="Item" id="PetChicken" value="1"/>			
 		</quest>
-		
-		<!--quest id="GuardZeus">
-			<property name="name_key" value="GuardZeus"/>
-			<property name="subtitle_key" value="Get_Guard"/>
-			<property name="description_key" value="Guard"/>
-			<property name="icon" value="ui_game_symbol_zombie"/>
-			<property name="category_key" value="quest"/>
-			<property name="repeatable" value="true"/>
-			<property name="difficulty" value="easy"/>
-			<property name="offer_key" value="GuardZeus"/>
 
-			<reward type="Item" id="GuardZeus" value="1"/>			
-		</quest>
-		
-		<quest id="GuardPsyren">
-			<property name="name_key" value="GuardPsyren"/>
-			<property name="subtitle_key" value="Get_Guard"/>
-			<property name="description_key" value="Guard"/>
-			<property name="icon" value="ui_game_symbol_zombie"/>
-			<property name="category_key" value="quest"/>
-			<property name="repeatable" value="true"/>
-			<property name="difficulty" value="easy"/>
-			<property name="offer_key" value="GuardPsyren"/>
-
-			<reward type="Item" id="GuardPsyren" value="1"/>			
-		</quest>
-		
-		<quest id="GuardLizzy">
-			<property name="name_key" value="GuardLizzy"/>
-			<property name="subtitle_key" value="Get_Guard"/>
-			<property name="description_key" value="Guard"/>
-			<property name="icon" value="ui_game_symbol_zombie"/>
-			<property name="category_key" value="quest"/>
-			<property name="repeatable" value="true"/>
-			<property name="difficulty" value="easy"/>
-			<property name="offer_key" value="GuardLizzy"/>
-
-			<reward type="Item" id="GuardLizzy" value="1"/>			
-		</quest>
-		
-		<quest id="GuardSimAlastair">
-			<property name="name_key" value="GuardSimAlastair"/>
-			<property name="subtitle_key" value="Get_Guard"/>
-			<property name="description_key" value="Guard"/>
-			<property name="icon" value="ui_game_symbol_zombie"/>
-			<property name="category_key" value="quest"/>
-			<property name="repeatable" value="true"/>
-			<property name="difficulty" value="easy"/>
-			<property name="offer_key" value="GuardSimAlastair"/>
-
-			<reward type="Item" id="GuardSimAlastair" value="1"/>			
-		</quest-->
-		
 		<quest id="GuardRabbit">
 			<property name="name_key" value="GuardRabbit"/>
 			<property name="subtitle_key" value="Get_Guard"/>

@@ -1,16 +1,5 @@
 <configs>
-	
 	<append xpath="/buffs">	
-
-		<!--buff name="GuardsimDeco" hidden="true">
-			<effect_group>
-			<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#Other/Items?Weapons/Melee/TaserBaton/TaserBatonPrefab.prefab" local_offset="-.1,-.05,-.05" local_rotation="0,0,0" parent_transform="RightHand"/>
-			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_electric_shock_small" local_offset="-.1,-.05,-.05" local_rotation="0,0,0" parent_transform="RightHand"/>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#Other/Items?Weapons/Melee/TaserBaton/TaserBatonPrefab.prefab" local_offset="-.1,0,0" local_rotation="180,0,0" parent_transform="LeftHand"/>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_electric_shock_small" local_offset="-.1,0,0" local_rotation="180,0,0" parent_transform="LeftHand"/>
-			</effect_group>
-		</buff-->
-		
 		<buff name="GuardlionDeco" hidden="true">
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/cowSkullPrefab" local_offset="0,0.1,0.1" local_rotation="30,0,0" parent_transform="Head"/>
@@ -54,18 +43,10 @@
 			</effect_group>
 		</buff>
 		
-		<!--buff name="GuardPsyrenDeco" hidden="true">
-			<effect_group>
-			<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#Other/Items?Weapons/Melee/Axe/steelAxePrefab.prefab" local_offset="-.1,-.05,-.05" local_rotation="0,0,0" parent_transform="RightHand"/>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#Other/Items?Weapons/Melee/Axe/steelAxePrefab.prefab" local_offset="-.1,0,0" local_rotation="180,0,0" parent_transform="LeftHand"/>
-			</effect_group>
-		</buff-->
-		
 		<buff name="GuardDogDeco" hidden="true">
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffUpdate" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/cowSkullPrefab" local_offset="0,0.3,0.2" local_rotation="30,0,0" parent_transform="Head"/>
 			</effect_group>
-		</buff>		
-		
+		</buff>
 	</append>
 </configs>

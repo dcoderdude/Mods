@@ -1,8 +1,5 @@
 <config>
 	<append xpath="/archetypes">
-	
-	
-		
 		<archetype name="GuardJack" male="true" hair_color="255,105,180" eye_color="99,62,14" skin_color="139,193,228" type="Player" stance="Like" voice_set="trader">
 			<base_mesh_parts>
 				<part slot="head" layer="base" mesh="male_base_face">
@@ -1436,6 +1433,5 @@
 			<gene name="breastSize" value="0"/>
 		</dna>
 	</archetype>	
-	
 	</append>
 </config>
