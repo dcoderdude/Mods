@@ -17,7 +17,7 @@
 	<property name="EconomicValue" value="400"/>
 	<property name="SoundJammed" value="ItemNeedsRepair"/>
 	<property name="SoundDestroy" value="wooddestroy1"/>
-	<property name="UnlockedBy" value="perkSalvageOperations,meleeToolIronSetSchematic"/>
+	<property name="UnlockedBy" value="perkMiner69r,meleeToolIronSetSchematic"/>
 	<property name="ShowQuality" value="true"/>
 	<property class="Action0">
 		<property name="Class" value="DynamicMelee"/>
@@ -78,7 +78,7 @@
 	<property name="DescriptionKey" value="WrenchHammerDesc"/>
 	<property name="Group" value="Tools/Traps"/>
 	<property name="CustomIconTint" value="9f59de"/>
-	<property name="Tags" value="blunt,melee,hammer,light,tool,perkStayDown,perkSalvageOperations"/>
+	<property name="Tags" value="blunt,melee,hammer,light,tool,perkStayDown,perkMiner69r"/>
 	<property name="DisplayType" value="meleeRepairTool"/>
 	<property name="HoldType" value="29"/>
 	<property name="Meshfile" value="#Other/Items?Tools/wrenchPrefab.prefab"/>
@@ -88,7 +88,7 @@
 	<property name="EconomicValue" value="400"/>
 	<property name="SoundJammed" value="ItemNeedsRepair"/>
 	<property name="SoundDestroy" value="metaldestroy1"/>
-	<property name="UnlockedBy" value="perkSalvageOperations,meleeToolIronSetSchematic"/>
+	<property name="UnlockedBy" value="perkMiner69r,meleeToolIronSetSchematic"/>
 	<property name="ShowQuality" value="true"/>
 	<property class="Action0">
 		<property name="Class" value="DynamicMelee"/>
@@ -144,7 +144,7 @@
 	<property name="EconomicValue" value="600"/>
 	<property name="SoundJammed" value="ItemNeedsRepair"/>
 	<property name="SoundDestroy" value="wooddestroy1"/>
-	<property name="UnlockedBy" value="perkSalvageOperations,meleeToolIronSetSchematic"/>
+	<property name="UnlockedBy" value="perkMiner69r,meleeToolIronSetSchematic"/>
 	<property name="ShowQuality" value="true"/>
 	<property name="Weight" value="200"/>
 	<property name="ActionSkillGroup" value="Blade Weapons"/>
