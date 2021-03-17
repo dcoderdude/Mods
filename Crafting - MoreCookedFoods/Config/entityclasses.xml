@@ -1,0 +1,19 @@
+<MoreCookedFoods>
+
+<!-- I hate to do it this way, but have to since it's the way the game works. I suppose I could make a Doe block that acts as a crafting bench where you can make Milk,
+     but that wouldn't look right, would it? Maybe have to mod a Cow in. -->
+
+	<append xpath="/entity_classes/entity_class[contains(@name, 'animalDoe')]">
+    <drop event="Harvest" name="foodMilk" tag="allToolsHarvest" count="1"/>
+	</append>
+
+	<append xpath="/entity_classes/entity_class[contains(@name, 'animalBoar')]">
+    <drop event="Harvest" name="foodRawBacon" tag="allToolsHarvest" count="6"/>
+    <drop event="Harvest" name="foodRawRibs" tag="allToolsHarvest" count="1"/>
+	</append>
+
+	<append xpath="/entity_classes/entity_class[contains(@name, 'animalChicken')]">
+    <drop event="Harvest" name="foodRawChicken" tag="allToolsHarvest" count="1"/>
+	</append>
+	
+</MoreCookedFoods>

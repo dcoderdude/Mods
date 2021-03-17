@@ -1,0 +1,53 @@
+<!-- Zombies -->
+
+	<append xpath="/lootcontainers/lootcontainer[@id='70']">
+	<item name="foodChickenNuggets" count="1,2"/>
+	<item name="foodScrambledEggs" count="1,2"/>
+	<item name="foodSlicesOfBacon" count="1,2"/>
+	<item name="foodLettuce" count="1,2"/>
+	<item name="foodCarrot" count="1,2"/>
+	<item name="foodGrits" count="1,2"/>
+	<item name="foodBratwurst" count="1,4"/>
+	<item name="foodHamburger" count="1,2"/>
+	<item name="foodRotisserieChicken" count="1,2"/>
+	<item name="foodTaterTots" count="5,8"/>
+	<item name="foodBroccoli" count="1,2"/>
+	<item name="foodMashedPotatos" count="1,2"/>
+	<item name="foodBhamSandwich" count="1,2"/>
+	<item name="foodMooseTard" count="1,2"/>
+	<item name="foodCheeseWonton" count="1,2"/>
+	<item name="foodHotSourSoup" count="1,2"/>
+	<item name="foodWontonSoup" count="1,2"/>
+	<item name="foodSpringRoll" count="1,2"/>
+	<item name="foodFrenchFries" count="1,2"/>
+	<item name="foodHushPuppies" count="1,4"/>
+	<item name="foodThumbs" count="1,4"/>
+	<item name="foodWatermelon" count="1,2"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootcontainer[@id='71']">
+	<item name="foodChickenNuggets" count="1,2"/>
+	<item name="foodScrambledEggs" count="1,2"/>
+	<item name="foodSlicesOfBacon" count="1,2"/>
+	<item name="foodLettuce" count="1,2"/>
+	<item name="foodCarrot" count="1,2"/>
+	<item name="foodGrits" count="1,2"/>
+	<item name="foodBratwurst" count="1,4"/>
+	<item name="foodHamburger" count="1,2"/>
+	<item name="foodRotisserieChicken" count="1,2"/>
+	<item name="foodTaterTots" count="5,8"/>
+	<item name="foodBroccoli" count="1,2"/>
+	<item name="foodMashedPotatos" count="1,2"/>
+	<item name="foodBhamSandwich" count="1,2"/>
+	<item name="foodMooseTard" count="1,2"/>
+	<item name="foodCheeseWonton" count="1,2"/>
+	<item name="foodHotSourSoup" count="1,2"/>
+	<item name="foodWontonSoup" count="1,2"/>
+	<item name="foodSpringRoll" count="1,2"/>
+	<item name="foodFrenchFries" count="1,2"/>
+	<item name="foodHushPuppies" count="1,4"/>
+	<item name="foodThumbs" count="1,4"/>
+	<item name="foodWatermelon" count="1,2"/>
+	</append>
+
+<!-- Zombies -->

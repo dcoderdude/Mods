@@ -1,0 +1,187 @@
+<MoreCookedFoods>
+
+<!-- You will NEVER find a full meal in any of the loot, only the stuff to make the meal. You can mod this for your own server, if that's what you want. -->
+<!-- PS. Put loot where it belongs... you're fired if you don't... :P -->
+<!-- mod is WIP -->
+
+	<append xpath="/lootcontainers/lootgroup[@name='cupboard']">
+	<item name="foodPotatoChips"/>
+	<item name="foodMooseTard"/>
+	<item name="foodCatchUp"/>
+	<item name="foodThumbs"/>
+	<item name="foodGlassOfMilk"/>
+	<item name="foodApple" count="1,2"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootcontainer[@id='8']">
+	<item name="foodPotatoChips"/>
+	<item name="foodMooseTard"/>
+	<item name="foodCatchUp"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootcontainer[@id='21']">
+	<item name="foodPotatoChips"/>
+	<item name="foodMooseTard"/>
+	<item name="foodCatchUp"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootcontainer[@id='46']">
+	<item name="foodPotatoChips"/>
+	<item name="foodMooseTard"/>
+	<item name="foodChickenBones"/>
+	<item name="foodCatchUp"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootcontainer[@id='48']">
+	<item name="foodPotatoChips"/>
+	<item name="foodMooseTard"/>
+	<item name="foodCatchUp"/>
+	<item name="foodBhamSandwich"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootcontainer[@id='45']">
+	<item name="foodSalad"/>
+	<item name="foodLettuce"/>
+	<item name="foodCarrot"/>
+	<item name="foodBroccoli"/>
+	<item name="foodBhamSandwich"/>
+	<item name="foodMilk"/>
+	</append>
+
+    <append xpath="/lootcontainers/lootcontainer[@id='52']">
+	<item name="foodSalad"/>
+	<item name="foodLettuce"/>
+	<item name="foodCarrot"/>
+	<item name="foodBroccoli"/>
+	<item name="foodBhamSandwich"/>
+	<item name="foodMilk"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='47']">
+	<item name="foodChickenNuggets" count="1,2"/>
+	<item name="foodScrambledEggs" count="1,2"/>
+	<item name="foodSlicesOfBacon" count="1,2"/>
+	<item name="foodLettuce" count="1,2"/>
+	<item name="foodCarrot" count="1,2"/>
+	<item name="foodGrits" count="1,2"/>
+	<item name="foodBratwurst" count="1,4"/>
+	<item name="foodHamburger" count="1,2"/>
+	<item name="foodTaterTots" count="5,8"/>
+	<item name="foodBroccoli" count="1,2"/>
+	<item name="foodMashedPotatos" count="1,2"/>
+	<item name="foodBhamSandwich" count="1,2"/>
+	<item name="foodMooseTard" count="1,2"/>
+	<item name="foodCatchUp" count="1,2"/>
+	<item name="foodCheeseWonton" count="1,2"/>
+	<item name="foodHotSourSoup" count="1,2"/>
+	<item name="foodWontonSoup" count="1,2"/>
+	<item name="foodSpringRoll" count="1,2"/>
+	<item name="foodFrenchFries" count="1,2"/>
+	<item name="foodHushPuppies" count="1,2"/>
+	<item name="foodThumbs" count="1,4"/>
+	<item name="foodWatermelon" count="1,2"/>
+	<item name="foodMilk" count="1,2"/>
+	<item name="foodApple" count="1,4"/>
+	</append>
+
+<!-- Shamway Cardboard boxes loot -->
+
+	<append xpath="/lootcontainers/lootcontainer[@id='59']">
+	<item name="foodChickenNuggets" count="1,2"/>
+	<item name="foodScrambledEggs" count="1,2"/>
+	<item name="foodSlicesOfBacon" count="1,2"/>
+	<item name="foodLettuce" count="1,2"/>
+	<item name="foodCarrot" count="1,2"/>
+	<item name="foodGrits" count="1,2"/>
+	<item name="foodBratwurst" count="1,4"/>
+	<item name="foodHamburger" count="1,2"/>
+	<item name="foodTaterTots" count="5,8"/>
+	<item name="foodBroccoli" count="1,2"/>
+	<item name="foodMashedPotatos" count="1,2"/>
+	<item name="foodBhamSandwich" count="1,2"/>
+	<item name="foodMooseTard" count="1,2"/>
+	<item name="foodCatchUp" count="1,2"/>
+	<item name="foodRawRibs" count="1,2"/>
+	<item name="foodRawBacon" count="1,2"/>
+	<item name="foodHeavyWhippingCream" count="1,2"/>
+	<item name="foodPowderedSugar" count="1,2"/>
+	<item name="foodCheeseWonton" count="1,2"/>
+	<item name="foodHotSourSoup" count="1,2"/>
+	<item name="foodWontonSoup" count="1,2"/>
+	<item name="foodSpringRoll" count="1,2"/>
+	<item name="foodFrenchFries" count="1,2"/>
+	<item name="foodHushPuppies" count="1,4"/>
+	<item name="foodDough" count="1,2"/>
+	<item name="foodThumbs" count="1,4"/>
+	<item name="foodWatermelon" count="1,2"/>
+	<item name="foodCaseOfCola" count="1,2"/>
+	<item name="foodApple" count="1,4"/>
+	</append>
+
+<!-- Shamway Cardboard boxes loot -->
+
+
+
+<!-- Food piles -->
+<!-- The Cola stuff is still pretty experimental. Not sure if I want it to do buffs or not. -->
+
+	<append xpath="/lootcontainers/lootcontainer[@id='111']">
+	<item name="foodPotatoChips"/>
+	<item name="foodMooseTard"/>
+	<item name="foodCatchUp"/>
+	<item name="foodCanOfCola" count="1,2"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootcontainer[@id='112']">
+	<item name="foodPotatoChips"/>
+	<item name="foodMooseTard"/>
+	<item name="foodCatchUp"/>
+	<item name="foodCanOfCola" count="1,2"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootcontainer[@id='113']">
+	<item name="foodPotatoChips"/>
+	<item name="foodMooseTard"/>
+	<item name="foodCatchUp"/>
+	<item name="foodCanOfCola" count="1,2"/>
+	</append>
+
+<!-- Food piles -->
+
+
+
+<!-- airdrop food -->
+
+	<append xpath="/lootcontainers/lootgroup[@name='airdropfood']">
+	<item name="foodChickenNuggets" count="1,2"/>
+	<item name="foodScrambledEggs" count="1,2"/>
+	<item name="foodSlicesOfBacon" count="1,2"/>
+	<item name="foodLettuce" count="1,2"/>
+	<item name="foodCarrot" count="1,2"/>
+	<item name="foodGrits" count="1,2"/>
+	<item name="foodBratwurst" count="1,4"/>
+	<item name="foodHamburger" count="1,2"/>
+	<item name="foodTaterTots" count="5,8"/>
+	<item name="foodBroccoli" count="1,2"/>
+	<item name="foodMashedPotatos" count="1,2"/>
+	<item name="foodBhamSandwich" count="1,2"/>
+	<item name="foodMooseTard" count="1,2"/>
+	<item name="foodRawRibs" count="1,2"/>
+	<item name="foodRawBacon" count="1,2"/>
+	<item name="foodHeavyWhippingCream" count="1,2"/>
+	<item name="foodPowderedSugar" count="1,2"/>
+	<item name="foodCheeseWonton" count="1,2"/>
+	<item name="foodHotSourSoup" count="1,2"/>
+	<item name="foodWontonSoup" count="1,2"/>
+	<item name="foodSpringRoll" count="1,2"/>
+	<item name="foodFrenchFries" count="1,2"/>
+	<item name="foodHushPuppies" count="1,4"/>
+	<item name="foodThumbs" count="1,4"/>
+	<item name="foodWatermelon" count="1,2"/>
+	<item name="foodCaseOfCola" count="1,2"/>
+	<item name="foodApple"/>
+	</append>
+
+<!-- airdrop food -->
+	
+</MoreCookedFoods>

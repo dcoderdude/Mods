@@ -1,0 +1,166 @@
+<configs>
+	<append xpath="/buffs">
+
+<!-- buffTBD is used for a place holder - it's best not to do anything with it. Also, there's no localization for it, so if you do something you need to add Localization to it. Use your own localization file
+     to do testing or you are fired. I better not find testing localization strings in the mod's to-be-published localization file. Nuff' said. -->
+
+<!-- Buffs are always last in the localization file. First foods/drinks, then buffs. Got it? -->
+
+    <!--
+	<buff name="buffTBD" name_key="buffTBDName" description_key="buffTBDDesc" tooltip_key="buffTBDTooltip" icon="ui_game_symbol_stomach">
+		<damage_type value="disease"/>
+		<stack_type value="replace"/><duration value="30"/>
+		<display_value value=".buffBeerDisplay"/><display_value_format value="time"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffBeerDuration" operation="subtract" value="@$MetabolismDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffBeerDisplay" operation="set" value="@$buffBeerDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffBeerDisplay" operation="divide" value="@$MetabolismDuration"/>
+		</effect_group>
+		<effect_group>
+			<requirement name="CVarCompare" cvar="$buffBeerDuration" operation="LTE" value="0"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffBeerDuration" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffBeer"/>
+		</effect_group>
+
+		<effect_group>
+			<passive_effect name="EntityDamage" operation="perc_add" value="4">
+				<requirement name="HoldingItemHasTags" tags="perkBrawler"/>
+			</passive_effect>
+
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.7">
+				<requirement name="NotHasBuff" buff="buffHealWaterMax"/>
+			</passive_effect>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.65">
+				<requirement name="HasBuff" buff="buffHealWaterMax"/>
+			</passive_effect>
+
+			<passive_effect name="BuffResistance" operation="base_add" value="1" tags="buffInjuryStunned01"/>
+
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".buffBeerDisplay" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffBeerDuration" operation="set" value="0"/>
+		</effect_group>
+	</buff> 
+	-->
+
+<!-- Refer to the Spicy buff (buffSpicy) for stuff like adding a Heartburn buff, if that's what you wish to do, though I recommend waiting until I can think of a way to add that in without
+     having to do major modifications that changes the game in a big way - by this I mean I want to only do XML modlets. For now. -->
+
+	<buff name="buffSpicy" name_key="buffSpicyName" description_key="buffSpicyDesc" tooltip_key="buffSpicyTooltip" icon="ui_game_symbol_stomach">
+		<damage_type value="disease"/>
+		<stack_type value="replace"/><duration value="15"/>
+		<display_value value=".buffBeerDisplay"/><display_value_format value="time"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffBeerDuration" operation="subtract" value="@$MetabolismDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffBeerDisplay" operation="set" value="@$buffBeerDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffBeerDisplay" operation="divide" value="@$MetabolismDuration"/>
+		</effect_group>
+		<effect_group>
+			<requirement name="CVarCompare" cvar="$buffBeerDuration" operation="LTE" value="0"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffBeerDuration" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffBeer"/>
+		</effect_group>
+
+		<effect_group>
+			<passive_effect name="EntityDamage" operation="perc_add" value="4">
+				<requirement name="HoldingItemHasTags" tags="perkBrawler"/>
+			</passive_effect>
+
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.7">
+				<requirement name="NotHasBuff" buff="buffHealWaterMax"/>
+			</passive_effect>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.65">
+				<requirement name="HasBuff" buff="buffHealWaterMax"/>
+			</passive_effect>
+
+			<passive_effect name="BuffResistance" operation="base_add" value="1" tags="buffInjuryStunned01"/>
+
+            <triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="0.2" fade="2" effect_name="Hot"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="1" effect_name="Hot"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".buffBeerDisplay" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffBeerDuration" operation="set" value="0"/>
+		</effect_group>
+	</buff>
+
+
+	<buff name="buffHeartburn" name_key="buffHeartburnName" description_key="buffHeartburnDesc" tooltip_key="buffHeartburnTooltip" icon="ui_game_symbol_stomach">
+		<damage_type value="disease"/>
+		<stack_type value="replace"/><duration value="300"/>
+		<display_value value=".buffBeerDisplay"/><display_value_format value="time"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffBeerDuration" operation="subtract" value="@$MetabolismDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffBeerDisplay" operation="set" value="@$buffBeerDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffBeerDisplay" operation="divide" value="@$MetabolismDuration"/>
+		</effect_group>
+		<effect_group>
+			<requirement name="CVarCompare" cvar="$buffBeerDuration" operation="LTE" value="0"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffBeerDuration" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffBeer"/>
+		</effect_group>
+
+		<effect_group>
+
+			<passive_effect name="StaminaChangeOT" operation="perc_subtract" value="0.7">
+			</passive_effect>
+
+            <triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="0.3" fade="2" effect_name="Hot"/>
+			<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="Player$Hungry"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="1" effect_name="Hot"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".buffBeerDisplay" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffBeerDuration" operation="set" value="0"/>
+		</effect_group>
+	</buff>
+
+
+	<buff name="buffApple" name_key="buffAppleName" description_key="buffAppleDesc" tooltip_key="buffAppleTooltip" icon="ui_game_symbol_stomach">
+		<damage_type value="disease"/>
+		<stack_type value="replace"/><duration value="15"/>
+		<display_value value=".buffBeerDisplay"/><display_value_format value="time"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffBeerDuration" operation="subtract" value="@$MetabolismDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffBeerDisplay" operation="set" value="@$buffBeerDuration"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffBeerDisplay" operation="divide" value="@$MetabolismDuration"/>
+		</effect_group>
+		<effect_group>
+			<requirement name="CVarCompare" cvar="$buffBeerDuration" operation="LTE" value="0"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffBeerDuration" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffBeer"/>
+		</effect_group>
+
+		<effect_group>
+			<passive_effect name="EntityDamage" operation="perc_add" value="4">
+				<requirement name="HoldingItemHasTags" tags="perkBrawler"/>
+			</passive_effect>
+
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.7">
+				<requirement name="NotHasBuff" buff="buffHealWaterMax"/>
+			</passive_effect>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.65">
+				<requirement name="HasBuff" buff="buffHealWaterMax"/>
+			</passive_effect>
+
+			<passive_effect name="BuffResistance" operation="base_add" value="1" tags="buffInjuryStunned01"/>
+
+            <triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="0" fade="2" effect_name="Hot"/>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffProcessConsumables"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="RemoveBuff" buff="buffProcessConsumables"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".buffBeerDisplay" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffBeerDuration" operation="set" value="0"/>
+		</effect_group>
+	</buff>
+
+
+
+<!-- Super Run -->
+
+	<buff name="buffTheFlash" name_key="buffTheFlashName" description_key="buffTheFlashDesc" tooltip_key="buffTheFlashTooltip" icon="ui_game_symbol_stomach">
+		<!-- <display_value_key value="buffTheFlash"/> <display_value value="xxx"/> -->
+		<stack_type value="replace"/><duration value="30"/>
+		<effect_group>
+			<passive_effect name="RunSpeed" operation="base_set" value="2.25"/>
+		</effect_group>
+	</buff>
+
+<!-- Super Run End -->
+
+		</append>
+</configs>

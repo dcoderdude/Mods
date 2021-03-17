@@ -1,0 +1,110 @@
+
+<configs>
+    <append xpath="/blocks">
+
+        <block name="watermelonSeed">
+            <property name="CreativeMode" value="Player"/>
+            <property name="DisplayInfo" value="Name"/>
+            <property name="Class" value="ModelTree"/>
+            <property name="DisplayType" value="blockMulti"/>
+            <property name="Group" value="Resources"/>
+            <property name="FilterTags" value="foutdoor,ftrees"/>
+            <property name="Collide" value="melee"/>
+            <property name="MaxDamage" value="10"/>
+            <property name="Material" value="Mplants"/>
+            <property name="StabilitySupport" value="false"/>
+            <property name="LightOpacity" value="0"/>
+            <property name="IsPlant" value="true"/>
+            <property name="IsTerrainDecoration" value="true"/>
+            <property name="IsDistantDecoration" value="true"/>
+            <property name="FallOver" value="false"/>
+            <property name="CanPlayersSpawnOn" value="false"/>
+            <property name="BigDecorationRadius" value="4"/>
+            <property name="OnlySimpleRotations" value="true"/>
+            <property name="Class" value="ModelTree"/>
+            <property name="ActivationDistance" value="4"/>
+            <property name="ImposterExclude" value="true"/>
+            <property name="ImposterDontBlock" value="true"/>
+            <property name="HarvestOverdamage" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="63"/>
+            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.FertileLevel" value="1"/>
+            <drop event="Destroy" count="1" name="Apple Seed"/>
+            <property name="MultiBlockDim" value="1,2,1"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#Entities/Trees?OakSeed01Prefab.prefab"/>
+            <property name="ParticleOnDeath" value="treeGib_sapling"/>
+            <property name="DescriptionKey" value="watermelonSeedDesc"/>
+            <property name="PlantGrowing.Next" value="watermelonGrowing1"/>
+        </block>
+        <block name="watermelonGrowing1">
+            <property name="CreativeMode" value="None"/>
+            <property name="DisplayInfo" value="Name"/>
+            <property name="Class" value="ModelTree"/>
+            <property name="DisplayType" value="blockMulti"/>
+            <property name="Group" value="Resources"/>
+            <property name="FilterTags" value="foutdoor,ftrees"/>
+            <property name="Collide" value="melee"/>
+            <property name="MaxDamage" value="10"/>
+            <property name="Material" value="Mplants"/>
+            <property name="StabilitySupport" value="false"/>
+            <property name="LightOpacity" value="0"/>
+            <property name="IsPlant" value="true"/>
+            <property name="IsTerrainDecoration" value="true"/>
+            <property name="IsDistantDecoration" value="true"/>
+            <property name="FallOver" value="false"/>
+            <property name="CanPlayersSpawnOn" value="false"/>
+            <property name="BigDecorationRadius" value="4"/>
+            <property name="OnlySimpleRotations" value="true"/>
+            <property name="Class" value="ModelTree"/>
+            <property name="ActivationDistance" value="4"/>
+            <property name="ImposterExclude" value="true"/>
+            <property name="ImposterDontBlock" value="true"/>
+            <property name="HarvestOverdamage" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="63"/>
+            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.FertileLevel" value="1"/>
+            <drop event="Destroy" count="1" name="watermelonSeed"/>
+            <property name="MultiBlockDim" value="1,2,1"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#Entities/Trees?OakSeed01Prefab.prefab"/>
+            <property name="ParticleOnDeath" value="treeGib_sapling"/>
+            <property name="PlantGrowing.Next" value="WaterMElon"/>
+        </block>
+        <block name="WaterMElon">
+            <property name="CreativeMode" value="None"/>
+            <property name="DisplayInfo" value="Name"/>
+            <property name="Class" value="ModelTree"/>
+            <property name="DisplayType" value="blockMulti"/>
+            <property name="Group" value="Resources"/>
+            <property name="FilterTags" value="foutdoor,ftrees"/>
+            <property name="Collide" value="melee"/>
+            <property name="MaxDamage" value="300"/>
+            <property name="Material" value="Mplants"/>
+            <property name="StabilitySupport" value="false"/>
+            <property name="LightOpacity" value="0"/>
+            <property name="IsPlant" value="true"/>
+            <property name="IsTerrainDecoration" value="true"/>
+            <property name="IsDistantDecoration" value="true"/>
+            <property name="FallOver" value="false"/>
+            <property name="CanPlayersSpawnOn" value="false"/>
+            <property name="BigDecorationRadius" value="4"/>
+            <property name="OnlySimpleRotations" value="true"/>
+            <property name="Class" value="ModelTree"/>
+            <property name="ActivationDistance" value="4"/>
+            <property name="ImposterExclude" value="true"/>
+            <property name="ImposterDontBlock" value="true"/>
+            <property name="HarvestOverdamage" value="false"/>
+            <property name="PlantGrowing.GrowthRate" value="63"/>
+            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.FertileLevel" value="1"/>
+            <drop event="Destroy" count="1" name="watermelonSeed"/>
+            <property name="MultiBlockDim" value="1,7,1"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder:Resources/watermelon.unity3d?WaterMElon"/>
+            <property name="ParticleOnDeath" value="treeGib_dead_01"/>
+            <property name="DowngradeBlock" value="watermelonSeed"/>
+            <drop event="Harvest" name="foodWatermelon" count="1" tag="cropHarvest"/>
+        </block>
+        </append>
+</configs>

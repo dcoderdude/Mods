@@ -1,0 +1,18 @@
+<configs>
+	<append xpath="/Sounds">
+		<SoundDataNode name="mong_inferno"> <AudioSource name="Sounds/AudioSource_Interact"/>
+			<Noise ID="2" noise="11" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?mong_inferno"/>
+			<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
+
+		<SoundDataNode name="yeraw"> <AudioSource name="Sounds/AudioSource_Interact"/>
+			<Noise ID="2" noise="100" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?yeraw"/>
+			<LocalCrouchVolumeScale value="4.0"/> <CrouchNoiseScale value="2.5"/> <NoiseScale value="500"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
+
+		<SoundDataNode name="melon_smacking"> <AudioSource name="Sounds/AudioSource_Interact"/>
+			<Noise ID="2" noise="11" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?melon_smack"/>
+			<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
+        </append>
+</configs>

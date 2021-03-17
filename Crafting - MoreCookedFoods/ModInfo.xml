@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Gopher Foods Mod" />
+		<Description value="Adds different kinds of cooked foods. Now updated for Alpha 19!" />
+		<Author value="Gopher" />
+		<Version value="1.0" />
+		<Website value="" />
+	</ModInfo>
+</xml>
