@@ -145,10 +145,10 @@
     <drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
     <drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
 
-  <effect_group name="Base Effects">
-    <passive_effect name="HealthMax" operation="base_set" value="10"/>
-    <passive_effect name="HealthMax" operation="perc_add" value="0"/> <!-- Animal HP scale -->
-  </effect_group>
+    <effect_group name="Base Effects">
+      <passive_effect name="HealthMax" operation="base_set" value="10"/>
+      <passive_effect name="HealthMax" operation="perc_add" value="0"/> <!-- Animal HP scale -->
+    </effect_group>
   </entity_class>
 
   <entity_class name="PetStag" extends="animalTemplateTimid">
@@ -243,10 +243,10 @@
     <drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
     <drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
     <drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
-  <effect_group name="Base Effects">
-    <passive_effect name="HealthMax" operation="base_set" value="10"/>
-    <passive_effect name="HealthMax" operation="perc_add" value="0"/> <!-- Animal HP scale -->
-  </effect_group>
+    <effect_group name="Base Effects">
+      <passive_effect name="HealthMax" operation="base_set" value="10"/>
+      <passive_effect name="HealthMax" operation="perc_add" value="0"/> <!-- Animal HP scale -->
+    </effect_group>
   </entity_class>
 
   <entity_class name="PetPig" extends="animalTemplateTimid">
@@ -401,9 +401,9 @@
     <property name="DeadBodyHitPoints" value="200"/>
 
     <effect_group name="Base Effects">
+      <!-- Animal HP scale -->
       <passive_effect name="HealthMax" operation="base_set" value="100"/>
       <passive_effect name="HealthMax" operation="perc_add" value="0"/>
-      <!-- Animal HP scale -->
     </effect_group>
 
     <property name="AITask-1" value="RunawayWhenHurt"/>
@@ -465,8 +465,14 @@
     <property name="PhysicsBody" value="rabbit"/>
     <property name="Mass" value="12"/>
     <property name="Weight" value="10"/>
-    <property name="SoundHurt" value="Animals/rabbitpain"/>
-    <property name="SoundDeath" value="Animals/rabbitdeath"/>
+    <property name="SoundHurt" value="Animals/Bear/bearpain"/>
+    <property name="SoundDeath" value="Animals/Bear/beardeath"/>
+    <property name="SoundRandom" value="Animals/Bear/bearroam"/>
+    <property name="SoundSense" value="Animals/Bear/bearsense"/>
+    <property name="SoundAlert" value="Animals/Bear/bearalert"/>
+    <property name="SoundAttack" value="Animals/Bear/bearattack"/>
+    <property name="SoundFootstepModifier" value="Animals/Bear/bear_footstep"/>
+    <property name="SoundGiveUp" value="Animals/Bear/beargiveup"/>
     <property name="SwimOffset" value="2"/>
     <property name="HasRagdoll" value="false"/>
 
@@ -501,6 +507,7 @@
     <drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="2"/>
     <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="4"/>
     <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2"/>
+    <drop event="Harvest" name="GuardRabbit1" tag="allToolsHarvest" count="1"/>
     <drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
     <drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
     <drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -569,6 +576,7 @@
     <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="5"/>
     <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="25"/>
     <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+    <drop event="Harvest" name="GuardHellBear1" tag="allToolsHarvest" count="1"/>
     <drop event="Harvest" name="resourceTestosteroneExtract" tag="butcherHarvest" count="2"/>
     <drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
     <drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -636,6 +644,7 @@
     <drop event="Harvest" name="resourceAnimalFat" count="4" tag="butcherHarvest"/>
     <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
     <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+    <drop event="Harvest" name="GuardHellBoar1" tag="allToolsHarvest" count="1"/>
     <drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
     <drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
     <drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -654,13 +663,12 @@
     <property name="Tags" value="entity,animal"/>
     <property name="Class" value="EntityAnimalStag"/>
     <property name="SizeScale" value="1"/>
-    <!--property name="Prefab" value="Wolf"-->
+    <property name="Prefab" value="/Entities/Animals/Wolf/animalStandardWolfRagdoll"/>
     <property name="AvatarController" value="AvatarAnimalController"/>
     <property name="ModelType" value="Standard"/>
     <property name="HasRagdoll" value="true"/>
     <property name="PhysicsBody" value="wolf"/>
     <property name="Mass" value="195"/>
-    <property name="Prefab" value="/Entities/Animals/Wolf/animalStandardWolfRagdoll"/>
     <property name="Mesh" value=""/>
     <property name="HasDeathAnim" value="true"/>
     <property name="RootMotion" value="true"/>
@@ -713,6 +721,7 @@
     <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
     <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
     <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+    <drop event="Harvest" name="GuardHellWolf1" tag="allToolsHarvest" count="1"/>
     <drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
     <drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
     <drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -773,6 +782,7 @@
     <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="4"/>
     <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
     <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+    <drop event="Harvest" name="GuardHellLion1" tag="allToolsHarvest" count="1"/>
     <drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
     <drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
     <drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -814,6 +824,7 @@
     <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="1"/>
     <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
     <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+    <drop event="Harvest" name="GuardDogLead1" tag="allToolsHarvest" count="1"/>
     <drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
     <drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
     <drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -851,7 +862,7 @@
     <drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="4"/>
     <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="1"/>
     <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
-    <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+    <drop event="Harvest" name="GuardDogCoal1" tag="allToolsHarvest" count="1"/>
     <drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
     <drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
     <drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -889,6 +900,7 @@
     <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="1"/>
     <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
     <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+    <drop event="Harvest" name="GuardDogNitrate1" tag="allToolsHarvest" count="1"/>
     <drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
     <drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
     <drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -926,6 +938,7 @@
     <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="1"/>
     <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
     <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+    <drop event="Harvest" name="GuardDogShale1" tag="allToolsHarvest" count="1"/>
     <drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
     <drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
     <drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
