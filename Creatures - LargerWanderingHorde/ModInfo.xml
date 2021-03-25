@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="LargerWanderingHordes" />
+		<Description value="Increases the Zombies in Wandering Hordes" />
+		<Author value="zero.g13" />
+		<Version value="1.0.0" />
+	</ModInfo>
+</xml>
