@@ -1,0 +1,27 @@
+<config>
+<!-- <set xpath="/item_modifier_modifiers/item_modifier/property[@name='Stacknumber' and not(@value='1')]/@value">30000</set> --> <!-- This increases all stacksizes to one value -->
+
+<!-- set xpath changes a value already in a item_modifier/append xpath adds a line the item_modifier doesnt have -->
+
+<!-- insertAfter xpath inserts item_modifier after another item_modifier etc at a specific spot IE: hand master has to be exact spot -->
+
+<!-- insertBefore xpath does the opposite of insertAfter so it places code before another item_modifier etc. -->
+
+<!-- this changes a value with in code to the value you wish -->
+
+<set xpath="/item_modifier_modifiers/item_modifier_modifier[starts-with(@name, 'modDye')]/property[@name='Stacknumber']/@value">250</set>
+
+<!-- OR you can list every single item_modifier individually by copy and pasting this [<set xpath="/item_modifier_modifiers/item_modifier[@name='item_modifierNAME']/property[@name='Stacknumber']/@value">VALUE</set>] and changing the item_modifier name to which ever you like and adding a value you wish to increase it to -->
+<!-- Dummy Examples -->
+<!-- <set xpath="/item_modifier_modifiers/item_modifier[@name='ammo9mmBulletBall']/property[@name='Stacknumber']/@value">500</set>
+
+<set xpath="/item_modifier_modifiers/item_modifier[@name='ammo9mmBulletHP']/property[@name='Stacknumber']/@value">500</set>
+
+<set xpath="/item_modifier_modifiers/item_modifier[@name='ammo9mmBulletAP']/property[@name='Stacknumber']/@value">500</set>
+
+<set xpath="/item_modifier_modifiers/item_modifier[@name='ammo44MagnumBulletBall']/property[@name='Stacknumber']/@value">500</set>
+
+<set xpath="/item_modifier_modifiers/item_modifier[@name='ammo44MagnumBulletHP']/property[@name='Stacknumber']/@value">500</set> COPY AND PASTE THESE FOR INDIVIDUEL ONES OR TO BE PRECISE-->
+
+<!-- <set xpath="/item_modifier_modifiers/item_modifier[@name='item_modifierNAME']/property[@name='Stacknumber']/@value">500</set> FOR YOU TO EDIT -->
+</config>
