@@ -3,8 +3,7 @@
 	<append xpath="/recipes">
 		<recipe name="ammoArrowGrenade" count="1" craft_time = "0.5" craft_area="workbench" tags="learnable,workbenchCrafting">
 		<ingredient name="ammoArrowSteelAP" count="1"/>
-		<ingredient name="resourceMechanicalParts" count="1"/>
-		<ingredient name="resourceGunPowder" count="6"/>
+		<ingredient name="thrownGrenade" count="1"/>
 		<ingredient name="resourceDuctTape" count="1"/>
 		</recipe>
 	</append>
