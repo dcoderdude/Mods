@@ -8,22 +8,35 @@
 <!-- insertBefore xpath does the opposite of insertAfter so it places code before another item etc. -->
 
 <!-- this changes a value with in code to the value you wish -->
+<set xpath="/items/item[starts-with(@name, 'melee')]/property[@name='Stacknumber']/@value">30000</set>
 
-<set xpath="/items/item[starts-with(@name, 'food')]/property[@name='Stacknumber']/@value">250</set>
+<set xpath="/items/item[starts-with(@name, 'gun')]/property[@name='Stacknumber']/@value">30000</set>
 
-<set xpath="/items/item[starts-with(@name, 'drink')]/property[@name='Stacknumber']/@value">250</set>
+<set xpath="/items/item[starts-with(@name, 'food')]/property[@name='Stacknumber']/@value">30000</set>
 
-<set xpath="/items/item[starts-with(@name, 'ammo')]/property[@name='Stacknumber']/@value">2000</set>
+<set xpath="/items/item[starts-with(@name, 'drink')]/property[@name='Stacknumber']/@value">30000</set>
 
-<set xpath="/items/item[starts-with(@name, 'thrown')]/property[@name='Stacknumber']/@value">2000</set>
+<set xpath="/items/item[starts-with(@name, 'ammo')]/property[@name='Stacknumber']/@value">30000</set>
 
-<set xpath="/items/item[starts-with(@name, 'medical')]/property[@name='Stacknumber']/@value">250</set>
+<set xpath="/items/item[starts-with(@name, 'thrown')]/property[@name='Stacknumber']/@value">30000</set>
 
-<set xpath="/items/item[starts-with(@name, 'drug')]/property[@name='Stacknumber']/@value">250</set>
+<set xpath="/items/item[starts-with(@name, 'medical')]/property[@name='Stacknumber']/@value">30000</set>
+
+<set xpath="/items/item[starts-with(@name, 'drug')]/property[@name='Stacknumber']/@value">30000</set>
 											
-<set xpath="/items/item[starts-with(@name, 'resource')]/property[@name='Stacknumber']/@value">10000</set>
+<set xpath="/items/item[starts-with(@name, 'resource')]/property[@name='Stacknumber']/@value">30000</set>
 
-<set xpath="/items/item[starts-with(@name, 'ammoGasCan')]/property[@name='Stacknumber']/@value">10000</set>
+<set xpath="/items/item[starts-with(@name, 'ammoGasCan')]/property[@name='Stacknumber']/@value">30000</set>
+
+<set xpath="/items/item[starts-with(@name, 'bucket')]/property[@name='Stacknumber']/@value">30000</set>
+
+<set xpath="/items/item[starts-with(@name, 'apparel')]/property[@name='Stacknumber']/@value">30000</set>
+
+<set xpath="/items/item[starts-with(@name, 'schematic')]/property[@name='Stacknumber']/@value">30000</set>
+
+<set xpath="/items/item[starts-with(@name, 'book')]/property[@name='Stacknumber']/@value">30000</set>
+
+<set xpath="/items/item[starts-with(@name, 'quest')]/property[@name='Stacknumber']/@value">30000</set>
 
 <!-- OR you can list every single item individually by copy and pasting this [<set xpath="/items/item[@name='ITEMNAME']/property[@name='Stacknumber']/@value">VALUE</set>] and changing the item name to which ever you like and adding a value you wish to increase it to -->
 <!-- Dummy Examples -->
