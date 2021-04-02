@@ -36,11 +36,17 @@
 	<recipe name="resourceFeather" count="1">
 		<ingredient name="resourceCropCottonPlant" count="5"/>
 	</recipe>
+  <recipe name="woodLogSpike1" count="1">
+    <ingredient name="resourceWood" count="10"/>
+  </recipe>
+  <recipe name="trapSpikesNew" count="1">
+    <ingredient name="resourceWood" count="10"/>
+  </recipe>
   <recipe name="scrapIronLogSpike4" count="1">
     <ingredient name="resourceScrapIron" count="10"/>
   </recipe>
-  <recipe name="woodLogSpike1" count="1">
-    <ingredient name="resourceWood" count="10"/>
+  <recipe name="barbedWireSheet" count="1">
+    <ingredient name="resourceScrapIron" count="10"/>
   </recipe>
 
 	<!--  forge crafting; add non-craftable items, and reduce crafting times -->

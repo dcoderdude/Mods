@@ -2,7 +2,7 @@
 <xml>
 	<ModInfo>
 		<Name value="Improved Crafting" />
-		<Description value="Adds an extra slot to all game crafting queues. Adds ability to craft non-craftable items, and reduces crafting queue times" />
+		<Description value="Adds an extra slot to all crafting queues, and reduces crafting queue times. Adds ability to craft non-craftable items, and unlock all craftable items based on progression." />
 		<Author value="DanzoBlade" />
 		<Version value="A.19" />
 	</ModInfo>

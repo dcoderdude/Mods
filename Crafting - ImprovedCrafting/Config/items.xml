@@ -94,7 +94,7 @@
 	<property name="Meshfile" value="#Other/Items?Crafting/Metal/IronBucket.fbx"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="Stacknumber" value="10000"/>
+	<property name="Stacknumber" value="1000"/>
 	<property name="EconomicValue" value="84"/>
 	<property class="Action0">
 		<property name="Class" value="BailLiquid"/>
@@ -121,7 +121,7 @@
 	<property name="Meshfile" value="#Other/Items?Crafting/Metal/IronBucketWaterPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="Stacknumber" value="10000"/>
+	<property name="Stacknumber" value="1000"/>
 	<property name="EconomicValue" value="88"/>
 	<property class="Action1"> <!-- UseAction -->
 		<property name="Class" value="PlaceAsBlock"/>
