@@ -1,0 +1,12 @@
+Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+modGunIncendiaryRounds,item_modifiers,mod,New,Incendiary Rounds,,,,,
+modGunIncendiaryRoundsDesc,item_modifiers,mod,New,Burn Mother@!#&er Burn!,,,,,
+modGunIncendiaryRoundsSchematic,item_modifiers,Mod,New,Incendiary Rounds Mod Schematic,,,,,
+
+modGunShocked,item_modifiers,mod,New,Shocking Rounds,,,,
+modGunShockedDesc,item_modifiers,mod,New,Electricity is dangerous How dangerous you may ask?,,,,
+modGunShockedSchematic,item_modifiers,Mod,New,Shocking Rounds Mod Schematic,,,,
+
+modBlessedMetal,item_modifiers,mod,New,Blessed Metal Knockdown Rounds,,,,
+modBlessedMetalDesc,item_modifiers,mod,New,Bless this thy metal\nthat with it thou mayst blow thine enemies to tiny bits.,,,,
+modBlessedMetalSchematic,item_modifiers,Mod,New,Blessed Metal Knockdown Rounds Mod Schematic,,,,

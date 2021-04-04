@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+	<!-- Incendiary Rounds	-->
+	<append xpath="/recipes">
+		<recipe name="modGunIncendiaryRounds" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceForgedSteel" count="20"/>
+			<ingredient name="resourceGlue" count="25"/>
+			<ingredient name="resourceOil" count="50"/>
+			<ingredient name="resourceMechanicalParts" count="50"/>
+		</recipe>
+	</append>
+  
+  <!-- Shocking Rounds	-->
+	<append xpath="/recipes">
+		<recipe name="modGunShocked" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceForgedSteel" count="20"/>
+			<ingredient name="resourceGlue" count="25"/>
+			<ingredient name="resourceScrapPolymers" count="50"/>
+			<ingredient name="resourceElectricParts" count="50"/>
+		</recipe>
+	</append>
+  
+  <!-- Shocking Rounds	-->
+	<append xpath="/recipes">
+		<recipe name="modBlessedMetal" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceForgedSteel" count="20"/>
+			<ingredient name="resourceForgedIron" count="25"/>
+			<ingredient name="resourceScrapLead" count="50"/>
+			<ingredient name="resourceScrapBrass" count="50"/>
+		</recipe>
+	</append>
+</configs>
