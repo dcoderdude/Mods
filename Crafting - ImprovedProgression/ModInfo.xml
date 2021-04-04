@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Improved Progression" />
+		<Description value="Unlocks weapons and tools based on level progression." />
+		<Author value="DanzoBlade" />
+		<Version value="A.19" />
+	</ModInfo>
+</xml>
