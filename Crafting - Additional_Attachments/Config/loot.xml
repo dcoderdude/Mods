@@ -16,7 +16,7 @@
 		<item name="modGunShockedSchematic"/>
 	</insertAfter>
   
-  <!-- Add Shocking Rounds to Loot -->
+  <!-- Add Blessed Metal Rounds to Loot -->
 	<insertAfter xpath="/lootcontainers/lootgroup/item[@name='modGunCrippleEmSchematic']">
 		<item name="modBlessedMetal"/>
 	</insertAfter>

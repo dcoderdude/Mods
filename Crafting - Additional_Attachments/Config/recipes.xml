@@ -20,7 +20,7 @@
 		</recipe>
 	</append>
   
-  <!-- Shocking Rounds	-->
+  <!-- Blessed Metal Rounds	-->
 	<append xpath="/recipes">
 		<recipe name="modBlessedMetal" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
 			<ingredient name="resourceForgedSteel" count="20"/>

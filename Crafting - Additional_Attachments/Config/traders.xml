@@ -16,7 +16,7 @@
 		<item name="modGunShockedSchematic"/>
 	</insertAfter>
   
-	<!-- Add Blessed Rounds to Trader -->
+	<!-- Add Blessed Metal Rounds to Trader -->
 	<insertAfter xpath="/traders/trader_item_groups/trader_item_group/item[@name='modGunCrippleEm']">
 		<item name="modBlessedMetal"/>
 	</insertAfter>
