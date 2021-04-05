@@ -10,3 +10,7 @@ modGunShockedSchematic,item_modifiers,Mod,New,Shocking Rounds Mod Schematic,,,,
 modBlessedMetal,item_modifiers,mod,New,Blessed Metal Knockdown Rounds,,,,
 modBlessedMetalDesc,item_modifiers,mod,New,Bless this thy metal\nthat with it thou mayst blow thine enemies to tiny bits.,,,,
 modBlessedMetalSchematic,item_modifiers,Mod,New,Blessed Metal Knockdown Rounds Mod Schematic,,,,
+
+modGunLiquidNitrogen,item_modifiers,mod,New,Ice Rounds,,,,
+modGunLiquidNitrogenDesc,item_modifiers,mod,New,Ice Ice Baby!,,,,
+modGunLiquidNitrogenSchematic,item_modifiers,Mod,New,Ice Rounds Mod Schematic,,,,

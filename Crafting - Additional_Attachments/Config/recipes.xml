@@ -29,4 +29,14 @@
 			<ingredient name="resourceScrapBrass" count="50"/>
 		</recipe>
 	</append>
+
+  <!-- Ice Rounds	-->
+	<append xpath="/recipes">
+		<recipe name="modGunLiquidNitrogen" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceForgedSteel" count="20"/>
+			<ingredient name="glassBlockVariantHelper" count="25"/>
+			<ingredient name="resourceRockSmall" count="50"/>
+			<ingredient name="resourceSnowBall" count="50"/>
+		</recipe>
+	</append>
 </configs>

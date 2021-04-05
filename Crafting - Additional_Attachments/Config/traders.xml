@@ -23,4 +23,12 @@
 	<insertAfter xpath="/traders/trader_item_groups/trader_item_group/item[@name='modGunCrippleEmSchematic']">
 		<item name="modBlessedMetalSchematic"/>
 	</insertAfter>
+  
+	<!-- Add Ice Rounds to Trader -->
+	<insertAfter xpath="/traders/trader_item_groups/trader_item_group/item[@name='modGunCrippleEm']">
+		<item name="modGunLiquidNitrogen"/>
+	</insertAfter>
+	<insertAfter xpath="/traders/trader_item_groups/trader_item_group/item[@name='modGunCrippleEmSchematic']">
+		<item name="modGunLiquidNitrogenSchematic"/>
+	</insertAfter>
 </configs>
