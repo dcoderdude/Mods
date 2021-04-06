@@ -3,40 +3,40 @@
 	<!-- Incendiary Rounds	-->
 	<append xpath="/recipes">
 		<recipe name="modGunIncendiaryRounds" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
-			<ingredient name="resourceForgedSteel" count="20"/>
-			<ingredient name="resourceGlue" count="25"/>
-			<ingredient name="resourceOil" count="50"/>
-			<ingredient name="resourceMechanicalParts" count="50"/>
+			<ingredient name="resourceForgedSteel" count="2"/>
+			<ingredient name="resourceGlue" count="5"/>
+			<ingredient name="resourceScrapPolymers" count="5"/>
+			<ingredient name="resourceOil" count="5"/>
 		</recipe>
 	</append>
   
   <!-- Shocking Rounds	-->
 	<append xpath="/recipes">
 		<recipe name="modGunShocked" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
-			<ingredient name="resourceForgedSteel" count="20"/>
-			<ingredient name="resourceGlue" count="25"/>
-			<ingredient name="resourceScrapPolymers" count="50"/>
-			<ingredient name="resourceElectricParts" count="50"/>
+			<ingredient name="resourceForgedSteel" count="2"/>
+			<ingredient name="resourceGlue" count="5"/>
+			<ingredient name="resourceScrapPolymers" count="5"/>
+			<ingredient name="resourceElectricParts" count="5"/>
 		</recipe>
 	</append>
   
   <!-- Blessed Metal Rounds	-->
 	<append xpath="/recipes">
 		<recipe name="modBlessedMetal" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
-			<ingredient name="resourceForgedSteel" count="20"/>
-			<ingredient name="resourceForgedIron" count="25"/>
-			<ingredient name="resourceScrapLead" count="50"/>
-			<ingredient name="resourceScrapBrass" count="50"/>
+			<ingredient name="resourceForgedSteel" count="5"/>
+			<ingredient name="resourceGlue" count="5"/>
+			<ingredient name="resourceScrapBrass" count="5"/>
+			<ingredient name="resourceRawDiamond" count="2"/>
 		</recipe>
 	</append>
 
   <!-- Ice Rounds	-->
 	<append xpath="/recipes">
 		<recipe name="modGunLiquidNitrogen" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
-			<ingredient name="resourceForgedSteel" count="20"/>
-			<ingredient name="glassBlockVariantHelper" count="25"/>
-			<ingredient name="resourceRockSmall" count="50"/>
-			<ingredient name="resourceSnowBall" count="50"/>
+			<ingredient name="resourceForgedSteel" count="2"/>
+			<ingredient name="resourceGlue" count="5"/>
+			<ingredient name="resourceRockSmall" count="5"/>
+			<ingredient name="resourceSnowBall" count="5"/>
 		</recipe>
 	</append>
 </configs>
