@@ -9,21 +9,14 @@
 			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>		
 			<effect_group name="new Fire Proc" tiered="false">
         <requirement name="EntityTagCompare" target="other" tags="zombie"/>
-        <triggered_effect trigger="onProjectileImpact" action="AddBuff" target="other" buff="buffBurningZombie"/>
-				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffBurningElement"/>
-				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="$buffBurningElementDuration" operation="set" value="10">
-				<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="0"/></triggered_effect>
-				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="$buffBurningElementDuration" operation="set" value="11">
-				<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="1"/></triggered_effect>
+        <triggered_effect trigger="onProjectileImpact" action="AddBuff" target="other" buff="buffIncinerateZombie"/>
+        <triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffIncinerateZombie"/>
 			</effect_group>
 			<effect_group name="always refresh existing Fire Proc" tiered="false">
 				<requirement name="EntityTagCompare" target="other" tags="zombie"/>
-				<requirement name="HasBuff" target="other" buff="buffBurningElement"/>
-        <triggered_effect trigger="onProjectileImpact" action="AddBuff" target="other" buff="buffBurningZombie"/>
-				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffBurningElement"/>
-				<!--default duration is 10-->
-				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="$buffBurningElementDuration" operation="set" value="11">
-				<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="1"/></triggered_effect>
+				<requirement name="HasBuff" target="other" buff="buffShocked"/>
+        <triggered_effect trigger="onProjectileImpact" action="AddBuff" target="other" buff="buffIncinerateZombie"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffIncinerateZombie"/>
 			</effect_group>
 			<property name="PickupJournalEntry" value="augmentGunsTip"/>
 		</item_modifier>
@@ -38,14 +31,14 @@
 			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<effect_group name="new Fire Proc" tiered="false">
         <requirement name="EntityTagCompare" target="other" tags="zombie"/>
-        <triggered_effect trigger="onProjectileImpact" action="AddBuff" target="other" buff="buffShocked"/>
-        <triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffShocked"/>
+        <triggered_effect trigger="onProjectileImpact" action="AddBuff" target="other" buff="buffShockedZombie"/>
+        <triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffShockedZombie"/>
 			</effect_group>
 			<effect_group name="always refresh existing Fire Proc" tiered="false">
 				<requirement name="EntityTagCompare" target="other" tags="zombie"/>
 				<requirement name="HasBuff" target="other" buff="buffShocked"/>
-        <triggered_effect trigger="onProjectileImpact" action="AddBuff" target="other" buff="buffShocked"/>
-				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffShocked"/>
+        <triggered_effect trigger="onProjectileImpact" action="AddBuff" target="other" buff="buffShockedZombie"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffShockedZombie"/>
 			</effect_group>
 			<property name="PickupJournalEntry" value="augmentGunsTip"/>
 		</item_modifier>
@@ -57,16 +50,16 @@
 			<property name="UnlockedBy" value="modBlessedMetalSchematic,perkPenetrator"/>
 			<property name="CustomIcon" value="modGunMeleeBlessedMetal"/>
 			<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
-			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>		
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<effect_group name="new Fire Proc" tiered="false">
         <requirement name="EntityTagCompare" target="other" tags="zombie"/>
-        <triggered_effect trigger="onProjectileImpact" action="AddBuff" target="other" buff="buffInjuryKnockdown02"/>
-				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffInjuryKnockdown02"/>
+        <triggered_effect trigger="onProjectileImpact" action="AddBuff" target="other" buff="buffBlessedKO"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffBlessedKO"/>
 			</effect_group>
 			<effect_group name="always refresh existing Fire Proc" tiered="false">
         <requirement name="EntityTagCompare" target="other" tags="zombie"/>
-        <triggered_effect trigger="onProjectileImpact" action="AddBuff" target="other" buff="buffInjuryKnockdown02"/>
-				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffInjuryKnockdown02"/>
+        <triggered_effect trigger="onProjectileImpact" action="AddBuff" target="other" buff="buffBlessedKO"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffBlessedKO"/>
 			</effect_group>
 			<property name="PickupJournalEntry" value="augmentGunsTip"/>
 		</item_modifier>
@@ -81,13 +74,13 @@
 			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<effect_group name="new Fire Proc" tiered="false">
         <requirement name="EntityTagCompare" target="other" tags="zombie"/>
-        <triggered_effect trigger="onProjectileImpact" action="AddBuff" target="other" buff="buffInjuryStunned03"/>
-				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffInjuryStunned03"/>
+        <triggered_effect trigger="onProjectileImpact" action="AddBuff" target="other" buff="buffFrozen"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffFrozen"/>
 			</effect_group>
 			<effect_group name="always refresh existing Fire Proc" tiered="false">
         <requirement name="EntityTagCompare" target="other" tags="zombie"/>
-        <triggered_effect trigger="onProjectileImpact" action="AddBuff" target="other" buff="buffInjuryStunned03"/>
-				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffInjuryStunned03"/>
+        <triggered_effect trigger="onProjectileImpact" action="AddBuff" target="other" buff="buffFrozen"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffFrozen"/>
 			</effect_group>
 			<property name="PickupJournalEntry" value="augmentGunsTip"/>
 		</item_modifier>

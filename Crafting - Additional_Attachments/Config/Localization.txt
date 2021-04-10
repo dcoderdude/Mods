@@ -7,9 +7,9 @@ modGunShocked,item_modifiers,mod,New,Shocking Rounds,,,,
 modGunShockedDesc,item_modifiers,mod,New,Electricity is dangerous How dangerous you may ask?,,,,
 modGunShockedSchematic,item_modifiers,Mod,New,Shocking Rounds Mod Schematic,,,,
 
-modBlessedMetal,item_modifiers,mod,New,Blessed Metal Knockdown Rounds,,,,
+modBlessedMetal,item_modifiers,mod,New,Blessed Metal KO Rounds,,,,
 modBlessedMetalDesc,item_modifiers,mod,New,"Bless this thy metal, that with it thou mayst blow thine enemies to tiny bits.",,,,
-modBlessedMetalSchematic,item_modifiers,Mod,New,Blessed Metal Knockdown Rounds Mod Schematic,,,,
+modBlessedMetalSchematic,item_modifiers,Mod,New,Blessed Metal KO Rounds Mod Schematic,,,,
 
 modGunLiquidNitrogen,item_modifiers,mod,New,Ice Rounds,,,,
 modGunLiquidNitrogenDesc,item_modifiers,mod,New,Ice Ice Baby!,,,,
