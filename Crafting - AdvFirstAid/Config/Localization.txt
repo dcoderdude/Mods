@@ -1,0 +1,4 @@
+Key,Source,Context,Changes,English
+medicalAdvancedFirstAidKit,items,Medical,New,Advanced First Aid Kit,,,,,
+medicalAdvancedFirstAidKitDesc,items,Medical,New,Advanced version of the Medical Kit with Max Healing. Also removes negative Buffs.
+medicalAdvancedFirstAidKitSchematic,items,Medical,New,Advanced First Aid Kit Schematic,,,,,
