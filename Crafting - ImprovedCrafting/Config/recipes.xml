@@ -27,8 +27,8 @@
 <remove xpath="/recipes/recipe[@name='thrownTimedCharge']"/>
 <remove xpath="/recipes/recipe[@name='thrownDynamite']"/>
 
-<append xpath="/recipes">
 <!-- ============== Base crafting ============== -->
+<append xpath="/recipes">
 <recipe name="resourceFeather" count="1">
   <ingredient name="resourceCropCottonPlant" count="5"/>
 </recipe>
@@ -54,6 +54,14 @@
 	<ingredient name="ammoGasCan" count="300"/>
 	<ingredient name="resourceOil" count="1"/>
 	<ingredient name="drinkJarEmpty" count="1"/>
+</recipe>
+
+<recipe name="resourceGlue" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkAdvancedEngineering">
+	<ingredient name="resourceScrapPolymers" count="7"/>
+	<ingredient name="drinkJarRiverWater" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="1,5" operation="base_add" value="-1" tags="resourceScrapPolymers"/>
+	</effect_group>
 </recipe>
 
 <!-- ============== Forge crafting ============== -->
@@ -125,17 +133,20 @@
   <ingredient name="drinkJarBoiledWater" count="1"/>
 </recipe>
 
-<recipe name="resourceGlue" count="1" craft_area="chemistryStation">
-  <ingredient name="resourceScrapPolymers" count="3"/>
-  <ingredient name="drinkJarRiverWater" count="1"/>
-</recipe>
-
 <recipe name="resourceScrapPolymers" count="1" craft_area="chemistryStation">
   <ingredient name="resourcePotassiumNitratePowder" count="3"/>
 </recipe>
 
 <recipe name="ammoGasCan" count="1000" craft_area="chemistryStation">
   <ingredient name="foodCropGraceCorn" count="1"/>
+</recipe>
+
+<recipe name="resourceGlue" count="1" craft_area="chemistryStation" tags="perkAdvancedEngineering,chemStationCrafting">
+	<ingredient name="resourceScrapPolymers" count="5"/>
+	<ingredient name="drinkJarRiverWater" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="1,5" operation="base_add" value="-1" tags="resourceScrapPolymers"/>
+	</effect_group>
 </recipe>
 
 <!-- ============== Cement crafting ============== -->
