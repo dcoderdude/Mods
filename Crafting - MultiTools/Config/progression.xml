@@ -1,7 +1,13 @@
 <configs>
 <append xpath="/progression/perks/perk[@name='perkMiner69r']/effect_group">
 	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="PickaxeShovel"/>
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkDeepCuts']/effect_group">
 	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="MacheteShears"/>
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkSalvageOperations']/effect_group">
 	<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="WrenchHammer"/>
 </append>
 </configs>
