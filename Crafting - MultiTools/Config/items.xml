@@ -3,7 +3,7 @@
 <append xpath="/items">
 
 <item name="PickaxeShovel">
-	<property name="Tags" value="melee,grunting,medium,tool,light,longShaft,attStrength,perkMiner69r,perkMotherLode,miningTool,canHaveCosmetic"/>
+	<property name="Tags" value="melee,medium,tool,light,longShaft,attStrength,perkMiner69r,perkMotherLode,miningTool,canHaveCosmetic"/>
 	<property name="CustomIcon" value="meleeToolPickT2SteelPickaxe"/>
 	<property name="DescriptionKey" value="PickaxeShovelDesc"/>
 	<property name="Group" value="Tools/Traps"/>
@@ -75,7 +75,7 @@
 </item>
 
 <item name="WrenchHammer">
-	<property name="Tags" value="blunt,melee,grunting,light,tool,longShaft,attPerception,perkSalvageOperations,canHaveCosmetic"/>
+	<property name="Tags" value="blunt,melee,light,tool,longShaft,attPerception,perkSalvageOperations,canHaveCosmetic"/>
 	<property name="CustomIcon" value="meleeToolSalvageT1Wrench"/>
 	<property name="DescriptionKey" value="WrenchHammerDesc"/>
 	<property name="Group" value="Tools/Traps"/>
@@ -132,7 +132,7 @@
 </item>
 
 <item name="MacheteShears">
-	<property name="Tags" value="machete,melee,grunting,light,longShaft,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
+	<property name="Tags" value="machete,melee,light,longShaft,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
   <property name="CustomIcon" value="meleeWpnBladeT3Machete" />
 	<property name="DescriptionKey" value="MacheteShearsDesc"/>
 	<property name="Group" value="Tools/Traps"/>
