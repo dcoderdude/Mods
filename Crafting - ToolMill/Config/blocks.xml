@@ -1,4 +1,4 @@
-<delmod>
+<config>
 	<append xpath="/blocks" >	
 <!--================================
 	ADD MILLING MACHINE
@@ -60,4 +60,4 @@
 	</append>
 
 
-</delmod>
+</config>

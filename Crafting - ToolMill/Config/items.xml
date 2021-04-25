@@ -1,4 +1,4 @@
-<delmod>
+<config>
 	  <append xpath="/items">
 
 <item name="toolCalipers">
@@ -13,4 +13,4 @@
 </item>
 
   </append>
-</delmod>
+</config>
