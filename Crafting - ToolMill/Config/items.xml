@@ -1,16 +1,185 @@
-<delmod>
+<config>
 	  <append xpath="/items">
-
-<item name="toolCalipers">
-	<property name="HoldType" value="45"/>
-	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-	<property name="Material" value="Msteel"/>
-	<property name="Weight" value="5"/>
-	<property name="Stacknumber" value="1"/>
-	<property name="Group" value="Resources,Tools/Traps"/>
-	<property name="EconomicValue" value="2000"/>
-</item>
-
+      <item name="toolCalipers">
+        <property name="HoldType" value="45"/>
+        <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+        <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+        <property name="Material" value="Msteel"/>
+        <property name="Weight" value="5"/>
+        <property name="Stacknumber" value="1"/>
+        <property name="Group" value="Resources,Tools/Traps"/>
+        <property name="EconomicValue" value="2000"/>
+      </item>
+      <!--================================  RECYCLE PARTS ================================ -->
+      <item name="dismantleGunBowT1WoodenBowParts">
+          <property name="Extends" value="questMaster"/>
+          <property name="CustomIcon" value="gunBowT1WoodenBowParts"/>
+          <property name="CustomIconTint" value="9f59de"/>
+          <property name="DescriptionKey" value="dismantleGunBowT1WoodenBowPartsDesc"/>
+          <property name="Group" value="Resources,Tools/Traps"/>
+          <property class="Action0">
+            <property name="QuestGiven" value="dismantleGunBowT1WoodenBowParts"/>
+          </property>
+      </item>      
+      <item name="dismantleGunShotgunT1DoubleBarrelParts">
+          <property name="Extends" value="questMaster"/>
+          <property name="CustomIcon" value="gunShotgunT1DoubleBarrelParts"/>
+          <property name="CustomIconTint" value="9f59de"/>
+          <property name="DescriptionKey" value="dismantleGunShotgunT1DoubleBarrelPartsDesc"/>
+          <property name="Group" value="Resources,Tools/Traps"/>
+          <property class="Action0">
+            <property name="QuestGiven" value="dismantleGunShotgunT1DoubleBarrelParts"/>
+          </property>
+      </item>
+      <item name="dismantleGunHandgunT1PistolParts">
+          <property name="Extends" value="questMaster"/>
+          <property name="CustomIcon" value="gunHandgunT1PistolParts"/>
+          <property name="CustomIconTint" value="9f59de"/>
+          <property name="DescriptionKey" value="dismantleGunHandgunT1PistolPartsDesc"/>
+          <property name="Group" value="Resources,Tools/Traps"/>
+          <property class="Action0">
+            <property name="QuestGiven" value="dismantleGunHandgunT1PistolParts"/>
+          </property>
+      </item>
+      <item name="dismantleGunRifleT1HuntingRifleParts">
+          <property name="Extends" value="questMaster"/>
+          <property name="CustomIcon" value="gunRifleT1HuntingRifleParts"/>
+          <property name="CustomIconTint" value="9f59de"/>
+          <property name="DescriptionKey" value="dismantleGunRifleT1HuntingRiflePartsDesc"/>
+          <property name="Group" value="Resources,Tools/Traps"/>
+          <property class="Action0">
+            <property name="QuestGiven" value="dismantleGunRifleT1HuntingRifleParts"/>
+          </property>
+      </item>
+      <item name="dismantleGunMGT1AK47Parts">
+          <property name="Extends" value="questMaster"/>
+          <property name="CustomIcon" value="gunMGT1AK47Parts"/>
+          <property name="CustomIconTint" value="9f59de"/>
+          <property name="DescriptionKey" value="dismantleGunMGT1AK47PartsDesc"/>
+          <property name="Group" value="Resources,Tools/Traps"/>
+          <property class="Action0">
+            <property name="QuestGiven" value="dismantleGunMGT1AK47Parts"/>
+          </property>
+      </item>
+      <item name="dismantleGunExplosivesT3RocketLauncherParts">
+          <property name="Extends" value="questMaster"/>
+          <property name="CustomIcon" value="gunExplosivesT3RocketLauncherParts"/>
+          <property name="CustomIconTint" value="9f59de"/>
+          <property name="DescriptionKey" value="dismantleGunExplosivesT3RocketLauncherPartsDesc"/>
+          <property name="Group" value="Resources,Tools/Traps"/>
+          <property class="Action0">
+            <property name="QuestGiven" value="dismantleGunExplosivesT3RocketLauncherParts"/>
+          </property>
+      </item>
+      <item name="dismantleGunBotRoboticsParts">
+          <property name="Extends" value="questMaster"/>
+          <property name="CustomIcon" value="gunBotRoboticsParts"/>
+          <property name="CustomIconTint" value="9f59de"/>
+          <property name="DescriptionKey" value="dismantleGunBotRoboticsPartsDesc"/>
+          <property name="Group" value="Resources,Tools/Traps"/>
+          <property class="Action0">
+            <property name="QuestGiven" value="dismantleGunBotRoboticsParts"/>
+          </property>
+      </item>
+      <item name="dismantleMeleeWpnBatonT2StunBatonParts">
+          <property name="Extends" value="questMaster"/>
+          <property name="CustomIcon" value="meleeWpnBatonT2StunBatonParts"/>
+          <property name="CustomIconTint" value="9f59de"/>
+          <property name="DescriptionKey" value="dismantleMeleeWpnBatonT2StunBatonPartsDesc"/>
+          <property name="Group" value="Resources,Tools/Traps"/>
+          <property class="Action0">
+            <property name="QuestGiven" value="dismantleMeleeWpnBatonT2StunBatonParts"/>
+          </property>
+      </item>
+      <item name="dismantleArmorMilitarySetParts">
+          <property name="Extends" value="questMaster"/>
+          <property name="CustomIcon" value="armorMilitarySetParts"/>
+          <property name="CustomIconTint" value="9f59de"/>
+          <property name="DescriptionKey" value="dismantleArmorMilitarySetPartsDesc"/>
+          <property name="Group" value="Resources,Tools/Traps"/>
+          <property class="Action0">
+            <property name="QuestGiven" value="dismantleArmorMilitarySetParts"/>
+          </property>
+      </item>
+      <item name="dismantleMeleeToolAxeT3ChainsawParts">
+          <property name="Extends" value="questMaster"/>
+          <property name="CustomIcon" value="meleeToolAxeT3ChainsawParts"/>
+          <property name="CustomIconTint" value="9f59de"/>
+          <property name="DescriptionKey" value="dismantleMeleeToolAxeT3ChainsawPartsDesc"/>
+          <property name="Group" value="Resources,Tools/Traps"/>
+          <property class="Action0">
+            <property name="QuestGiven" value="dismantleMeleeToolAxeT3ChainsawParts"/>
+          </property>
+      </item>
+      <item name="dismantleMeleeWpnBladeT3MacheteParts">
+          <property name="Extends" value="questMaster"/>
+          <property name="CustomIcon" value="meleeWpnBladeT3MacheteParts"/>
+          <property name="CustomIconTint" value="9f59de"/>
+          <property name="DescriptionKey" value="dismantleMeleeWpnBladeT3MachetePartsDesc"/>
+          <property name="Group" value="Resources,Tools/Traps"/>
+          <property class="Action0">
+            <property name="QuestGiven" value="dismantleMeleeWpnBladeT3MacheteParts"/>
+          </property>
+      </item>
+      <item name="dismantleMeleeWpnKnucklesT3SteelKnucklesParts">
+          <property name="Extends" value="questMaster"/>
+          <property name="CustomIcon" value="meleeWpnKnucklesT3SteelKnucklesParts"/>
+          <property name="CustomIconTint" value="9f59de"/>
+          <property name="DescriptionKey" value="dismantleMeleeWpnKnucklesT3SteelKnucklesPartsDesc"/>
+          <property name="Group" value="Resources,Tools/Traps"/>
+          <property class="Action0">
+            <property name="QuestGiven" value="dismantleMeleeWpnKnucklesT3SteelKnucklesParts"/>
+          </property>
+      </item>
+      <item name="dismantleMeleeWpnSpearT3SteelSpearParts">
+          <property name="Extends" value="questMaster"/>
+          <property name="CustomIcon" value="meleeWpnSpearT3SteelSpearParts"/>
+          <property name="CustomIconTint" value="9f59de"/>
+          <property name="DescriptionKey" value="dismantleMeleeWpnSpearT3SteelSpearPartsDesc"/>
+          <property name="Group" value="Resources,Tools/Traps"/>
+          <property class="Action0">
+            <property name="QuestGiven" value="dismantleMeleeWpnSpearT3SteelSpearParts"/>
+          </property>
+      </item>
+      <item name="dismantleMeleeWpnClubT3SteelClubParts">
+          <property name="Extends" value="questMaster"/>
+          <property name="CustomIcon" value="meleeWpnClubT3SteelClubParts"/>
+          <property name="CustomIconTint" value="9f59de"/>
+          <property name="DescriptionKey" value="dismantleMeleeWpnClubT3SteelClubPartsDesc"/>
+          <property name="Group" value="Resources,Tools/Traps"/>
+          <property class="Action0">
+            <property name="QuestGiven" value="dismantleMeleeWpnClubT3SteelClubParts"/>
+          </property>
+      </item>
+      <item name="dismantleMeleeWpnSledgeT3SteelSledgehammerParts">
+          <property name="Extends" value="questMaster"/>
+          <property name="CustomIcon" value="meleeWpnSledgeT3SteelSledgehammerParts"/>
+          <property name="CustomIconTint" value="9f59de"/>
+          <property name="DescriptionKey" value="dismantleMeleeWpnSledgeT3SteelSledgehammerPartsDesc"/>
+          <property name="Group" value="Resources,Tools/Traps"/>
+          <property class="Action0">
+            <property name="QuestGiven" value="dismantleMeleeWpnSledgeT3SteelSledgehammerParts"/>
+          </property>
+      </item>
+      <item name="dismantleMeleeToolAllSteelParts">
+          <property name="Extends" value="questMaster"/>
+          <property name="CustomIcon" value="meleeToolAllSteelParts"/>
+          <property name="CustomIconTint" value="9f59de"/>
+          <property name="DescriptionKey" value="dismantleMeleeToolAllSteelPartsDesc"/>
+          <property name="Group" value="Resources,Tools/Traps"/>
+          <property class="Action0">
+            <property name="QuestGiven" value="dismantleMeleeToolAllSteelParts"/>
+          </property>
+      </item>
+      <item name="dismantleArmorSteelSetParts">
+          <property name="Extends" value="questMaster"/>
+          <property name="CustomIcon" value="armorSteelSetParts"/>
+          <property name="CustomIconTint" value="9f59de"/>
+          <property name="DescriptionKey" value="dismantleArmorSteelSetPartsDesc"/>
+          <property name="Group" value="Resources,Tools/Traps"/>
+          <property class="Action0">
+            <property name="QuestGiven" value="dismantleArmorSteelSetParts"/>
+          </property>
+      </item>
   </append>
-</delmod>
+</config>
