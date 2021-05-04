@@ -1,5 +1,5 @@
 <config>
-	<!--================================  	ADD CRAFTABLE MILL AND PARTS  ================================ -->
+	<!--================================  CRAFTABLE MILL  ================================ -->
 	<append xpath="/recipes" >	
 		<recipe name="millMachine" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable,workbenchCrafting">
 			<ingredient name="resourceForgedIron" count="100"/>
@@ -18,62 +18,59 @@
 			<ingredient name="resourceMechanicalParts" count="12"/>
 			<ingredient name="resourceSpring" count="14"/>
 		</recipe>
-    
-    <!--================================  	RECYCLE PARTS  ================================ -->
-		<recipe name="resourceWood" count="1" craft_area="millMachine" tags="millMachineCrafting">
-			<ingredient name="gunBowT1WoodenBowParts" count="1"/>
-		</recipe>
-		<recipe name="resourceForgedIron" count="1" craft_area="millMachine" tags="millMachineCrafting" craft_tool="toolCalipers"> 
-			<ingredient name="gunShotgunT1DoubleBarrelParts" count="1"/>
-		</recipe>
-		<recipe name="resourceForgedIron" count="1" craft_area="millMachine" tags="millMachineCrafting" craft_tool="toolCalipers"> 
-			<ingredient name="gunHandgunT1PistolParts" count="1"/>
-		</recipe>
-		<recipe name="resourceForgedIron" count="1" craft_area="millMachine" tags="millMachineCrafting" craft_tool="toolCalipers"> 
-			<ingredient name="gunRifleT1HuntingRifleParts" count="1"/>
-		</recipe>
-		<recipe name="resourceForgedIron" count="1" craft_area="millMachine" tags="millMachineCrafting" craft_tool="toolCalipers"> 
-			<ingredient name="gunMGT1AK47Parts" count="1"/>
-		</recipe>
-		<recipe name="resourceForgedIron" count="1" craft_area="millMachine" tags="millMachineCrafting" craft_tool="toolCalipers"> 
-			<ingredient name="gunExplosivesT3RocketLauncherParts" count="1"/>
-		</recipe>
-		<recipe name="resourceForgedIron" count="1" craft_area="millMachine" tags="millMachineCrafting" craft_tool="toolCalipers"> 
-			<ingredient name="gunBotRoboticsParts" count="1"/>
-		</recipe>
-		<recipe name="resourceForgedIron" count="1" craft_area="millMachine" tags="millMachineCrafting" craft_tool="toolCalipers"> 
-			<ingredient name="meleeWpnBatonT2StunBatonParts" count="1"/>
-		</recipe>
-		<recipe name="resourceForgedIron" count="1" craft_area="millMachine" tags="millMachineCrafting" craft_tool="toolCalipers"> 
-			<ingredient name="armorMilitarySetParts" count="1"/>
-		</recipe>
-		<recipe name="resourceForgedIron" count="1" craft_area="millMachine" tags="millMachineCrafting" craft_tool="toolCalipers"> 
-			<ingredient name="meleeToolAxeT3ChainsawParts" count="1"/>
-		</recipe>
-		<recipe name="resourceForgedIron" count="1" craft_area="millMachine" tags="millMachineCrafting" craft_tool="toolCalipers"> 
-			<ingredient name="meleeWpnBladeT3MacheteParts" count="1"/>
-		</recipe>
-		<recipe name="resourceForgedSteel" count="1" craft_area="millMachine" tags="millMachineCrafting" craft_tool="toolAndDieSet"> 
-			<ingredient name="meleeWpnKnucklesT3SteelKnucklesParts" count="1"/>
-		</recipe>
-		<recipe name="resourceForgedSteel" count="1" craft_area="millMachine" tags="millMachineCrafting" craft_tool="toolAndDieSet"> 
-			<ingredient name="meleeWpnSpearT3SteelSpearParts" count="1"/>
-		</recipe>
-		<recipe name="resourceForgedSteel" count="1" craft_area="millMachine" tags="millMachineCrafting" craft_tool="toolAndDieSet"> 
-			<ingredient name="meleeWpnClubT3SteelClubParts" count="1"/>
-		</recipe>
-		<recipe name="resourceForgedSteel" count="1" craft_area="millMachine" tags="millMachineCrafting" craft_tool="toolAndDieSet"> 
-			<ingredient name="meleeWpnSledgeT3SteelSledgehammerParts" count="1"/>
-		</recipe>
-		<recipe name="resourceForgedSteel" count="1" craft_area="millMachine" tags="millMachineCrafting" craft_tool="toolAndDieSet"> 
-			<ingredient name="meleeToolAllSteelParts" count="1"/>
-		</recipe>
-		<recipe name="resourceForgedSteel" count="1" craft_area="millMachine" tags="millMachineCrafting" craft_tool="toolAndDieSet"> 
-			<ingredient name="armorSteelSetParts" count="1"/>
-		</recipe>
-
-
-    <!--================================  	CRAFT PARTS  ================================ -->
+    <!--================================  RECYCLE PARTS  ================================ -->
+    <recipe name="dismantleGunBowT1WoodenBowParts" count="10" craft_area="millMachine" craft_time = "5" craft_exp_gain="0">
+        <ingredient name="gunBowT1WoodenBowParts" count="10"/>
+    </recipe>
+    <recipe name="dismantleGunShotgunT1DoubleBarrelParts" count="10" craft_area="millMachine" craft_tool="toolCalipers" craft_time = "5" craft_exp_gain="0">
+        <ingredient name="gunShotgunT1DoubleBarrelParts" count="10"/>
+    </recipe>
+    <recipe name="dismantleGunHandgunT1PistolParts" count="10" craft_area="millMachine" craft_tool="toolCalipers" craft_time = "5" craft_exp_gain="0">
+        <ingredient name="gunHandgunT1PistolParts" count="10"/>
+    </recipe>
+    <recipe name="dismantleGunRifleT1HuntingRifleParts" count="10" craft_area="millMachine" craft_tool="toolCalipers" craft_time = "5" craft_exp_gain="0">
+        <ingredient name="gunRifleT1HuntingRifleParts" count="10"/>
+    </recipe>
+    <recipe name="dismantleGunMGT1AK47Parts" count="10" craft_area="millMachine" craft_tool="toolCalipers" craft_time = "5" craft_exp_gain="0">
+        <ingredient name="gunMGT1AK47Parts" count="10"/>
+    </recipe>
+    <recipe name="dismantleGunExplosivesT3RocketLauncherParts" count="10" craft_area="millMachine" craft_tool="meleeToolWireTool" craft_time = "5" craft_exp_gain="0">
+        <ingredient name="gunExplosivesT3RocketLauncherParts" count="10"/>
+    </recipe>
+    <recipe name="dismantleGunBotRoboticsParts" count="10" craft_area="millMachine" craft_tool="meleeToolWireTool" craft_time = "5" craft_exp_gain="0">
+        <ingredient name="gunBotRoboticsParts" count="10"/>
+    </recipe>
+    <recipe name="dismantleMeleeWpnBatonT2StunBatonParts" count="10" craft_area="millMachine" craft_tool="meleeToolWireTool" craft_time = "5" craft_exp_gain="0">
+        <ingredient name="meleeWpnBatonT2StunBatonParts" count="10"/>
+    </recipe>
+    <recipe name="dismantleArmorMilitarySetParts" count="10" craft_area="millMachine" craft_tool="toolCalipers" craft_time = "5" craft_exp_gain="0">
+        <ingredient name="armorMilitarySetParts" count="10"/>
+    </recipe>
+    <recipe name="dismantleMeleeToolAxeT3ChainsawParts" count="10" craft_area="millMachine" craft_tool="meleeToolWireTool" craft_time = "5" craft_exp_gain="0">
+        <ingredient name="meleeToolAxeT3ChainsawParts" count="10"/>
+    </recipe>
+    <recipe name="dismantleMeleeWpnBladeT3MacheteParts" count="10" craft_area="millMachine" craft_tool="toolCalipers" craft_time = "5" craft_exp_gain="0">
+        <ingredient name="meleeWpnBladeT3MacheteParts" count="10"/>
+    </recipe>
+    <recipe name="dismantleMeleeWpnKnucklesT3SteelKnucklesParts" count="10" craft_area="millMachine" craft_tool="toolAndDieSet" craft_time = "5" craft_exp_gain="0">
+        <ingredient name="meleeWpnKnucklesT3SteelKnucklesParts" count="10"/>
+    </recipe>    
+    <recipe name="dismantleMeleeWpnSpearT3SteelSpearParts" count="10" craft_area="millMachine" craft_tool="toolAndDieSet" craft_time = "5" craft_exp_gain="0">
+        <ingredient name="meleeWpnSpearT3SteelSpearParts" count="10"/>
+    </recipe>    
+    <recipe name="dismantleMeleeWpnClubT3SteelClubParts" count="10" craft_area="millMachine" craft_tool="toolAndDieSet" craft_time = "5" craft_exp_gain="0">
+        <ingredient name="meleeWpnClubT3SteelClubParts" count="10"/>
+    </recipe>
+    <recipe name="dismantleMeleeWpnSledgeT3SteelSledgehammerParts" count="10" craft_area="millMachine" craft_tool="toolAndDieSet" craft_time = "5" craft_exp_gain="0">
+        <ingredient name="meleeWpnSledgeT3SteelSledgehammerParts" count="10"/>
+    </recipe>
+    <recipe name="dismantleMeleeToolAllSteelParts" count="10" craft_area="millMachine" craft_tool="toolAndDieSet" craft_time = "5" craft_exp_gain="0">
+        <ingredient name="meleeToolAllSteelParts" count="10"/>
+    </recipe>
+    <recipe name="dismantleArmorSteelSetParts" count="10" craft_area="millMachine" craft_tool="toolAndDieSet" craft_time = "5" craft_exp_gain="0">
+        <ingredient name="armorSteelSetParts" count="10"/>
+    </recipe>
+    <!--================================  CRAFT PARTS  ================================ -->
     <recipe name="gunBowT1WoodenBowParts" count="1" craft_area="millMachine" tags="millMachineCrafting">
       <ingredient name="resourceWood" count="1"/>
       <ingredient name="resourceMechanicalParts" count="1"/>

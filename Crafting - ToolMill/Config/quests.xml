@@ -1,0 +1,208 @@
+<config>
+  <append xpath="/quests">
+    <quest id="dismantleGunBowT1WoodenBowParts">
+        <property name="name_key" value="Dismantle Bow Parts"/>
+        <property name="subtitle_key" value="Dismantle Bow Parts"/>
+        <property name="description_key" value="Dismantle wooden bow parts to get their raw components."/>
+        <property name="icon" value="misc_crafting" />
+        <property name="repeatable" value="true" />
+        <property name="category_key" value="challenge" />
+        <property name="offer_key" value="Dismantled wooden bow parts for its raw materials." />
+        <property name="difficulty" value="easy" />
+        <property name="shareable" value="true" />
+        <reward type="Item" id="resourceWood" value="100"/>
+    </quest>
+    <quest id="dismantleGunShotgunT1DoubleBarrelParts">
+        <property name="name_key" value="Dismantle Shotgun Parts"/>
+        <property name="subtitle_key" value="Dismantle Shotgun Parts"/>
+        <property name="description_key" value="Dismantle shotgun parts to get their raw components."/>
+        <property name="icon" value="misc_crafting" />
+        <property name="repeatable" value="true" />
+        <property name="category_key" value="challenge" />
+        <property name="offer_key" value="Dismantled shotgun parts for its raw materials." />
+        <property name="difficulty" value="easy" />
+        <property name="shareable" value="true" />
+        <reward type="Item" id="resourceForgedIron" value="100"/>
+    </quest>
+    <quest id="dismantleGunHandgunT1PistolParts">
+        <property name="name_key" value="Dismantle Handgun Parts"/>
+        <property name="subtitle_key" value="Dismantle Handgun Parts"/>
+        <property name="description_key" value="Dismantle handgun parts to get their raw components."/>
+        <property name="icon" value="misc_crafting" />
+        <property name="repeatable" value="true" />
+        <property name="category_key" value="challenge" />
+        <property name="offer_key" value="Dismantled handgun parts for its raw materials." />
+        <property name="difficulty" value="easy" />
+        <property name="shareable" value="true" />
+        <reward type="Item" id="resourceForgedIron" value="100"/>
+    </quest>
+    <quest id="dismantleGunRifleT1HuntingRifleParts">
+        <property name="name_key" value="Dismantle Rifle Parts"/>
+        <property name="subtitle_key" value="Dismantle Rifle Parts"/>
+        <property name="description_key" value="Dismantle rifle parts to get their raw components."/>
+        <property name="icon" value="misc_crafting" />
+        <property name="repeatable" value="true" />
+        <property name="category_key" value="challenge" />
+        <property name="offer_key" value="Dismantled rifle parts for its raw materials." />
+        <property name="difficulty" value="easy" />
+        <property name="shareable" value="true" />
+        <reward type="Item" id="resourceForgedIron" value="100"/>
+    </quest>
+    <quest id="dismantleGunMGT1AK47Parts">
+        <property name="name_key" value="Dismantle Machine Gun Parts"/>
+        <property name="subtitle_key" value="Dismantle Machine Gun Parts"/>
+        <property name="description_key" value="Dismantle machine gun parts to get their raw components."/>
+        <property name="icon" value="misc_crafting" />
+        <property name="repeatable" value="true" />
+        <property name="category_key" value="challenge" />
+        <property name="offer_key" value="Dismantled machine gun parts for its raw materials." />
+        <property name="difficulty" value="easy" />
+        <property name="shareable" value="true" />
+        <reward type="Item" id="resourceForgedIron" value="100"/>
+    </quest>
+    <quest id="dismantleGunExplosivesT3RocketLauncherParts">
+        <property name="name_key" value="Dismantle Rocket Parts"/>
+        <property name="subtitle_key" value="Dismantle Rocket Parts"/>
+        <property name="description_key" value="Dismantle rocket parts to get their raw components."/>
+        <property name="icon" value="misc_crafting" />
+        <property name="repeatable" value="true" />
+        <property name="category_key" value="challenge" />
+        <property name="offer_key" value="Dismantled rocket parts for its raw materials." />
+        <property name="difficulty" value="easy" />
+        <property name="shareable" value="true" />
+        <reward type="Item" id="resourceForgedIron" value="100"/>
+    </quest>
+    <quest id="dismantleGunBotRoboticsParts">
+        <property name="name_key" value="Dismantle Robotic Parts"/>
+        <property name="subtitle_key" value="Dismantle Robotic Parts"/>
+        <property name="description_key" value="Dismantle robotic parts to get their raw components."/>
+        <property name="icon" value="misc_crafting" />
+        <property name="repeatable" value="true" />
+        <property name="category_key" value="challenge" />
+        <property name="offer_key" value="Dismantled robotic parts for its raw materials." />
+        <property name="difficulty" value="easy" />
+        <property name="shareable" value="true" />
+        <reward type="Item" id="resourceForgedIron" value="100"/>
+    </quest>
+    <quest id="dismantleMeleeWpnBatonT2StunBatonParts">
+        <property name="name_key" value="Dismantle Buton Parts"/>
+        <property name="subtitle_key" value="Dismantle Buton Parts"/>
+        <property name="description_key" value="Dismantle buton parts to get their raw components."/>
+        <property name="icon" value="misc_crafting" />
+        <property name="repeatable" value="true" />
+        <property name="category_key" value="challenge" />
+        <property name="offer_key" value="Dismantled buton parts for its raw materials." />
+        <property name="difficulty" value="easy" />
+        <property name="shareable" value="true" />
+        <reward type="Item" id="resourceForgedIron" value="100"/>
+    </quest>
+    <quest id="dismantleArmorMilitarySetParts">
+        <property name="name_key" value="Dismantle Military Armor Parts"/>
+        <property name="subtitle_key" value="Dismantle Military Armor Parts"/>
+        <property name="description_key" value="Dismantle military armor parts to get their raw components."/>
+        <property name="icon" value="misc_crafting" />
+        <property name="repeatable" value="true" />
+        <property name="category_key" value="challenge" />
+        <property name="offer_key" value="Dismantled military armor parts for its raw materials." />
+        <property name="difficulty" value="easy" />
+        <property name="shareable" value="true" />
+        <reward type="Item" id="resourceForgedIron" value="100"/>
+    </quest>
+    <quest id="dismantleMeleeToolAxeT3ChainsawParts">
+        <property name="name_key" value="Dismantle Chainsaw Parts"/>
+        <property name="subtitle_key" value="Dismantle Chainsaw Parts"/>
+        <property name="description_key" value="Dismantle chainsaw parts to get their raw components."/>
+        <property name="icon" value="misc_crafting" />
+        <property name="repeatable" value="true" />
+        <property name="category_key" value="challenge" />
+        <property name="offer_key" value="Dismantled chainsaw parts for its raw materials." />
+        <property name="difficulty" value="easy" />
+        <property name="shareable" value="true" />
+        <reward type="Item" id="resourceForgedIron" value="100"/>
+    </quest>
+    <quest id="dismantleMeleeWpnBladeT3MacheteParts">
+        <property name="name_key" value="Dismantle Machete Parts"/>
+        <property name="subtitle_key" value="Dismantle Machete Parts"/>
+        <property name="description_key" value="Dismantle machete parts to get their raw components."/>
+        <property name="icon" value="misc_crafting" />
+        <property name="repeatable" value="true" />
+        <property name="category_key" value="challenge" />
+        <property name="offer_key" value="Dismantled machete parts for its raw materials." />
+        <property name="difficulty" value="easy" />
+        <property name="shareable" value="true" />
+        <reward type="Item" id="resourceForgedIron" value="100"/>
+    </quest>
+    <quest id="dismantleMeleeWpnSpearT3SteelSpearParts">
+        <property name="name_key" value="Dismantle Steel Spear Parts"/>
+        <property name="subtitle_key" value="Dismantle Steel Spear Parts"/>
+        <property name="description_key" value="Dismantle steel spear parts to get their raw components."/>
+        <property name="icon" value="misc_crafting" />
+        <property name="repeatable" value="true" />
+        <property name="category_key" value="challenge" />
+        <property name="offer_key" value="Dismantled steel spear parts for its raw materials." />
+        <property name="difficulty" value="easy" />
+        <property name="shareable" value="true" />
+        <reward type="Item" id="resourceForgedSteel" value="100"/>
+    </quest>
+    <quest id="dismantleMeleeWpnKnucklesT3SteelKnucklesParts">
+        <property name="name_key" value="Dismantle Steel Knuckle Parts"/>
+        <property name="subtitle_key" value="Dismantle Steel Knuckle Parts"/>
+        <property name="description_key" value="Dismantle steel knuckle parts to get their raw components."/>
+        <property name="icon" value="misc_crafting" />
+        <property name="repeatable" value="true" />
+        <property name="category_key" value="challenge" />
+        <property name="offer_key" value="Dismantled steel knuckle parts for its raw materials." />
+        <property name="difficulty" value="easy" />
+        <property name="shareable" value="true" />
+        <reward type="Item" id="resourceForgedSteel" value="100"/>
+    </quest>
+    <quest id="dismantleMeleeWpnClubT3SteelClubParts">
+        <property name="name_key" value="Dismantle Steel Club Parts"/>
+        <property name="subtitle_key" value="Dismantle Steel Club Parts"/>
+        <property name="description_key" value="Dismantle steel club parts to get their raw components."/>
+        <property name="icon" value="misc_crafting" />
+        <property name="repeatable" value="true" />
+        <property name="category_key" value="challenge" />
+        <property name="offer_key" value="Dismantled steel club parts for its raw materials." />
+        <property name="difficulty" value="easy" />
+        <property name="shareable" value="true" />
+        <reward type="Item" id="resourceForgedSteel" value="100"/>
+    </quest>
+    <quest id="dismantleMeleeWpnSledgeT3SteelSledgehammerParts">
+        <property name="name_key" value="Dismantle Steel Hammer Parts"/>
+        <property name="subtitle_key" value="Dismantle Steel Hammer Parts"/>
+        <property name="description_key" value="Dismantle steel hammer parts to get their raw components."/>
+        <property name="icon" value="misc_crafting" />
+        <property name="repeatable" value="true" />
+        <property name="category_key" value="challenge" />
+        <property name="offer_key" value="Dismantled steel hammer parts for its raw materials." />
+        <property name="difficulty" value="easy" />
+        <property name="shareable" value="true" />
+        <reward type="Item" id="resourceForgedSteel" value="100"/>
+    </quest>
+    <quest id="dismantleMeleeToolAllSteelParts">
+        <property name="name_key" value="Dismantle Steel Tool Parts"/>
+        <property name="subtitle_key" value="Dismantle Steel Tool Parts"/>
+        <property name="description_key" value="Dismantle steel tool parts to get their raw components."/>
+        <property name="icon" value="misc_crafting" />
+        <property name="repeatable" value="true" />
+        <property name="category_key" value="challenge" />
+        <property name="offer_key" value="You've dismantled steel tool parts for its raw materials." />
+        <property name="difficulty" value="easy" />
+        <property name="shareable" value="true" />
+        <reward type="Item" id="resourceForgedSteel" value="100"/>
+    </quest>
+    <quest id="dismantleArmorSteelSetParts">
+        <property name="name_key" value="Dismantle Steel Armor Parts"/>
+        <property name="subtitle_key" value="Dismantle Steel Armor Parts"/>
+        <property name="description_key" value="Dismantle steel armor parts to get their raw components."/>
+        <property name="icon" value="misc_crafting" />
+        <property name="repeatable" value="true" />
+        <property name="category_key" value="challenge" />
+        <property name="offer_key" value="You've dismantled steel armor parts for its raw materials." />
+        <property name="difficulty" value="easy" />
+        <property name="shareable" value="true" />
+        <reward type="Item" id="resourceForgedSteel" value="100"/>
+    </quest>
+  </append>
+</config>
