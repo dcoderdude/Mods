@@ -1,0 +1,7 @@
+Key,Source,Context,English
+
+armorShield,item,schild,Steel Shield,Stahlschild
+h7sb_buff_schildDesc,desc,schild,"Shields protect their wearer from injury and can be used to block (F). They can be used together with bladed weapons, clubs and pistols.\n\nInactive: running speed -2% / injuries -5% / bleeding -15% \nActive: running speed -5% / injuries -15% / bleeding -55% \n\nThe shield block requires at least 15 stamina and costs 10, and 10 every additional second. Blocking successfully knockdowns enemy and restores 10 stamina. Weapons cannot be used during the block."
+h7sb_buff_schild_aktivDesc,desc,schild,"Shields protect their wearer from injury and can be used to block (F). They can be used together with bladed weapons, clubs and pistols.\n\nInactive: running speed -2% / injuries -5% / bleeding -15% \nActive: running speed -5% / injuries -15% / bleeding -55% \n\nThe shield block requires at least 15 stamina and costs 10, and 10 every additional second. Blocking successfully knockdowns enemy and restores 10 stamina. Weapons cannot be used during the block."
+h7sb_buch_schild,item,schild,Thermopylae Epigram,Thermopylen-Epigramm
+h7sb_buch_schildDesc,desc,schild,"The 'Thermopylae epigram' is a lore from Simonides von Keos. Friedrich Schiller translated the words 'Wanderer, are you coming to Sparta, proclaim there that you saw us lying here as the law ordered'. \n\nYou will learn how to make steel shields while reading the book."

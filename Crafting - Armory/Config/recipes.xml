@@ -1,0 +1,10 @@
+<config>
+<append xpath="/recipes" >
+  <recipe name="armorShield" count="1" craft_area="workbench" tags="learnable">
+    <ingredient name="armorSteelSetParts" count="5"/>
+    <ingredient name="resourceForgedSteel" count="12"/>
+    <ingredient name="resourceLeather" count="3"/>
+    <ingredient name="resourceDuctTape" count="3"/>
+  </recipe>
+</append>
+</config>

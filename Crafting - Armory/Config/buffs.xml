@@ -1,0 +1,128 @@
+<config>
+  <append xpath="/buffs/buff[@name='buffStatusCheck01']">
+    <effect_group name="shieldDebug">
+      <triggered_effect trigger="onSelfEnteredGame" action="AddBuff" buff="h7sb_armoryDelay"/>
+    </effect_group>
+  </append>
+  
+  <append xpath="/buffs">
+    <buff name="h7sb_armoryDelay" hidden="true"><stack_type value="ignore"/><duration value="0.1"/></buff>
+  </append>
+  
+  <append xpath="/buffs/buff[@name='buffStatusCheck01']">
+    <effect_group name="config">
+    <triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="h7sb_buff_schild">
+    <requirement name="WornItems" tags="schild" operation="Equals" value="1"/>
+    </triggered_effect>
+    <triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="h7sb_buff_schild">
+    <requirement name="WornItems" tags="schild" operation="LT" value="1"/>
+    </triggered_effect>
+    <triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="h7sb_buff_schild_aktiv"><requirement name="WornItems" tags="schild" operation="LT" value="1"/></triggered_effect>
+    <triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="h7sb_buff_schildblock"><requirement name="WornItems" tags="schild" operation="LT" value="1"/></triggered_effect>
+    </effect_group>
+  </append>
+  
+  <append xpath="/buffs">
+    <buff name="h7sb_buff_schild" hidden="true">
+      <stack_type value="ignore"/>
+      <update_rate value="0.2"/>
+      <duration value="0"/>
+      <effect_group name="config" tiered="false">
+        <passive_effect name="PhysicalDamageResist" operation="base_add" value="5"/>
+        <passive_effect name="BuffResistance" operation="base_add" value="0.05" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger"/>
+        <passive_effect name="BuffResistance" operation="base_add" value="0.15" tags="buffInjuryBleedingOne,buffInjuryBleedingTwo"/>
+        <passive_effect name="RunSpeed" operation="perc_subtract" value="0.02"/>
+        <passive_effect name="WalkSpeed" operation="perc_subtract" value="0.02"/>
+        <passive_effect name="CrouchSpeed" operation="perc_subtract" value="0.02"/>
+      </effect_group>
+      <effect_group name="visual" tiered="false">
+        <triggered_effect trigger="onSelfBuffUpdate" action="RemovePart" part="shield"><requirement name="IsFPV"/></triggered_effect>
+        <triggered_effect trigger="onSelfBuffUpdate" action="AddPart" part="shield" prefab="Entities/Traps/hubcapPrefab" parentTransform="Spine" localPos="-0.145,0,-0.605" localRot="-90,3,0"><requirement name="!IsFPV"/></triggered_effect>
+        <triggered_effect trigger="onSelfBuffRemove" action="RemovePart" part="shield"/>
+      </effect_group>
+      <effect_group name="equip" tiered="false">
+        <triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="h7sb_buff_schild_aktiv">
+          <requirement name="HoldingItemHasTags" tags="shieldable"/>
+        </triggered_effect>
+      </effect_group>
+    </buff>
+  </append>
+
+  <append xpath="/buffs">
+    <buff name="buffShieldBash" hidden="true">
+      <damage_type value="knockdown"/>
+      <stack_type value="ignore"/>
+      <duration value="300"/>
+      <display_value value=".knockdownDisplay"/><display_value_key value="{0}"/>
+      <effect_group>
+        <passive_effect name="HealthChangeOT" operation="base_add" value="-6"/>
+        <triggered_effect trigger="onSelfBuffStart" action="Ragdoll" duration="95.5">
+          <requirement name="!EntityTagCompare" tags="trader"/>
+        </triggered_effect>
+      </effect_group>
+    </buff>
+  </append>
+  
+  <append xpath="/buffs">
+    <buff name="h7sb_buff_schild_aktiv" hidden="false" name_key="Shield" description_key="h7sb_buff_schild_aktivDesc" icon="ui_game_symbol_defense" icon_color="255,255,255">
+      <stack_type value="ignore"/>
+      <update_rate value="0.2"/>
+      <duration value="0"/>
+      <effect_group name="config" tiered="false">
+        <triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="h7sb_buff_schild"/><triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="h7sb_buff_schild"/>
+        <passive_effect name="BuffResistance" operation="base_add" value="2" tags="h7sb_buff_schild"/>
+        <passive_effect name="PhysicalDamageResist" operation="base_add" value="5"/>
+        <passive_effect name="BuffResistance" operation="base_add" value="0.15" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger"/>
+        <passive_effect name="BuffResistance" operation="base_add" value="0.55" tags="buffInjuryBleedingOne,buffInjuryBleedingTwo"/>
+        <passive_effect name="RunSpeed" operation="perc_subtract" value="0.05"/>
+        <passive_effect name="WalkSpeed" operation="perc_subtract" value="0.05"/>
+        <passive_effect name="CrouchSpeed" operation="perc_subtract" value="0.05"/>
+      </effect_group>
+      <effect_group name="visual" tiered="false">
+        <triggered_effect trigger="onSelfBuffUpdate" action="RemovePart" part="shield">
+          <requirement name="IsFPV"/>
+        </triggered_effect>
+        <triggered_effect trigger="onSelfBuffUpdate" action="AddPart" part="shield" prefab="Entities/Traps/hubcapPrefab" parentTransform="LeftForeArm" localPos="-0.28,0.535,0" localRot="0,0,0">
+          <requirement name="!IsFPV"/>
+        </triggered_effect>
+        <triggered_effect trigger="onSelfBuffRemove" action="RemovePart" part="shield"/>
+      </effect_group>
+      <effect_group name="remove" tiered="false">
+        <triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="h7sb_buff_schild_aktiv">
+          <requirement name="!HoldingItemHasTags" tags="shieldable"/>
+        </triggered_effect>
+        <triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="h7sb_buff_schild">
+          <requirement name="!HoldingItemHasTags" tags="shieldable"/>
+        </triggered_effect>
+      </effect_group>
+    </buff>
+  </append>
+  
+  <append xpath="/buffs">
+    <buff name="h7sb_buff_schildblock" name_key="Shield Block" description_key="h7sb_buff_schildblockDesc" icon="ui_game_symbol_defense" icon_color="94,168,98">
+    <stack_type value="ignore"/>
+    <update_rate value="1"/>
+    <duration value="3"/>
+    <effect_group tiered="false">
+      <passive_effect name="PhysicalDamageResist" operation="base_add" value="100"/>
+      <passive_effect name="BuffResistance" operation="base_add" value="1" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingOne,buffInjuryBleedingTwo"/>
+      <passive_effect name="RunSpeed" operation="perc_subtract" value="0.50"/>
+      <passive_effect name="WalkSpeed" operation="perc_subtract" value="0.10"/>
+      <passive_effect name="CrouchSpeed" operation="perc_subtract" value="0.10"/>
+      <passive_effect name="JumpStrength" operation="perc_subtract" value="0.10"/>
+      <triggered_effect trigger="onOtherAttackedSelf" action="AddBuff" target="other" buff="buffShieldBash">
+        <requirement name="EntityTagCompare" target="other" tags="zombie"/>
+      </triggered_effect>
+      <triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="h7sb_buff_schildblock">
+        <requirement name="StatCompareCurrent" stat="Stamina" operation="LTE" value="5"/>
+      </triggered_effect>
+    </effect_group>
+    <effect_group name="stamina" tiered="false">
+      <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Stamina" operation="subtract" value="10"/>
+      <triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="Stamina" operation="subtract" value="10"/>
+      <triggered_effect trigger="onOtherAttackedSelf" action="RemoveBuff" buff="h7sb_buff_schildblock"/>
+      <triggered_effect trigger="onSelfBuffRemove" action="ModifyStats" stat="Stamina" operation="add" value="10"/>
+    </effect_group>
+    </buff>
+  </append>
+</config>
