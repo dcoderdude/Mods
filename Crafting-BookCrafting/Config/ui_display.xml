@@ -1,0 +1,11 @@
+<config>
+
+<append xpath="/ui_display_info">
+
+		<crafting_category_list display_type="workingDesk">
+			<crafting_category name="Science" icon="ui_game_symbol_science" display_name="lblCategoryScience" />
+		</crafting_category_list>
+
+</append>
+
+</config>
