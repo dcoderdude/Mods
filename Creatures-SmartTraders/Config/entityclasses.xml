@@ -1,0 +1,15 @@
+<config>
+<append xpath="/entity_classes/entity_class[@name='npcTraderTemplate']">
+    <property name="ItemsOnEnterGame.GameModeSurvival" value="TurretGuardAutoShotgun,ammoTurretGuardShell"/>
+    <property name="ItemsOnEnterGame.GameModeSurvivalSP" value="TurretGuardAutoShotgun,ammoTurretGuardShell"/>
+    <property name="ItemsOnEnterGame.GameModeSurvivalMP" value="TurretGuardAutoShotgun,ammoTurretGuardShell"/>
+	
+    <property name="MaxViewAngle" value="360"/>
+    <property name="SightRange" value="50"/>
+    <property name="SightLightThreshold" value="-2,150"/>
+    <property name="YawRange" value="90"/>
+    <property name="PitchRange" value="90"/>
+	
+	<property name="AIPackages" value="Oaks Ranged"/>
+</append>
+</config>

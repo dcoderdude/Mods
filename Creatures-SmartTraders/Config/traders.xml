@@ -1,0 +1,14 @@
+<config>
+	<!--Set your own opening time-->
+		<set xpath="/traders/trader_info[@id='1']/@open_time">04:05</set> <!--Trader Joel-->
+		<set xpath="/traders/trader_info[@id='2']/@open_time">04:05</set> <!--Trader Jen-->
+		<set xpath="/traders/trader_info[@id='6']/@open_time">04:05</set> <!--Trader Bob-->
+		<set xpath="/traders/trader_info[@id='7']/@open_time">04:05</set> <!--Trader Hugh-->
+		<set xpath="/traders/trader_info[@id='8']/@open_time">04:05</set> <!--Trader Rekt-->		
+	<!--Set your own closing time-->
+		<set xpath="/traders/trader_info[@id='1']/@close_time">21:55</set> <!--Trader Joel-->
+		<set xpath="/traders/trader_info[@id='2']/@close_time">21:55</set> <!--Trader Jen-->
+		<set xpath="/traders/trader_info[@id='6']/@close_time">21:55</set> <!--Trader Bob-->
+		<set xpath="/traders/trader_info[@id='7']/@close_time">21:55</set> <!--Trader Hugh-->
+		<set xpath="/traders/trader_info[@id='8']/@close_time">21:55</set> <!--Trader Rekt-->					
+</config>
