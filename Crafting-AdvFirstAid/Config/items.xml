@@ -9,7 +9,7 @@
 	<property name="Tags" value="csScience"/>
 	<property name="Group" value="Science,CFChemicals,Medical"/>
 	<property name="EconomicValue" value="150" />
-	<property name="UnlockedBy" value="perkPhysician"/>
+	<property name="UnlockedBy" value="perkPhysician,medicalAdvancedFirstAidKitSchematic"/>
 	<property name="Stacknumber" value="25000"/>
 	<property name="DescriptionKey" value="medicalAdvancedFirstAidKitDesc"/>
 	<property class="Action0">
@@ -111,7 +111,7 @@
 </item>
 
 <item name="medicalAdvancedFirstAidKitSchematic">
-	<property name="Extends" value="schematicNoQualityMaster"/>
+	<property name="Extends" value="schematicMaster"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="Advanced First Aid Kit"/>
 	<property name="Unlocks" value="medicalAdvancedFirstAidKit"/>

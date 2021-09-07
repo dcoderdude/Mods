@@ -4,8 +4,7 @@
 		<ingredient name="medicalFirstAidKit" count="1"/>
 		<ingredient name="drugAntibiotics" count="1"/>
 		<ingredient name="drugPainkillers" count="1"/>
-    <ingredient name="drugVitamins" count="1"/>
-    <ingredient name="medicalSplint" count="1"/>
+		<ingredient name="medicalSplint" count="1"/>
 	</recipe>
 </append>
 </configs>

@@ -1,4 +1,6 @@
 Key,Source,Context,Changes,English
+
 medicalAdvancedFirstAidKit,items,Medical,New,Advanced First Aid Kit,,,,,
-medicalAdvancedFirstAidKitDesc,items,Medical,New,Advanced version of the Medical Kit with Max Healing. Also removes negative Buffs.
+medicalAdvancedFirstAidKitDesc,items,Medical,New,"Advanced version of the Medical Kit with Max Healing. Also removes negative status like infection and broken leg".
 medicalAdvancedFirstAidKitSchematic,items,Medical,New,Advanced First Aid Kit Schematic,,,,,
+perkPhysicianRank4LongDesc,progression,Perk,New,"Miracle worker. Medical healing items heal 75% more health over time. Gain 100% more XP using bandages, first aid bandages, first aid kits and splints. Learn to craft the Advanced First Aid Kit, Fortbites, Recog and antibiotics. Craft items 40% faster at chemistry stations."
