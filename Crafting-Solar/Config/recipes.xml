@@ -1,0 +1,16 @@
+<configs>
+		<!-- ============== Solar crafting ============== -->
+	<append xpath="/recipes">
+		<recipe name="solarCell" craft_time = "0.5" count="1" craft_area="workbench" tags="learnable,perkAdvancedEngineering">
+		   <ingredient name="glassBlockVariantHelper" count="5"/>
+		   <ingredient name="resourceRawDiamond" count="1"/>
+		   <ingredient name="resourceElectricParts" count="4"/>
+		</recipe>
+		<recipe name="solarbank" craft_time = "0.5" count="1" craft_area="workbench" tags="workbenchCrafting">
+		   <ingredient name="glassBlockVariantHelper" count="10"/>
+		   <ingredient name="resourceForgedSteel" count="5"/>
+		   <ingredient name="resourceElectricParts" count="3"/>
+		   <ingredient name="resourceMechanicalParts" count="3"/>
+		</recipe>
+	</append>
+</configs>
