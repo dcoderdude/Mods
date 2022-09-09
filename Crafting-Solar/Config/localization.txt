@@ -1,3 +1,0 @@
-Key,File,Type,UsedInMainMenu,NoTranslate,english,Context
-
-perkAdvancedEngineeringRank3LongDesc,progression,perk Int,,,"You are now an electrician. Learn to craft generators, solar cells, and build advanced base defense systems such as electric fences & blade traps. Craft military fiber. Gain 20% XP from electrical trap kills.\nEfficient craftsman. All forge recipes cost 10% less, crafting Forged Steel and electrical devices costs 15% less."

@@ -1,8 +1,0 @@
-<config>
-
-	<append xpath="/lootcontainers/lootgroup[@name='schematicsToolsT2']">
-	<item name="AdvancedforgeSchematic"/>
-	</append>
- 
-</config>
-

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<xml>
-	<ModInfo>
-		<Name value="Improved Crafting"/>
-		<Description value="Adds basic crafting of non-craftable essential ingredients. Also adds an extra slot to all input queues, and reduces crafting queue times." />
-		<Author value="DanzoBlade" />
-		<Version value="A.19" />
-	</ModInfo>
-</xml>

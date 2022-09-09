@@ -3,7 +3,6 @@
 	<ModInfo>
 		<Name value="Healing Bedroll" />
 		<Description value="Gain health while on your bedroll, 1hp per 2s." />
-		<Author value="War3zuk/Tallon" />
-		<Version value="A.19" />
+		<Version value="A.20" />
 	</ModInfo>
 </xml>

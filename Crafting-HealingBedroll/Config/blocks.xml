@@ -1,7 +1,35 @@
 <configs>
-	
-<append xpath="/blocks/block[@name='bedroll']">
-	<property name="BuffsWhenWalkedOn" value="buffHealHealth"/>
-</append>
-	
+	<append xpath="/blocks/block[@name='bedroll']">
+		<property name="BuffsWhenWalkedOn" value="buffHealHealth"/>
+	</append>
+	<append xpath="/blocks/block[@name='bedrollRed']">
+		<property name="BuffsWhenWalkedOn" value="buffHealHealth"/>
+	</append>
+	<append xpath="/blocks/block[@name='bedrollOrange']">
+		<property name="BuffsWhenWalkedOn" value="buffHealHealth"/>
+	</append>
+	<append xpath="/blocks/block[@name='bedrollYellow']">
+		<property name="BuffsWhenWalkedOn" value="buffHealHealth"/>
+	</append>
+	<append xpath="/blocks/block[@name='bedrollGreen']">
+		<property name="BuffsWhenWalkedOn" value="buffHealHealth"/>
+	</append>
+	<append xpath="/blocks/block[@name='bedrollBlue']">
+		<property name="BuffsWhenWalkedOn" value="buffHealHealth"/>
+	</append>
+	<append xpath="/blocks/block[@name='bedrollPurple']">
+		<property name="BuffsWhenWalkedOn" value="buffHealHealth"/>
+	</append>
+	<append xpath="/blocks/block[@name='bedrollPink']">
+		<property name="BuffsWhenWalkedOn" value="buffHealHealth"/>
+	</append>
+	<append xpath="/blocks/block[@name='bedrollGrey']">
+		<property name="BuffsWhenWalkedOn" value="buffHealHealth"/>
+	</append>
+	<append xpath="/blocks/block[@name='bedrollWhite']">
+		<property name="BuffsWhenWalkedOn" value="buffHealHealth"/>
+	</append>
+	<append xpath="/blocks/block[@name='bedrollArmyGreen']">
+		<property name="BuffsWhenWalkedOn" value="buffHealHealth"/>
+	</append>
 </configs>

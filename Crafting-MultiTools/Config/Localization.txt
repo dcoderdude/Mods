@@ -1,4 +1,0 @@
-Key,Source,Context,Changes,English
-PickaxeShovelDesc,items,Tool,,"Destroy it with left click. Dig it with right click.\nFix it with Repair kit.".,,,,
-WrenchHammerDesc,items,Tool,,"Wrench it with left click. Upgrade block with right click.\nFix it with Repair kit.".,,,,
-MacheteShearsDesc,items,Tool,,"Stab it with left click. Trim the brush with right click.\nFix it with Repair kit.".,,,,

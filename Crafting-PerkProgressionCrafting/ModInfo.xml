@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<xml>
-	<ModInfo>
-		<Name value="Perk progression Crafting" />
-		<Description value="Unlock tier craftable items based on progression." />
-		<Author value="DanzoBlade" />
-		<Version value="A.19" />
-	</ModInfo>
-</xml>

@@ -3,8 +3,6 @@
 	<ModInfo>
 		<Name value="PickUpTraps_Mines" />
 		<Description value="Pick up trapspikes and all type of mines." />
-		<Author value="Robeloto" />
-		<Version value="18.3" />
-		<Website value="" />
+		<Version value="A.20" />
 	</ModInfo>
 </xml>

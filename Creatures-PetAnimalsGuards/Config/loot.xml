@@ -1,8 +1,0 @@
-<configs>
-
-	<append xpath="/lootcontainers/lootcontainer[@id='34']"> <!-- Supply Crate General, the normal airdrop -->
-    <item name="Rabbit_trap" count="1"/>
-    <item name="Chicken_Hatched" count="1"/>
-	</append>
-	
-</configs>

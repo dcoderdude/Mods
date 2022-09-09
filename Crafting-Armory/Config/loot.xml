@@ -1,4 +1,0 @@
-<config>
-  <append xpath="/lootcontainers/lootgroup[@name='modArmorT2']"><item name="h7sb_buch_schild" prob="0.66" /></append>
-  <append xpath="/lootcontainers/lootgroup[@name='modArmorT3']"><item name="h7sb_buch_schild" prob="0.66" /></append>
-</config>

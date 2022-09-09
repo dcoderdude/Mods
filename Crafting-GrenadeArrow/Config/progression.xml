@@ -1,5 +1,0 @@
-<configs>
-	<append xpath="/progression/perks/perk[@name='perkDemolitionsExpert']/effect_group">
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="ammoArrowGrenade"/>
-	</append>
-</configs>

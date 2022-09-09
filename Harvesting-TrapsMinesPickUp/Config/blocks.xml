@@ -1,22 +1,22 @@
-<configs>
+<?xml version="1.0" encoding="utf-8"?>
 
-		<append xpath="/blocks/block[@name='trapSpikesWoodMaster']">
+<configs>
+	<append xpath="/blocks/block[@name='trapSpikesWoodMaster']">
 		<property name="CanPickup" value="true"/>
-		</append>
-		<append xpath="/blocks/block[@name='trapSpikesScrapIronMaster']">
+	</append>
+	<append xpath="/blocks/block[@name='trapSpikesScrapIronMaster']">
 		<property name="CanPickup" value="true"/>
-		</append>
-		<append xpath="/blocks/block[@name='trapSpikesNew']">
+	</append>
+	<append xpath="/blocks/block[@name='trapSpikesNew']">
 		<property name="CanPickup" value="true"/>
-		</append>
-		<append xpath="/blocks/block[@name='mineCandyTin']">	
+	</append>
+	<append xpath="/blocks/block[@name='mineCandyTin']">	
 		<property name="CanPickup" value="true"/>
-		</append>		
-		<append xpath="/blocks/block[@name='mineAirFilter']">
+	</append>		
+	<append xpath="/blocks/block[@name='mineAirFilter']">
 		<property name="CanPickup" value="true"/>
-		</append>		
-		<append xpath="/blocks/block[@name='rScrapIronPlateMine']">	
+	</append>		
+	<append xpath="/blocks/block[@name='rScrapIronPlateMine']">	
 		<property name="CanPickup" value="true"/>
-		</append>		
-		
+	</append>	
 </configs>
