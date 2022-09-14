@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="Stack Size Increaser"/>
+        <Description value="Increases stacksizes of Items you wish to increase."/>
+        <Version value="A.20"/>
+    </ModInfo>
+</xml>
