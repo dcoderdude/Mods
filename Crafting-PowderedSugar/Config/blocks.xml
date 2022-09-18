@@ -1,0 +1,5 @@
+<config>
+  <append xpath="/blocks/block[contains(@name, 'treeMaster')]">
+    <drop event="Harvest" name="foodPowderedSugar" count="1" tag="allHarvest"/>
+  </append>
+</config>

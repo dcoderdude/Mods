@@ -4,9 +4,5 @@
 			<ingredient name="drinkJarBoiledWater" count="1"/>
 			<ingredient name="foodPowderedSugar" count="1"/>
 		</recipe>
-
-		<recipe name="foodPowderedSugar" count="1">
-			<ingredient name="resourceYuccaFibers" count="10"/>
-		</recipe>
 	</append>
 </config>
