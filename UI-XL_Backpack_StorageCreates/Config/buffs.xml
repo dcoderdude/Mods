@@ -1,0 +1,4 @@
+<configs>
+	<!-- Fix for steroids -->
+	<set xpath="/buffs/buff[@name='buffDrugSteroids']/effect_group/passive_effect[@name='CarryCapacity']/@value">120</set>
+</configs>
