@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configs>
+  <append xpath="/recipes">
+    <!-- ============== Basic Forge crafting ============== -->
+    <recipe name="resourceScrapBrass" count="1" material_based="true" craft_area="forge" >
+      <ingredient name="unit_iron" count="5"/>
+      <ingredient name="unit_clay" count="2"/>
+    </recipe>
+
+    <recipe name="resourceMechanicalParts" count="1" material_based="true" craft_area="forge" >
+      <ingredient name="unit_iron" count="3"/>
+      <ingredient name="unit_brass" count="2"/>
+      <ingredient name="unit_clay" count="5"/>
+    </recipe>
+
+    <recipe name="resourceElectricParts" count="1" material_based="true" craft_area="forge" >
+      <ingredient name="unit_iron" count="3"/>
+      <ingredient name="unit_brass" count="2"/>
+      <ingredient name="unit_clay" count="5"/>
+    </recipe>
+
+    <recipe name="resourceSpring" count="1" material_based="true" craft_area="forge" >
+      <ingredient name="unit_iron" count="3"/>
+      <ingredient name="unit_clay" count="5"/>
+    </recipe>
+
+    <!-- ============== Basic Chemistry crafting ============== -->
+    <recipe name="resourceAcid" count="1" craft_area="chemistryStation" >
+      <ingredient name="resourcePotassiumNitratePowder" count="1"/>
+      <ingredient name="drinkJarBoiledWater" count="1"/>
+    </recipe>
+
+    <recipe name="resourceScrapPolymers" count="1" craft_area="chemistryStation" >
+      <ingredient name="resourceOilShale" count="1"/>
+      <ingredient name="resourcePotassiumNitratePowder" count="1"/>
+    </recipe>
+    
+    <!-- ============== Workbench crafting ============== -->
+    <recipe name="resourceSewingKit" count="1" craft_area="workbench" >
+       <ingredient name="resourceScrapIron" count="1"/>
+       <ingredient name="resourceCloth" count="1"/>
+    </recipe>
+    
+    <recipe name="resourceLeather" count="1" craft_area="workbench" >
+       <ingredient name="resourceAnimalFat" count="1"/>
+       <ingredient name="resourceBone" count="1"/>
+    </recipe>
+  </append>
+</configs>
