@@ -1,0 +1,2 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context
+perkAdvancedEngineeringRank5LongDesc,progression,perk Int,,,"SCIENCE! Harvest the power of the sun with solar panel and solar cell crafting. Learn to craft SMG auto turrets for the best ranged base defense, and crucibles to forge steel in forges. Gain 50% XP from Electrical Trap Kills.\nAll forge recipes cost 20% less, crafting Forged Steel and electrical devices costs 35% less."
