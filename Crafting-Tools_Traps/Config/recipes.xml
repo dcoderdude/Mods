@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+  <append xpath="/recipes">
+    <recipe name="toolBeaker" count="1" material_based="true" craft_area="forge">
+      <ingredient name="unit_glass" count="13"/>
+      <ingredient name="unit_clay" count="5"/>
+    </recipe>
+  </append>
+  <append xpath="/recipes">
+    <recipe name="barbedWireSheet" count="1" material_based="true" craft_area="forge">
+      <ingredient name="unit_iron" count="6"/>
+      <ingredient name="unit_clay" count="5"/>
+    </recipe>
+  </append>
+</configs>
