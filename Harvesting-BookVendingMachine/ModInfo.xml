@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+			<Name value="Book Vending Machine" />
+			<Description value="Add book vending machines to trader locations" />
+			<Version value="A.20" />
+	</ModInfo>
+</xml>
