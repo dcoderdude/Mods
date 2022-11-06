@@ -6,6 +6,10 @@
 			<trader_items count="10">
 				<item group="books"/>
 				<item name="gunBotT3JunkDroneSchematic"/>
+				<item name="modGunIncendiaryRoundsSchematic"/>
+				<item name="modGunShockedSchematic"/>
+				<item name="modBlessedMetalSchematic"/>
+				<item name="modGunLiquidNitrogenSchematic"/>
 			</trader_items>
 		</trader_info>
 	</append>
