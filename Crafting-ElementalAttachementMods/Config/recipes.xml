@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+	<!-- Incendiary Rounds -->
+	<append xpath="/recipes">
+		<recipe name="modGunIncendiaryRounds" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceForgedSteel" count="5"/>
+			<ingredient name="resourceGlue" count="1"/>
+			<ingredient name="resourceOil" count="1"/>
+		</recipe>
+	</append>
+  
+  <!-- Shocking Rounds -->
+	<append xpath="/recipes">
+		<recipe name="modGunShocked" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceForgedSteel" count="5"/>
+			<ingredient name="resourceGlue" count="1"/>
+			<ingredient name="resourceElectricParts" count="1"/>
+		</recipe>
+	</append>
+  
+  <!-- Knockout Rounds -->
+	<append xpath="/recipes">
+		<recipe name="modBlessedMetal" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceForgedSteel" count="5"/>
+			<ingredient name="resourceGlue" count="1"/>
+			<ingredient name="resourceRawDiamond" count="1"/>
+		</recipe>
+	</append>
+
+  <!-- Freeze Rounds -->
+	<append xpath="/recipes">
+		<recipe name="modGunLiquidNitrogen" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceForgedSteel" count="5"/>
+			<ingredient name="resourceGlue" count="1"/>
+			<ingredient name="resourceSnowBall" count="1"/>
+		</recipe>
+	</append>
+</configs>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configs>
+	<!-- Incendiary Element Damage -->
+	<append xpath="/buffs">
+		<buff name="buffIncinerateZombie">
+			<damage_type value="heat"/>
+			<stack_type value="replace"/>
+			<duration value="300"/>
+			<effect_group>
+				<passive_effect name="HealthChangeOT" operation="base_add" value="-40"/>
+				<passive_effect name="RunSpeed" operation="perc_add" value="0.12,0" duration="0,8.3"/>
+				<passive_effect name="WalkSpeed" operation="perc_add" value="0.12,0" duration="0,8.3"/>
+				<passive_effect name="CrouchSpeed" operation="perc_add" value="0.12,0" duration="0,8.3"/>
+				<passive_effect name="JumpStrength" operation="perc_add" value="0.12,0" duration="0,8.3"/>
+
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffIsOnFire"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="buffBurningMolotovDuration" operation="add" value="-40"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="buffBurningMolotovDuration" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_onFire" parent_transform="Spine1" local_offset="0,-.2,0"/>
+				<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_onFire" parent_transform="Spine1" local_offset="0,-.2,0"/>
+			</effect_group>
+		</buff>
+	</append>
+
+	<!-- Shocking Element Damage -->
+	<append xpath="/buffs">
+		<buff name="buffShockedZombie">
+			<damage_type value="electrical"/>
+			<stack_type value="replace"/>
+			<duration value="300"/>
+			<effect_group>
+				<passive_effect name="HealthChangeOT" operation="base_add" value="-20"/>
+				<passive_effect name="RunSpeed" operation="perc_subtract" value="0.9,0" duration="0,4.3"/>
+				<passive_effect name="WalkSpeed" operation="perc_subtract" value="0.9,0" duration="0,4.3"/>
+				<passive_effect name="CrouchSpeed" operation="perc_subtract" value="0.9,0" duration="0,4.3"/>
+				<passive_effect name="JumpStrength" operation="perc_subtract" value="0.9,0" duration="0,4.3"/>
+				
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_electric_shock" parent_transform="Spine1" local_offset="0,-.2,0"/>
+				<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_electric_shock"/>
+			</effect_group>
+		</buff>
+	</append>
+
+	<!-- Knockout Element Damage -->
+	<append xpath="/buffs">
+		<buff name="buffFrozen">
+			<damage_type value="stun"/>
+			<stack_type value="replace"/>
+			<duration value="300"/>
+			<effect_group>
+				<passive_effect name="HealthChangeOT" operation="base_add" value="-16"/>
+				<passive_effect name="RunSpeed" operation="perc_set" value="0"/>
+				<passive_effect name="WalkSpeed" operation="perc_set" value="0"/>
+				<passive_effect name="CrouchSpeed" operation="perc_set" value="0"/>
+				<passive_effect name="JumpStrength" operation="perc_set" value="0"/>
+				
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_impact_bullet_on_snow" parent_transform="Spine1" local_offset="0,-.2,0"/>
+				<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_impact_bullet_on_snow"/>
+			</effect_group>
+		</buff>
+	</append>
+
+	<!-- Freeze Element	Damage -->
+	<append xpath="/buffs">
+		<buff name="buffBlessedKO" hidden="true">
+			<damage_type value="knockdown"/>
+			<stack_type value="ignore"/>
+			<duration value="300"/>
+			<effect_group>
+				<passive_effect name="HealthChangeOT" operation="base_add" value="-2"/>
+				<triggered_effect trigger="onSelfBuffStart" action="Ragdoll" duration="95.5"/>
+			</effect_group>
+		</buff>
+	</append>
+</Configs>
