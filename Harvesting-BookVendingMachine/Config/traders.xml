@@ -3,13 +3,13 @@
 	<remove xpath="/traders/trader_info[@id='5']"/>
 	<append xpath="/traders">
 		<trader_info id="5" full_reset="true" reset_interval="1" override_buy_markup="1.0" allow_sell="true" min_inventory="6" max_inventory="13" min_items_swapped="6" max_items_swapped="13">
-			<trader_items count="10">
-				<item group="books"/>
-				<item name="gunBotT3JunkDroneSchematic"/>
-				<item name="modGunIncendiaryRoundsSchematic"/>
-				<item name="modGunShockedSchematic"/>
-				<item name="modBlessedMetalSchematic"/>
-				<item name="modGunLiquidNitrogenSchematic"/>
+			<trader_items count="all">
+				<item group="books" count="1"/>
+				<item group="commonBooks" count="1"/>
+				<item group="rareBooks" count="1"/>
+				<item group="perkBooks" count="1"/>
+				<item group="schematicsToolsRare" count="1"/>
+				<item group="ammo" count="5,8"/>
 			</trader_items>
 		</trader_info>
 	</append>

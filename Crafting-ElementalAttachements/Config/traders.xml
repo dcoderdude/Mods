@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Config>
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='schematicsToolsRare']">
+		<item name="modGunIncendiaryRoundsSchematic" count="1"/>
+		<item name="modGunShockedSchematic" count="1"/>
+		<item name="modBlessedMetalSchematic" count="1"/>
+		<item name="modGunLiquidNitrogenSchematic" count="1"/>
+	</append>
+</Config>

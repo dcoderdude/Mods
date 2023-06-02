@@ -1,3 +1,0 @@
-﻿Key,Source,Context,Changes,English
-foodPowderedSugar,,item,Food,Powdered Sugar   [-],,,,,
-foodPowderedSugarDesc,,item,Food,Tasty. Ingredient to make honey.,,,,,

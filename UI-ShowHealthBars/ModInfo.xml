@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<xml>
-	<ModInfo>
-		<Name value="Show Health Bars"/>
-		<Description value="Display Zombie and Animal Health Bars."/>
-		<Version value="A.20"/>
-	</ModInfo>
-</xml>

@@ -1,0 +1,906 @@
+﻿Key,Source,Context,English
+
+attschematics,progression,Attribute,Schematics
+attSchematicsDesc,progression,Attribute,Check this screen to see which schematics you have learned and which you still need to hunt for.
+attSchematicsName,progression,Attribute,Attribute: Schematics List
+attSchematicsLongDesc,progression,Attribute,Testing this Localization.
+
+perkmeleeClubBaseballBatDesc,progression,Perk,Unlocks the Baseball Bat.
+perkmeleeClubBaseballBatSchematicRank1Desc,progression,Perk,Unlocks the Baseball Bat.
+
+perkmeleeWpnClubT3SteelClubDesc,progression,Perk,Unlocks the Steel Club.
+perkmeleeClubSteelSchematicRank1Desc,progression,Perk,Unlocks the Steel Club.
+
+perkmeleeToolSledgehammerIronDesc,progression,Perk,Unlocks the Iron Sledgehammer.
+perkmeleeToolSledgehammerIronSchematicRank1Desc,progression,Perk,Unlocks the Iron Sledgehammer.
+
+perkmeleeToolSledgehammerSteelDesc,progression,Perk,Unlocks the Steel Sledgehammer.
+perkmeleeToolSledgehammerSteelSchematicRank1Desc,progression,Perk,Unlocks the Steel Sledgehammer.
+
+perkmeleeToolKnifeIronDesc,progression,Perk,Unlocks the Hunting Knife.
+perkmeleeToolKnifeIronSchematicRank1Desc,progression,Perk,Unlocks the Hunting Knife.
+
+perkmeleeToolKnifeMacheteDesc,progression,Perk,Unlocks the Machete.
+perkmeleeToolKnifeMacheteSchematicRank1Desc,progression,Perk,Unlocks the Machete.
+
+perkmeleeStunBatonDesc,progression,Perk,Unlocks the Stun Baton.
+perkmeleeStunBatonSchematicRank1Desc,progression,Perk,Unlocks the Stun Baton.
+
+meleeToolIronSet,items,Tools,Iron Tools Set
+perkmeleeToolIronSetDesc,progression,Perk,Unlocks the Iron Tool Set.
+perkmeleeToolIronSetSchematicRank1Desc,progression,Perk,Unlocks the Iron Tool Set.
+
+meleeToolSteelSet,items,Tools,Steel Tools Set
+perkmeleeToolSteelSetDesc,progression,Perk,Unlocks the Steel Tool Set.
+perkmeleeToolSteelSetSchematicRank1Desc,progression,Perk,Unlocks the Steel Tool Set.
+
+perkgunToolNailgunDesc,progression,Perk,Unlocks the Nailgun.
+perkgunToolNailgunSchematicRank1Desc,progression,Perk,Unlocks the Nailgun.
+
+perkmeleeToolWrenchDesc,progression,Perk,Unlocks the Wrench.
+perkmeleeToolWrenchSchematicRank1Desc,progression,Perk,Unlocks the Wrench.
+
+perkmeleeToolAugerDesc,progression,Perk,Unlocks the Auger.
+perkmeleeToolAugerSchematicRank1Desc,progression,Perk,Unlocks the Auger.
+
+perkmeleeToolChainsawDesc,progression,Perk,Unlocks the Chainsaw.
+perkmeleeToolChainsawSchematicRank1Desc,progression,Perk,Unlocks the Chainsaw.
+
+perkmeleeThrownSpearIronDesc,progression,Perk,Unlocks the Iron Spear.
+perkmeleeThrownSpearIronSchematicRank1Desc,progression,Perk,Unlocks the Iron Spear.
+
+perkmeleeThrownSpearSteelDesc,progression,Perk,Unlocks the Steel Spear.
+perkmeleeThrownSpearSteelSchematicRank1Desc,progression,Perk,Unlocks the Steel Spear.
+
+perkmeleeKnucklesIronDesc,progression,Perk,Unlocks the Iron Knuckles.
+perkmeleeKnucklesIronSchematicRank1Desc,progression,Perk,Unlocks the Iron Knuckles.
+
+perkmeleeKnucklesSteelDesc,progression,Perk,Unlocks the Steel Knuckles.
+perkmeleeKnucklesSteelSchematicRank1Desc,progression,Perk,Unlocks the Steel Knuckles.
+
+perkgunBowWoodenDesc,progression,Perk,Unlocks the Wooden Bow.
+perkgunBowWoodenSchematicRank1Desc,progression,Perk,Unlocks the Wooden Bow.
+
+perkgunBowCompoundDesc,progression,Perk,Unlocks the Compound Bow.
+perkgunBowCompoundSchematicRank1Desc,progression,Perk,Unlocks the Compound Bow.
+
+perkgunCrossbowIronDesc,progression,Perk,Unlocks the Iron Crossbow.
+perkgunCrossbowIronSchematicRank1Desc,progression,Perk,Unlocks the Iron Crossbow.
+
+perkgunCrossbowCompoundDesc,progression,Perk,Unlocks the Compound Crossbow.
+perkgunCrossbowCompoundSchematicRank1Desc,progression,Perk,Unlocks the Compound Crossbow.
+
+perkgunPistolDesc,progression,Perk,Unlocks the Pistol.
+perkgunPistolSchematicRank1Desc,progression,Perk,Unlocks the Pistol.
+
+perkgun44MagnumDesc,progression,Perk,Unlocks the 44 Magnum.
+perkgun44MagnumSchematicRank1Desc,progression,Perk,Unlocks the 44 Magnum.
+
+perkgunDoubleBarrelShotgunDesc,progression,Perk,Unlocks the Double Barrel Shotgun.
+perkgunDoubleBarrelShotgunSchematicRank1Desc,progression,Perk,Unlocks the Double Barrel Shotgun.
+
+perkgunPumpShotgunDesc,progression,Perk,Unlocks the Pump Shotgun.
+perkgunPumpShotgunSchematicRank1Desc,progression,Perk,Unlocks the Pump Shotgun.
+
+perkgunSMG5Desc,progression,Perk,Unlocks the SMG-5.
+perkgunSMG5SchematicRank1Desc,progression,Perk,Unlocks the SMG-5.
+
+perkgunAK47Desc,progression,Perk,Unlocks the AK-47.
+perkgunAK47SchematicRank1Desc,progression,Perk,Unlocks the AK-47.
+
+perkgunHuntingRifleDesc,progression,Perk,Unlocks the Hunting Rifle.
+perkgunHuntingRifleSchematicRank1Desc,progression,Perk,Unlocks the Hunting Rifle.
+
+perkgunRocketLauncherDesc,progression,Perk,Unlocks the Rocket Launcher.
+perkgunRocketLauncherSchematicRank1Desc,progression,Perk,Unlocks the Rocket Launcher.
+
+perkgunJunkTurretDesc,progression,Perk,Unlocks the Junk Turret.
+perkgunJunkTurretSchematicRank1Desc,progression,Perk,Unlocks the Junk Turret.
+
+armorLeatherSet,items,Armor,Leather Armor Set
+perkarmorLeatherSetDesc,progression,Perk,Unlocks the Leather Armor Set.
+perkarmorLeatherSetSchematicRank1Desc,progression,Perk,Unlocks the Leather Armor Set.
+
+armorMilitarySet,items,Armor,Military Armor Set
+perkarmorMilitarySetDesc,progression,Perk,Unlocks the Military Armor Set.
+perkarmorMilitarySetSchematicRank1Desc,progression,Perk,Unlocks the Military Armor Set.
+
+perkresourceMilitaryFiberDesc,progression,Perk,Unlocks Military Fiber.
+perkresourceMilitaryFiberSchematicRank1Desc,progression,Perk,Unlocks Military Fiber.
+
+armorIronSet,items,Armor,Iron Armor Set
+perkarmorIronSetDesc,progression,Perk,Unlocks the Iron Armor Set.
+perkarmorIronSetSchematicRank1Desc,progression,Perk,Unlocks the Iron Armor Set.
+
+armorSteelSet,items,Armor,Steel Armor Set
+perkarmorSteelSetDesc,progression,Perk,Unlocks the Steel Armor Set.
+perkarmorSteelSetSchematicRank1Desc,progression,Perk,Unlocks the Steel Armor Set.
+
+perkthrownAmmoPipeBombDesc,progression,Perk,Unlocks Pipe Bombs.
+perkthrownAmmoPipeBombSchematicRank1Desc,progression,Perk,Unlocks Pipe Bombs.
+
+perkthrownGrenadeContactDesc,progression,Perk,Unlocks the Contact Grenade.
+perkthrownGrenadeContactSchematicRank1Desc,progression,Perk,Unlocks the Contact Grenade.
+
+perkthrownGrenadeDesc,progression,Perk,Unlocks the Grenade.
+perkthrownGrenadeSchematicRank1Desc,progression,Perk,Unlocks the Grenade.
+
+perkthrownDynamiteDesc,progression,Perk,Unlocks Dynamite.
+perkthrownDynamiteSchematicRank1Desc,progression,Perk,Unlocks Dynamite.
+
+perkthrownTimedChargeDesc,progression,Perk,Unlocks the Timed Charge.
+perkthrownTimedChargeSchematicRank1Desc,progression,Perk,Unlocks the Timed Charge.
+
+perkammoArrowFlamingDesc,progression,Perk,Unlocks Flaming Arrows.
+perkammoArrowFlamingSchematicRank1Desc,progression,Perk,Unlocks Flaming Arrows.
+
+perkammoCrossbowBoltExplodingDesc,progression,Perk,Unlocks Exploding Bolts.
+perkammoCrossbowBoltExplodingSchematicRank1Desc,progression,Perk,Unlocks Exploding Bolts.
+
+perkmedicalFirstAidBandageDesc,progression,Perk,Unlocks the First Aid Bandage.
+perkmedicalFirstAidBandageSchematicRank1Desc,progression,Perk,Unlocks the First Aid Bandage.
+
+perkmedicalFirstAidKitDesc,progression,Perk,Unlocks the First Aid Kit.
+perkmedicalFirstAidKitSchematicRank1Desc,progression,Perk,Unlocks the First Aid Kit.
+
+perkmedicalPlasterCastDesc,progression,Perk,Unlocks the Plaster Cast.
+perkmedicalPlasterCastSchematicRank1Desc,progression,Perk,Unlocks the Plaster Cast.
+
+perkdrugAntibioticsDesc,progression,Perk,Unlocks Antibiotics.
+perkdrugAntibioticsSchematicRank1Desc,progression,Perk,Unlocks Antibiotics.
+
+perkdrugHerbalAntibioticsDesc,progression,Perk,Unlocks Herbal Antibiotics.
+perkdrugHerbalAntibioticsSchematicRank1Desc,progression,Perk,Unlocks Herbal Antibiotics.
+
+perktoolBellowsDesc,progression,Perk,Unlocks the Advanced Bellow.
+perktoolBellowsSchematicRank1Desc,progression,Perk,Unlocks the Advanced Bellow.
+
+perktoolForgeCrucibleDesc,progression,Perk,Unlocks the Crucible.
+perktoolForgeCrucibleSchematicRank1Desc,progression,Perk,Unlocks the Crucible.
+
+perktoolAnvilDesc,progression,Perk,Unlocks the Anvil.
+perktoolAnvilSchematicRank1Desc,progression,Perk,Unlocks the Anvil.
+
+perkcementMixerDesc,progression,Perk,Unlocks the Cement Mixer.
+perkcementMixerSchematicRank1Desc,progression,Perk,Unlocks the Cement Mixer.
+
+perkworkbenchDesc,progression,Perk,Unlocks the Workbench.
+perkworkbenchSchematicRank1Desc,progression,Perk,Unlocks the Workbench.
+
+perkforgeDesc,progression,Perk,Unlocks the Forge.
+perkforgeSchematicRank1Desc,progression,Perk,Unlocks the Forge.
+
+perkchemistryStationDesc,progression,Perk,Unlocks the Chemistry Station.
+perkchemistryStationSchematicRank1Desc,progression,Perk,Unlocks the Chemistry Station.
+
+perkvehicleBicycleChassisDesc,progression,Perk,Unlocks the Bicycle Chassis.
+perkvehicleBicycleChassisSchematicRank1Desc,progression,Perk,Unlocks the Bicycle Chassis.
+
+perkvehicleBicycleHandlebarsDesc,progression,Perk,Unlocks the Bicycle Handlebars.
+perkvehicleBicycleHandlebarsSchematicRank1Desc,progression,Perk,Unlocks the  Bicycle Handlebars.
+
+perkvehicleMinibikeChassisDesc,progression,Perk,Unlocks the MiniBike Chassis.
+perkvehicleMinibikeChassisSchematicRank1Desc,progression,Perk,Unlocks MiniBike Chassis.
+
+perkvehicleMinibikeHandlebarsDesc,progression,Perk,Unlocks the Minibike Handlebars.
+perkvehicleMinibikeHandlebarsSchematicRank1Desc,progression,Perk,Unlocks the Minibike Handlebars.
+
+perkvehicleMotorcycleChassisDesc,progression,Perk,Unlocks the Motorcycle Chassis.
+perkvehicleMotorcycleChassisSchematicRank1Desc,progression,Perk,Unlocks the Motorcycle Chassis.
+
+perkvehicleMotorcycleHandlebarsDesc,progression,Perk,Unlocks the Motorcycle Handlebars.
+perkvehicleMotorcycleHandlebarsSchematicRank1Desc,progression,Perk,Unlocks the Motorcycle Handlebars.
+
+perkvehicle4x4TruckChassisDesc,progression,Perk,Unlocks the 4x4 Truck Chassis.
+perkvehicle4x4TruckChassisSchematicRank1Desc,progression,Perk,Unlocks 4x4 Truck Chassis.
+
+perkvehicle4x4TruckAccessoriesDesc,progression,Perk,Unlocks the 4x4 Truck Accessories.
+perkvehicle4x4TruckAccessoriesSchematicRank1Desc,progression,Perk,Unlocks the 4x4 Truck Accessories.
+
+perkvehicleGyroCopterChassisDesc,progression,Perk,Unlocks the Gyrocopter Chassis.
+perkvehicleGyroCopterChassisSchematicRank1Desc,progression,Perk,Unlocks the Gyrocopter Chassis.
+
+perkvehicleGyroCopterAccessoriesDesc,progression,Perk,Unlocks the Gyrocopter Accessories.
+perkvehicleGyroCopterAccessoriesSchematicRank1Desc,progression,Perk,Unlocks the Gyrocopter Accessories.
+
+
+perkgeneratorbankDesc,progression,Perk,Unlocks the Generator Bank,
+perkgeneratorbankSchematicRank1Desc,progression,Perk,Unlocks the Generator Bank.
+
+perkpressureplateDesc,progression,Perk,Unlocks the Pressure Plate.
+perkpressureplateSchematicRank1Desc,progression,Perk,Unlocks the Pressure Plate.
+
+blockPoweredDoors,blocks,Electricity,Powered Doors
+perkpoweredDoorsDesc,progression,Perk,Unlocks Powered Doors.
+perkpoweredDoorsSchematicRank1Desc,progression,Perk,Unlocks Powered Doors.
+
+perkbladeTrapDesc,progression,Perk,Unlocks the Blade Trap.
+perkbladeTrapSchematicRank1Desc,progression,Perk,Unlocks the Blade Trap.
+
+perkdartTrapDesc,progression,Perk,Unlocks the Dart Trap.
+perkdartTrapSchematicRank1Desc,progression,Perk,Unlocks the Dart Trap.
+
+perkshotgunTurretDesc,progression,Perk,Unlocks the Shotgun Tuuret.
+perkshotgunTurretSchematicRank1Desc,progression,Perk,Unlocks the Shotgun Turret.
+
+perkautoTurretDesc,progression,Perk,Unlocks the SMG Turret.
+perkautoTurretSchematicRank1Desc,progression,Perk,Unlocks the SMG Turret.
+
+perkelectricfencepostDesc,progression,Perk,Unlocks the Electric Fence Post.
+perkelectricfencepostSchematicRank1Desc,progression,Perk,Unlocks the Electric Fence Post.
+
+perkmotionsensorDesc,progression,Perk,Unlocks the Motion Sensors.
+perkmotionsensorSchematicRank1Desc,progression,Perk,Unlocks the Motion Sensors.
+
+perkspeakerDesc,progression,Perk,Unlocks the Speakers.
+perkspeakerSchematicRank1Desc,progression,Perk,Unlocks the Speakers.
+
+perkspotlightPlayerDesc,progression,Perk,Unlocks the Spotlight.
+perkspotlightPlayerSchematicRank1Desc,progression,Perk,Unlocks the Spotlight.
+
+perkswitchDesc,progression,Perk,Unlocks the Switch.
+perkswitchSchematicRank1Desc,progression,Perk,Unlocks the Switch.
+
+perkbatterybankDesc,progression,Perk,Unlocks the Battery Bank.
+perkbatterybankSchematicRank1Desc,progression,Perk,Unlocks the Battery Bank.
+
+perkelectrictimerrelayDesc,progression,Perk,Unlocks the Electric Timer Relay.
+perkelectrictimerrelaySchematicRank1Desc,progression,Perk,Unlocks the Electric Timer Relay.
+
+perkmodGunBarrelExtenderDesc,progression,Perk,Unlocks the Gun Barrel Extender Mod.
+perkmodGunBarrelExtenderSchematicRank1Desc,progression,Perk,Unlocks the Gun Barrel Extender Mod.
+
+perkmodGunMuzzleBrakeDesc,progression,Perk,Unlocks the Muzzle Brake Mod.
+perkmodGunMuzzleBrakeSchematicRank1Desc,progression,Perk,Unlocks the Muzzle Brake Mod.
+
+perkmodGunSoundSuppressorSilencerDesc,progression,Perk,Unlocks the Gun Silencer Mod.
+perkmodGunSoundSuppressorSilencerSchematic,progression,Perk,Unlocks the Gun Silencer Mod.
+
+perkmodGunLaserSightDesc,progression,Perk,Unlocks the Laser Sight Mod.
+perkmodGunLaserSightSchematicRank1Desc,progression,Perk,Unlocks the Laser Sight Mod.
+
+perkmodGunFlashlightDesc,progression,Perk,Unlocks the Gun Light Mod.
+perkmodGunFlashlightSchematicRank1Desc,progression,Perk,Unlocks the Gun Light Mod.
+
+perkmodGunScopeSmallDesc,progression,Perk,Unlocks the 2x Scope Mod.
+perkmodGunScopeSmallSchematicRank1Desc,progression,Perk,Unlocks the 2x Scope Mod.
+
+perkmodGunScopeMediumDesc,progression,Perk,Unlocks the 4x Scope Mod.
+perkmodGunScopeMediumSchematicRank1Desc,progression,Perk,Unlocks the 4x Scope Mod.
+
+perkmodGunScopeLargeDesc,progression,Perk,Unlocks the 8x Scope Mod.
+perkmodGunScopeLargeSchematicRank1Desc,progression,Perk,Unlocks the 8x Scope Mod.
+
+perkmodGunReflexSightDesc,progression,Perk,Unlocks the Reflex Sight.
+perkmodGunReflexSightSchematicRank1Desc,progression,Perk,Unlocks the Reflex Sight.
+
+perkmodGunTriggerGroupSemiDesc,progression,Perk,Unlocks the Semi Trigger Group Mod.
+perkmodGunTriggerGroupSemiSchematicRank1Desc,progression,Perk,Unlocks the Semi Trigger Group Mod.
+
+perkmodGunTriggerGroupBurst3Desc,progression,Perk,Unlocks the Burst Trigger Group Mod.
+perkmodGunTriggerGroupBurst3SchematicRank1Desc,progression,Perk,Unlocks the Burst Trigger Group Mod.
+
+perkmodGunTriggerGroupAutomaticDesc,progression,Perk,Unlocks the Full Auto Trigger Group Mod.
+perkmodGunTriggerGroupAutomaticSchematicRank1Desc,progression,Perk,Unlocks the Full Auto Trigger Group Mod.
+
+perkmodGunBipodDesc,progression,Perk,Unlocks the Bipod Gun Mod.
+perkmodGunBipodSchematicRank1Desc,progression,Perk,Unlocks the Bipod Gun Mod.
+
+perkmodGunForegripDesc,progression,Perk,Unlocks the Foregrip Gun Mod.
+perkmodGunForegripSchematicRank1Desc,progression,Perk,Unlocks the Foregrip Gun Mod.
+
+perkmodGunRetractingStockDesc,progression,Perk,Unlocks the Retracting Stock Mod.
+perkmodGunRetractingStockSchematicRank1Desc,progression,Perk,Unlocks the Retracting Stock Mod.
+
+perkmodGunDuckbillDesc,progression,Perk,Unlocks the Duckbill Gun Mod.
+perkmodGunDuckbillSchematicRank1Desc,progression,Perk,Unlocks the Duckbill Gun Mod.
+
+perkmodGunChokeDesc,progression,Perk,Unlocks the Gun Choke Mod.
+perkmodGunChokeSchematicRank1Desc,progression,Perk,Unlocks the Gun Choke Mod.
+
+perkmodGunMagazineExtenderDesc,progression,Perk,Unlocks the Magazine Extender Mod.
+perkmodGunMagazineExtenderSchematicRank1Desc,progression,Perk,Unlocks the Magazine Extender Mod.
+
+perkmodShotgunSawedOffBarrelDesc,progression,Perk,Unlocks the Sawed Off Barrel Mod.
+perkmodShotgunSawedOffBarrelSchematicRank1Desc,progression,Perk,Unlocks the Sawed Off Barrel Mod.
+
+perkmodGunCrippleEmDesc,progression,Perk,Unlocks the Cripple 'Em Mod.
+perkmodGunCrippleEmSchematicRank1Desc,progression,Perk,Unlocks the Cripple 'Em Mod.
+
+perkmodGunBowPolymerStringDesc,progression,Perk,Unlocks the Polymer String Mod.
+perkmodGunBowPolymerStringSchematicRank1Desc,progression,Perk,Unlocks the Polymer String Mod.
+
+perkmodGunBowArrowRestDesc,progression,Perk,Unlocks the Arrow Rest Mod.
+perkmodGunBowArrowRestSchematicRank1Desc,progression,Perk,Unlocks the Arrow Rest Mod.
+
+perkmodGunMeleeTheHunterDesc,progression,Perk,Unlocks the Hunter Mod.
+perkmodGunMeleeTheHunterSchematicRank1Desc,progression,Perk,Unlocks the Hunter Mod.
+
+perkmodGunMeleeRadRemoverDesc,progression,Perk,Unlocks the Rad Remover Mod.
+perkmodGunMeleeRadRemoverSchematicRank1Desc,progression,Perk,Unlocks the Rad Remover Mod.
+
+perkmodMeleeTemperedBladeDesc,progression,Perk,Unlocks the Tempered Blade Mod.
+perkmodMeleeTemperedBladeSchematicRank1Desc,progression,Perk,Unlocks the Tempered Blade Mod.
+
+perkmodMeleeSerratedBladeDesc,progression,Perk,Unlocks the Serrated Blade.
+perkmodMeleeWeightedHeadSchematicRank1Desc,progression,Perk,Unlocks the Serrated Blade.
+
+perkmodMeleeStructuralBraceDesc,progression,Perk,Unlocks the Structural Brace.
+perkmodMeleeStructuralBraceSchematicRank1Desc,progression,Perk,Unlocks the Structural Brace.
+
+perkmodMeleeErgonomicGripDesc,progression,Perk,Unlocks the Ergonomic Grip.
+perkmodMeleeErgonomicGripSchematicRank1Desc,progression,Perk,Unlocks the Ergonomic Grip.
+
+perkmodMeleeFortifyingGripDesc,progression,Perk,Unlocks the Fortifying Grip Mod.
+perkmodMeleeFortifyingGripSchematicRank1Desc,progression,Perk,Unlocks the Fortifying Grip Mod.
+
+perkmodMeleeClubBarbedWireDesc,progression,Perk,Unlocks the Bared Wire Mod.
+perkmodMeleeClubBarbedWireSchematicRank1Desc,progression,Perk,Unlocks the Bared Wire Mod.
+
+perkmodMeleeClubMetalSpikesDesc,progression,Perk,Unlocks the Metal Spike Mod.
+perkmodMeleeClubMetalSpikesSchematicRank1Desc,progression,Perk,Unlocks the Metal Spike Mod.
+
+perkmodMeleeClubMetalChainDesc,progression,Perk,Unlocks the Metal Cain Mod.
+perkmodMeleeClubMetalChainSchematicRank1Desc,progression,Perk,Unlocks the Metal Cain Mod.
+
+perkmodMeleeGraveDiggerDesc,progression,Perk,Unlocks the Grave Digger Mod.
+perkmodMeleeGraveDiggerSchematicRank1Desc,progression,Perk,Unlocks the Grave Digger Mod.
+
+perkmodMeleeBunkerBusterDesc,progression,Perk,Unlocks the Bunker Buster Mod.
+perkmodMeleeBunkerBusterSchematicRank1Desc,progression,Perk,Unlocks the Bunker Buster Mod.
+
+perkmodMeleeIronBreakerDesc,progression,Perk,Unlocks the Iron Breaker Mod.
+perkmodMeleeIronBreakerSchematicRank1Desc,progression,Perk,Unlocks the Iron Breaker Mod.
+
+perkmodMeleeWoodSplitterDesc,progression,Perk,Unlocks the Wood Splitter Mod.
+perkmodMeleeWoodSplitterSchematicRank1Desc,progression,Perk,Unlocks the Wood Splitter Mod.
+
+perkmodMeleeClubBurningShaftDesc,progression,Perk,Unlocks the Burning Shaft Mod.
+perkmodMeleeClubBurningShaftSchematicRank1Desc,progression,Perk,Unlocks the Burning Shaft Mod.
+
+perkmodArmorInsulatedLinerDesc,progression,Perk,Unlocks the Insulated Liner.
+perkmodArmorInsulatedLinerSchematicRank1Desc,progression,Perk,Unlocks the Insulated Liner.
+
+perkmodArmorCoolingMeshDesc,progression,Perk,Unlocks the Cooling Mesh Mod.
+perkmodArmorCoolingMeshSchematicRank1Desc,progression,Perk,Unlocks the Cooling Mesh Mod.
+
+perkmodArmorImprovedFittingsDesc,progression,Perk,Unlocks the Improved Fittings Mod.
+perkmodArmorImprovedFittingsSchematicRank1Desc,progression,Perk,Unlocks the Improved Fittings Mod.
+
+perkmodArmorCustomizedFittingsDesc,progression,Perk,Unlocks the Customized Fittings.
+perkmodArmorCustomizedFittingsSchematicRank1Desc,progression,Perk,Unlocks the Customized Fittings.
+
+perkmodArmorPlatingBasicDesc,progression,Perk,Unlocks the Basic Plating Mod.
+perkmodArmorPlatingBasicSchematicRank1Desc,progression,Perk,Unlocks the Basic Plating Mod.
+
+perkmodArmorPlatingReinforcedDesc,progression,Perk,Unlocks the Reinforced Plating Mod.
+perkmodArmorPlatingReinforcedSchematicRank1Desc,progression,Perk,Unlocks the Reinforced Plating Mod.
+
+perkmodArmorStoragePocketDesc,progression,Perk,Unlocks the Armor Pocket Mod.
+perkmodArmorStoragePocketSchematicRank1Desc,progression,Perk,Unlocks the Armor Pocket Mod.
+
+perkmodArmorDoubleStoragePocketDesc,progression,Perk,Unlocks the Armor Double Pocket Mod.
+perkmodArmorDoubleStoragePocketSchematicRank1Desc,progression,Perk,Unlocks the Armor Double Pocket Mod.
+
+perkmodArmorTripleStoragePocketDesc,progression,Perk,Unlocks the Armor Triple Pocket Mod.
+perkmodArmorTripleStoragePocketSchematic,progression,Perk,Unlocks the Armor Triple Pocket Mo
+perkmodArmorMuffledConnectorsDesc,progression,Perk,Unlocks the Muffled Connectors Mod.
+perkmodArmorMuffledConnectorsSchematicRank1Desc,progression,Perk,Unlocks the Muffled Connectors Mod.
+
+perkmodArmorAdvancedMuffledConnectors,progression,Perk,Unlocks the Advanced Muffled Connectors Mod.
+perkmodArmorAdvancedMuffledConnectorsSchematicRank1Desc,progression,Perk,Unlocks the Advanced Muffled Connectors Mod.
+
+perkmodArmorImpactBracingDesc,progression,Perk,Unlocks the Impact Bracing Mod.
+perkmodArmorImpactBracingSchematicRank1Desc,progression,Perk,Unlocks the Impact Bracing Mod.
+
+perkmodArmorBandolierDesc,progression,Perk,Unlocks the Bandolier Mod.
+perkmodArmorBandolierSchematicRank1Desc,progression,Perk,Unlocks the Bandolier Mod.
+
+perkmodArmorWaterPurifierDesc,progression,Perk,Unlocks the Water Purifier Mod.
+perkmodArmorWaterPurifierSchematicRank1Desc,progression,Perk,Unlocks the Water Purifier Mod.
+
+perkmodArmorHelmetLightDesc,progression,Perk,Unlocks the Helmet Light Mod.
+perkmodArmorHelmetLightSchematicRank1Desc,progression,Perk,Unlocks the Helmet Light Mod.
+
+perkmodFuelTankSmallDesc,progression,Perk,Unlocks the Small Fuel Tank Mod.
+perkmodFuelTankSmallSchematicRank1Desc,progression,Perk,Unlocks the Small Fuel Tank Mod.
+
+perkmodFuelTankLargeSchematic,progression,Perk,Unlocks the Large Fuel Tank Mod.
+perkmodFuelTankLargeSchematicRank1Desc,progression,Perk,Unlocks the Large Fuel Tank Mod.
+
+perkammoGasCanDesc,progression,Perk,Unlocks Gas Production.
+perkammoGasCanSchematicRank1Desc,progression,Perk,Unlocks Gas Production.
+
+perkresourceOilDesc,progression,Perk,Unlocks Oil Production.
+perkresourceOilSchematicRank1Desc,progression,Perk,Unlocks Oil Production.
+
+perkdrinkJarBeerDesc,progression,Perk,Unlocks Beer.
+perkdrinkJarBeerSchematicRank1Desc,progression,Perk,Unlocks Beer.
+
+perkdrinkJarGoldenRodTeaDesc,progression,Perk,Unlocks Goldenrod Tea.
+perkdrinkJarGoldenRodTeaSchematicRank1Desc,progression,Perk,Unlocks Goldenrod Tea.
+
+perkdrinkJarRedTeaDesc,progression,Perk,Unlocks Red Tea.
+perkdrinkJarRedTeaSchematicRank1Desc,progression,Perk,Unlocks Red Tea.
+
+drinkYuccaJuiceSmoothieDesc,progression,Perk,Unlocks Yucca Juice Smoothie.
+perkdrinkYuccaJuiceSmoothieSchematicRank1Desc,progression,Perk,Unlocks the Yucca Juice Smoothie.
+
+perkdrinkJarGrandpasAwesomeSauceDesc,progression,Perk,Unlocks Grandpa's Awesome Sauce.
+perkdrinkJarGrandpasAwesomeSauceSchematicRank1Desc,progression,Perk,Unlocks Grandpa's Awesome Sauce. 
+
+drinkJarGrandpasLearningElixir,items,Drink,Grandpa's Learnin' Elixir
+perkdrinkJarGrandpasLearningElixirDesc,progression,Perk,Unlocks Grandpa's Learning Elixer.
+perkdrinkJarGrandpasLearningElixirSchematicRank1Desc,progression,Perk,Unlocks Grandpa's Learning Elixer.
+
+perkdrinkJarGrandpasMoonshineDesc,progression,Perk,Unlocks Grandpa's Moonshine.
+perkdrinkJarGrandpasMoonshineSchematicRank1Desc,progression,Perk,Unlocks Grandpa's Moonshine.
+
+perkfoodBaconAndEggsDesc,progression,Perk,Unlocks Bacon and Eggs.
+perkfoodBaconAndEggsSchematicRank1Desc,progression,Perk,Unlocks Bacon and Eggs.
+
+perkfoodBakedPotatoDesc,progression,Perk,Unlocks Baked Potatos.
+perkfoodBakedPotatoSchematicRank1Desc,progression,Perk,Unlocks Baked Potatos.
+
+perkfoodBlueberryPieDesc,progression,Perk,Unlocks BlueBerry Pie.
+perkfoodBlueberryPieSchematicRank1Desc,progression,Perk,Unlocks BlueBerry Pie.
+
+perkfoodPumpkinPieDesc,progression,Perk,Unlocks Pumpkin Pie.
+perkfoodPumpkinPieSchematicRank1Desc,progression,Perk,Unlocks Pumpkin Pie.
+
+perkfoodPumpkinCheesecake,progression,Perk,Unlocks Pumpkin Cheesecake.
+perkfoodPumpkinCheesecakeSchematicRank1Desc,progression,Perk,Unlocks Pumpkin Cheesecake.
+
+perkfoodPumpkinBreadDesc,progression,Perk,Unlocks Pumpkin Bread.
+perkfoodPumpkinBreadSchematicRank1Desc,progression,Perk,Unlocks Pumpkin Bread.
+
+perkfoodBoiledMeatDesc,progression,Perk,Unlocks Boiled Meat.
+perkfoodBoiledMeatSchematicRank1Desc,progression,Perk,Unlocks Boiled Meat.
+
+perkfoodChiliDogDesc,progression,Perk,Unlocks the Chilidog.
+perkfoodChiliDogSchematicRank1Desc,progression,Perk,Unlocks the Chilidog.
+
+perkfoodCornBreadDesc,progression,Perk,Unlocks Cornbread.
+perkfoodCornBreadSchematicRank1Desc,progression,Perk,Unlocks Cornbread.
+
+perkfoodCornOnTheCobDesc,progression,Perk,Unlocks Corn On The Cob.
+perkfoodCornOnTheCobSchematicRank1Desc,progression,Perk,Unlocks Corn On The Cob.
+
+perkfoodFishTacosDesc,progression,Perk,Unlocks Fish Tacos.
+perkfoodFishTacosSchematicRank1Desc,progression,Perk,Unlocks Fish Tacos.
+
+perkfoodCanShamDesc,progression,Perk,Unlocks the Can of Sham.
+perkfoodCanShamSchematicRank1Desc,progression,Perk,Unlocks the Can of Sham.
+
+perkfoodHoboStewDesc,progression,Perk,Unlocks Hobo Stew.
+perkfoodHoboStewSchematicRank1Desc,progression,Perk,Unlocks Hobo Stew.
+
+perkfoodMeatStewDesc,progression,Perk,Unlocks Meat Stew. 
+perkfoodMeatStewSchematicRank1Desc,progression,Perk,Unlocks Meat Stew.
+
+perkfoodShamChowderDesc,progression,Perk,Unlocks Sham Chowder.
+perkfoodShamChowderSchematicRank1Desc,progression,Perk,Unlocks Sham Chowder.
+
+perkfoodSteakAndPotatoDesc,progression,Perk,Unlocks Steak and Potatos.
+perkfoodSteakAndPotatoSchematicRank1Desc,progression,Perk,Unlocks Steak and Potatos.
+
+perkfoodVegetableStewDesc,progression,Perk,Unlocks Vegetable Stew.
+perkfoodVegetableStewSchematicRank1Desc,progression,Perk,Unlocks Vegetable Stew.
+
+perkplantedAloe1Desc,progression,Perk,Unlocks the Aloe Seed.
+perkplantedAloe1SchematicRank1Desc,progression,Perk,Unlocks the Aloe Seed.
+
+perkplantedBlueberry1Desc,progression,Perk,Unlocks the BlueBerry Seed.
+perkplantedBlueberry1SchematicRank1Desc,progression,Perk,Unlocks the BlueBerry Seed.
+
+perkplantedChrysanthemum1Desc,progression,Perk,Unlocks the Chrysanthemum Seed.
+perkplantedChrysanthemum1SchematicRank1Desc,progression,Perk,Unlocks the Chrysanthemum Seed.
+
+perkplantedCoffee1Desc,progression,Perk,Unlocks Coffee Beans.
+perkplantedCoffee1SchematicRank1Desc,progression,Perk,Unlocks Coffee Beans.
+
+perkplantedCorn1Desc,progression,Perk,Unlocks the Corn Seed.
+perkplantedCorn1SchematicRank1Desc,progression,Perk,Unlocks the Corn Seed.
+
+perkplantedCotton1Desc,progression,Perk,Unlocks the Cotton Seed.
+perkplantedCotton1SchematicRank1Desc,progression,Perk,Unlocks the Cotton Seed.
+
+perkplantedGoldenrod1Desc,progression,Perk,Unlocks the Goldnerod Seed.
+perkplantedGoldenrod1SchematicRank1Desc,progression,Perk,Unlocks the Goldnerod Seed.
+
+perkplantedGraceCorn1Desc,progression,Perk,Unlocks the Super Corn Seed.
+perkplantedGraceCorn1SchematicRank1Desc,progression,Perk,Unlocks the  Super Corn Seed.
+
+perkplantedHop1Desc,progression,Perk,Unlocks the Hops Seed.
+perkplantedHop1SchematicRank1Desc,progression,Perk,Unlocks the Hops Seed.
+
+perkplantedMushroom1Desc,progression,Perk,Unlocks the Mushroom Seed.
+perkplantedMushroom1SchematicRank1Desc,progression,Perk,Unlocks the Mushroom Seed.
+
+perkplantedPotato1Desc,progression,Perk,Unlocks the Potato Seed.
+perkplantedPotato1SchematicRank1Desc,progression,Perk,Unlocks the Potato Seed.
+
+perkplantedYucca1Desc,progression,Perk,Unlocks the Yucca Seed.
+perkplantedYucca1SchematicRank1Desc,progression,Perk,Unlocks the Yucca Seed.
+
+perkplantedPumpkin1Desc,progression,Perk,Unlocks the Pumpkin Seed.
+perkplantedPumpkin1SchematicRank1Desc,progression,Perk,Unlocks the Pumpkin Seed.
+
+perkmeleeToolRatchetDesc,progression,Perk,Unlocks the Ratchet.
+perkmeleeToolRatchetSchematicRank1Desc,progression,Perk,Unlocks the Ratchet.
+
+perkmeleeToolImpactDriverDesc,progression,Perk,Unlocks the Impact Driver.
+perkmeleeToolImpactDriverSchematicRank1Desc,progression,Perk,Unlocks the Impact Driver.
+
+perkgunAutoShotgunDesc,progression,Perk,Unlocks the Auto Shotgun.
+perkgunAutoShotgunSchematicRank1Desc,progression,Perk,Unlocks the Auto Shotgun.
+
+perkgunDesertVultureDesc,progression,Perk,Unlocks the Desert Vulture.
+perkgunDesertVultureSchematicRank1Desc,progression,Perk,Unlocks the Desert Vulture.
+
+perkgunTacticalARDesc,progression,Perk,Unlocks the Tactical AR.
+perkgunTacticalARSchematicRank1Desc,progression,Perk,Unlocks the Tactical AR.
+
+perkgunM60Desc,progression,Perk,Unlocks the M60.
+perkgunMGT3M60SchematicSchematicRank1Desc,progression,Perk,Unlocks the M60.
+
+perkgunLeverActionRifleDesc,progression,Perk,Unlocks the Lever Action Rifle.
+perkgunLeverActionRifleSchematicRank1Desc,progression,Perk,Unlocks the Lever Action Rifle.
+
+perkgunSniperRifleDesc,progression,Perk,Unlocks the Sniper Rifle.
+perkgunSniperRifleSchematicRank1Desc,progression,Perk,Unlocks the Sniper Rifle.
+
+perkgunJunkSledgeDesc,progression,Perk,Unlocks the Robotic Sledge.
+perkgunJunkSledgeSchematicRank1Desc,progression,Perk,Unlocks the Robotic Sledge.
+
+perkgunJunkDroneDesc,progression,Perk,Unlocks the Robotic Drone.
+perkgunJunkDroneSchematicRank1Desc,progression,Perk,Unlocks the Robotic Drone.
+
+perkmodRoboticDroneCargoDesc,progression,Perk,Unlocks the Robotic Drone Cargo Mod.
+perkmodRoboticDroneCargoModSchematicRank1Desc,progression,Perk,Unlocks the Robotic Drone Cargo Mod.
+
+perkmodRoboticDroneMedicDesc,progression,Perk,Unlocks the Robotic Drone Medic Mod.
+perkmodRoboticDroneMedicModSchematicRank1Desc,progression,Perk,Unlocks the Robotic Drone Medic Mod.
+
+perkmodRoboticDroneHeadlampDesc,progression,Perk,Unlocks the Robotic Drone Headlamp Mod.
+perkmodRoboticDroneHeadlampModSchematicRank1Desc,progression,Perk,Unlocks the Robotic Drone Headlamp Mod.
+
+perkmodRoboticDroneArmorPlatingDesc,progression,Perk,Unlocks the Robotic Drone Armor Plating Mod.
+perkmodRoboticDroneArmorPlatingModSchematicRank1Desc,progression,Perk,Unlocks the Robotic Drone Armor Plating Mod.
+
+perkmodRoboticMoraleBoosterPlatingDesc,progression,Perk,Unlocks the Robotic Drone Morale Booster Mod.
+perkmodRoboticDroneMoraleBoosterModSchematicRank1Desc,progression,Perk,Unlocks the Robotic Drone Morale Booster Mod.
+
+perkmodVehicleFuelSaverDesc,progression,Perk,Unlocks the Vehicle Fuel Saver Mod.
+perkmodVehicleFuelSaverSchematicRank1Desc,progression,Perk,Unlocks the Vehicle Fuel Saver Mod.
+
+perkmodVehicleOffRoadHeadlightsDesc,progression,Perk,Unlocks the Vehicle Off Road Headlight Mod.
+perkmodVehicleOffRoadHeadlightsSchematicRank1Desc,progression,Perk,Unlocks the Vehicle Off Road Headlight Mod.
+
+perkmodVehicleSuperChargerDesc,progression,Perk,Unlocks the Vehicle Super Charger Mod.
+perkmodVehicleSuperChargerSchematicRank1Desc,progression,Perk,Unlocks the Vehicle Super Charger Mod.
+
+perkmodVehicleExpandedSeatDesc,progression,Perk,Unlocks the Vehicle Expanded Seat Mod.
+perkmodVehicleExpandedSeatSchematicRank1Desc,progression,Perk,Unlocks the Vehicle Expanded Seat Mod.
+
+perkmodVehicleReserveFuelTankDesc,progression,Perk,Unlocks the Vehicle Reserve Fuel Tank Mod.
+perkmodVehicleReserveFuelTankSchematicRank1Desc,progression,Perk,Unlocks the Vehicle Reserve Fuel Tank Mod.
+
+perkmodVehicleExpandedSeatDesc,progression,Perk,Unlocks the Vehicle Expanded Seat Mod.
+perkmodVehicleExpandedSeatSchematicRank1Desc,progression,Perk,Unlocks the Vehicle Expanded Seat Mod.
+
+perkfoodGrilledMeatDesc,progression,Perk,Unlocks Grilled Meat.
+perkfoodGrilledMeatSchematicRank1Desc,progression,Perk,Unlocks Grilled Meat.
+
+perkfoodSpaghettiPieDesc,progression,Perk,Unlocks Spaghetti.
+perkfoodSpaghettiSchematicRank1Desc,progression,Perk,Unlocks Spaghetti.
+
+perkfoodTunaFishGravyToastDesc,progression,Perk,Unlocks Tuna Fish Gravy Toast.
+perkfoodTunaFishGravyToastSchematicRank1Desc,progression,Perk,Unlocks Tuna Fish Gravy Toast.
+
+perkceilingLight01Desc,progression,Perk,Unlocks Basic Ceiling Light.
+perkceilingLight01_playerSchematicRank1Desc,progression,Perk,Unlocks Basic Ceiling Light.
+
+perkindustrialLight01Desc,progression,Perk,Unlocks Industrial Light.
+perkindustrialLight01_playerSchematicRank1Desc,progression,Perk,Unlocks Industrial Light.
+
+perkindustrialLight02Desc,progression,Perk,Unlocks Industrial Light Bulb.
+perkindustrialLight02_playerSchematicRank1Desc,progression,Perk,Unlocks Industrial Light Bulb.
+
+perkceilingLight07Desc,progression,Perk,Unlocks the Fluorescent Light.
+perkceilingLight07_playerSchematicRank1Desc,progression,Perk,Unlocks the Fluorescent Light.
+
+perkmineCookingPotDesc,progression,Perk,Unlocks the Cooking Pot Landmine.
+perkmineCookingPotSchematicRank1Desc,progression,Perk,Unlocks the Cooking Pot Landmine.
+
+perkrScrapIronPlateMineDesc,progression,Perk,Unlocks the Pressure Plate Mine.
+perkrScrapIronPlateMineSchematicRank1Desc,progression,Perk,Unlocks the Pressure Plate Mine.
+
+perktmineHubcapDesc,progression,Perk,Unlocks the Hubcap Landmine.
+perkmineHubcapSchematicRank1Desc,progression,Perk,Unlocks the Hubcap Landmine.
+
+perkvehicleWheelsDesc,progression,Perk,Unlocks Vehicle Wheels.
+perkvehicleWheelsSchematicRank1Desc,progression,Perk,Unlocks Vehicle Wheels.
+
+perkpressureplateLongDesc,progression,Perk,Unlocks the Long Pressure Plate.
+perkpressureplateLongSchematicRank1Desc,progression,Perk,Unlocks the Long Pressure Plate.
+
+perktripwirepostDesc,progression,Perk,Unlocks the Tripwire Post.
+perktripwirepostSchematicRank1Desc,progression,Perk,Unlocks the Tripwire Post.
+
+perkelectricwirerelayDesc,progression,Perk,Unlocks the Electric Wire Relay.
+perkelectricwirerelaySchematicRank1Desc,progression,Perk,Unlocks the Electric Wire Relay.
+
+perkresourceGunPowderBundleDesc,progression,Perk,Unlocks the Gunpowder Bundle.
+perkresourceGunPowderBundleSchematicRank1Desc,progression,Perk,Unlocks the Gunpowder Bundle.
+
+perkammoRocketHEDesc,progression,Perk,Unlocks the High Explosive Rocket.
+perkammoRocketHESchematicRank1Desc,progression,Perk,Unlocks the High Explosive Rocket.
+
+perkammoRocketFragDesc,progression,Perk,Unlocks the Fragmentation Rocket.
+perkammoRocketFragSchematicRank1Desc,progression,Perk,Unlocks the Fragmentation Rocket.
+
+perkresourceRocketTipDesc,progression,Perk,Unlocks Rocket Tips.
+perkresourceRocketTipSchematicRank1Desc,progression,Perk,Unlocks the Rocket Casing.
+
+perkresourceRocketCasingDesc,progression,Perk,Unlocks Rocket Tips.
+perkresourceRocketCasingSchematicRank1Desc,progression,Perk,Unlocks the Rocket Casing.
+
+perkmineAirFilterDesc,progression,Perk,Unlocks the Air Filter Mine.
+perkmineAirFilterSchematicRank1Desc,progression,Perk,Unlocks the Air Filter Mine.
+
+perkresourceLockPickDesc,progression,Perk,Unlocks the Lockpick.
+perkresourceLockPickSchematicRank1Desc,progression,Perk,Unlocks the Lockpick.
+
+perkmetalReinforcedWoodDrawBridgePoweredDesc,progression,Perk,Unlocks the Reinforced Drawbridge.
+perkmetalReinforcedWoodDrawBridgePoweredSchematicRank1Desc,progression,Perk,Unlocks the Reinforced Drawbridge.
+
+perkcarBatteryDesc,progression,Perk,Unlocks the Car Battery.
+perkcarBatterySchematicRank1Desc,progression,Perk,Unlocks the Car Battery.
+
+perkammoGasCanBundleDesc,progression,Perk,Unlocks the Gas Can Bundle.
+perkammoGasCanBundleSchematicSchematicRank1Desc,progression,Perk,Unlocks the Gas Can Bundle.
+
+perkdrugSteroidsDesc,progression,Perk,Unlocks Steroids.
+perkdrugSteroidsSchematicRank1Desc,progression,Perk,Unlocks Steroids.
+
+perkdrugFortBitesDesc,progression,Perk,Unlocks FortBites.
+perkdrugFortBitesSchematicRank1Desc,progression,Perk,Unlocks FortBites.
+
+perkdrugRecogDesc,progression,Perk,Unlocks Recog.
+perkdrugRecogSchematicRank1Desc,progression,Perk,Unlocks Recog.
+
+perkmodMeleeFiremansAxeModDesc,progression,Perk,Unlocks Fireman's Axe Mod.
+perkmodMeleeFiremansAxeModSchematicRank1Desc,progression,Perk,Unlocks Fireman's Axe Mod.
+
+perkarmorFirefightersHelmetDesc,progression,Perk,Unlocks Fireman's Helmet.
+perkarmorFirefightersHelmetSchematicRank1Desc,progression,Perk,Unlocks Fireman's Fireman's Helmet.
+
+perkapparelFlannelShirtDesc,progression,Perk,Unlocks Flannel Shirt.
+perkapparelFlannelShirtSchematicSchematicRank1Desc,progression,Perk,Unlocks Flannel Shirt.
+
+perkapparelSweatshirtShirtDesc,progression,Perk,Unlocks Sweatshirt.
+perkperkapparelSweatshirtSchematicSchematicRank1Desc,progression,Perk,Unlocks Sweatshirt.
+
+perkapparelSkullCapDesc,progression,Perk,Unlocks Skullcap.
+perkapparelSkullCapSchematicRank1Desc,progression,Perk,Unlocks Skullcap.
+
+perkapparelDenimPantsDesc,progression,Perk,Unlocks Denim Pants.
+perkapparelDenimPantsSchematicRank1Desc,progression,Perk,Unlocks Denim Pants.
+
+perkapparelOverallsDesc,progression,Perk,Unlocks Overalls.
+perkapparelOverallsSchematicRank1Desc,progression,Perk,Unlocks Overalls.
+
+perkapparelSkirtDesc,progression,Perk,Unlocks Skirt.
+perkapparelSkirtSchematicRank1Desc,progression,Perk,Unlocks Skirt.
+
+perkapparelWornBootsDesc,progression,Perk,Unlocks Skullcap.
+perkapparelWornBootsSchematicRank1Desc,progression,Perk,Unlocks Skullcap.
+
+perkapparelRunningShoesRegularDesc,progression,Perk,Unlocks Running Shoes.
+perkapparelRunningShoesRegularSchematicRank1Desc,progression,Perk,Unlocks Running Shoes.
+
+perkapparelCowboyBootsDesc,progression,Perk,Unlocks Cowboy Boots.
+perkapparelCowboyBootsSchematicRank1Desc,progression,Perk,Unlocks Cowboy Boots.
+
+perkapparelSuitDressShoesDesc,progression,Perk,Unlocks Dress Shoes.
+perkapparelSuitDressShoesSchematicRank1Desc,progression,Perk,Unlocks Dress Shoes.
+
+perkapparelTankTopDesc,progression,Perk,Unlocks Tank Top.
+perkapparelTankTopSchematicRank1Desc,progression,Perk,Unlocks Tank Top.
+
+perkapparelTShirtPlainDesc,progression,Perk,Unlocks T-Shirt.
+perkapparelTShirtPlainSchematicRank1Desc,progression,Perk,Unlocks T-Shirt.
+
+perkapparelCowboyHatDesc,progression,Perk,Unlocks Cowboy Hat.
+perkapparelCowboyHatSchematicRank1Desc,progression,Perk,Unlocks Cowboy Hat.
+
+perkapparelDenimShortsPantsDesc,progression,Perk,Unlocks Denim Shorts.
+perkapparelDenimShortsPantsSchematicRank1Desc,progression,Perk,Unlocks Denim Shorts.
+
+perkapparelCoatLeatherDusterDesc,progression,Perk,Unlocks Leather Duster.
+perkapparelCoatLeatherDusterSchematicRank1Desc,progression,Perk,Unlocks Leather Duster.
+
+perkmodClothingCargoStoragePocketDesc,progression,Perk,Unlocks Double Pocket Clothing Mods.
+perkmodClothingCargoStoragePocketSchematicRank1Desc,progression,Perk,Unlocks Double Pocket Clothing Mods.
+
+perkapparelArmyPantsDesc,progression,Perk,Unlocks BDU Bottoms.
+perkapparelArmyPantsPocketSchematicRank1Desc,progression,Perk,Unlocks BDU Bottoms.
+
+perkapparelArmyShirtDesc,progression,Perk,Unlocks BDU Top.
+perkapparelArmyShirtSchematicRank1Desc,progression,Perk,Unlocks BDU Top.
+
+perkammo44MagnumBulletAPDesc,progression,Perk,Unlocks .44 Magnum AP Rounds.
+perkammo44MagnumBulletAPSchematicRank1Desc,progression,Perk,Unlocks .44 Magnum AP Rounds.
+
+perkammo44MagnumBulletHPDesc,progression,Perk,Unlocks .44 Magnum HP Rounds.
+perkammo44MagnumBulletHPSchematicRank1Desc,progression,Perk,Unlocks .44 Magnum HP Rounds.
+
+perkammoBundle44MagnumBulletAPDesc,progression,Perk,Unlocks .44 Magnum AP Bundle.
+perkammoBundle44MagnumBulletAPSchematicRank1Desc,progression,Perk,Unlocks .44 Magnum AP Bundle.
+
+perkammoBundle44MagnumBulletHPDesc,progression,Perk,Unlocks .44 Magnum Bundle.
+perkammoBundle44MagnumBulletBallSchematicRank1Desc,progression,Perk,Unlocks .44 Magnum Bundle.
+
+perkammoBundle44MagnumBulletHPDesc,progression,Perk,Unlocks .44 Magnum HP Bundle.
+perkammoBundle44MagnumBulletHPSchematicRank1Desc,progression,Perk,Unlocks .44 Magnum HP Bundle. 
+
+perkresourceLockPickBundleDesc,progression,Perk,Unlocks Lock Pick Bundle.
+perkresourceLockPickBundleSchematicRank1Desc,progression,Perk,Unlocks Lock Pick Bundle.
+
+perkresourceRockSmallBundleDesc,progression,Perk,Unlocks Small Stone Bundle.
+perkresourceRockSmallBundleSchematicRank1Desc,progression,Perk,Unlocks Small Stone Bundle.
+
+perkresourceWoodBundleDesc,progression,Perk,Unlocks Wood Bundle.
+perkresourceWoodBundleSchematicRank1Desc,progression,Perk,Unlocks Wood Bundle.
+
+perkresourceScrapIronBundleDesc,progression,Perk,Unlocks Iron Fragment Bundle.
+perkresourceScrapIronBundleSchematicRank1Desc,progression,Perk,Unlocks Iron Fragment Bundle.
+
+perkresourceOilShaleBundleDesc,progression,Perk,Unlocks Oil Shale Bundle.
+perkresourceOilShaleBundleSchematicRank1Desc,progression,Perk,Unlocks Oil Shale Bundle.
+
+perkresourcePotassiumNitratePowderBundleDesc,progression,Perk,Unlocks Nitrate Bundle.
+perkresourcePotassiumNitratePowderBundleSchematicRank1Desc,progression,Perk,Unlocks Nitrate Bundle. 
+
+perkresourceLeadBundleDesc,progression,Perk,Unlocks Lead Fragment Bundle.
+perkresourceLeadBundleSchematicRank1Desc,progression,Perk,Unlocks Lead Fragment Bundle.
+
+perkresourceCoalBundleDesc,progression,Perk,Unlocks Coal Bundle.
+perkresourceCoalBundleSchematicRank1Desc,progression,Perk,Unlocks Coal Bundle.
+
+perkammoBundleArrowStoneDesc,progression,Perk,Unlocks Stone Arrow Bundle.
+perkammoBundleArrowStoneSchematicRank1Desc,progression,Perk,Unlocks Stone Arrow Bundle.
+
+perkammoBundleArrowIronDesc,progression,Perk,Unlocks Iron Arrow Bundle.
+perkammoBundleArrowIronSchematicRank1Desc,progression,Perk,Unlocks Iron Arrow Bundle.
+
+perkammoBundleArrowFlamingDesc,progression,Perk,Unlocks Flaming Arrow Bundle.
+perkammoBundleArrowFlamingSchematicRank1Desc,progression,Perk,Unlocks Flaming Arrow Bundle.
+
+perkammoBundleCrossbowBoltFlamingDesc,progression,Perk,Unlocks Flaming Crossbow Bolt Bundle.
+perkammoBundleCrossbowBoltFlamingSchematicRank1Desc,progression,Perk,Unlocks Flaming Crossbow Bolt Bundle.
+
+perkammoBundleArrowSteelAPDesc,progression,Perk,Unlocks Steel Arrow Bundle.
+perkammoBundleArrowSteelAPSchematicRank1Desc,progression,Perk,Unlocks Steel Arrow Bundle.
+
+perkammoBundleCrossbowBoltExplodingDesc,progression,Perk,Unlocks Exploding Crossbow Bolt Bundle.
+perkammoBundleCrossbowBoltExplodingSchematicRank1Desc,progression,Perk,Unlocks Exploding Crossbow Bolt Bundle.
+
+perkammoBundleArrowExplodingDesc,progression,Perk,Unlocks Exploding Arrow Bundle.
+perkammoBundleArrowExplodingSchematicRank1Desc,progression,Perk,Unlocks Exploding Arrow Bundle.
+
+perkammoBundleCrossbowBoltIronDesc,progression,Perk,Unlocks Iron Crossbow Bolt Bundle.
+perkammoBundleCrossbowBoltIronSchematicRank1Desc,progression,Perk,Unlocks Crossbow Bolt Bundle.
+
+perkammoBundleCrossbowBoltSteelAPDesc,progression,Perk,Unlocks Steel Crossbow Bolt Bundle.
+perkammoBundleCrossbowBoltSteelAPSchematicRank1Desc,progression,Perk,Unlocks Steel Crossbow Bolt Bundle.
+
+perkammoBundleCrossbowBoltStoneDesc,progression,Perk,Unlocks Stone Crossbow Bolt.
+perkammoBundleCrossbowBoltStoneSchematicRank1Desc,progression,Perk,Unlocks Stone Crossbow Bolt.
+
+perkammoBundle9mmBulletBallDesc,progression,Perk,Unlocks 9mm Bullet Bundle.
+perkammoBundle9mmBulletBallSchematicRank1Desc,progression,Perk,Unlocks 9mm Bullet Bundle.
+
+perkammoBundle9mmBulletHPDesc,progression,Perk,Unlocks 9mm HP Bullet Bundle.
+perkammoBundle9mmBulletBallHPSchematicRank1Desc,progression,Perk,Unlocks 9mm HP Bullet Bundle.
+
+perkammoBundle9mmBulletAPDesc,progression,Perk,Unlocks 9mm AP Bullet Bundle.
+perkammoBundle9mmBulletBallAPSchematicRank1Desc,progression,Perk,Unlocks 9mm AP Bullet Bundle.
+
+perkammoBundleShotgunShellDesc,progression,Perk,Unlocks Shotgun Shell Bundle.
+perkammoBundleShotgunShellSchematicRank1Desc,progression,Perk,Unlocks Shotgun Shell Bundle.
+
+perkammoBundleShotgunSlugDesc,progression,Perk,Unlocks Shotgun Slug Bundle.
+perkammoBundleShotgunSlugSchematicRank1Desc,progression,Perk,Unlocks Shotgun Slug Bundle.
+
+perkammoBundleShotgunBreachingSlugDesc,progression,Perk,Unlocks Shotgun Breaching Slug Bundle.
+perkammoBundleShotgunBreachingSlugSchematicRank1Desc,progression,Perk,Unlocks Shotgun Breaching Slug Bundle.
+
+perkammoBundle762mmBulletBallDesc,progression,Perk,Unlocks 7.62 Bullet Bundle.
+perkammoBundle762mmBulletBallSchematicRank1Desc,progression,Perk,Unlocks 7.62 Bullet Bundle.
+
+perkammoBundle762mmBulletHPDesc,progression,Perk,Unlocks 7.62 HP Bullet Bundle.
+perkammoBundle762mmBulletHPSchematicRank1Desc,progression,Perk,Unlocks 7.62 HP Bullet Bundle.
+
+perkammoBundle762mmBulletAPDesc,progression,Perk,Unlocks 7.62 AP Bullet Bundle.
+perkammoBundle762mmBulletAPSchematicRank1Desc,progression,Perk,Unlocks 7.62 AP Bullet Bundle.
+
+perkammo762mmBulletAPDesc,progression,Perk,Unlocks AP 7.62 Bullet. 
+perkammo762mmBulletHPSchematicRank1Desc,progression,Perk,Unlocks AP 7.62 Bullet.
+
+perkammo762mmBulletHPDesc,progression,Perk,Unlocks HP 7.62 Bullet.
+perkammo762mmBulletHPSchematicRank1Desc,progression,Perk,Unlocks HP 7.62 Bullet.
+
+perkammoShotgunSlugDesc,progression,Perk,Unlocks Shotgun Slug.
+perkammoShotgunSlugSchematicRank1Desc,progression,Perk,Unlocks Shotgun Slug.
+
+perkammoShotgunBreachingSlugDesc,progression,Perk,Unlocks Breaching Slug.
+perkammoShotgunBreachingSlugSchematicRank1Desc,progression,Perk,Unlocks Breaching Slug.
+
+perkammoCrossbowBoltExplodingDesc,progression,Perk,Unlocks Exploding Bolt.
+perkammoCrossbowBoltExplodingSchematicRank1Desc,progression,Perk,Unlocks Exploding Bolt.
+
+perkammoArrowExplodingDesc,progression,Perk,Unlocks Exploding Arrow.
+perkammoArrowExplodingSchematicRank1Desc,progression,Perk,Unlocks Exploding Arrow.
+
+perkammoCrossbowBoltFlamingDesc,progression,Perk,Unlocks Flaming Bolt.
+perkammoCrossbowBoltFlamingSchematicRank1Desc,progression,Perk,Unlocks Flaming Bolt.
+
+perkammoArrowExplodingDesc,progression,Perk,Unlocks Exploding Arrow.
+perkammoArrowExplodingSchematicRank1Desc,progression,Perk,Unlocks Exploding Arrow.
+
+perkammo9mmBulletHPDesc,progression,Perk,Unlocks 9mm HP Bullet.
+perkammo9mmBulletHPSchematicRank1Desc,progression,Perk,Unlocks 9mm HP Bullet.
+
+perkammo9mmBulletAPDesc,progression,Perk,Unlocks 9mm AP Bullet.
+perkammo9mmBulletAPSchematicRank1Desc,progression,Perk,Unlocks 9mm AP Bullet.
+
+perkarmorMilitaryStealthBootsDesc,progression,Perk,Unlocks Military Stealth Boots.
+perkarmorMilitaryStealthBootsSchematicRank1Desc,progression,Perk,Unlocks Military Stealth Boots.
+
+perkapparelCigarDesc,progression,Perk,Unlocks the Cigar.
+perkapparelCigarSchematicRank1Desc,progression,Perk,Unlocks the Cigar.
+
+perkapparelBallCapDesc,progression,Perk,Unlocks the Baseball Cap.
+perkapparelBallCapSchematicRank1Desc,progression,Perk,Unlocks the Baseball Cap.
+
+perkapparelCoatJacketLetterZUDesc,progression,Perk,Unlocks College Jacket.
+perkapparelCoatJacketLetterZUSchematicRank1Desc,progression,Perk,Unlocks College Jacket.
+
+perkapparelGhillieSuitHoodDesc,progression,Perk,Unlocks Ghillie Hood.
+perkapparelGhillieSuitHoodSchematicRank1Desc,progression,Perk,Unlocks Ghillie Hood.
+
+perkapparelGhillieSuitJacketDesc,progression,Perk,Unlocks Ghillie Jacket.
+perkapparelGhillieSuitJacketSchematicRank1Desc,progression,Perk,Unlocks Ghillie Jacket.
+
+perkapparelGhillieSuitPantsDesc,progression,Perk,Unlocks Ghillie Pants.
+perkapparelGhillieSuitJacketSchematicRank1Desc,progression,Perk,Unlocks Ghillie Pants.
+
+perkmodMeleeDiamondTipSDesc,progression,Perk,Unlocks the Diamond Tip Mod.
+perkmodMeleeDiamondTipSchematicRank1Desc,progression,Perk,Unlocks Diamond Tip Mod.
+
+perkmodGunDrumMagazineExtenderDesc,progression,Perk,Unlocks the Drum Magazine Extender.
+perkmodGunDrumMagazineExtenderSchematicRank1Desc,progression,Perk,Unlocks the Drum Magazine Extender.
+
+perkmodGunShotgunTubeExtenderDesc,progression,Perk,Unlocks the Shotgun Tube Extender.
+perkmodGunShotgunTubeExtenderMagazineSchematicRank1Desc,progression,Perk,Unlocks the Shotgun Tube Extender.
+
+perkdrinkJarPureMineralWaterDesc,progression,Perk,Unlocks Pure Mineral Water.
+perkdrinkJarPureMineralWaterSchematicRank1Desc,progression,Perk,Unlocks Mineral Water.
+
+perkdrinkjarBlackStrapDesc,progression,Perk,Unlocks Blackstrap Coffee.
+perkdrinkjarBlackStrapCoffeeSchematicRank1Desc,progression,Perk,Unlocks Blackstrap Coffee.
+
+perkresourceClothDesc,progression,Perk,Unlocks the Ability to Craft Cloth.
+perkresourceClothSchematicRank1Desc,progression,Perk,Unlocks the Ability to Craft Cloth.
+
+perkarmorMiningHelmetDesc,progression,Perk,Unlocks the Mining Helmet.
+perkarmorMiningHelmetSchematicRank1Desc,progression,Perk,Unlocks the Mining Helmet.
+
+perkmodArmorHelmetLightDesc,progression,Perk,Unlocks the Mining Light Mod.
+perkmodArmorHelmetLightSchematicRank1Desc,progression,Perk,Unlocks the Mining Light Mod.
+
+perkperklanternLight_playerDesc,progression,Perk,Unlocks the Mining Lantern.
+perklanternLight_playerSchematicRank1Desc,progression,Perk,Unlocks the Mining Lantern.
+

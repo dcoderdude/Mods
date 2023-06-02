@@ -1,0 +1,41 @@
+<configs>
+  <remove xpath="/quests/quest[@id='quest_BasicSurvival1']"/>
+  <append xpath="/quests">
+    <quest id="quest_BasicSurvival1">
+      <property name="group_name_key" value="quest_BasicSurvival"/>
+      <property name="name_key" value="Better Start"/>
+      <property name="subtitle_key" value="Better Start"/>
+      <property name="description_key" value="This quest gives a better start to the game!"/>
+      <property name="icon" value="ui_game_symbol_map_bed"/>
+      <property name="category_key" value="quest"/>
+      <property name="difficulty" value="veryeasy"/>
+      <property name="offer_key" value="A better start to help you survive!"/>
+      <property name="shareable" value="false"/>
+      
+      <reward type="Quest" id="quest_whiteRiverCitizen1"/>
+      
+      <reward type="SkillPoints" value="20" />
+      <reward type="Item" id="casinoCoin" value="1000"/>
+      <reward type="Item" id="gunBowT0PrimitiveBow" value="1"/>
+      <reward type="Item" id="ammoArrowStone" value="100"/>
+      <reward type="Item" id="meleeToolRepairT0StoneAxe" value="1"/>
+      <reward type="Item" id="meleeToolShovelT0StoneShovel" value="1"/>
+      <reward type="Item" id="meleeWpnBladeT0BoneKnife" value="1"/>
+      <reward type="Item" id="bedroll" value="1"/>
+      <reward type="Item" id="apparelPlantFiberPants" value="1"/>
+      <reward type="Item" id="apparelPlantFiberShirt" value="1"/>
+      <reward type="Item" id="apparelPlantFiberHood" value="1"/>
+      <reward type="Item" id="apparelPlantFiberShoes" value="1"/>
+      <reward type="Item" id="apparelPlantFiberGloves" value="1"/>
+      <reward type="Item" id="medicalFirstAidBandage" value="9"/>
+      <reward type="Item" id="foodHoney" value="10"/>
+      <reward type="Item" id="foodGrilledMeat" value="9"/>
+      <reward type="Item" id="drinkJarBoiledWater" value="9"/>
+      <reward type="Item" id="vehicleBicyclePlaceable" value="1" />
+    </quest>
+  </append>
+  <remove xpath="/quests/quest[@id='quest_tier1complete']/reward[@id='groupQuestBicycle']"/>
+  <append xpath="/quests/quest[@id='quest_tier1complete']">
+    <reward type="Item" id="vehicleMinibikePlaceable" value="1" />
+  </append>
+</configs>
